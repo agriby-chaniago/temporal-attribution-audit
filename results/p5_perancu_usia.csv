@@ -1,0 +1,23 @@
+bagian,besaran,arsitektur,kelompok,n,nilai,p,keterangan
+perancu_dalam_data,usia,-,-,66,0.8096774193548387,6.21736203637307e-06,AUC usia-saja; selisih +14.7 th
+kovariat_lain,Gender,-,-,66,0.2747138397502608,0.6001870737181294,chi-kuadrat kemandirian thd kelompok
+kovariat_lain,Writing_Hand,-,-,66,0.0,1.0,chi-kuadrat kemandirian thd kelompok
+kovariat_lain,Smoker,-,-,66,2.031165452653486,0.1541023960427678,chi-kuadrat kemandirian thd kelompok
+kovariat_lain,Weight,-,-,61,-6.4698924731182785,0.1097902928924693,Welch selisih kelompok
+kovariat_lain,Height,-,-,61,-1.089247311827961,0.6276642940089823,Welch selisih kelompok
+logit_vs_usia_dalam_kelompok,rho_spearman,mamba2,PD,31,-0.12343459531623562,0.5082599012772205,rho terdeteksi minimum 0.485
+logit_vs_usia_dalam_kelompok,rho_spearman,mamba2,HC,35,0.22624061828347258,0.19125708328486982,rho terdeteksi minimum 0.458
+logit_vs_usia_gabungan,rho_spearman,mamba2,gabungan,66,0.469307782063589,7.037640312565469e-05,"bayangan antar kelompok, BUKAN bukti"
+logit_vs_usia_dalam_kelompok,rho_spearman,gru,PD,31,-0.09050523519095509,0.6282441381027317,rho terdeteksi minimum 0.485
+logit_vs_usia_dalam_kelompok,rho_spearman,gru,HC,35,-0.04177181180202901,0.811683863854344,rho terdeteksi minimum 0.458
+logit_vs_usia_gabungan,rho_spearman,gru,gabungan,66,0.3541641979235997,0.0035288300076297932,"bayangan antar kelompok, BUKAN bukti"
+logit_vs_usia_dalam_kelompok,rho_spearman,mamba3,PD,31,0.005656577199434693,0.9759072112457116,rho terdeteksi minimum 0.485
+logit_vs_usia_dalam_kelompok,rho_spearman,mamba3,HC,35,0.033922075356010134,0.8466043418916941,rho terdeteksi minimum 0.458
+logit_vs_usia_gabungan,rho_spearman,mamba3,gabungan,66,0.4238228278496973,0.0003910071801867867,"bayangan antar kelompok, BUKAN bukti"
+usia_dicocokkan,auc_usia_saja,-,-,54,0.7538569424964937,0.0009713409679259462,"rentang [38,78] th"
+auc_usia_dicocokkan,auc_model,mamba2,-,10,0.949789621318373,,sb 0.0104
+auc_usia_dicocokkan,auc_model,gru,-,10,0.9056100981767182,,sb 0.0266
+auc_usia_dicocokkan,auc_model,mamba3,-,10,0.9316970546984573,,sb 0.0196
+banding_arm_usia_dicocokkan,mamba2_minus_gru,mamba2,gru,10,0.04417952314165474,0.0004042005026544189,"Welch atas AUC per seed, subjek usia dicocokkan"
+banding_arm_usia_dicocokkan,mamba3_minus_gru,mamba3,gru,10,0.02608695652173909,0.02357333202003048,"Welch atas AUC per seed, subjek usia dicocokkan"
+banding_arm_usia_dicocokkan,mamba2_minus_mamba3,mamba2,mamba3,10,0.01809256661991565,0.022324271279277396,"Welch atas AUC per seed, subjek usia dicocokkan"

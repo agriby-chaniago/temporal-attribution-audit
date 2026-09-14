@@ -1,0 +1,4 @@
+arsitektur,auc_disetel,sb_disetel,auc_beku,selisih,konfigurasi,n_seed
+gru,0.9345430107526882,0.01382532570270347,0.9503225806451614,-0.0157795698924732,"[""lr_rendah"", ""lr_rendah"", ""dropout_tinggi"", ""dropout_rendah"", ""lr_rendah""]",16
+mamba2,0.946236559139785,0.015651226207473678,0.9337634408602151,0.012473118279569873,"[""dalam"", ""dalam"", ""dangkal"", ""lr_tinggi"", ""dalam""]",16
+mamba3,0.9239919354838709,0.010700365530405717,0.921290322580645,0.002701612903225903,"[""dangkal"", ""dangkal"", ""dangkal"", ""dangkal"", ""beku_s2""]",16

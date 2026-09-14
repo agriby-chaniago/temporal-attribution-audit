@@ -1,0 +1,2 @@
+selisih_arsitektur,sd_antar_seed,sd_antar_fold,ambang_terlampaui,patch,epochs,n_seed,n_seed_total,n_fold,sumber
+-0.0243727598566309,0.009997110520389818,0.06129366272159991,False,7,35,3,10,5,notebooks/07_eksperimen_utama.ipynb

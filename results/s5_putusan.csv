@@ -1,0 +1,2 @@
+auc_rata_newhandpd,rho_alpha_rata_newhandpd,rho_alpha_rata_uci,n_rekaman,n_subjek,patch,epochs,n_seed,sumber
+0.916620583717358,0.0059990765531250404,0.1250029334580245,264,66,7,35,10,notebooks/12_replikasi_newhandpd.ipynb

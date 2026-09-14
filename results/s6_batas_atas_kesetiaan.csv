@@ -1,0 +1,2 @@
+besaran,patch,epochs,nilai,n_rekaman,sumber_data,agregasi,berkas,catatan
+batas atas kesetiaan alpha-phi,7,35,0.14381368289023594,37,kontrol positif (suntik tremor),median tingkat rekaman,results/s6_kalibrasi_p7.pkl,berbeda konfigurasi dari S1 yang P=14/80 epoch; tidak sebanding

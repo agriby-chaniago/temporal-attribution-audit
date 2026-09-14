@@ -1,0 +1,2 @@
+auc_label_asli,auc_label_acak_median,n_pengacakan,lolos_kontrol_kebocoran,penurunan_saat_bobot_diacak,selisih_attention_vs_mean,patch,epochs,seed,sumber
+0.9419354838709678,0.3408602150537634,3,False,0.03333333333333336,0.00501792114695343,7,35,0,notebooks/10_uji_kewarasan.ipynb

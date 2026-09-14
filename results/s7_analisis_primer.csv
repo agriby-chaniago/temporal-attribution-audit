@@ -1,0 +1,2 @@
+tugas,penanda,arsitektur,besaran,patch,n_seed,median_PD,median_HC,selisih,ambang,p_permutasi,lolos_ambang,lolos_permutasi,n_PD,n_HC,sumber
+STCP,amplitudo pita tremor,mamba2,phi,7,5,0.0016019398692136062,-0.009575409111012822,0.011177348980226428,0.0694103145939695,0.5846830633873226,False,False,45,7,notebooks/09_keselarasan_klinis.ipynb

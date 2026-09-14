@@ -1,0 +1,37 @@
+# Skripsi — lingkungan Python terkunci
+# Dibuat: 2026-08-17. Python 3.11.8. GPU: RTX 3050 6GB Laptop, driver 610.57.04, CUDA runtime 13.0.
+#
+# Pasang dengan:
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# mamba_ssm dan causal_conv1d TIDAK tersedia sebagai wheel resmi di PyPI untuk kombinasi
+# torch+CUDA ini — keduanya dikompilasi dari source sekali, wheel hasilnya disimpan di
+# wheels/ (bagian dari proyek ini, bukan rujukan ke proyek lain). Lihat SETUP.md.
+
+# --- Inti ---
+torch==2.11.0
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+matplotlib==3.11.1
+
+# --- Mamba-2 (bidirectional encoder yang diusulkan) ---
+einops==0.8.2
+triton==3.6.0
+ninja==1.13.0
+transformers==5.8.0
+./wheels/causal_conv1d-1.4.0-cp311-cp311-linux_x86_64.whl
+./wheels/mamba_ssm-2.2.2-cp311-cp311-linux_x86_64.whl
+
+# --- Atribusi Shapley (validasi kesetiaan atensi) ---
+shap==0.51.0
+
+# --- Data ---
+ucimlrepo==0.0.7
+
+# --- Notebook ---
+jupyter==1.1.1
+ipykernel==7.3.0
+nbformat==5.11.0
+nbclient==0.11.0

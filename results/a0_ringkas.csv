@@ -1,0 +1,2 @@
+selisih_asli,selisih_transplantasi_median,ci_bawah,ci_atas,pergeseran,n_ulang,auc_durasi,auc_frac_sentuh,auc_logit,patch_sah_terukur,patch_sah_bila_tersebar,sumber
+0.21592917120459615,0.053239012853466716,-0.2219299191374663,0.21592917120459615,-0.16269015835112943,200,0.8085106382978723,0.8829787234042553,1.0,0.2656826568265683,0.8813244433788258,scripts/analisis_a0_perancu_stcp.py

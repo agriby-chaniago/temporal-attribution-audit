@@ -1,0 +1,2 @@
+patch_halus,patch_kasar,epoch_dibekukan,siklus_tremor_ms,kriteria,auc_terbaik_halus,resolusi_penanda_ms,auc_terbaik_kasar,kemiringan_selisih,sumber
+7,56,35,142.9,aturan fisiologis Subbab 3.5,0.9055643879173292,120,0.9077901430842608,-0.009365487402191763,notebooks/06_pilot_resolusi.ipynb

@@ -1,0 +1,2 @@
+rho_lantai,rho_atap,ambang,batas_sensitivitas_px,massa_pada_atap,pointing_game_pada_atap,gini_pada_atap,patch_size,epochs,seed,besaran,catatan
+-0.010734316344662459,0.26885327839269346,0.12905948102401552,2.0,0.99592908281432,1.0,0.9690549358664966,14,80,0,alpha,rho pra-registrasi; massa di jendela sbg pelengkap; phi menyusul setelah WindowSHAP

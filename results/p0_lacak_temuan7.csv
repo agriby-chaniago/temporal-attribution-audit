@@ -1,0 +1,6 @@
+besaran,nilai,sumber,rasio_thd_UCI,cocok_0_0109
+UCI rerata rho_alpha_median 3 arm,0.1250029334580245,results/s7_berpasangan_alpha_phi.csv,1.0,False
+NHP rerata rho_alpha 3 arm,0.0059990765531250665,results/s5_keselarasan.csv,20.837029224590808,False
+NHP rerata rho_alpha 2 arm prareg,0.0137100030257026,results/s5_keselarasan.csv,9.117644483642879,False
+"NHP rerata rho(alpha,phi) 3 arm seluruh seed",0.04464893522682307,results/s5_artefak.pkl,2.799684534983678,False
+"NHP rerata rho(alpha,phi) 3 arm lima seed pertama",0.04372017409330142,results/s5_artefak.pkl,2.8591590964679345,False

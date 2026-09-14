@@ -1,0 +1,39 @@
+# ── Data mentah: TIDAK PERNAH dipublikasikan ────────────────────────────────
+# Memuat metadata identitas NewHandPD (nama, Person_ID_Number) sesuai peringatan
+# LISENSI-DATA.md butir "Penanganan data pribadi". Pembaca mengunduh sendiri dari
+# sumber aslinya lewat skrip pengunduh.
+data/
+
+# ── Arsip dan cadangan ───────────────────────────────────────────────────────
+# cadangan/ memuat salinan pra-redaksi yang masih memuat PII. Jangan dipublikasikan.
+cadangan/
+
+# ── Lingkungan dan dependensi ────────────────────────────────────────────────
+.venv/
+venv/
+wheels/
+node_modules/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ── Materi pihak ketiga ──────────────────────────────────────────────────────
+# Panduan dan templat institusi, hak cipta pihak lain.
+format_penulisan/
+
+# ── Berkas sementara ─────────────────────────────────────────────────────────
+.~lock.*#
+*.tmp
+.DS_Store
+scripts/_node_debug.json
+
+# ── Naskah yang belum dipertahankan / belum terbit ───────────────────────────
+# Dikecualikan sampai sidang dan keputusan publikasi selesai. Lihat README.
+NASKAH-SUMBER.md
+draftSemhas/
+Q1-amin/
+semhas-skripsi.docx
+
+# Dosier proyek internal: memuat seluruh hasil terukur dan catatan kerja.
+# Dikecualikan dengan alasan yang sama seperti naskah di atas.
+DOSIER-PROYEK.md

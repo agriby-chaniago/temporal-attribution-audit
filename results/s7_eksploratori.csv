@@ -1,0 +1,25 @@
+arsitektur,besaran,tugas,n_PD,n_HC,selisih,primer
+mamba2,phi,STCP,45,7,0.011177348980226428,True
+mamba2,phi,SST,61,15,-0.0039044671945710455,False
+mamba2,phi,DST,57,15,-0.019840848748088523,False
+mamba2,phi,semua tugas,62,15,-0.013797701056258735,False
+mamba2,alpha,STCP,45,7,0.21592917120459615,False
+mamba2,alpha,SST,61,15,0.03345955870395562,False
+mamba2,alpha,DST,57,15,-0.04184967535071023,False
+mamba2,alpha,semua tugas,62,15,0.05468635567358373,False
+gru,phi,STCP,45,7,-0.028656534384088564,False
+gru,phi,SST,61,15,-0.03807175663494617,False
+gru,phi,DST,57,15,-0.07473853740339935,False
+gru,phi,semua tugas,62,15,-0.06882247292069127,False
+gru,alpha,STCP,45,7,0.14266051008608763,False
+gru,alpha,SST,61,15,0.0145538132978578,False
+gru,alpha,DST,57,15,0.11275332239021851,False
+gru,alpha,semua tugas,62,15,0.1363811719759611,False
+mamba3,phi,STCP,45,7,0.0822269577687534,False
+mamba3,phi,SST,61,15,-0.01038855653006746,False
+mamba3,phi,DST,57,15,0.019491898380972286,False
+mamba3,phi,semua tugas,62,15,0.012538903214593496,False
+mamba3,alpha,STCP,45,7,-0.34696989032192327,False
+mamba3,alpha,SST,61,15,-0.010382580156634541,False
+mamba3,alpha,DST,57,15,-0.1009672432623526,False
+mamba3,alpha,semua tugas,62,15,-0.0401492486780982,False
