@@ -37,3 +37,14 @@ semhas-skripsi.docx
 # Dosier proyek internal: memuat seluruh hasil terukur dan catatan kerja.
 # Dikecualikan dengan alasan yang sama seperti naskah di atas.
 DOSIER-PROYEK.md
+
+# ── Artefak skripsi (dokumen Tugas Akhir UHB, bukan bagian repo paper) ───────
+# Repo ini menyertai manuskrip Q1 (paper-full.md), bukan skripsi. Dokumen skripsi
+# sempro/semhas (cover+NIM+pembimbing+Lembar Pengesahan) dan figure berbahasa
+# Indonesia yang menyertainya sengaja dikeluarkan dari repo paper -- draftSempro/
+# tetap ada di komputer sebagai catatan, hanya tidak dipublikasikan di sini.
+sempro-skripsi.docx
+draftSempro/
+figures/*.pdf
+figures/*.png
+!figures/paper/

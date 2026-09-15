@@ -916,7 +916,7 @@ BM = [
      abs(float(s3p[s3p.arsitektur=="mamba2"].auc.mean() - s3p[s3p.arsitektur=="mamba3"].auc.mean())),
      abs(bm2_p - bm3_p)),
     ("Kohort\\nUCI 395 → NewHandPD",
-     abs(float(A["s5_kls"][A["s5_kls"].arsitektur=="mamba2"].selisih.iloc[0])),
+     abs(float(A["base_lk"][A["base_lk"].model=="mamba2"].kehilangan.iloc[0])),
      abs(uci_a - nhp_a)),
     ("Seed saja\\n(BiGRU, data & model sama)",
      float(gru_auc.max() - gru_auc.min()),
@@ -943,8 +943,8 @@ for i, (_, r) in enumerate(bm.iterrows()):
             va="center", fontsize=8.5, color=TINTA["utama"])
 ax.set_yticks(yy); ax.set_yticklabels(bm["yang diubah"], fontsize=9)
 ax.set_xlabel("besar pergeseran, satuan absolut")
-ax.set_title("Peta temporal runtuh 7 sampai 43 kali lebih cepat daripada akurasi",
-             loc="left", fontsize=11.5)
+ax.set_title(f"Peta temporal runtuh {bm.rasio.min():.0f} sampai {bm.rasio.max():.0f} kali "
+             "lebih cepat daripada akurasi", loc="left", fontsize=11.5)
 ax.legend(frameon=False, fontsize=9, loc="lower right")
 rapikan(ax); plt.tight_layout(); simpan(fig, "benang_merah"); plt.show()
 """)

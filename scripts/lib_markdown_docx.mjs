@@ -148,9 +148,10 @@ function gabungkanKonteks(node) {
       continue;
     }
 
-    // gambar diikuti "Gambar N  Judul" -> lampirkan sebagai caption
+    // gambar diikuti "Gambar N  Judul" (skripsi) atau "**Fig. N.** ..." (naskah
+    // jurnal Inggris, gaya Elsevier) -> lampirkan sebagai caption
     if (n.tipe === "gambar" && node[k + 1] && node[k + 1].tipe === "p" &&
-        /^Gambar \d+\s/.test(node[k + 1].teks)) {
+        (/^Gambar \d+\s/.test(node[k + 1].teks) || /^\*\*Fig\. \d+\.\*\*/.test(node[k + 1].teks))) {
       n.caption = node[k + 1].teks;
       keluar.push(n); k++; continue;
     }
