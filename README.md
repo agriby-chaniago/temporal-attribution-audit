@@ -1,5 +1,7 @@
 # Temporal Attribution Audit
 
+[![DOI](https://zenodo.org/badge/1369722984.svg)](https://doi.org/10.5281/zenodo.22763717)
+
 Code, analysis notebooks, and result artifacts for a pre-registered, multi-cohort audit of
 **temporal attribution faithfulness and stability** in sequence models applied to Parkinsonian
 handwriting.
@@ -35,8 +37,7 @@ src/          model, data loaders, channel engineering
 scripts/      analysis scripts, one per reported result
 notebooks/    end-to-end pipeline; 00_gabungan_beku.ipynb is the archived frozen run
 results/      104 result artifacts; every number in the manuscript traces to a file here
-figures/      generated figures
-draftSempro/  protocol document (see "Protocol record" below)
+figures/      generated figures (figures/paper/ holds the manuscript's own figures)
 SETUP.md      full environment specification
 ```
 
@@ -62,11 +63,12 @@ data-structure verification.
 ## Protocol record
 
 Effect-size thresholds, decision rules, and the confirmatory/exploratory label of each analysis were
-frozen in a written protocol before the corresponding analysis was run. That protocol is the
-research proposal in [`draftSempro/`](draftSempro/), which contains every prediction and threshold
-and **no result values**.
+frozen in a written protocol before the corresponding analysis was run, containing every prediction
+and threshold and no result values. That protocol document is not included in this repository (it
+accompanies the authors' thesis materials, submitted separately); its content and status are
+described in the manuscript's Method section.
 
-This is a written, internally dated and defended protocol — it is **not** a prospective registration
+This was a written, internally dated and defended protocol — it is **not** a prospective registration
 on a public registry, and it should not be cited as one. Analyses conceived after earlier results
 were seen are labelled exploratory in both the protocol and the manuscript.
 
@@ -87,8 +89,11 @@ training seed is recorded explicitly in every result file.
 
 ## Citation
 
-A manuscript reporting this work is in preparation. Until it appears, please cite this repository
-directly.
+A manuscript reporting this work is in preparation; this citation will be updated once it is
+published. Until then, please cite the archived code/data release:
+
+> Chaniago, A. D., Purwono, Al-Hakim, R. R., & Ma'arif, A. (2026). *Temporal Attribution Audit*
+> (v1.0.0) [Code and data]. Zenodo. https://doi.org/10.5281/zenodo.22763717
 
 ## License
 
