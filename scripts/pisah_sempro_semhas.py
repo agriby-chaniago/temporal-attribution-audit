@@ -159,7 +159,7 @@ akhirnya terisi.""",
 
     "### Penanda lambat diterapkan pada DST, dan satu klaim daya uji yang ditarik": """Analisis primer di atas memakai penanda **cepat** pada tugas STCP. Penanda **lambat** sudah
 diverifikasi lewat empat uji pada Subbab III.F.5 namun belum dipakai satu analisis pun, padahal tugas
-DST memiliki dua kali lipat subjek kontrol. Subbab ini memakainya — dan hitungan dayanya justru
+DST memiliki dua kali lipat subjek kontrol. Subbab ini memakainya, dan hitungan dayanya justru
 memaksa satu klaim ditarik.""",
 
     "### Audit perancu pada STCP": """Dua subbab sebelumnya memperlihatkan analisis primer tidak melampaui ambangnya. Pertanyaan yang
@@ -177,7 +177,7 @@ yang paling wajar terhadap keseluruhannya: **apakah pemodelan sekuens memang dip
 statistik agregat pada kanal yang sama sudah cukup.""",
 
     "### Hasil RM5 pada NewHandPD": """Analisis primer Rumusan Masalah 5 bersandar pada tujuh subjek kontrol, dan Subbab IV.A.7 memperlihatkan
-besaran efek minimum terdeteksi berada **di atas** ambangnya sendiri — sehingga hasil apa pun di sana
+besaran efek minimum terdeteksi berada **di atas** ambangnya sendiri, sehingga hasil apa pun di sana
 tidak dapat ditafsirkan sebagai penolakan hipotesis. Basis data lintas memiliki tiga puluh lima
 kontrol. Subbab ini mengajukan pertanyaan yang sama di sana, dengan daya yang memadai.""",
 
@@ -363,7 +363,7 @@ SEMPRO_GANTI = [
      "kualifikasi verbal. Hitungan itu tidak akan dipakai membatalkan hasil apa pun secara surut."),
     ("**Catatan status keseluruhan.**",
      "**Catatan status keseluruhan.** Skenario S1 sampai S8 dirancang sebagaimana Subbab III.F, "
-     "dijalankan pada tiga arm — dua arsitektur pra-registrasi ditambah BiMamba-3 yang berstatus "
+     "dijalankan pada tiga arm: dua arsitektur pra-registrasi ditambah BiMamba-3 yang berstatus "
      "eksploratori. Aturan keputusan Subbab III.G.1 dihitung **hanya** dari dua arm pra-registrasi, dan "
      "penjagaan itu ditegakkan pada tingkat kode sehingga penambahan arm ketiga tidak dapat "
      "menggeser vonis konfirmatori.\n\n"
