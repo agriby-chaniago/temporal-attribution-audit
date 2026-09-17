@@ -184,7 +184,7 @@ def fig03_patch_grid_spectrum() -> None:
         ax[0].axvline(b * P / FS, color=WARNA["redup"], lw=0.6, zorder=0)
     ax[0].set_xlabel("time (s)")
     ax[0].set_ylabel("velocity")
-    ax[0].set_title(f"Patch grid — first {n_tampil} patches, 1 patch = {P * 10} ms",
+    ax[0].set_title(f"Patch grid: first {n_tampil} patches, 1 patch = {P * 10} ms",
                      loc="left", fontsize=10.5)
     ax[0].set_xlim(0, t[-1])
     rapikan(ax[0])
@@ -268,7 +268,7 @@ def fig05_fidelity_both_cohorts() -> None:
     ax.set_xticks(x)
     ax.set_xticklabels([NAMA[a] for a in URUTAN_ARCH])
     ax.set_ylabel("paired difference  attention − Shapley")
-    ax.set_title("Attention aligns with the marker more than Shapley does — both cohorts",
+    ax.set_title("BiGRU holds on both cohorts; the Mamba variants mirror each other",
                  loc="left", fontsize=10.5)
     ax.legend(frameon=False, fontsize=8.5)
     rapikan(ax)
@@ -318,7 +318,7 @@ def fig06_seed_reproducibility() -> None:
     ax[1].set_xticks(x)
     ax[1].set_xticklabels([NAMA[a] for a in URUTAN_ARCH])
     ax[1].set_ylabel("between-seed AUC standard deviation")
-    ax[1].set_title(f"Stability ranking shifts as seeds grow from {n_awal} to {n_total}", loc="left")
+    ax[1].set_title(f"Ranking holds from {n_awal} to {n_total} seeds; BiMamba-3's gap narrows", loc="left")
     ax[1].legend(frameon=False, fontsize=8)
     for a in ax:
         rapikan(a)
