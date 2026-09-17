@@ -21,6 +21,10 @@ __pycache__/
 # Panduan dan templat institusi, hak cipta pihak lain.
 format_penulisan/
 
+# Naskah/slide/lembar kerja milik penulis lain, dipakai hanya sebagai pembanding
+# gaya penulisan manusia saat audit. Bukan artefak studi ini, bukan hak kami.
+pembanding-manusia/
+
 # ── Berkas sementara ─────────────────────────────────────────────────────────
 .~lock.*#
 *.tmp

@@ -101,8 +101,9 @@ mempertahankan AUC sementara BiGRU dan ketiga baseline fitur kehilangan.
 2. **Sebab kegagalan analisis primer tidak teridentifikasi**: dua besaran sepele memisahkan kelompok
    hampir sebaik model, dan pada n ini tidak satu pun dapat dibedakan dari yang lain.
 3. **Sekitar 75 persen** selisih keselarasan pada STCP merupakan artefak dukungan penanda.
-4. **Nilai p per-arm tidak stabil terhadap jumlah seed** — satu arm melintasi taraf nyata dua kali
-   dalam dua arah berbeda antara satu, tiga, dan lima seed.
+4. **Nilai p per-arm tidak stabil terhadap jumlah seed**: BiMamba-2 melintasi taraf nyata tiga
+   kali dan berakhir di sisi tidak nyata; BiMamba-3 melintasinya dua kali dan berakhir di sisi
+   nyata, terukur pada checkpoint satu, tiga, lima, dan sepuluh seed.
 5. **Ambang pada dua analisis dipinjam**, bukan dikalibrasi ulang untuk penanda dan perangkatnya.
 
 ## Cara membaca notebook ini
@@ -491,34 +492,40 @@ Gambar di bawah memperlihatkan mengapa.
 """)
 
 code("""
+# Jumlah seed dibaca dari data, bukan diasumsikan -- s3_per_seed.csv sudah berisi
+# sepuluh, bukan lima seperti draf awal. Hardcode lama menyimpang diam-diam dari
+# datanya sendiri, kelas bug yang sama dengan figures/benang_merah.png.
+n_total = int(s3.seed.nunique())
+n_awal = min(3, n_total)
+
 fig, ax = plt.subplots(1, 2, figsize=(11, 3.8))
 for a_ in ["gru", "mamba2", "mamba3"]:
     v = s3[s3.arsitektur == a_].sort_values("seed")
     ax[0].plot(v.seed, v.auc, "o-", color=warna[a_], label=nama[a_], lw=1.8, ms=6)
-ax[0].axvline(2.5, color=TINTA["redup"], ls=":", lw=1)
-ax[0].text(2.55, ax[0].get_ylim()[0] + 0.002, "seed 3-4\\nditambahkan\\nsesudahnya",
+ax[0].axvline(n_awal - 0.5, color=TINTA["redup"], ls=":", lw=1)
+ax[0].text(n_awal - 0.45, ax[0].get_ylim()[0] + 0.002, f"seed {n_awal}-{n_total - 1}\\nditambahkan\\nsesudahnya",
            fontsize=7.5, color=TINTA["redup"], va="bottom")
 ax[0].set_xlabel("seed"); ax[0].set_ylabel("AUC tingkat subjek")
 ax[0].set_title("AUC per seed", loc="left"); ax[0].legend(frameon=False, fontsize=8)
-ax[0].set_xticks([0, 1, 2, 3, 4])
+ax[0].set_xticks(range(n_total))
 
 x = np.arange(3); w = 0.36
-sb3 = [s3[(s3.arsitektur == a_) & (s3.seed < 3)].auc.std(ddof=1) for a_ in warna]
-sb5 = [s3[s3.arsitektur == a_].auc.std(ddof=1) for a_ in warna]
-ax[1].bar(x - w/2, sb3, w, color=WARNA["redup"], label="3 seed")
-ax[1].bar(x + w/2, sb5, w, color=WARNA["biru"], label="5 seed")
-for i, (a3, a5) in enumerate(zip(sb3, sb5)):
+sb_awal = [s3[(s3.arsitektur == a_) & (s3.seed < n_awal)].auc.std(ddof=1) for a_ in warna]
+sb_penuh = [s3[s3.arsitektur == a_].auc.std(ddof=1) for a_ in warna]
+ax[1].bar(x - w/2, sb_awal, w, color=WARNA["redup"], label=f"{n_awal} seed")
+ax[1].bar(x + w/2, sb_penuh, w, color=WARNA["biru"], label=f"{n_total} seed")
+for i, (a3, a5) in enumerate(zip(sb_awal, sb_penuh)):
     ax[1].text(i - w/2, a3 + 0.0008, f"{a3:.4f}", ha="center", fontsize=7.5, color=TINTA["sekunder"])
     ax[1].text(i + w/2, a5 + 0.0008, f"{a5:.4f}", ha="center", fontsize=7.5, color=TINTA["sekunder"])
 ax[1].set_xticks(x); ax[1].set_xticklabels([nama[a] for a in warna])
 ax[1].set_ylabel("simpangan baku AUC antar seed")
-ax[1].set_title("Urutan kestabilan pecah dengan dua seed tambahan", loc="left")
+ax[1].set_title("Urutan kestabilan tidak berubah; celah BiMamba-3 menyempit", loc="left")
 ax[1].legend(frameon=False, fontsize=8)
 for a in ax: rapikan(a)
 plt.tight_layout(); simpan(fig, "s3_kestabilan_seed"); plt.show()
 
-print("urutan 3 seed :", " < ".join(sorted(warna, key=lambda a: sb3[list(warna).index(a)])))
-print("urutan 5 seed :", " < ".join(sorted(warna, key=lambda a: sb5[list(warna).index(a)])))
+print(f"urutan {n_awal} seed :", " < ".join(sorted(warna, key=lambda a: sb_awal[list(warna).index(a)])))
+print(f"urutan {n_total} seed:", " < ".join(sorted(warna, key=lambda a: sb_penuh[list(warna).index(a)])))
 """)
 
 # ══════════════════════════════════════════════════ SECTION 3
@@ -687,7 +694,7 @@ md("""
 
 | Pertanyaan | Jawaban | Bukti |
 |---|---|---|
-| Apakah alpha lebih selaras daripada phi? | **Ya, kokoh** | Ketiga arm, kedua kohort |
+| Apakah alpha lebih selaras daripada phi? | **Ya, pada dua dari tiga arm** | BiGRU kokoh kedua kohort; BiMamba-2 dan BiMamba-3 saling mencerminkan, masing-masing nyata hanya di satu kohort |
 | Apakah keselarasan itu khas penderita? | **Tidak** | 6 dari 6 sel di bawah ambang, MDE 0,0450 |
 
 Temuan bahwa **peta yang tidak setia justru yang lebih selaras dengan patofisiologi terukur** tetap
@@ -711,7 +718,7 @@ for i, (v7, v5) in enumerate(zip(u7, u5)):
 ax.axhline(0, color=TINTA["redup"], lw=1)
 ax.set_xticks(x); ax.set_xticklabels([nama[a] for a in warna])
 ax.set_ylabel("selisih berpasangan  alpha − phi")
-ax.set_title("Alpha lebih selaras daripada phi: bertahan di ketiga arm, kedua kohort",
+ax.set_title("Alpha lebih selaras daripada phi: BiGRU kokoh kedua kohort, kedua arm Mamba saling mencerminkan",
              loc="left", fontsize=10.5)
 ax.legend(frameon=False, fontsize=8.5)
 rapikan(ax); plt.tight_layout(); simpan(fig, "alpha_vs_phi_dua_kohort"); plt.show()
