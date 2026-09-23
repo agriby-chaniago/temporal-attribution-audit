@@ -160,6 +160,10 @@ def periksa(sem: str, sh: str) -> tuple[int, int]:
     yatim = []
     isi_skrip = " ".join(p.read_text() for p in (AKAR / "scripts").glob("*.py"))
     for f in sorted(p.name for p in R.glob("*")):
+        # `README.md` memetakan isi direktori ini; ia dokumentasi, bukan berkas hasil,
+        # sehingga menuntut skrip penghasil baginya hanya melahirkan peringatan palsu.
+        if f == "README.md":
+            continue
         if f in TERGANTIKAN:
             print(f"  catatan     {f}: {TERGANTIKAN[f]}")
             continue
