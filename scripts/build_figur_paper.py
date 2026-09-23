@@ -64,54 +64,63 @@ def simpan(fig, nama: str) -> None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def fig01_audit_design() -> None:
-    fig, ax = plt.subplots(figsize=(11, 5.2))
-    ax.set_xlim(0, 11)
-    ax.set_ylim(0, 5.2)
+    # Skema digambar pada lebar cetak naskah (6,1 inci), bukan pada kanvas lebar
+    # yang nanti diperkecil. Karena itu alur tidak muat dalam satu baris lima
+    # kotak: ia dipatahkan menjadi dua baris, sehingga tiap kotak cukup lebar
+    # untuk memuat teksnya pada ukuran huruf yang masih terbaca di halaman.
+    fig, ax = plt.subplots(figsize=(6.1, 4.6))
+    ax.set_xlim(0, 10)
+    ax.set_ylim(0, 8.6)
     ax.axis("off")
 
-    def kotak(x, y, w, h, teks, warna_tepi=TINTA["utama"], fc="white", fs=9.5):
-        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.08,rounding_size=0.08",
-                                     linewidth=1.3, edgecolor=warna_tepi, facecolor=fc, zorder=2))
+    def kotak(x, y, w, h, teks, warna_tepi=TINTA["utama"], fc="white", fs=8.5):
+        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.06,rounding_size=0.08",
+                                     linewidth=1.2, edgecolor=warna_tepi, facecolor=fc, zorder=2))
         ax.text(x + w / 2, y + h / 2, teks, ha="center", va="center", fontsize=fs,
-                color=TINTA["utama"], zorder=3, linespacing=1.35)
+                color=TINTA["utama"], zorder=3, linespacing=1.3)
 
-    def panah(x0, y0, x1, y1, warna=TINTA["sekunder"], style="-", lw=1.5):
-        ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle="-|>", mutation_scale=13,
+    def panah(x0, y0, x1, y1, warna=TINTA["sekunder"], style="-", lw=1.3):
+        ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle="-|>", mutation_scale=11,
                                       linewidth=lw, color=warna, linestyle=style, zorder=1))
 
-    # Main pipeline, left to right.
-    y_main = 3.55
-    h_main = 0.95
-    kotak(0.15, y_main, 1.55, h_main, "Raw signal\n(6 channels)")
-    panah(1.70, y_main + h_main / 2, 2.05, y_main + h_main / 2)
-    kotak(2.05, y_main, 1.35, h_main, "Patch\nembedding\n(P = 7)")
-    panah(3.40, y_main + h_main / 2, 3.75, y_main + h_main / 2)
-    kotak(3.75, y_main, 1.85, h_main, "Interchangeable\nencoder\nBiGRU / BiMamba-2/3", fc="#eef4fc")
-    panah(5.60, y_main + h_main / 2, 5.95, y_main + h_main / 2)
-    kotak(5.95, y_main, 1.55, h_main, "Bottleneck\nattention\npooling", fc="#eef4fc")
-    panah(7.50, y_main + h_main / 2 + 0.28, 7.85, y_main + h_main - 0.10)
-    panah(7.50, y_main + h_main / 2 - 0.28, 7.85, y_main + 0.10)
-    kotak(7.85, y_main + 0.55, 2.0, 0.55, "Prediction\n(subject-level)")
-    kotak(7.85, y_main - 0.10, 2.0, 0.55, "Attention map\n(per-segment)", warna_tepi=WARNA["jingga"])
+    # Baris pertama alur: masukan sampai encoder.
+    y1, h1 = 6.55, 1.25
+    kotak(0.10, y1, 2.70, h1, "Raw signal\n(6 channels)")
+    panah(2.85, y1 + h1 / 2, 3.35, y1 + h1 / 2)
+    kotak(3.40, y1, 2.70, h1, "Patch embedding\n(P = 7)")
+    panah(6.15, y1 + h1 / 2, 6.65, y1 + h1 / 2)
+    kotak(6.70, y1, 3.20, h1, "Interchangeable encoder\nBiGRU / BiMamba-2 / -3", fc="#eef4fc")
 
-    # Validation branch, below, pointing up into the attention map.
-    y_ref = 0.35
-    h_ref = 1.05
+    # Turun ke baris kedua: pooling, lalu dua keluaran.
+    panah(8.30, y1, 8.30, 6.05)
+    y2, h2 = 4.75, 1.25
+    kotak(6.70, y2, 3.20, h2, "Bottleneck\nattention pooling", fc="#eef4fc")
+    # Pooling bercabang dua: satu ke prediksi, satu ke peta atensi. Kedua kotak
+    # diberi jarak vertikal penuh agar bingkainya tidak bersinggungan.
+    panah(6.65, y2 + h2 / 2, 6.30, y2 + h2 - 0.12)
+    panah(6.65, y2 + h2 / 2, 6.30, y2 + 0.12)
+    kotak(3.15, y2 + 0.80, 3.05, 0.62, "Prediction (subject-level)")
+    kotak(3.15, y2 - 0.42, 3.05, 0.62, "Attention map (per-segment)",
+          warna_tepi=WARNA["jingga"])
+
+    # Tiga rujukan di bawah, masing-masing memvalidasi satu sifat.
+    y3, h3 = 0.90, 1.55
     refs = [
-        ("Positive control\n(synthetic signal,\nknown location)", 0.15, TINTA["redup"]),
-        ("Shapley attribution\n(output-fidelity\nground truth)", 3.55, WARNA["biru"]),
-        ("Motor marker\n(withheld channel,\nphysiological ground truth)", 6.95, WARNA["jingga"]),
+        ("Positive control\n(synthetic signal,\nknown location)", 0.10, 3.05, TINTA["redup"]),
+        ("Shapley attribution\n(output-fidelity\nground truth)", 3.40, 3.05, WARNA["biru"]),
+        ("Motor marker\n(withheld channel,\nphysiological\nground truth)", 6.70, 3.20, WARNA["jingga"]),
     ]
-    for teks, x, warna in refs:
-        kotak(x, y_ref, 2.85, h_ref, teks, warna_tepi=warna, fs=8.8)
-    panah(1.35, y_ref + h_ref, 1.35, 1.95, warna=TINTA["redup"], style=":")
-    ax.text(1.35, 2.05, "validates\npipeline mechanics", ha="center", va="bottom", fontsize=7.3,
+    for teks, x, w, warna in refs:
+        kotak(x, y3, w, h3, teks, warna_tepi=warna, fs=8.0)
+
+    panah(1.60, y3 + h3, 1.60, 3.40, warna=TINTA["redup"], style=":")
+    ax.text(1.60, 3.50, "validates\npipeline mechanics", ha="center", va="bottom", fontsize=7.5,
             color=TINTA["redup"], style="italic")
-    panah(4.95, y_ref + h_ref, 8.6, y_main + 0.05, warna=WARNA["biru"], style="--")
-    panah(8.35, y_ref + h_ref, 8.85, y_main + 0.05, warna=WARNA["jingga"], style="--")
+    panah(4.90, y3 + h3, 4.60, y2 - 0.48, warna=WARNA["biru"], style="--")
+    panah(8.30, y3 + h3, 6.30, y2 - 0.20, warna=WARNA["jingga"], style="--")
 
     ax.set_title("Attribution pipeline and its three independent references",
-                 loc="left", fontsize=11.5, pad=10)
+                 loc="left", fontsize=10.5, pad=8)
     fig.tight_layout()
     simpan(fig, "fig01_audit_design")
 
@@ -123,7 +132,7 @@ def fig01_audit_design() -> None:
 def fig02_data_channels_tasks() -> None:
     d4 = muat("d4_durasi_postur_lintas_tugas")
 
-    fig, ax = plt.subplots(1, 2, figsize=(11, 3.7))
+    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.4))
 
     sen = d4[d4.besaran == "fraksi_sentuh"]
     xx = np.arange(len(sen))
@@ -172,7 +181,7 @@ def fig03_patch_grid_spectrum() -> None:
     uci = muat_cache(berkas)
     FS = FS_TARGET
 
-    fig, ax = plt.subplots(1, 2, figsize=(11.5, 3.6))
+    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.2))
 
     # Panel A: patch grid over a velocity trace, STCP task.
     r = satu(uci, 2, "PD")
@@ -226,7 +235,7 @@ def fig04_attention_shapley_fidelity() -> None:
     atap = float(muat("s6_batas_atas_kesetiaan").nilai.iloc[0])
     print(f"  fig04 check: ceiling = {atap:.4f} (paper claims 0.1438)")
 
-    fig, ax = plt.subplots(figsize=(7.4, 3.6))
+    fig, ax = plt.subplots(figsize=(6.1, 3.0))
     u = s6.set_index("arsitektur").reindex(URUTAN_ARCH)
     xx = np.arange(3)
     ax.bar(xx, u.rho_median, 0.5, color=[WARNA_ARCH[a] for a in u.index])
@@ -254,7 +263,7 @@ def fig05_fidelity_both_cohorts() -> None:
     p5 = muat("rm5_berpasangan_newhandpd").copy()
     p7 = muat("s7_berpasangan_alpha_phi").copy()
 
-    fig, ax = plt.subplots(figsize=(7.6, 3.6))
+    fig, ax = plt.subplots(figsize=(6.1, 2.9))
     x = np.arange(3)
     w = 0.36
     u7 = [float(p7[p7.arsitektur == a].selisih_berpasangan.iloc[0]) for a in URUTAN_ARCH]
@@ -292,7 +301,7 @@ def fig06_seed_reproducibility() -> None:
     n_total = int(s3.seed.nunique())
     n_awal = min(3, n_total)
 
-    fig, ax = plt.subplots(1, 2, figsize=(11, 3.8))
+    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.4))
     for a_ in URUTAN_ARCH:
         v = s3[s3.arsitektur == a_].sort_values("seed")
         ax[0].plot(v.seed, v.auc, "o-", color=WARNA_ARCH[a_], label=NAMA[a_], lw=1.8, ms=6)
@@ -369,7 +378,7 @@ def fig07_ratio_synthesis() -> None:
     if (lo, hi) != (4, 95):
         raise SystemExit(f"fig07 ratio {lo}x-{hi}x does not match paper's 4x-95x claim")
 
-    fig, ax = plt.subplots(figsize=(9.2, 4.4))
+    fig, ax = plt.subplots(figsize=(6.1, 2.9))
     yy = np.arange(len(bm))[::-1]
     h = 0.34
     ax.barh(yy + h / 2, bm["accuracy shift"], h, color=WARNA["biru"], label="accuracy (AUC points)")
@@ -385,12 +394,13 @@ def fig07_ratio_synthesis() -> None:
     ax.set_xlabel("shift magnitude, absolute units")
     ax.set_title(f"The map shifts {lo} to {hi} times faster than accuracy does",
                  loc="left", fontsize=11.5)
-    # loc="lower right" semula bertumpuk dengan label "0,365 (16x)" milik baris
-    # bawah (Patch resolution), sebab baris itu punya bar peta terpanjang di
-    # seluruh chart. Baris atas (Arsitektur) punya bar jauh lebih pendek, sehingga
-    # kanan-atas kosong -- legenda dipindah ke situ.
+    # Tidak ada sudut dalam sumbu yang benar-benar kosong pada lebar cetak: sudut
+    # kanan-bawah ditempati label "0,365 (16x)" milik baris Patch resolution, dan
+    # kanan-atas ditempati "0,335 (27x)" milik baris Arsitektur. Legenda karena itu
+    # dikeluarkan dari sumbu, dijajar mendatar di bawah label sumbu-x.
     ax.set_xlim(0, max(bm["map shift"]) * 1.32)
-    ax.legend(frameon=False, fontsize=9, loc="upper right")
+    ax.legend(frameon=False, fontsize=8.5, ncol=2, loc="upper center",
+              bbox_to_anchor=(0.5, -0.24))
     rapikan(ax)
     fig.tight_layout()
     simpan(fig, "fig07_ratio_synthesis")
@@ -406,7 +416,7 @@ def fig08_retention_vs_baselines() -> None:
     nama_p = {**NAMA, "regresi_logistik": "Logistic regression", "svm_rbf": "SVM RBF",
               "random_forest": "Random forest"}
 
-    fig, ax = plt.subplots(1, 2, figsize=(11.5, 4.4))
+    fig, ax = plt.subplots(2, 1, figsize=(6.1, 5.0))
 
     urut = lk.sort_values("auc_newhandpd", ascending=True).reset_index(drop=True)
     # Beberapa titik berhimpit di sumbu NewHandPD (mis. BiGRU 0.8959 vs random forest
