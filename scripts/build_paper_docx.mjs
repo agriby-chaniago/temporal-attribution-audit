@@ -131,10 +131,18 @@ function dimensiPng(jalur) {
   return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
 }
 
+// docx.js membaca ImageRun.transformation sebagai piksel pada 96 dpi, lalu
+// mengalikannya dengan 9525 menjadi EMU. Pembagi yang benar dari twips ke satuan
+// itu adalah 1440/96 = 15, bukan 20. Dengan pembagi 20 setiap gambar masuk pada
+// 4,57 inci, yaitu 75% lebar kolom teks, dan seluruh teks di dalamnya ikut
+// mengecil seperempat tanpa ada yang menyetelnya demikian.
+const TWIPS_PER_PX96 = 1440 / 96;
+
 function ukuranGambar(jalur, lebarMaksTwips = LEBAR_CETAK) {
   const { w, h } = dimensiPng(jalur);
   const rasio = w / h;
-  return { width: Math.round(lebarMaksTwips / 20), height: Math.round((lebarMaksTwips / rasio) / 20) };
+  return { width: Math.round(lebarMaksTwips / TWIPS_PER_PX96),
+           height: Math.round(lebarMaksTwips / rasio / TWIPS_PER_PX96) };
 }
 
 function buatTabel(node) {
