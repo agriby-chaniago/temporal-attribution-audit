@@ -31,7 +31,7 @@ from collections import Counter
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 # Prosa Bab IV dan V tinggal di dalam skrip pemisah, bukan di naskah sumber, sehingga ia
 # harus ikut diproses — kalau tidak, semhas berdesimal campur sementara sempro seragam.
 PEMISAH = AKAR / "scripts" / "pisah_sempro_semhas.py"

@@ -25,6 +25,10 @@ format_penulisan/
 # gaya penulisan manusia saat audit. Bukan artefak studi ini, bukan hak kami.
 pembanding-manusia/
 
+# Bahan presentasi 25 September 2026: memuat slide milik dosen dan lembar kerja
+# milik rekan, dengan alasan yang sama seperti pembanding-manusia/.
+untuk_presentasi_25sep2026/
+
 # ── Berkas sementara ─────────────────────────────────────────────────────────
 .~lock.*#
 *.tmp
@@ -33,22 +37,18 @@ scripts/_node_debug.json
 
 # ── Naskah yang belum dipertahankan / belum terbit ───────────────────────────
 # Dikecualikan sampai sidang dan keputusan publikasi selesai. Lihat README.
-NASKAH-SUMBER.md
-draftSemhas/
+# naskah/ memuat sumber tunggal NASKAH-SUMBER.md, dosier proyek internal
+# DOSIER-PROYEK.md (seluruh hasil terukur dan catatan kerja), serta kedua dokumen
+# turunannya -- sempro-skripsi dan semhas-skripsi, masing-masing .md dan .docx.
+naskah/
 Q1-amin/
-semhas-skripsi.docx
-
-# Dosier proyek internal: memuat seluruh hasil terukur dan catatan kerja.
-# Dikecualikan dengan alasan yang sama seperti naskah di atas.
-DOSIER-PROYEK.md
 
 # ── Artefak skripsi (dokumen Tugas Akhir UHB, bukan bagian repo paper) ───────
 # Repo ini menyertai manuskrip Q1 (paper-full.md), bukan skripsi. Dokumen skripsi
 # sempro/semhas (cover+NIM+pembimbing+Lembar Pengesahan) dan figure berbahasa
-# Indonesia yang menyertainya sengaja dikeluarkan dari repo paper -- draftSempro/
-# tetap ada di komputer sebagai catatan, hanya tidak dipublikasikan di sini.
-sempro-skripsi.docx
-draftSempro/
+# Indonesia yang menyertainya sengaja dikeluarkan dari repo paper. Seluruh dokumen
+# skripsi, .md maupun .docx, tinggal di naskah/ dan sudah dikecualikan di atas;
+# keduanya tetap ada di komputer sebagai catatan, hanya tidak dipublikasikan di sini.
 figures/*.pdf
 figures/*.png
 !figures/paper/

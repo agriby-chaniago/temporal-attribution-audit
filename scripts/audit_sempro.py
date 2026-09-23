@@ -48,8 +48,8 @@ from collections import Counter
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-BERKAS = AKAR / "draftSempro" / "sempro-skripsi.md"
-SEMHAS = AKAR / "draftSemhas" / "semhas-skripsi.md"
+BERKAS = AKAR / "naskah" / "sempro-skripsi.md"
+SEMHAS = AKAR / "naskah" / "semhas-skripsi.md"
 
 # Kata benda artefak yang, bila dirujuk "pada Subbab N", menuntut subbab itu
 # benar-benar memuat tabel. Kata "gambar" sengaja tidak dimasukkan: naskah tidak

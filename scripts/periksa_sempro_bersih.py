@@ -30,7 +30,7 @@ import sys
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SEMPRO = AKAR / "draftSempro" / "sempro-skripsi.md"
+SEMPRO = AKAR / "naskah" / "sempro-skripsi.md"
 
 # Pola yang selalu merupakan kebocoran, apa pun konteksnya.
 POLA_KERAS = [

@@ -36,7 +36,7 @@ import re
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 
 # ── Bagian satu: padanan yang dikembalikan ke bentuk aslinya ────────────────
 # (pola, pengganti, keterangan). Pola memakai batas kata agar turunan seperti

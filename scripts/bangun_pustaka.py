@@ -35,7 +35,7 @@ import urllib.request
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 KELUARAN = AKAR / "references.bib"
 
 SURAT = "agrieby.chaniago@student.uhb.ac.id"   # kolam sopan OpenAlex dan CrossRef

@@ -53,7 +53,7 @@ AKAR = Path(__file__).resolve().parent.parent
 CADANGAN = AKAR / "cadangan"
 
 # Gerbang: dua syarat pada naskah, keduanya wajib terpenuhi.
-NASKAH = AKAR / "NASKAH-SUMBER.md"
+NASKAH = AKAR / "naskah" / "NASKAH-SUMBER.md"
 SITASI_LAMA = "Angka pada `results/kohort_kedua_peringkat.csv`"
 SITASI_BARU = "Angka pada `results/a_baseline_lintas_kohort.csv`"
 
@@ -72,7 +72,7 @@ BUTIR = [
      "tidak ada — memang tidak dipakai"),
     ("draftSempro/arsip",
      "Draf sempro 19 Agustus, sebelum pemisahan sempro dan semhas ditegakkan skrip.",
-     "draftSempro/sempro-skripsi.md, dibangun dari NASKAH-SUMBER.md"),
+     "naskah/sempro-skripsi.md, dibangun dari naskah/NASKAH-SUMBER.md"),
     ("laporan/audit.html",
      "Laporan audit 27 Agustus dalam bentuk HTML statis, tidak dapat dijalankan ulang.",
      "scripts/periksa_sempro_bersih.py, scripts/audit_sempro.py, scripts/audit_angka_naskah.py"),

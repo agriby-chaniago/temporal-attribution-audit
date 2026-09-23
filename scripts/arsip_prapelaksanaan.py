@@ -55,9 +55,10 @@ CADANGAN = AKAR / "cadangan"
 # Direktori yang disalin utuh. `data/` (1,5 G) dan `.venv/` (5,7 G) sengaja
 # dikecualikan: keduanya dapat dibangun ulang dan tidak pernah ditulis oleh analisis.
 DIREKTORI = ["results", "notebooks", "figures", "src", "scripts",
-             "draftSempro", "draftSemhas", "laporan"]
+             "naskah", "laporan"]
 
-# Berkas akar yang ikut, terutama naskah dan dosier.
+# Berkas akar yang ikut. Naskah sumber dan dosier sendiri tinggal di `naskah/`,
+# yang sudah disalin utuh lewat DIREKTORI di atas.
 POLA_BERKAS = ["*.md", "*.txt"]
 
 # Manifes dihitung hanya untuk direktori ini, sebab hanya di sinilah angka tinggal.

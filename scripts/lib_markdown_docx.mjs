@@ -1,7 +1,8 @@
 // Pengurai markdown khusus dialek naskah ini -> node terstruktur.
 //
 // Bukan pengurai markdown umum. Ia hanya mengenali konstruk yang benar-benar dipakai
-// draftSempro/draftSemhas: heading #-####, tabel pipe, gambar, blok kode, blockquote,
+// naskah/sempro-skripsi.md dan naskah/semhas-skripsi.md: heading #-####, tabel pipe,
+// gambar, blok kode, blockquote,
 // <br>, bullet "- ", dan markup sebaris (**tebal**, *miring*, `kode`).
 //
 // Dua langkah yang disengaja:

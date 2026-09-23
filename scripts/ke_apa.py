@@ -28,7 +28,7 @@ from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
 MENTAH = AKAR / "scripts" / "_pustaka_mentah.json"
-BERKAS = [AKAR / "NASKAH-SUMBER.md", AKAR / "scripts" / "pisah_sempro_semhas.py"]
+BERKAS = [AKAR / "naskah" / "NASKAH-SUMBER.md", AKAR / "scripts" / "pisah_sempro_semhas.py"]
 
 
 def nama_tahun(rec: dict) -> tuple[list[str], str]:

@@ -34,9 +34,10 @@ a settled finding.
 
 ```
 src/          model, data loaders, channel engineering
-scripts/      analysis scripts, one per reported result
+scripts/      analysis scripts, one per reported result -- see scripts/README.md
 notebooks/    end-to-end pipeline; 00_gabungan_beku.ipynb is the archived frozen run
-results/      104 result artifacts; every number in the manuscript traces to a file here
+results/      104 result artifacts; every number in the manuscript traces to a file here,
+              and results/README.md maps each filename prefix back to what produced it
 figures/      generated figures (figures/paper/ holds the manuscript's own figures)
 SETUP.md      full environment specification
 ```

@@ -970,12 +970,12 @@ md("""
 # **SEKSI 8 — Validasi Silang terhadap Naskah**
 
 Seksi terakhir membandingkan angka yang **dihitung ulang notebook ini** terhadap angka yang tertulis
-pada `NASKAH-SUMBER.md`. Bila ada yang tidak cocok, sel di bawah akan menyatakannya sebagai GAGAL —
+pada `naskah/NASKAH-SUMBER.md`. Bila ada yang tidak cocok, sel di bawah akan menyatakannya sebagai GAGAL —
 bukan menyembunyikannya.
 """)
 
 code("""
-naskah = (AKAR / "NASKAH-SUMBER.md").read_text()
+naskah = (AKAR / "naskah" / "NASKAH-SUMBER.md").read_text()
 
 def fmt(x, n=4):
     return f"{x:.{n}f}".replace(".", ",")

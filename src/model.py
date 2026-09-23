@@ -1,7 +1,7 @@
 """
 Arsitektur model untuk lokalisasi temporal gangguan motorik pada tulisan tangan daring.
 
-Mengikuti Subbab 3.5 naskah proposal (draftSempro/draft-sempro-skripsi.md):
+Mengikuti Subbab 3.5 naskah proposal (naskah/sempro-skripsi.md):
 
     Sinyal → PatchEmbedding → Encoder (dipertukarkan) → AttentionPooling → Head
 

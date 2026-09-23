@@ -28,9 +28,9 @@ import re
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
-DOKUMEN = [AKAR / "draftSempro" / "sempro-skripsi.md",
-           AKAR / "draftSemhas" / "semhas-skripsi.md"]
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
+DOKUMEN = [AKAR / "naskah" / "sempro-skripsi.md",
+           AKAR / "naskah" / "semhas-skripsi.md"]
 
 PENANDA = "Tabel — "
 ROMAWI = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5}

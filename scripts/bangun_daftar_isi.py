@@ -28,8 +28,8 @@ import re
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-DOKUMEN = [AKAR / "draftSempro" / "sempro-skripsi.md",
-           AKAR / "draftSemhas" / "semhas-skripsi.md"]
+DOKUMEN = [AKAR / "naskah" / "sempro-skripsi.md",
+           AKAR / "naskah" / "semhas-skripsi.md"]
 
 # Lebar kolom judul bab sebelum daftar subbabnya menjorok, mengikuti Lampiran 13.
 JOROK = " " * 9

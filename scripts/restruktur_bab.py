@@ -29,7 +29,7 @@ import sys
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 
 POLA_HEADING = re.compile(r"^(#{1,6})\s+(\d+(?:\.\d+)*)\s+(.*)$")
 

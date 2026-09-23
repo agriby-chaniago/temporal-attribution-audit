@@ -31,7 +31,7 @@ from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
 MENTAH = AKAR / "scripts" / "_pustaka_mentah.json"
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 
 
 def inisial(depan: str) -> str:

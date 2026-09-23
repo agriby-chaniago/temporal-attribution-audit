@@ -30,9 +30,9 @@ from datetime import date
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
-OUT_SEMPRO = AKAR / "draftSempro" / "sempro-skripsi.md"
-OUT_SEMHAS = AKAR / "draftSemhas" / "semhas-skripsi.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
+OUT_SEMPRO = AKAR / "naskah" / "sempro-skripsi.md"
+OUT_SEMHAS = AKAR / "naskah" / "semhas-skripsi.md"
 
 # Heading yang menandai blok HASIL di dalam Bab III. Blok berakhir tepat sebelum
 # heading berikutnya yang levelnya sama atau lebih tinggi.
@@ -431,7 +431,7 @@ def sempro_kepala(t: str) -> str:
 > pun angka hasil**. Seluruh ramalan, ambang, dan aturan keputusan yang tertulis di sini ditetapkan
 > sebelum data hasil dilihat, sehingga dokumen ini sekaligus berfungsi sebagai **catatan
 > pra-registrasi**. Hasilnya dilaporkan terpisah pada naskah seminar hasil.
-> Dibangun otomatis dari `NASKAH-SUMBER.md` oleh `scripts/pisah_sempro_semhas.py`
+> Dibangun otomatis dari `naskah/NASKAH-SUMBER.md` oleh `scripts/pisah_sempro_semhas.py`
 > pada {date.today().isoformat()}.
 
 """
@@ -478,7 +478,7 @@ def semhas_kepala(t: str) -> str:
 > **Catatan mengenai dokumen ini.** Bab I sampai III identik dengan naskah proposal yang sudah
 > diseminarkan, sehingga ramalan dan aturan keputusan di dalamnya dapat dibaca sebagai catatan
 > pra-registrasi. Bab IV memuat seluruh hasil.
-> Dibangun otomatis dari `NASKAH-SUMBER.md` oleh `scripts/pisah_sempro_semhas.py`
+> Dibangun otomatis dari `naskah/NASKAH-SUMBER.md` oleh `scripts/pisah_sempro_semhas.py`
 > pada {date.today().isoformat()}.
 
 """

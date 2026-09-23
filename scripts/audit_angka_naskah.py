@@ -43,8 +43,8 @@ import pandas as pd
 
 AKAR = Path(__file__).resolve().parent.parent
 R = AKAR / "results"
-SEMPRO = AKAR / "draftSempro" / "sempro-skripsi.md"
-SEMHAS = AKAR / "draftSemhas" / "semhas-skripsi.md"
+SEMPRO = AKAR / "naskah" / "sempro-skripsi.md"
+SEMHAS = AKAR / "naskah" / "semhas-skripsi.md"
 
 
 def id_(x: float, desimal: int) -> str:

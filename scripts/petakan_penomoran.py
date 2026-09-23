@@ -47,7 +47,7 @@ from collections import Counter
 from pathlib import Path
 
 AKAR = Path(__file__).resolve().parent.parent
-SUMBER = AKAR / "NASKAH-SUMBER.md"
+SUMBER = AKAR / "naskah" / "NASKAH-SUMBER.md"
 PEMISAH = AKAR / "scripts" / "pisah_sempro_semhas.py"
 
 # Nomor lama -> alamat baru. Alamat memakai awalan bab romawi sebab huruf subbab

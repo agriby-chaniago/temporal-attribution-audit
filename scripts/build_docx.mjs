@@ -1,4 +1,5 @@
-// Bangun proposal.docx dari draftSempro/draftSemhas, mengikuti Panduan Tugas Akhir UHB.
+// Bangun proposal.docx dari naskah/sempro-skripsi.md atau naskah/semhas-skripsi.md,
+// mengikuti Panduan Tugas Akhir UHB.
 //
 // Jalankan: node scripts/build_docx.mjs sempro   (atau: semhas)
 //
@@ -46,9 +47,9 @@ import { tokenisasi, uraiSebaris } from "./lib_markdown_docx.mjs";
 const AKAR = dirname(dirname(fileURLToPath(import.meta.url)));
 const DOK = process.argv[2] || "sempro";
 const SUMBER = DOK === "semhas"
-  ? join(AKAR, "draftSemhas", "semhas-skripsi.md")
-  : join(AKAR, "draftSempro", "sempro-skripsi.md");
-const KELUARAN = join(AKAR, DOK === "semhas" ? "semhas-skripsi.docx" : "sempro-skripsi.docx");
+  ? join(AKAR, "naskah", "semhas-skripsi.md")
+  : join(AKAR, "naskah", "sempro-skripsi.md");
+const KELUARAN = join(AKAR, "naskah", DOK === "semhas" ? "semhas-skripsi.docx" : "sempro-skripsi.docx");
 
 // ── Ukuran dasar (twips kecuali disebut lain; 1 cm = 566,93 twips) ──────────
 const FONT = "Times New Roman";
