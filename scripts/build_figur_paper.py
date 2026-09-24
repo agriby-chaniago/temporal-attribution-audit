@@ -52,6 +52,18 @@ def muat(nama: str) -> pd.DataFrame:
     return pd.read_csv(HASIL / f"{nama}.csv")
 
 
+# Lebar kanvas seluruh figur: 7,48 inci = 190 mm, yaitu lebar baku "double column"
+# Elsevier (yang lain: 90 mm dan 140 mm). Angka itu bukan lebar kolom teks naskah
+# ini, yang hanya 6,10 inci; justru selisihnya yang dipakai. Gambar 190 mm yang
+# disisipkan ke kolom 6,10 inci mengecil 0,82x, sehingga label 8,5 pt yang ditulis
+# di kode ini mendarat 7,0 pt di halaman -- persis ketentuan Elsevier, "a finished,
+# printed size of 7 pt for normal text". Dengan begitu ukuran huruf tidak perlu
+# disetel satu per satu, dan berkas gambarnya sudah berada pada lebar baku
+# produksi. Bandingkan artikel Array terbit di Q1-amin/acuan/: label di dalam
+# gambarnya 6,4 pt, dan figurnya mendarat pada 136-148 mm.
+LEBAR_KANVAS = 7.48
+
+
 def simpan(fig, nama: str) -> None:
     for ext, kw in [("png", dict(dpi=300)), ("pdf", {})]:
         fig.savefig(GAMBAR / f"{nama}.{ext}", bbox_inches="tight", **kw)
@@ -64,11 +76,9 @@ def simpan(fig, nama: str) -> None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def fig01_audit_design() -> None:
-    # Skema digambar pada lebar cetak naskah (6,1 inci), bukan pada kanvas lebar
-    # yang nanti diperkecil. Karena itu alur tidak muat dalam satu baris lima
-    # kotak: ia dipatahkan menjadi dua baris, sehingga tiap kotak cukup lebar
-    # untuk memuat teksnya pada ukuran huruf yang masih terbaca di halaman.
-    fig, ax = plt.subplots(figsize=(6.1, 4.6))
+    # Alur tidak dipaksakan dalam satu baris lima kotak: ia dipatahkan menjadi
+    # dua baris, sehingga tiap kotak cukup lebar untuk memuat teksnya.
+    fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.4))
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 8.6)
     ax.axis("off")
@@ -132,7 +142,7 @@ def fig01_audit_design() -> None:
 def fig02_data_channels_tasks() -> None:
     d4 = muat("d4_durasi_postur_lintas_tugas")
 
-    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.4))
+    fig, ax = plt.subplots(2, 1, figsize=(LEBAR_KANVAS, 4.4))
 
     sen = d4[d4.besaran == "fraksi_sentuh"]
     xx = np.arange(len(sen))
@@ -181,7 +191,7 @@ def fig03_patch_grid_spectrum() -> None:
     uci = muat_cache(berkas)
     FS = FS_TARGET
 
-    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.2))
+    fig, ax = plt.subplots(2, 1, figsize=(LEBAR_KANVAS, 4.2))
 
     # Panel A: patch grid over a velocity trace, STCP task.
     r = satu(uci, 2, "PD")
@@ -235,7 +245,7 @@ def fig04_attention_shapley_fidelity() -> None:
     atap = float(muat("s6_batas_atas_kesetiaan").nilai.iloc[0])
     print(f"  fig04 check: ceiling = {atap:.4f} (paper claims 0.1438)")
 
-    fig, ax = plt.subplots(figsize=(6.1, 3.0))
+    fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.3))
     u = s6.set_index("arsitektur").reindex(URUTAN_ARCH)
     xx = np.arange(3)
     ax.bar(xx, u.rho_median, 0.5, color=[WARNA_ARCH[a] for a in u.index])
@@ -263,7 +273,7 @@ def fig05_fidelity_both_cohorts() -> None:
     p5 = muat("rm5_berpasangan_newhandpd").copy()
     p7 = muat("s7_berpasangan_alpha_phi").copy()
 
-    fig, ax = plt.subplots(figsize=(6.1, 2.9))
+    fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.2))
     x = np.arange(3)
     w = 0.36
     u7 = [float(p7[p7.arsitektur == a].selisih_berpasangan.iloc[0]) for a in URUTAN_ARCH]
@@ -301,7 +311,7 @@ def fig06_seed_reproducibility() -> None:
     n_total = int(s3.seed.nunique())
     n_awal = min(3, n_total)
 
-    fig, ax = plt.subplots(2, 1, figsize=(6.1, 4.4))
+    fig, ax = plt.subplots(2, 1, figsize=(LEBAR_KANVAS, 4.4))
     for a_ in URUTAN_ARCH:
         v = s3[s3.arsitektur == a_].sort_values("seed")
         ax[0].plot(v.seed, v.auc, "o-", color=WARNA_ARCH[a_], label=NAMA[a_], lw=1.8, ms=6)
@@ -378,7 +388,7 @@ def fig07_ratio_synthesis() -> None:
     if (lo, hi) != (4, 95):
         raise SystemExit(f"fig07 ratio {lo}x-{hi}x does not match paper's 4x-95x claim")
 
-    fig, ax = plt.subplots(figsize=(6.1, 2.9))
+    fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.2))
     yy = np.arange(len(bm))[::-1]
     h = 0.34
     ax.barh(yy + h / 2, bm["accuracy shift"], h, color=WARNA["biru"], label="accuracy (AUC points)")
@@ -416,7 +426,7 @@ def fig08_retention_vs_baselines() -> None:
     nama_p = {**NAMA, "regresi_logistik": "Logistic regression", "svm_rbf": "SVM RBF",
               "random_forest": "Random forest"}
 
-    fig, ax = plt.subplots(2, 1, figsize=(6.1, 5.0))
+    fig, ax = plt.subplots(2, 1, figsize=(LEBAR_KANVAS, 5.0))
 
     urut = lk.sort_values("auc_newhandpd", ascending=True).reset_index(drop=True)
     # Beberapa titik berhimpit di sumbu NewHandPD (mis. BiGRU 0.8959 vs random forest
