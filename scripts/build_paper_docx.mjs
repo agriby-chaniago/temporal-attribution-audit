@@ -257,7 +257,9 @@ const dokumen = new Document({
   title: depan[0]?.teks ?? "Manuscript",
   styles: { default: { document: { run: { font: FONT, size: SZ(10) } } } },
   sections: [{
-    properties: { page: { size: { width: 11907, height: 16840 }, margin: MARGIN } },
+    properties: {
+      page: { size: { width: 11907, height: 16840 }, margin: MARGIN },
+    },
     footers: {
       default: new Footer({
         children: [new Paragraph({

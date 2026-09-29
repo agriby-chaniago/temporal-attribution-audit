@@ -237,13 +237,13 @@ def fig03_patch_grid_spectrum() -> None:
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# Figure 4 — attention-Shapley fidelity vs measured ceiling
+# Figure 5 — attention-Shapley fidelity vs measured ceiling
 # ═══════════════════════════════════════════════════════════════════════════
 
-def fig04_attention_shapley_fidelity() -> None:
+def fig05_attention_shapley_fidelity() -> None:
     s6 = muat("s6_kesetiaan")
     atap = float(muat("s6_batas_atas_kesetiaan").nilai.iloc[0])
-    print(f"  fig04 check: ceiling = {atap:.4f} (paper claims 0.1438)")
+    print(f"  fig05 check: ceiling = {atap:.4f} (paper claims 0.1438)")
 
     fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.3))
     u = s6.set_index("arsitektur").reindex(URUTAN_ARCH)
@@ -262,14 +262,14 @@ def fig04_attention_shapley_fidelity() -> None:
     ax.set_title("Fidelity is low on all three, as theory predicts", loc="left", fontsize=10.5)
     rapikan(ax)
     fig.tight_layout()
-    simpan(fig, "fig04_attention_shapley_fidelity")
+    simpan(fig, "fig05_attention_shapley_fidelity")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# Figure 5 — fidelity vs marker-alignment gap, both cohorts
+# Figure 6 — fidelity vs marker-alignment gap, both cohorts
 # ═══════════════════════════════════════════════════════════════════════════
 
-def fig05_fidelity_both_cohorts() -> None:
+def fig06_fidelity_both_cohorts() -> None:
     p5 = muat("rm5_berpasangan_newhandpd").copy()
     p7 = muat("s7_berpasangan_alpha_phi").copy()
 
@@ -292,14 +292,14 @@ def fig05_fidelity_both_cohorts() -> None:
     ax.legend(frameon=False, fontsize=8.5)
     rapikan(ax)
     fig.tight_layout()
-    simpan(fig, "fig05_fidelity_both_cohorts")
+    simpan(fig, "fig06_fidelity_both_cohorts")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# Figure 6 — seed reproducibility (accuracy stability vs seed count)
+# Figure 7 — seed reproducibility (accuracy stability vs seed count)
 # ═══════════════════════════════════════════════════════════════════════════
 
-def fig06_seed_reproducibility() -> None:
+def fig07_seed_reproducibility() -> None:
     s3 = muat("s3_per_seed")
     # Jumlah seed sebenarnya dibaca dari data, bukan diasumsikan: naskah menyatakan
     # analisis S3 primer akhirnya memakai SEPULUH seed ("Pada konfigurasi beku dengan
@@ -342,16 +342,16 @@ def fig06_seed_reproducibility() -> None:
     for a in ax:
         rapikan(a)
     fig.tight_layout()
-    simpan(fig, "fig06_seed_reproducibility")
-    print(f"  fig06 check: {n_awal} -> {n_total} seeds used (read from data, not hardcoded)")
+    simpan(fig, "fig07_seed_reproducibility")
+    print(f"  fig07 check: {n_awal} -> {n_total} seeds used (read from data, not hardcoded)")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# Figure 7 — the 4-95x ratio synthesis (English twin of the corrected
+# Figure 8 — the 4-95x ratio synthesis (English twin of the corrected
 # figures/benang_merah.png; see scripts/perbaiki_benang_merah.py for the fix)
 # ═══════════════════════════════════════════════════════════════════════════
 
-def fig07_ratio_synthesis() -> None:
+def fig08_ratio_synthesis() -> None:
     s7p = muat("s7_berpasangan_alpha_phi")
     s5s = muat("s5_keselarasan")
     s7s = muat("s7_kestabilan_seed")
@@ -384,9 +384,9 @@ def fig07_ratio_synthesis() -> None:
     bm["ratio"] = bm["map shift"] / bm["accuracy shift"]
     print(bm.round(4).to_string(index=False))
     lo, hi = round(bm.ratio.min()), round(bm.ratio.max())
-    print(f"  fig07 check: ratio {lo}x to {hi}x (paper claims 4x to 95x)")
+    print(f"  fig08 check: ratio {lo}x to {hi}x (paper claims 4x to 95x)")
     if (lo, hi) != (4, 95):
-        raise SystemExit(f"fig07 ratio {lo}x-{hi}x does not match paper's 4x-95x claim")
+        raise SystemExit(f"fig08 ratio {lo}x-{hi}x does not match paper's 4x-95x claim")
 
     fig, ax = plt.subplots(figsize=(LEBAR_KANVAS, 3.2))
     yy = np.arange(len(bm))[::-1]
@@ -413,14 +413,14 @@ def fig07_ratio_synthesis() -> None:
               bbox_to_anchor=(0.5, -0.24))
     rapikan(ax)
     fig.tight_layout()
-    simpan(fig, "fig07_ratio_synthesis")
+    simpan(fig, "fig08_ratio_synthesis")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# Figure 8 — cross-cohort retention vs aggregate-feature baselines
+# Figure 4 — cross-cohort retention vs aggregate-feature baselines
 # ═══════════════════════════════════════════════════════════════════════════
 
-def fig08_retention_vs_baselines() -> None:
+def fig04_retention_vs_baselines() -> None:
     lk = muat("a_baseline_lintas_kohort")
     b1_seed = muat("b1_kehilangan_per_seed")
     nama_p = {**NAMA, "regresi_logistik": "Logistic regression", "svm_rbf": "SVM RBF",
@@ -468,10 +468,10 @@ def fig08_retention_vs_baselines() -> None:
     rapikan(ax[1])
 
     fig.tight_layout()
-    simpan(fig, "fig08_retention_vs_baselines")
+    simpan(fig, "fig04_retention_vs_baselines")
     n_baseline_lebih_rugi = (u[u.jenis == "fitur agregat"].kehilangan
                               > lk[lk.model == "mamba2"].kehilangan.iloc[0]).sum()
-    print(f"  fig08 check: {n_baseline_lebih_rugi}/3 aggregate-feature baselines "
+    print(f"  fig04 check: {n_baseline_lebih_rugi}/3 aggregate-feature baselines "
           "lose more than BiMamba-2 (paper claims 3/3)")
 
 
@@ -582,11 +582,11 @@ def main() -> int:
     fig01_audit_design()
     fig02_data_channels_tasks()
     fig03_patch_grid_spectrum()
-    fig04_attention_shapley_fidelity()
-    fig05_fidelity_both_cohorts()
-    fig06_seed_reproducibility()
-    fig07_ratio_synthesis()
-    fig08_retention_vs_baselines()
+    fig05_attention_shapley_fidelity()
+    fig06_fidelity_both_cohorts()
+    fig07_seed_reproducibility()
+    fig08_ratio_synthesis()
+    fig04_retention_vs_baselines()
     bangun_tabel()
     print("\ndone.")
     return 0
