@@ -1,0 +1,42 @@
+{
+  "design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "generated": [
+    {
+      "path": "notebooks/21_replication20_design_preflight.ipynb",
+      "cells": 3,
+      "code_cells": 2,
+      "code_compiles": true,
+      "notebook_valid": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/22_replication20_newhandpd.ipynb",
+      "cells": 17,
+      "code_cells": 12,
+      "code_compiles": true,
+      "notebook_valid": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/23_replication20_uci_sst.ipynb",
+      "cells": 17,
+      "code_cells": 12,
+      "code_compiles": true,
+      "notebook_valid": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/24_replication20_joint_report.ipynb",
+      "cells": 3,
+      "code_cells": 2,
+      "code_compiles": true,
+      "notebook_valid": true,
+      "cells_executed": 0
+    }
+  ],
+  "source_functions_extracted_without_execution": true,
+  "schedule_checks": "400 unique nonself directed edges; balanced degree five and reciprocal directions",
+  "research_computation_performed": false,
+  "public_preregistration_performed": false,
+  "original_builders_or_notebooks_modified": false
+}

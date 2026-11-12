@@ -1,0 +1,5 @@
+cohort,architecture,n_records,n_subjects,n_HC,n_PD,n_checkpoints,new_checkpoints,scheduled_directions,primary_directions,scheduled_pair_replacement_rows,primary_pair_replacement_rows,no_reuse_successful_quota_forward_upper_bound
+newhandpd,gru,264,66,35,31,100,85,100,70,52800,36960,15544320
+newhandpd,mamba2,264,66,35,31,100,85,100,76,52800,40128,15544320
+uci395,gru,77,76,15,61,100,100,100,100,15400,15400,4533760
+uci395,mamba2,77,76,15,61,100,100,100,100,15400,15400,4533760

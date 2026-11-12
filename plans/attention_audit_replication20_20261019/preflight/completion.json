@@ -1,0 +1,9 @@
+{
+  "completion_status": "complete",
+  "design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "protocol_sha256": "f600aa3a5a99e8d8e5a68da93115a2a8a90f7e499ea0a5228b6d116900311384",
+  "training_performed": false,
+  "model_inference_performed": false,
+  "new_interventions_performed": false,
+  "note": "Input/split/design checks only; no empirical effect, runtime or precision estimate."
+}

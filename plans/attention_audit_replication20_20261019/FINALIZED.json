@@ -1,0 +1,8 @@
+{
+  "design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "protocol_sha256": "f600aa3a5a99e8d8e5a68da93115a2a8a90f7e499ea0a5228b6d116900311384",
+  "locally_specified_before_new_outcomes": true,
+  "discovery_results_already_known": true,
+  "public_preregistration": false,
+  "finalized_utc": "2026-10-19T14:25:37.483671+00:00"
+}
