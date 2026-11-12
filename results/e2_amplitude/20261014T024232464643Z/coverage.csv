@@ -1,0 +1,9 @@
+architecture,masker,scope,n_subjects_total,n_subjects_eligible,n_records_total,n_records_eligible,mean_subject_fraction_records
+gru,train_donor,full_baseline,66,66,264,264,1.0
+gru,train_donor,matched_common_support,66,62,264,203,0.7689393939393939
+gru,train_median,full_baseline,66,66,264,264,1.0
+gru,train_median,matched_common_support,66,56,264,156,0.5909090909090909
+mamba2,train_donor,full_baseline,66,66,264,264,1.0
+mamba2,train_donor,matched_common_support,66,61,264,196,0.7424242424242424
+mamba2,train_median,full_baseline,66,66,264,264,1.0
+mamba2,train_median,matched_common_support,66,55,264,153,0.5795454545454546

@@ -1,0 +1,3 @@
+record_id,observed_logit,n_patches,purpose
+newhandpd:H26:task0:seg0,-7.808261871337891,138,native resource-valid warmup; no numerical or research-effect selection
+newhandpd:P4:task1:seg0,9.05169677734375,577,native resource-valid warmup; no numerical or research-effect selection

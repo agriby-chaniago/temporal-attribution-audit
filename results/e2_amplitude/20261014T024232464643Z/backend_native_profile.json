@@ -1,0 +1,53 @@
+{
+  "cumsum": {
+    "kwargs": {
+      "BLOCK_SIZE_H": 2
+    },
+    "num_warps": 4,
+    "num_stages": 3,
+    "num_ctas": 1,
+    "maxnreg": null
+  },
+  "chunk_state": {
+    "kwargs": {
+      "BLOCK_SIZE_M": 64,
+      "BLOCK_SIZE_N": 32,
+      "BLOCK_SIZE_K": 32
+    },
+    "num_warps": 2,
+    "num_stages": 5,
+    "num_ctas": 1,
+    "maxnreg": null
+  },
+  "state_passing": {
+    "kwargs": {
+      "BLOCK_SIZE": 64
+    },
+    "num_warps": 4,
+    "num_stages": 3,
+    "num_ctas": 1,
+    "maxnreg": null
+  },
+  "bmm": {
+    "kwargs": {
+      "BLOCK_SIZE_M": 64,
+      "BLOCK_SIZE_N": 32,
+      "BLOCK_SIZE_K": 32
+    },
+    "num_warps": 2,
+    "num_stages": 5,
+    "num_ctas": 1,
+    "maxnreg": null
+  },
+  "chunk_scan": {
+    "kwargs": {
+      "BLOCK_SIZE_M": 128,
+      "BLOCK_SIZE_N": 32,
+      "BLOCK_SIZE_K": 32
+    },
+    "num_warps": 4,
+    "num_stages": 4,
+    "num_ctas": 1,
+    "maxnreg": null
+  }
+}

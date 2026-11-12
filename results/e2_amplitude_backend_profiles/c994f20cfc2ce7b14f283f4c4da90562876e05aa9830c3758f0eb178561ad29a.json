@@ -1,0 +1,102 @@
+{
+  "profile_id": "c994f20cfc2ce7b14f283f4c4da90562876e05aa9830c3758f0eb178561ad29a",
+  "spec": {
+    "format_version": 1,
+    "baseline_evaluation_id": "c4b1d743f22d6b9bbbc5b2a2a8fcd7d913ba2543108895f8e70de9b4c1b79823",
+    "model_id": "f6bafc0440c6c48910e59e0c5e6232ce0a613e489b987bf66092033458033da8",
+    "sentinel_record_ids": [
+      "newhandpd:H26:task0:seg0",
+      "newhandpd:P4:task1:seg0"
+    ],
+    "environment": {
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.5",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.9.0",
+        "torch": "2.11.0",
+        "mamba-ssm": "2.2.2",
+        "causal-conv1d": "1.4.0",
+        "triton": "3.6.0",
+        "einops": "0.8.2",
+        "cuda_runtime": "13.0"
+      },
+      "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+      "capability": [
+        8,
+        6
+      ],
+      "torch_context": {
+        "default_dtype": "torch.float32",
+        "float32_matmul_precision": "highest",
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_benchmark": false,
+        "deterministic_algorithms": false
+      },
+      "sources": {
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_state.py": "e691baf72e300de670a41299474be1762ab0c6c2692ad6de407fac7519bfe5be",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_state_passing.py": "615dc8c5a781db2b0fa34aa1fb848cc7c4355bbeed32fc39ec3361490e11e975",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_bmm.py": "2db3c55dd50ac8be8945c5ae3a283e6d1234eb239caa4d96d1dff3fbca86a367",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_scan.py": "89024564abed0c852b57befccb9c1a75041419cce3ef714c0b9c3f0bce39bdc5",
+        ".venv/lib/python3.11/site-packages/triton/runtime/autotuner.py": "40f5e142806219942585a16742e9f3721d5bfef88145b571cf389f9aec6460bb"
+      }
+    },
+    "kernels": {
+      "cumsum": {
+        "kwargs": {
+          "BLOCK_SIZE_H": 2
+        },
+        "num_warps": 4,
+        "num_stages": 3,
+        "num_ctas": 1,
+        "maxnreg": null
+      },
+      "chunk_state": {
+        "kwargs": {
+          "BLOCK_SIZE_M": 64,
+          "BLOCK_SIZE_N": 32,
+          "BLOCK_SIZE_K": 32
+        },
+        "num_warps": 2,
+        "num_stages": 5,
+        "num_ctas": 1,
+        "maxnreg": null
+      },
+      "state_passing": {
+        "kwargs": {
+          "BLOCK_SIZE": 64
+        },
+        "num_warps": 4,
+        "num_stages": 3,
+        "num_ctas": 1,
+        "maxnreg": null
+      },
+      "bmm": {
+        "kwargs": {
+          "BLOCK_SIZE_M": 64,
+          "BLOCK_SIZE_N": 32,
+          "BLOCK_SIZE_K": 32
+        },
+        "num_warps": 2,
+        "num_stages": 5,
+        "num_ctas": 1,
+        "maxnreg": null
+      },
+      "chunk_scan": {
+        "kwargs": {
+          "BLOCK_SIZE_M": 128,
+          "BLOCK_SIZE_N": 32,
+          "BLOCK_SIZE_K": 32
+        },
+        "num_warps": 4,
+        "num_stages": 4,
+        "num_ctas": 1,
+        "maxnreg": null
+      }
+    },
+    "selection": "native resource-valid profile first, then small registered tiles; first passing numerical golden regression; no labels or effect metrics",
+    "recovery_protocol_version": 2,
+    "maximum_profiles": 56
+  }
+}

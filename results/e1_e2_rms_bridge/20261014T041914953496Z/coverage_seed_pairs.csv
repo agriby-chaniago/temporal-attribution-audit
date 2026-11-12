@@ -1,0 +1,13 @@
+architecture,masker,seed_a,seed_b,n_pairs_total,n_pairs_eligible,n_subjects_eligible
+gru,train_donor,0,1,264,237,66
+gru,train_donor,0,2,264,211,64
+gru,train_donor,1,2,264,209,62
+gru,train_median,0,1,264,213,65
+gru,train_median,0,2,264,163,58
+gru,train_median,1,2,264,164,57
+mamba2,train_donor,0,1,264,229,64
+mamba2,train_donor,0,2,264,203,64
+mamba2,train_donor,1,2,264,208,63
+mamba2,train_median,0,1,264,211,64
+mamba2,train_median,0,2,264,163,59
+mamba2,train_median,1,2,264,165,59
