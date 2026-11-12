@@ -1,0 +1,22 @@
+{
+  "reviewed_utc": "2026-11-12T04:45:11.647011+00:00",
+  "rendered_pages": 35,
+  "contact_sheets_reviewed": [
+    "slides_01_06.jpg",
+    "slides_07_12.jpg",
+    "slides_13_18.jpg",
+    "slides_19_24.jpg",
+    "slides_25_30.jpg",
+    "slides_31_35.jpg"
+  ],
+  "full_resolution_final_pages_reviewed": [
+    15,
+    26,
+    29,
+    30,
+    35
+  ],
+  "native_ci_newhandpd_full_resolution_probe_reviewed": true,
+  "unresolved_observed_clipping": false,
+  "microsoft_powerpoint_manual_open": false
+}

@@ -1,0 +1,15 @@
+{
+  "charts_with_native_custom_intervals": [
+    "ppt/charts/chart2.xml",
+    "ppt/charts/chart3.xml",
+    "ppt/charts/chart6.xml"
+  ],
+  "interval_source": "stored estimates and CI endpoints; no new statistics",
+  "original_response_values_preserved": true,
+  "embedded_workbooks_extended_with_literal_ci_lengths": [
+    "ppt/embeddings/Microsoft_Excel_Worksheet2.xlsx",
+    "ppt/embeddings/Microsoft_Excel_Worksheet3.xlsx",
+    "ppt/embeddings/Microsoft_Excel_Worksheet6.xlsx"
+  ],
+  "final_pptx": "presentasi_attention_16nov2026.pptx"
+}

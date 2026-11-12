@@ -1,0 +1,412 @@
+{
+  "prepared_utc": "2026-11-12T04:45:11.658989+00:00",
+  "event_date": "2026-11-16",
+  "title": "Beda Peta, Masih Relevan?",
+  "main_slides": 21,
+  "backup_slides": 14,
+  "total_slides": 35,
+  "scientific_source": "V9 and completed stored results through 2026-10-25",
+  "research_computation_performed": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 208,
+      "sha256": "d9f277e063cc8afce69e9424f7a1233a6b714ebb1a43173efc06f0673767a3f7"
+    },
+    {
+      "path": "CATATAN_PEMBICARA.md",
+      "bytes": 26308,
+      "sha256": "8a71424b0b323457bb948ebd8914f45a7bbb2e9aa02f607a35bcfc4da936f48f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2343,
+      "sha256": "f0c38f300ef3f4afc3a9b03c1a95ebfce7f5fd68ac9f80997e43157d6af90839"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5885,
+      "sha256": "2144c1802c2e423525b95fd4e1cdd5f90f3d2eeafdc0239f5c19f847936b51ce"
+    },
+    {
+      "path": "SLIDE_PLAN.json",
+      "bytes": 30429,
+      "sha256": "7f144295bdf1af46c365b422ede8019140dd485b26c2c6b70cd490971e9aba12"
+    },
+    {
+      "path": "assets/jsd_newhandpd_v7.png",
+      "bytes": 1400358,
+      "sha256": "56aba3c599576838047f8dcb45a5b943b1ef6e369f19ab08e5f862edf1912ca6"
+    },
+    {
+      "path": "assets/jsd_uci_v7.png",
+      "bytes": 928807,
+      "sha256": "142a4a6ac2e1c86e67bdda8605989c01e5f74bc319d08dee60c7cd0a25a21d01"
+    },
+    {
+      "path": "build_presentation.cjs",
+      "bytes": 59214,
+      "sha256": "2875e3cdfd0ef89c30c58b409203e0c0ab49c13391d0f6b0bedb8cf5c6a86338"
+    },
+    {
+      "path": "notes/CLAIM_AUDIT.csv",
+      "bytes": 6068,
+      "sha256": "dd6048a171e76f8470e1f2a36fa3a905d5f44b567af176d99f2b4f2e2c6660da"
+    },
+    {
+      "path": "notes/CLAIM_AUDIT.md",
+      "bytes": 7059,
+      "sha256": "5372053919965f87442728d55097690489a8cca80293cf42ab14ae3bd2a1fbbd"
+    },
+    {
+      "path": "notes/JUDUL_DAN_SCARCITY.md",
+      "bytes": 3116,
+      "sha256": "6dbaba29d3eb1d86f66421d38231d8275d86bb52e97d77b7b81579b16f94ce9c"
+    },
+    {
+      "path": "notes/LITERATURE_COMPARISON.md",
+      "bytes": 3536,
+      "sha256": "5a820db61acd731e22e618d10e2028dfd73049f51137564e8e9ba3705d185bdd"
+    },
+    {
+      "path": "notes/PETA_PRESENTASI_LAMA_KE_BARU.md",
+      "bytes": 4953,
+      "sha256": "17c87875691f0b13a9f91f0cd9418c27dac704987cb54373b636697073af7426"
+    },
+    {
+      "path": "notes/TANYA_JAWAB.md",
+      "bytes": 4879,
+      "sha256": "b7686dd5108debc200e83562dbd76b979c695e1e15a32f470d57862c392d7105"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 6835,
+      "sha256": "5fcf369194285c7db57e5a014a1d75752a0a26f558b54394d1e1f33172f27448"
+    },
+    {
+      "path": "package.json",
+      "bytes": 387,
+      "sha256": "6d699fd8e303c3c66bc9293d7ddbcaaa7ddadf3b896a690c602a9f6b49ba6cc1"
+    },
+    {
+      "path": "presentasi_attention_16nov2026.pdf",
+      "bytes": 1479845,
+      "sha256": "cf86ca185a8f070e490ae5267e10aef9f54da004f1aa9bef3fddd43b095c87c2"
+    },
+    {
+      "path": "presentasi_attention_16nov2026.pptx",
+      "bytes": 3435670,
+      "sha256": "fa301da0d3848bd9cf359b85137bf1f206b953fa9364e7e4c11e604b83c2735a"
+    },
+    {
+      "path": "requirements-presentation.txt",
+      "bytes": 144,
+      "sha256": "9a447a390387932dc9f4508bf8f1eb6855ecc247c43800ed559bef312b8c04b1"
+    },
+    {
+      "path": "review/CHART_BINDINGS.json",
+      "bytes": 25492,
+      "sha256": "c331390037eb6969b5374098c0f4dd57c2b49456dc231ec6c5b427625d8a23a1"
+    },
+    {
+      "path": "review/DISPLAY_CI_BINDINGS.json",
+      "bytes": 16446,
+      "sha256": "33f8a1ff16fa2f56cc35e42ee9cb192669ad0adbc463fa9a832f588e498d37fc"
+    },
+    {
+      "path": "review/DOCUMENT_CHECKS.json",
+      "bytes": 2824904,
+      "sha256": "b2453f6341d533909f809c11317fdcd3bdc3748b509847c4475e1b6fedc0f900"
+    },
+    {
+      "path": "review/NATIVE_CI_REPORT.json",
+      "bytes": 540,
+      "sha256": "a1ec5c8b409c64370febbf19d4b832e79ecae49605bf81a119db7dfb3dd98fd7"
+    },
+    {
+      "path": "review/OOXML_VALIDATION.txt",
+      "bytes": 192,
+      "sha256": "6d535745af25fef6daf6b6fa12a10929d603907f137e2a8fac8a98c342779009"
+    },
+    {
+      "path": "review/PDF_GEOMETRY.json",
+      "bytes": 771,
+      "sha256": "7d5334a813f2f3ee22a7ec0482d85ca1e039a039cfc9677160221bb3b57330f4"
+    },
+    {
+      "path": "review/SHAPE_LAYOUT.json",
+      "bytes": 126235,
+      "sha256": "30fd813fe444287783383b35c763b75d9e34b58822461940746fe821496a51b3"
+    },
+    {
+      "path": "review/VALIDATION_REPORT.md",
+      "bytes": 2901,
+      "sha256": "05ae7ac4601395ded92582beea315330a4fa0105fdf06bbdb931aae940d54d45"
+    },
+    {
+      "path": "review/VISUAL_REVIEW.json",
+      "bytes": 496,
+      "sha256": "7c0d75e6310045b750495752dd54aaa87ad36469b838299c5864813f6d296afb"
+    },
+    {
+      "path": "sources/NUMERIC_BINDINGS.csv",
+      "bytes": 1165380,
+      "sha256": "b6f0ad4797d389ab2dba6f531f0bcb92cbf237ac62218fc318c1b0465bf31128"
+    },
+    {
+      "path": "sources/PROVENANCE.json",
+      "bytes": 18831,
+      "sha256": "2e79115b7f7cea4b3a1e4ea04b2e6920161f6f9a9e2b9e6fde8da0ccb04fd33f"
+    },
+    {
+      "path": "sources/attention_examples.json",
+      "bytes": 23988,
+      "sha256": "ea8f2512fbb1f1186980a9b7bf133008bab2974fb2cf1217743eb9a372f9b4da"
+    },
+    {
+      "path": "sources/calibration_contrasts.csv",
+      "bytes": 2339,
+      "sha256": "4ef593945c3d749be32edb5597ea4730cc7f0039a4ef3b81551bcd6d8c5f5b4f"
+    },
+    {
+      "path": "sources/calibration_scores.csv",
+      "bytes": 3631,
+      "sha256": "49416ad3b48f063bb44ad1c00d219f8373d9a7f8f0962947ab05b05d9c5a91c2"
+    },
+    {
+      "path": "sources/design_lock.json",
+      "bytes": 4158,
+      "sha256": "5849110882d07f28b964ee29e30d8f0d3838431a240f63e3d0615791d1b6db20"
+    },
+    {
+      "path": "sources/discovery_amplitude_ci.csv",
+      "bytes": 21980,
+      "sha256": "ab925c23862605b40f3ea58b084f15876f06334e19367932db295af3b6ff2e81"
+    },
+    {
+      "path": "sources/discovery_auroc_per_seed.csv",
+      "bytes": 279,
+      "sha256": "94075177f2946de7174ba6cd8a5b300f825f8ff5b30e09e6c158b9fdce59770e"
+    },
+    {
+      "path": "sources/discovery_bridge_associations.csv",
+      "bytes": 77894,
+      "sha256": "7f41178946681f298ef64eb98d725958343d03a19b2a0cafb5451da994a30fd1"
+    },
+    {
+      "path": "sources/discovery_e1_ci.csv",
+      "bytes": 4556,
+      "sha256": "244b6f7cd0d03221ee7f5c45af4bdb4c63cb3b506f40a4850fd1d0cdecf44425"
+    },
+    {
+      "path": "sources/discovery_e1_sensitivity.csv",
+      "bytes": 102062,
+      "sha256": "30bd22914b3e30081c3d4f511ce7e517230b0299f24b1402c4080a2b3babd340"
+    },
+    {
+      "path": "sources/evidence.json",
+      "bytes": 1501177,
+      "sha256": "e7839b0120caa6bca21a6439406821ee59efe7ca9579423cae0e382ba5443c7e"
+    },
+    {
+      "path": "sources/historical_age.csv",
+      "bytes": 2527,
+      "sha256": "48c78a0cd4677e79b1cbe0f11b7eac6e5caf5727f053697558363e4e64d46583"
+    },
+    {
+      "path": "sources/historical_auroc.csv",
+      "bytes": 534,
+      "sha256": "ceecf6c3bc6717ae25c523146b8f03cfed48584e97d39cf6daa614058975cdf5"
+    },
+    {
+      "path": "sources/historical_auroc_contrast.csv",
+      "bytes": 443,
+      "sha256": "ec58538f93055359217e8c2648cfc2a1dcb1a80befdd26f8f90ad3ee863243a5"
+    },
+    {
+      "path": "sources/historical_classic.csv",
+      "bytes": 644,
+      "sha256": "f90bfc1f981e256467719376e926c42ab1d491f04c99dbf11ac51c9bf15e7ef9"
+    },
+    {
+      "path": "sources/joint_manifest.json",
+      "bytes": 2149,
+      "sha256": "10b049f1db1a9cc5d70fefba072a793c4e94aa217ee22cffa4df433b93e86ba9"
+    },
+    {
+      "path": "sources/newhandpd_directed_seed_schedule.csv",
+      "bytes": 10467,
+      "sha256": "08e7459fa3ec600c887790376d5e2a88ac65b1325487a18779c4efaea01962b1"
+    },
+    {
+      "path": "sources/newhandpd_eligible_excluded_characteristics.csv",
+      "bytes": 5135,
+      "sha256": "3b2d8809b058da98da7492205f15027c5644a3440779ac8cfe66576d32b5c359"
+    },
+    {
+      "path": "sources/newhandpd_jsd_associations.csv",
+      "bytes": 3540,
+      "sha256": "f05c871364f09f262700843d98ac69a9c4d64e12999cfe770275657ad4d0b6d7"
+    },
+    {
+      "path": "sources/newhandpd_leave_one_seed_out.csv",
+      "bytes": 7863,
+      "sha256": "ef359813801c9fae5b1307fc5233cc3d7e7ca25e44fb425e4b6c903de4432377"
+    },
+    {
+      "path": "sources/newhandpd_manifest.json",
+      "bytes": 7197,
+      "sha256": "fe0a591d65322d2937bea554f515ac0b15358520656d9885b45e064c6398a5a3"
+    },
+    {
+      "path": "sources/newhandpd_matching_coverage.csv",
+      "bytes": 684,
+      "sha256": "51c51bf97775d23332f5fd440ba0da49cfd2b7205c82ecb75107b660f3cf56a3"
+    },
+    {
+      "path": "sources/newhandpd_model_inventory.csv",
+      "bytes": 64403,
+      "sha256": "44f8327e522122d7c0c2f36b7ac31240c9a7d6b7f14816f48cea935854ebc122"
+    },
+    {
+      "path": "sources/newhandpd_new_minus_discovery_subject_contrast.csv",
+      "bytes": 756,
+      "sha256": "db5e77931404f8a19d24ac508340f3b58ebe5664a15fcbdb5c4130ae7d2f1115"
+    },
+    {
+      "path": "sources/newhandpd_placebo_contrasts.csv",
+      "bytes": 1953,
+      "sha256": "8155824e7148c9f01fee4a1f1cfffec07eca119711ca9f4ecc85cbd25775f19a"
+    },
+    {
+      "path": "sources/newhandpd_record_manifest.csv",
+      "bytes": 37745,
+      "sha256": "2ff764ec6a9adeda8924b57c59f758afff17682f62964042ac9c776cda7d5e49"
+    },
+    {
+      "path": "sources/newhandpd_replacement_common_support_contrasts.csv",
+      "bytes": 836,
+      "sha256": "7af10049bf02fb1000138e1dec5945ef4c13b440136515c033e5a3e816a17502"
+    },
+    {
+      "path": "sources/newhandpd_secondary_mean_contrasts.csv",
+      "bytes": 17259,
+      "sha256": "39c16a559f71f20c93cbff0f3135cf9ab33c229efd7c4d1473a84272337ec7f7"
+    },
+    {
+      "path": "sources/newhandpd_subject_auroc_per_seed.csv",
+      "bytes": 1231,
+      "sha256": "7931392d41c7d7544cb65a97f277ca01c3cf4b30bad28a8f6bf8709522c044ec"
+    },
+    {
+      "path": "sources/newhandpd_target_seed_effects.csv",
+      "bytes": 16887,
+      "sha256": "fc2ca63389203057c940288eec62fb1f2f9904b51cc5a13602826f1d9fa45baf"
+    },
+    {
+      "path": "sources/primary_eight_strata.csv",
+      "bytes": 2179,
+      "sha256": "c451c265e444b9efcee891afe84e7643c996e14eda4d0641525175a07cd6a192"
+    },
+    {
+      "path": "sources/references.json",
+      "bytes": 5735,
+      "sha256": "e0a523495de4aeeb30cbf409b9f6ed1bab1030b91b920efd6d22d574a49efb27"
+    },
+    {
+      "path": "sources/uci395_directed_seed_schedule.csv",
+      "bytes": 9813,
+      "sha256": "6861a39f88244378e3dde802944d5139bf66c33e895e9078752f2dd05abc3850"
+    },
+    {
+      "path": "sources/uci395_eligible_excluded_characteristics.csv",
+      "bytes": 5003,
+      "sha256": "bbc0df52874cd5973fe218cd80b311e4e4a4208e4d8444865c20149d9a3b1dcb"
+    },
+    {
+      "path": "sources/uci395_jsd_associations.csv",
+      "bytes": 3458,
+      "sha256": "a34b570ce3708cdb4ccf9652901443eed0bb4e0a7079d4161781066045e8ae88"
+    },
+    {
+      "path": "sources/uci395_leave_one_seed_out.csv",
+      "bytes": 8997,
+      "sha256": "49b6b017aa680f4f9b07d9705afd2def54f982cef43a873c76911fb7fafb8c9b"
+    },
+    {
+      "path": "sources/uci395_manifest.json",
+      "bytes": 7201,
+      "sha256": "199e69e3f20ff2b5a1071db5923ef5c24110acc22abf0f36991beb6027e605c3"
+    },
+    {
+      "path": "sources/uci395_matching_coverage.csv",
+      "bytes": 656,
+      "sha256": "6eb451506243c3abcf7bef4322f70d528e030c703b19f872cabb37d71b86a11e"
+    },
+    {
+      "path": "sources/uci395_model_inventory.csv",
+      "bytes": 65273,
+      "sha256": "5620b770cf5a283bc37a7cad9298bd2ad8886458830c6b0edff72925bde642b0"
+    },
+    {
+      "path": "sources/uci395_new_minus_discovery_subject_contrast.csv",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "sources/uci395_placebo_contrasts.csv",
+      "bytes": 1896,
+      "sha256": "bcecab8ab395cc78077cdbb4cff44758d2f8c22ff113c9e3a3a23419542b052e"
+    },
+    {
+      "path": "sources/uci395_record_manifest.csv",
+      "bytes": 11656,
+      "sha256": "454ce942245a422a46ed7ad381756c9fb91b2efe48912600206ac55ffbc746aa"
+    },
+    {
+      "path": "sources/uci395_replacement_common_support_contrasts.csv",
+      "bytes": 819,
+      "sha256": "9f394de65480679c410dad21b4ed259241daddb7d7712df97ef6afc7df81fd28"
+    },
+    {
+      "path": "sources/uci395_secondary_mean_contrasts.csv",
+      "bytes": 17033,
+      "sha256": "e85d585ec6edf1677f4317f1ca4432aae321147abb6cb34c13b40367e330c27e"
+    },
+    {
+      "path": "sources/uci395_subject_auroc_per_seed.csv",
+      "bytes": 1228,
+      "sha256": "72274588f6b9f66fafeee433aae7369b70cc7900b6f8fa10f87d9101be6ecae4"
+    },
+    {
+      "path": "sources/uci395_target_seed_effects.csv",
+      "bytes": 19169,
+      "sha256": "bc2218513336643759fa61277028856972ca11504a5bb382c38b4252bbdff650"
+    },
+    {
+      "path": "tools/build_all.py",
+      "bytes": 1194,
+      "sha256": "b1fd74a49545ab11580b1295e96e2cbcdc1b02d686a10449988062855c2efe3d"
+    },
+    {
+      "path": "tools/build_evidence.py",
+      "bytes": 9109,
+      "sha256": "164151b74934f4f65094b776f48739b14488529361ec58117dcc0ba309f6129d"
+    },
+    {
+      "path": "tools/finalize_deck.py",
+      "bytes": 8013,
+      "sha256": "d57194d495cebcfc83989fad17f1c0ea75c66c285ff8bdc26b8e5c7fcd8f6a07"
+    },
+    {
+      "path": "tools/render_review.py",
+      "bytes": 2160,
+      "sha256": "c766cdafc7886f6bea295f9406249da6a83b915184e30f167d1ab0d165706716"
+    },
+    {
+      "path": "tools/verify_presentation.py",
+      "bytes": 9409,
+      "sha256": "32117b4e5781a8b1b59dd8a259c91978057d9bd3bc63c39d10b4c32765103be9"
+    }
+  ]
+}

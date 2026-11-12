@@ -35,6 +35,7 @@ reproduction.
 
 | Purpose | Entry point |
 |---|---|
+| Updated presentation for 16 November 2026 | [Editable slides, PDF and speaker notes](untuk_presentasi_16nov26/README.md) |
 | Exact experiment dates and status | [Experiment timeline](docs/EXPERIMENT_TIMELINE.md) |
 | Which notebook to use | [Workflow and builder map](docs/WORKFLOW.md) |
 | Current replication protocol | [19 October plan](plans/attention_audit_replication20_20261019/PROTOCOL.md) |

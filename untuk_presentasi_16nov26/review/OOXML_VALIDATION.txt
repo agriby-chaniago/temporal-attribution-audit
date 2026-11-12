@@ -1,0 +1,5 @@
+Command actually executed:
+.tools-venv/bin/python /home/agribychaniago/.agents/skills/pptx/scripts/office/validate.py presentasi_attention_16nov2026.pptx
+
+Exit code: 0
+All validations PASSED!
