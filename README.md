@@ -1,105 +1,111 @@
-# Temporal Attribution Audit
+# Temporal Attention Ranking Audit
 
-[![DOI](https://zenodo.org/badge/1369722984.svg)](https://doi.org/10.5281/zenodo.22763717)
+Code, executed notebooks and selected result artifacts for an audit of temporal
+attention in Parkinsonian handwriting classification, targeting **Array
+(Elsevier)**.
 
-Code, analysis notebooks, and result artifacts for a pre-registered, multi-cohort audit of
-**temporal attribution faithfulness and stability** in sequence models applied to Parkinsonian
-handwriting.
+**When attention maps differ, does their intervention relevance change?** The
+current study transfers attention rankings between training seeds while keeping
+the target model fixed on the same held-out recording. It compares each ranking
+with controls matched for the amount and temporal geometry of the input change.
 
-The study asks three questions that are usually collapsed into one:
+## Current study
 
-1. **Output fidelity** — does the attention map match what actually drove the model's prediction,
-   measured against Shapley attribution?
-2. **Physiological alignment** — do the localized moments correspond to an independent motor
-   marker, measured from a signal channel deliberately withheld from the model?
-3. **Reproducibility** — how much of the map survives retraining the same architecture with a
-   different random seed?
+- **Architectures:** BiGRU and BiMamba-2.
+- **Banks:** twenty training seeds per architecture and dataset, five subject
+  folds, 400 checkpoint identities. Thirty discovery checkpoints are reused;
+  370 were newly trained for the extension.
+- **Datasets:** NewHandPD spiral recordings and UCI 395 static spiral test
+  (SST), analysed separately after retraining.
+- **Primary test:** own-minus-transferred ranking advantage over RMS/geometric
+  controls, reported in eight dataset × architecture × replacement strata.
+- **Interpretation:** attention rankings retain some intervention relevance
+  when transferred, while the target's own ranking has a larger average
+  advantage in the stored primary report. Matching coverage and condition-specific
+  placebo/dose results limit the represented comparisons.
 
-Three interchangeable encoders are compared under an otherwise identical pipeline: **Bidirectional
-GRU**, **Bidirectional Mamba-2**, and **Bidirectional Mamba-3**.
+The audit separates output reproducibility, map reproducibility and
+intervention-ranking relevance. It does not use classification AUROC as a
+substitute for explanation evaluation or claim independent physiological
+validation. See [research status](docs/RESEARCH_STATUS.md) for the evidence and
+limits, and [published artifact scope](docs/PUBLIC_ARTIFACTS.md) before attempting
+reproduction.
 
-## Headline result
+## Start here
 
-Across four independent perturbations — architecture, cohort, random seed alone, and patch
-resolution — the attention map shifted **4 to 95 times more**, in matched units, than classification
-accuracy did. Ensembling across ten seeds recovered Shapley fidelity (17% → 53% of a measured
-ceiling) but did **not** recover physiological alignment under any of four aggregation rules, which
-establishes those two properties as separable rather than travelling together.
+| Purpose | Entry point |
+|---|---|
+| Exact experiment dates and status | [Experiment timeline](docs/EXPERIMENT_TIMELINE.md) |
+| Which notebook to use | [Workflow and builder map](docs/WORKFLOW.md) |
+| Current replication protocol | [19 October plan](plans/attention_audit_replication20_20261019/PROTOCOL.md) |
+| Latest execution amendment | [23 October strict-resume plan](plans/attention_replication20_resume_20261023/README.md) |
+| Joint primary results | [Result index](docs/PUBLIC_ARTIFACTS.md#replication-results) |
+| Integrity review | [25 October post-run review](reports/replication20_postrun_review_20261025/README.md) |
+| Environment | [SETUP.md](SETUP.md) |
+| Dataset access and attribution | [LISENSI-DATA.md](LISENSI-DATA.md) |
 
-This synthesis is **exploratory**: it was assembled after the four perturbations had been observed
-and was not itself part of the frozen protocol. It is reported for confirmatory replication, not as
-a settled finding.
+## Dates and analysis status
 
-## Repository layout
+This repository update was published on **12 November 2026**. The dated run
+folders retain their original UTC timestamps and result bytes. Commits use the
+actual publication time; the experiment timeline is documented separately.
 
-```
-src/          model, data loaders, channel engineering
-scripts/      analysis scripts, one per reported result -- see scripts/README.md
-notebooks/    end-to-end pipeline; 00_gabungan_beku.ipynb is the archived frozen run
-results/      104 result artifacts; every number in the manuscript traces to a file here,
-              and results/README.md maps each filename prefix back to what produced it
-figures/      generated figures (figures/paper/ holds the manuscript's own figures)
-SETUP.md      full environment specification
-```
+The three-seed additions remain exploratory. The twenty-seed extension was
+specified locally before its new outcomes, after discovery results were known.
+It was **not publicly preregistered**. Uploading the plan now does not change
+that history. Holm adjustment applies to eight primary tests, while secondary
+analyses retain their stated exploratory limits.
 
-## Data
+## Data and availability
 
-Neither dataset is redistributed here. Both are public and are downloaded directly from their
-original sources by the included download script.
+Raw datasets, identifying metadata, processed signal caches, checkpoint weights,
+large intervention tables and transient caches are not uploaded in this update.
+Selected summaries, manifests and provenance are included without changing their
+values. Their publication status and hashes are listed in
+[PUBLIC_ARTIFACTS.md](docs/PUBLIC_ARTIFACTS.md).
 
-| Dataset | Subjects | Acquisition | License / terms |
-|---|---|---|---|
-| UCI 395 | 77 (62 PD, 15 HC) | digitizing tablet, ≈127.52 Hz | CC BY 4.0 |
-| NewHandPD | 66 (31 PD, 35 HC) | BiSP smart pen, 1000 Hz | citation of Pereira et al. (2016) required |
+| Dataset used in the audit | Recordings | Subjects | Access |
+|---|---:|---:|---|
+| NewHandPD, four spiral tasks | 264 | 66 (31 PD, 35 HC) | Original HandPD/NewHandPD source; attribution required |
+| UCI 395, SST only | 77 | 76 (61 PD, 15 HC) | UCI source, CC BY 4.0 |
 
-Full attribution, the exact modifications made to each dataset, and the personal-data handling
-policy are documented in [`LISENSI-DATA.md`](LISENSI-DATA.md).
+The full UCI resource has 77 subjects (62 PD, 15 HC). That resource count must not
+replace the SST-only denominator. HandPD, NewHandPD and PaHaW are different data
+resources. Non-identifying dataset subject codes are retained in derived tables
+for alignment. Raw NewHandPD identity fields are excluded.
 
-**Personal data.** Raw NewHandPD metadata headers contain identifying fields (names, an
-identifier resembling a medical record number). Raw metadata is **not** included in this
-repository. Metadata extraction is restricted to a non-identifying allow-list (`META_AMAN` in
-`src/newhandpd.py`), and notebook outputs have been redacted where a raw header was printed during
-data-structure verification.
+## Reproduction
 
-## Protocol record
+Use the recorded Python 3.11 project environment. Notebooks contain the research
+methods and executed outputs; their `.py` builders generate notebook sources.
+A fresh clone does not include the checkpoints and cached inputs required for
+exact replay. See the [workflow](docs/WORKFLOW.md) and
+[availability map](docs/PUBLIC_ARTIFACTS.md) for requirements.
 
-Effect-size thresholds, decision rules, and the confirmatory/exploratory label of each analysis were
-frozen in a written protocol before the corresponding analysis was run, containing every prediction
-and threshold and no result values. That protocol document is not included in this repository (it
-accompanies the authors' thesis materials, submitted separately); its content and status are
-described in the manuscript's Method section.
+The current sequential entry points are notebooks **21, 22_resume, 23_resume,
+24_resume**. The original and FAST variants are retained as execution history.
+Only the resume variants are the final completed extended runs. **No experiment
+was rerun to perform this GitHub update.**
 
-This was a written, internally dated and defended protocol — it is **not** a prospective registration
-on a public registry, and it should not be cited as one. Analyses conceived after earlier results
-were seen are labelled exploratory in both the protocol and the manuscript.
+## Historical release and citation
 
-## Reproducing
+[![Historical v1.0.0 DOI](https://zenodo.org/badge/1369722984.svg)](https://doi.org/10.5281/zenodo.22763717)
 
-See [`SETUP.md`](SETUP.md) for the full environment specification.
+The Zenodo v1.0.0 release predates the October audits. It must not be cited as an
+archive of the current twenty-seed runs. Its original citation is preserved in
+[the historical README](docs/history/README_20260929.md). No new Zenodo release
+or public preregistration is created by this update.
 
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-# download both datasets from their original sources
-python scripts/unduh_data.py
-```
-
-Reproducibility is enforced rather than hoped for: fold splits are fixed by `random_state=42` across
-all scenarios, so subject partitions are identical across architectures and training seeds, and the
-training seed is recorded explicitly in every result file.
-
-## Citation
-
-A manuscript reporting this work is in preparation; this citation will be updated once it is
-published. Until then, please cite the archived code/data release:
-
-> Chaniago, A. D., Purwono, Al-Hakim, R. R., & Ma'arif, A. (2026). *Temporal Attribution Audit*
-> (v1.0.0) [Code and data]. Zenodo. https://doi.org/10.5281/zenodo.22763717
+The current manuscript author order is Agriby Diandra Chaniago, Purwono,
+Annastasya Nabila Elsa Wulandari, and Alfian Ma’arif. Historical publications and
+release credits retain their original authors. The unpublished manuscript
+projects remain excluded from this code publication, except for the original
+calibration analysis source identified in the workflow.
 
 ## License
 
-- **Code** (`src/`, `scripts/`, `notebooks/`): MIT — see [`LICENSE`](LICENSE).
-- **Result artifacts, figures, and documentation**: CC BY 4.0.
-- Datasets remain under their own terms; see [`LISENSI-DATA.md`](LISENSI-DATA.md).
-- The Mamba-3 module used at runtime is redistributed by its own authors under their license and is
-  not vendored here.
+- Code in `src/`, `scripts/`, `notebooks/` and the published calibration analysis:
+  MIT, see [LICENSE](LICENSE).
+- Result artifacts, figures and documentation: CC BY 4.0.
+- Original datasets and third-party components retain their own terms. See
+  [LISENSI-DATA.md](LISENSI-DATA.md).

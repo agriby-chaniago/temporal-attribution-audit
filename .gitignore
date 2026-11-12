@@ -52,3 +52,36 @@ Q1-amin/
 figures/*.pdf
 figures/*.png
 !figures/paper/
+
+# Current audit: publish explicitly reviewed source and summary files only.
+# Existing tracked historical artifacts remain tracked. These rules prevent a
+# future blanket add from uploading checkpoints, record caches or partial runs.
+checkpoints/
+notebooks/archive/
+plans/**/notebook_archives/
+reports/
+results/attention_audit_diagnostics/
+results/attention_ranking_swap/
+results/attention_ranking_swap_cache/
+results/attention_replication20/
+results/attention_replication20_fast/
+results/attention_replication20_models/
+results/attention_replication20_resume/
+results/calibration_oof/
+results/e0_e1/
+results/e1_e2_rms_bridge/
+results/e2/
+results/e2_amplitude/
+results/e2_amplitude_backend_profiles/
+results/e2_amplitude_cache/
+results/e2_cache/
+figures/attention_audit_diagnostics/
+figures/attention_ranking_swap/
+figures/attention_replication20_fast/
+figures/calibration_oof/
+figures/e0_e1/
+figures/e1_e2_rms_bridge/
+figures/e2/
+figures/e2_amplitude/
+*.tmp.*
+*.lock
