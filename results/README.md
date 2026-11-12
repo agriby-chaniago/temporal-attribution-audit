@@ -1,7 +1,32 @@
 # Peta `results/`
 
-Seratus empat berkas dalam satu direktori datar, dikelompokkan di sini menurut awalan namanya.
-Tiap awalan adalah satu keluarga keluaran dari satu penghasil.
+Hasil historis tetap berada pada nama aslinya. Keluaran audit Oktober disimpan
+dalam folder keluarga analisis dan run UTC. Ringkasan hasil lengkap yang dipilih
+untuk GitHub dipetakan di [cakupan artefak publik](../docs/PUBLIC_ARTIFACTS.md).
+
+## Audit terkini
+
+| Tahap | Run lengkap / lokasi | Cakupan |
+|---|---|---|
+| E0/E1 | `e0_e1/20261012T035813806939Z/` | AUROC historis dan audit pasangan awal |
+| E1/E2 bank discovery | `e2/20261012T050124548170Z/` | NewHandPD, tiga seed, 30 checkpoint |
+| Kontrol amplitudo | `e2_amplitude/20261014T024232464643Z/` | Magnitude dan RMS/geometri |
+| Penghubung | `e1_e2_rms_bridge/20261014T041914953496Z/` | Fungsi model berubah antar-seed |
+| Kalibrasi | `calibration_oof/20261014T135037828430Z/` | Bank historis/discovery, bukan bank dua puluh seed |
+| Diagnostik | `attention_audit_diagnostics/20261016T045207091905Z/` | Referensi JSD dan sensitivitas berbobot |
+| Swap discovery | `attention_ranking_swap/20261017T002514477657Z/` | Model target tetap, tiga seed |
+| Perluasan final | `attention_replication20_resume/` | Dua dataset, dua arsitektur, dua puluh seed; pointer per kohort |
+
+Semua run di atas mempunyai `completion_status: complete` pada manifest yang
+diperiksa. Daftar keluaran manifest mencakup hasil lokal yang tidak seluruhnya
+diunggah. Ledger publik membedakan file yang disertakan dari tabel rinci,
+checkpoint, cache, dan binary yang tetap lokal. Nilai dan timestamp sumber tidak
+diubah. Pembaruan GitHub dilakukan 12 November 2026 tanpa komputasi ilmiah baru.
+
+## Keluarga hasil historis
+
+Peta berikut mempertahankan pengelompokan September. Narasi historis tidak
+menggantikan [batas klaim terkini](../docs/RESEARCH_STATUS.md).
 
 **Wewenang tetap ada di naskah.** Peta subbab-hasil terhadap berkas penghasilnya ada di
 `naskah/NASKAH-SUMBER.md`, bagian "Peta provenans". Berkas ini hanya menjawab pertanyaan yang
@@ -49,6 +74,26 @@ Dihasilkan skrip di `scripts/`; lihat `scripts/README.md` bagian 3.
 | `retensi_*` | 5 | `analisis_definisi_retensi.py` dan `analisis_bootstrap_retensi.py` — tiga definisi retensi, bootstrap tingkat subjek |
 | `rm2_*` | 5 | `analisis_rm2_tuning.py` — *tuning* berimbang bagi ketiga arm |
 | `rm5_*` | 3 | `analisis_rm5_newhandpd.py` — RM5 pada 35 kontrol |
+
+## Keluaran analisis tambahan E0/E1
+
+`notebooks/15_audit_e0_e1.ipynb` (dibangun melalui `scripts/build_nb_15.py`)
+menyiapkan E0/E1 sebagai analisis tambahan eksploratori setelah hasil lama diketahui.
+Status preregistrasi lama tidak diubah. Run lengkap pengguna tercatat pada tabel di atas.
+Keluaran masuk `results/e0_e1/<UTC-run-id>/` dan
+`figures/e0_e1/<UTC-run-id>/`, tanpa menimpa artefak lama. Input, batas provenans,
+estimator, CI bersyarat dan daftar keluarannya dijelaskan di
+[petunjuk E0/E1](../scripts/E0-E1.md).
+
+## Keluaran analisis tambahan E2 pada model baru
+
+`notebooks/16_audit_e2.ipynb`, dibangun melalui `scripts/build_nb_16.py`, menyiapkan
+E2 dan penghitungan ulang E1 pada checkpoint identik. Run lengkap pengguna tercatat
+pada tabel di atas. Bank discovery NewHandPD memakai dua arsitektur, tiga seed, lima fold:
+Run All oleh pengguna dapat melatih 30 model jika checkpoint belum ada. Keluaran
+baru berada di `results/e2/<UTC-run-id>/`, cache per-fold di `results/e2_cache/`,
+dan checkpoint berprovenans di `checkpoints/e2/`. Hasil/preregistrasi lama tidak
+ditimpa. Lihat [petunjuk E2](../scripts/E2.md).
 
 ## Tanpa penghasil di dalam repositori
 

@@ -1,0 +1,5 @@
+cohort,architecture,masker,analysis_set,n_pairs_planned,n_pairs_eligible,n_records_planned,n_records_eligible,n_subjects_planned,n_subjects_eligible,n_targets_planned,n_targets_eligible,n_stable_planned,n_stable_eligible,n_dose_eligible,own_failures,transferred_failures
+newhandpd,gru,train_donor,new_seed_replication,18480,17733,264,264,66,66,17,17,528,504,1441,403,379
+newhandpd,gru,train_median,new_seed_replication,18480,16271,264,264,66,66,17,17,528,447,1952,1206,1176
+newhandpd,mamba2,train_donor,new_seed_replication,20064,12654,264,263,66,66,17,17,1046,591,144,4528,4555
+newhandpd,mamba2,train_median,new_seed_replication,20064,8791,264,256,66,66,17,17,1046,404,212,7447,7466

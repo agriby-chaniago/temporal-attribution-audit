@@ -1,0 +1,14 @@
+id,claim,status,source,interpretation_limit
+C1,Ranking sendiri memiliki keuntungan rata-rata lebih besar daripada ranking pinjaman pada delapan strata,Didukung,primary_eight_strata_holm.csv,Mean D > 0; Holm keluarga delapan; CI tetap nominal dan bersyarat subjek
+C2,Ranking pinjaman tetap memiliki relevansi intervensi rata-rata di atas kontrol RMS,Didukung sebagai hasil sekunder,secondary_mean_contrasts.csv; scenario=all_primary; endpoint=G_swap,"Delapan CI nominal positif; bukan klaim setiap seed, setiap rekaman, atau validitas fisiologis"
+C3,Perbedaan peta berasosiasi positif dengan efek swap pada model tetap,Didukung sebagai hasil sekunder,jsd_associations.csv; endpoint=D/abs_D,Weighted Spearman; hubungan modest; ada ikatan konstruksi saat dua ranking identik; bukan sebab-akibat
+C4,Ranking dari seed lain selalu mengungguli placebo pada JSD sebanding,Tidak didukung secara universal,placebo_contrasts.csv,Beberapa interval mencakup nol dan coverage berbeda; masing-masing placebo mempunyai support tersendiri
+C5,Ranking sendiri menang pada setiap target seed,Tidak didukung,target_seed_effects.csv,Beberapa target BiGRU mempunyai D negatif; simpulan yang didukung ialah efek rata-rata
+C6,BiMamba-2 lebih faithful daripada BiGRU karena D lebih besar,Belum diuji oleh kontras ini,primary_eight_strata_holm.csv,"D mengukur own-minus-transferred specificity; logit, matching support dan fungsi model berbeda"
+C7,Hubungan AUROC dengan kualitas peta sudah diukur langsung,Belum diuji oleh paket ini,subject_auroc_per_seed.csv; jsd_associations.csv,Paket memisahkan evaluasi; belum ada estimand langsung AUROC-versus-quality yang ditetapkan
+C8,Audit telah direplikasi pada kondisi akuisisi kedua,Didukung dalam cakupan prosedur,manifest NewHandPD dan UCI-SST,Retraining terpisah; bukan transportabilitas satu classifier beku dan bukan transfer ranking antarkohort
+C9,Efek replikasi sama besar dengan discovery,Tidak dapat dinyatakan,new_minus_discovery_subject_contrast.csv,Perbandingan bersyarat pada bank/jadwal/support; beberapa selisih mempunyai CI yang tidak mencakup nol
+C10,Hasil mewakili seluruh pasangan yang direncanakan,Perlu dibatasi,matching_coverage.csv; eligible_excluded_characteristics.csv,Estimasi efek hanya pada support eligible; seluruh kegagalan tetap tercatat
+C11,CI mengukur seluruh ketidakpastian training,Tidak didukung,analysis_manifest.json; leave_one_seed_out.csv,CI subjek bersyarat; diagnostik seed disajikan terpisah dan bukan seed-population CI
+C12,Analisis perluasan terdaftar publik sebelum dijalankan,Tidak didukung,analysis_manifest.json; PROTOCOL.md,Spesifikasi lokal dikunci; public_preregistration=false; sejarah discovery tidak diubah
+C13,Attention telah divalidasi terhadap fisiologi Parkinson,Belum diuji oleh paket ini,Tujuan/protokol audit,Relevansi terhadap model dibedakan dari biomarker atau anotasi fisiologis independen

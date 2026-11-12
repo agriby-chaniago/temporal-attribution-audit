@@ -1,0 +1,1085 @@
+{
+  "publication_date": "2026-11-12",
+  "publication_timezone": "Asia/Jakarta",
+  "original_head": "2357b5a6e9ba5f0e23c0d0e06b2b1c795fb9a7b3",
+  "commit_dates": "actual publication time; no backdating",
+  "n_static_checks": 211,
+  "n_static_failures": 0,
+  "python_source_files_checked": 20,
+  "notebooks_checked": 17,
+  "notebook_code_cells_parsed": 172,
+  "protected_preexisting_files": 3023,
+  "published_file_ledger_entries": 377,
+  "selected_complete_run_files": 176,
+  "omitted_selected_run_files": 37,
+  "scientific_estimates_recomputed": false,
+  "training_performed": false,
+  "inference_performed": false,
+  "interventions_performed": false,
+  "bootstrap_performed": false,
+  "builders_executed": false,
+  "notebooks_executed": false,
+  "checks": [
+    {
+      "check": "python and notebook static syntax/schema",
+      "passed": true,
+      "detail": "20 Python; 17 notebooks; 172 code cells"
+    },
+    {
+      "check": "completed resume notebook",
+      "passed": true,
+      "detail": "notebooks/22_replication20_newhandpd_resume.ipynb"
+    },
+    {
+      "check": "completed resume notebook",
+      "passed": true,
+      "detail": "notebooks/23_replication20_uci_sst_resume.ipynb"
+    },
+    {
+      "check": "completed resume notebook",
+      "passed": true,
+      "detail": "notebooks/24_replication20_joint_report_resume.ipynb"
+    },
+    {
+      "check": "no raw identity CSV fields",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "no high-specificity credential markers",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "new publication files <=10 MiB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "excluded local/raw areas are absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript publication boundary",
+      "passed": true,
+      "detail": "['Q1-amin/manuscript_array_latex_v4/analysis/build_ece_brier_notebook.py', 'Q1-amin/manuscript_array_latex_v4/analysis/19_ece_brier_oof.ipynb', 'Q1-amin/manuscript_array_latex_v4/analysis/calibration_inputs.json']"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_21_24.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_16.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_17.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_18.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_19.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "scripts/build_nb_20.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/audit_e0_e1.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/audit_e2.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/e2_checkpoints.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/model.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/training.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/preprocessing.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "src/newhandpd.py"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/analysis_manifest.json"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/record_manifest.csv"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/model_inventory.csv"
+    },
+    {
+      "check": "locked source hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_pair_curves.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/alignment_provenance.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_auroc_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_cohort.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_contrast.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_delta.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_draws.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_probability_subject_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e0_reference_check.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_continuous_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_pairs.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_record_continuous.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_relation_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_sensitivity_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_sensitivity_subject.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_subject_continuous.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/e1_subject_relations.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e0_e1/20261012T035813806939Z/record_manifest.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e1_ci_new.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e1_pairs_new.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e1_sensitivity_new.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e1_subject_new.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_curve_mean.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_population_curves.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_record_scores.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_subject_curves.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/e2_subject_scores.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/joint_e1_e2_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/joint_e1_e2_pairs.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/joint_e1_e2_subject.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/mask_diagnostics.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/model_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/new_auroc_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/new_probability_subject_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2/20261012T050124548170Z/record_manifest.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/alpha_alignment_diagnostics.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/backend_native_profile.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/backend_native_warmup.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/backend_recovery.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/backend_replay_points.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/balance_by_subject.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/baseline_replay_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/budget_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/budget_paired_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/budget_record_population.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/budget_subject_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/cache_runtime_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/matching_search_summary.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/model_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/paired_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/point_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/record_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/record_population.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e2_amplitude/20261014T024232464643Z/subject_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/association_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/bridge_pairs_aopc.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/coverage_by_class.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/coverage_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/coverage_seed_pairs.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/coverage_subject.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/logit_scale_diagnostics.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/logit_scale_subject.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/rms_background_support.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/scale_contrast_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/subject_mean_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/e1_e2_rms_bridge/20261014T041914953496Z/subject_summaries.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/bank_denominators.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/bootstrap_scores.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/current_model_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/current_record_probability_identity.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/current_subject_probability_replay.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/ensemble_scores_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/mean_per_seed_scores_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/output_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/paired_architecture_contrasts_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/per_seed_scores.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/reliability_bins_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/score_consistency_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/calibration_oof/20261014T135037828430Z/subject_probabilities_used.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/map_concentration.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/map_reference_pairs.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/map_reference_subject_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/output_change_sensitivity.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/replacement_common_pair_support.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/replacement_contrast_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/replacement_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_audit_diagnostics/20261016T045207091905Z/rms_background_support.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/control_reweighting_sensitivity.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/directed_seed_schedule.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/input_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/leave_one_seed_out.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/pair_control_reweighting_sensitivity.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/placebo_matching.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/rank_scores.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/record_cache_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/rms_background_support.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/runtime_profile_check.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/runtime_sentinel_points.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/self_swap_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_association_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_budget_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_normalization_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_pair_curves.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_placebo_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_placebo_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_placebo_pairs.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_primary_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_replacement_common_support.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_replacement_contrast_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_secondary_ci.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_seed_pair_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/swap_subject_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/target_validation.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_ranking_swap/20261017T002514477657Z/timing_summary.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/directed_seed_schedule.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/early_alignment_probe.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/eligible_excluded_characteristics.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/fast_backend_profile.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/jsd_associations.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/leave_one_seed_out.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/matching_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/model_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/new_minus_discovery_subject_contrast.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/oof_predictions.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/placebo_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/primary_mean_D_unadjusted.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/record_manifest.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/replacement_common_support_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/secondary_mean_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/self_swap_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_auroc_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_probability_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/target_seed_effects.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/alignment_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/analysis_manifest.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/cache_reuse.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/directed_seed_schedule.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/eligible_excluded_characteristics.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/fast_backend_profile.json"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/jsd_associations.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/leave_one_seed_out.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/matching_coverage.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/model_inventory.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/new_minus_discovery_subject_contrast.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/oof_predictions.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/placebo_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/primary_mean_D_unadjusted.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/record_manifest.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/replacement_common_support_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/secondary_mean_contrasts.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/self_swap_checks.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_auroc_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_probability_per_seed.csv"
+    },
+    {
+      "check": "published original result hash",
+      "passed": true,
+      "detail": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/target_seed_effects.csv"
+    },
+    {
+      "check": "cohort completion",
+      "passed": true,
+      "detail": "newhandpd"
+    },
+    {
+      "check": "no retroactive public registration",
+      "passed": true,
+      "detail": "newhandpd"
+    },
+    {
+      "check": "200 checkpoint identities",
+      "passed": true,
+      "detail": "newhandpd"
+    },
+    {
+      "check": "all planned exported rows",
+      "passed": true,
+      "detail": "newhandpd"
+    },
+    {
+      "check": "cohort completion",
+      "passed": true,
+      "detail": "uci395"
+    },
+    {
+      "check": "no retroactive public registration",
+      "passed": true,
+      "detail": "uci395"
+    },
+    {
+      "check": "200 checkpoint identities",
+      "passed": true,
+      "detail": "uci395"
+    },
+    {
+      "check": "all planned exported rows",
+      "passed": true,
+      "detail": "uci395"
+    },
+    {
+      "check": "protected sources and manuscript files unchanged",
+      "passed": true,
+      "detail": "3023 files; changed []"
+    }
+  ],
+  "limits": [
+    "Credential/header screening is bounded static screening, not a proof that no sensitive content can exist.",
+    "Original/FAST notebook failures remain historical; final resume outputs are complete.",
+    "Selected summary publication does not include all inputs for exact fresh-clone replay.",
+    "Existing September Zenodo release was not updated."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "completion_status": "complete",
+  "execution_id": "0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726",
+  "runtime_id": "5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b",
+  "cohort": "uci395",
+  "choices": {
+    "gru": {
+      "backend": "reference_batch_one",
+      "reason": "unchanged_reference_execution_with_strict_alignment_recovery"
+    },
+    "mamba2": {
+      "backend": "reference_batch_one",
+      "reason": "unchanged_reference_execution_with_strict_alignment_recovery"
+    }
+  },
+  "model_batch_size": 1,
+  "cuda_graph_enabled": false,
+  "model_recipe_changed": false,
+  "benchmark_performed": false,
+  "accelerated_backend_selected": false,
+  "alignment_validation": "each unfinished record; early known failure probe for NewHandPD"
+}

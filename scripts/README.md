@@ -1,7 +1,12 @@
 # Peta `scripts/`
 
-Enam puluh berkas dalam satu direktori datar. Berkas ini mengelompokkannya per peran,
+Builder audit Oktober melengkapi skrip historis dalam direktori ini. Berkas ini mengelompokkannya per peran,
 sehingga urutan pemakaian dan ketergantungan antar berkas terbaca tanpa membuka satu per satu.
+
+**Peta terkini:** [workflow audit](../docs/WORKFLOW.md) membedakan bank historis,
+discovery tiga seed, dan perluasan dua dataset dengan dua puluh seed. Notebook
+22/23/24 berakhiran `_resume` adalah eksekusi final. Varian asli dan `_fast`
+dipertahankan sebagai riwayat; jangan menjalankan ketiganya bersamaan.
 
 Nama berkas **tidak** diubah dengan sengaja: jalur seperti `scripts/analisis_p4_geser_tugas.py`
 dikutip apa adanya pada peta provenans di `naskah/NASKAH-SUMBER.md` dan pada `naskah/DOSIER-PROYEK.md`.
@@ -38,12 +43,29 @@ perubahannya terbaca lewat diff kode, bukan lewat JSON notebook.
 | `build_nb_12.py` | `notebooks/12_replikasi_newhandpd.ipynb` (S5) |
 | `build_nb_13.py` | `notebooks/13_fold_rekaman.ipynb` (C1) |
 | `build_nb_14.py` | `notebooks/14_visualisasi_data.ipynb` |
+| `build_nb_15.py` | `notebooks/15_audit_e0_e1.ipynb` — analisis tambahan eksploratori E0/E1 dari artefak OOF; petunjuk di [E0-E1.md](E0-E1.md) |
+| `build_nb_16.py` | `notebooks/16_audit_e2.ipynb` — E2 dan E1 pada checkpoint baru yang sama; Run All dapat melatih 30 model; petunjuk di [E2.md](E2.md) |
+| `build_nb_17.py` | `notebooks/17_e2_amplitude_controls.ipynb` — kontrol magnitude dan RMS/geometri pada bank discovery |
+| `build_nb_18.py` | `notebooks/18_e1_e2_rms_bridge.ipynb` — penghubung perubahan peta dan keuntungan ranking, fungsi model berubah antar-seed |
+| `build_nb_19.py` | `notebooks/19_attention_audit_diagnostics.ipynb` — referensi JSD, konsentrasi, sensitivitas berbobot dan kontras replacement |
+| `build_nb_20.py` | `notebooks/20_fixed_model_ranking_swap.ipynb` — ranking-swap pada model target tetap, plasebo dan kontrol terpadan |
+| `build_nb_21_24.py` | Notebook 21–24 asli — protokol dan implementasi referensi perluasan dua puluh seed |
+| `build_nb_22_24_fast.py` | Notebook 22–24 `_fast` — amandemen eksekusi 20 Oktober; riwayat sebelum strict-resume |
+| `build_nb_22_24_resume.py` | Notebook 22–24 `_resume` — implementasi final dengan pemeriksaan identitas dan pemulihan numerik terbatas |
 | `build_nb_master.py` | `notebooks/00_induk.ipynb` — satu alur yang dapat dijalankan dari atas ke bawah, memuat artefak `results/` tanpa melatih ulang apa pun |
 | `gabung_notebook.py` | `notebooks/00_gabungan_beku.ipynb` — arsip tempelan seluruh notebook tahapan. Arsip, bukan notebook yang dijalankan |
 
 **`build_nb_master.py` menulis ulang notebook tanpa keluaran sel.** Notebook induk yang ada
 sekarang memuat keluaran hasil eksekusi. Menjalankan pembangunnya membuang keluaran itu, dan
 memulihkannya menuntut eksekusi ulang:
+
+Notebook induk tersebut merangkum bank historis. Ia bukan penghasil laporan
+perluasan terbaru. Gunakan notebook 24 `_resume` untuk laporan dua dataset.
+
+Builder kalibrasi dipertahankan pada lokasi aslinya di
+`Q1-amin/manuscript_array_latex_v4/analysis/build_ece_brier_notebook.py`, bersama
+notebook dan pin inputnya. Hanya tiga berkas analisis tersebut yang dipublikasikan
+dari folder manuskrip. Lihat [workflow](../docs/WORKFLOW.md).
 
 ```bash
 python3 scripts/build_nb_master.py

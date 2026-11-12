@@ -1,0 +1,19 @@
+{
+  "architecture": "mamba2",
+  "seed": 7,
+  "fold": 4,
+  "model_id": "5b23c95f0f6509c32f5912359abbf60eb548596d09dd3c1c28228ed7c6417c4e",
+  "idx": 191,
+  "record_id": "newhandpd:P28:task1:seg0",
+  "subject": "P28",
+  "label": 1,
+  "passed": true,
+  "anchor_passed": true,
+  "mask_mismatches": [],
+  "saved_logit": 9.937044143676758,
+  "observed_logit": 9.937044143676758,
+  "logit_abs_difference": 0.0,
+  "alpha_max_abs_difference": 0.0,
+  "alignment_profile_id": "0632b9aad5e47e5fccd31c773827452a5b82758813a28623021487156cd245b4",
+  "execution_id": "0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726"
+}

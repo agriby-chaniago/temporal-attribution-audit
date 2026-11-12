@@ -1,0 +1,7 @@
+check,passed
+exact_200_checkpoint_identities,True
+one_OOF_map_per_architecture_seed_record,True
+all_planned_pair_replacement_rows_retained,True
+all_defined_self_swaps_exact_zero,True
+newhandpd_primary_excludes_discovery_seeds,True
+all_training_test_subject_sets_disjoint,True

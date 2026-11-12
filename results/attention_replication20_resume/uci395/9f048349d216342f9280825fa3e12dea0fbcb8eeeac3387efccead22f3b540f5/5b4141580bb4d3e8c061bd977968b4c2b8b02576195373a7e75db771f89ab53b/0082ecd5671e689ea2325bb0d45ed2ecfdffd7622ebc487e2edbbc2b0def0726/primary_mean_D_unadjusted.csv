@@ -1,0 +1,5 @@
+cohort,architecture,masker,analysis_set,endpoint,estimate,ci_low,ci_high,p_value,n_pairs,n_records,n_subjects,n_target_seeds,n_boot_valid,ci_status
+uci395,gru,train_donor,new_seed_replication,D,0.04792671389553981,0.03516726540689496,0.061280958294727184,0.0001999600079984003,5479,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,D,0.10124799080273061,0.06429215237200167,0.14287924400769286,0.0001999600079984003,5102,68,67,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,D,0.224143485913124,0.1898651999657798,0.259980147522574,0.0001999600079984003,6000,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,D,0.5678844125514422,0.41539489559985454,0.7127540491775005,0.0001999600079984003,5280,76,75,20,5000,reported_conditional_subject_interval

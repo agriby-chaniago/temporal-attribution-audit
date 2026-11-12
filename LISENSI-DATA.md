@@ -1,5 +1,12 @@
 # Atribusi dan Lisensi Data
 
+Catatan cakupan 12 November 2026: rincian subbab dan arm di bawah berasal dari
+pipeline historis. Audit terbaru memakai NewHandPD dan UCI-SST setelah retraining
+terpisah, dengan BiGRU dan BiMamba-2. Kanal marker yang ditahan tidak dianggap
+ground truth fisiologis independen. Kebijakan identitas dan atribusi dataset
+tetap berlaku. Lihat [status penelitian](docs/RESEARCH_STATUS.md) serta
+[batas artefak publik](docs/PUBLIC_ARTIFACTS.md).
+
 Menutup Lampiran C butir G8. Kedua basis data yang dipakai penelitian ini bersifat publik dan
 mensyaratkan atribusi. Syarat itu dipenuhi di sini, pada naskah proposal, dan pada setiap subbab yang
 memakainya.

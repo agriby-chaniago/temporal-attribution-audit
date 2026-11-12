@@ -1,5 +1,12 @@
 # Setup Lingkungan
 
+Catatan pembaruan 12 November 2026: bagian di bawah mencatat lingkungan proyek
+historis. Runtime perluasan final juga direkam dalam `analysis_manifest.json`
+per kohort di `results/attention_replication20_resume/`, dengan identitas versi
+dan flag backend. Lihat [workflow terkini](docs/WORKFLOW.md). Folder `wheels/`
+tetap lokal dan tidak disertakan di GitHub. Publikasi ini tidak menguji instalasi
+pada mesin baru atau mengganti Python/dependensi penelitian.
+
 ## Konteks perangkat
 
 - Python 3.11.8
