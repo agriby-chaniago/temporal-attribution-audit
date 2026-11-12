@@ -1,0 +1,124 @@
+{
+  "run_id": "20261012T050124548170Z",
+  "evaluation_id": "c4b1d743f22d6b9bbbc5b2a2a8fcd7d913ba2543108895f8e70de9b4c1b79823",
+  "evaluation_spec": {
+    "evaluation_protocol_version": 2,
+    "cohort": "newhandpd",
+    "patch": 7,
+    "fs": 100.0,
+    "arms": [
+      "gru",
+      "mamba2"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model_config": {
+      "in_channels": 6,
+      "d_model": 128,
+      "patch_size": 7,
+      "n_layers": 3,
+      "dropout": 0.3,
+      "d_dir": 64,
+      "pooling": "attention"
+    },
+    "training_config": {
+      "epochs": 35,
+      "batch_size": 8,
+      "lr": 0.0003
+    },
+    "fractions": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "random_repeats": 20,
+    "donor_repeats": 5,
+    "donor_block_patches": 32,
+    "forward_batch_size": 1,
+    "unmasked_check": {
+      "phases": [
+        "before",
+        "after"
+      ],
+      "atol": 0.0001,
+      "rtol": 0.0001
+    },
+    "intervention_seed": 1600,
+    "cache_sha256": "d69fc2c049ce7bb8ffab12dc6f17aed4452c3bf6bdc64f7f3a63cac751282c2e",
+    "analysis_sources": {
+      "src/audit_e2.py": "00faa8b844e23b8e407f5c1ded5c8df14d7a0ee446c9f8b95f8eb0d61c525872",
+      "src/audit_e0_e1.py": "f737d1ddaf57be8b9d33301b5f1b190df747eb33ea4207c1ecf6be4a71bdfe13"
+    },
+    "jsd": {
+      "kind": "divergence",
+      "log_base": 2,
+      "input": "nonnegative alpha normalized to sum 1",
+      "range": [
+        0,
+        1
+      ]
+    },
+    "primary": "normalized deletion AOPC abs_delta_logit: alpha_top - random",
+    "secondary": "signed_margin_drop and predicted_class_prob_drop"
+  },
+  "status": "tambahan_eksploratori_setelah_hasil_S3_S5_diketahui",
+  "old_preregistration_changed": false,
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "torch": "2.11.0",
+    "mamba-ssm": "2.2.2",
+    "causal-conv1d": "1.4.0",
+    "triton": "3.6.0",
+    "einops": "0.8.2",
+    "cuda_runtime": "13.0"
+  },
+  "python": "3.11.8",
+  "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "completion_status": "complete",
+  "analysis_design_date": "2026-10-12",
+  "technical_revision": "batch 1 dan anchor sebelum/sesudah; perbaikan setelah run awal terhenti, toleransi tetap",
+  "inference": "CI subjek bersyarat pada checkpoint, split, seed dan library intervensi; tidak mencakup training/split baru",
+  "masker_limit": "intervensi pada representasi model; zero/donor tidak dijamin in-distribution",
+  "completed_utc": "2026-10-12T05:55:36.632826+00:00",
+  "training_performed": true,
+  "models_trained_now": 26,
+  "tables": [
+    "e1_ci_new.csv",
+    "e1_pairs_new.csv",
+    "e1_sensitivity_new.csv",
+    "e1_subject_new.csv",
+    "e2_ci.csv",
+    "e2_curve_mean.csv",
+    "e2_curves_raw.csv",
+    "e2_population_curves.csv",
+    "e2_record_scores.csv",
+    "e2_subject_curves.csv",
+    "e2_subject_scores.csv",
+    "input_inventory.csv",
+    "joint_e1_e2_ci.csv",
+    "joint_e1_e2_pairs.csv",
+    "joint_e1_e2_subject.csv",
+    "mask_diagnostics.csv",
+    "model_inventory.csv",
+    "new_auroc_per_seed.csv",
+    "new_probability_subject_seed.csv",
+    "record_manifest.csv"
+  ],
+  "figures": [
+    "e2_contrast_ci.pdf",
+    "e2_contrast_ci.png",
+    "e2_curves_abs_delta_logit.pdf",
+    "e2_curves_abs_delta_logit.png",
+    "e2_curves_signed_margin_drop.pdf",
+    "e2_curves_signed_margin_drop.png",
+    "joint_e1_e2_continuous.pdf",
+    "joint_e1_e2_continuous.png"
+  ]
+}
