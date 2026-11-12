@@ -1,0 +1,37 @@
+{
+  "execution_id": "3a0aadbab7eb02a67eee39a54aef2181014c3c51b33abe4c77f6792d726e8340",
+  "parent_design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "generated": [
+    {
+      "path": "notebooks/22_replication20_newhandpd_fast.ipynb",
+      "cells": 20,
+      "code_cells": 14,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/23_replication20_uci_sst_fast.ipynb",
+      "cells": 20,
+      "code_cells": 14,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/24_replication20_joint_report_fast.ipynb",
+      "cells": 3,
+      "code_cells": 2,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    }
+  ],
+  "research_computation_performed": false,
+  "original_builder_modified": false,
+  "original_notebooks_modified": false,
+  "original_results_modified": false,
+  "cuda_graph_static_review": "Not enabled: original model host operations prevent direct capture",
+  "gpu_numerical_validation": "Pending user execution",
+  "speedup": "Not measured"
+}

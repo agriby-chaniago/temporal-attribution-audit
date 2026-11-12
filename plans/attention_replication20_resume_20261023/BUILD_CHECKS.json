@@ -1,0 +1,29 @@
+{
+  "execution_id": "0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726",
+  "generated": [
+    {
+      "path": "notebooks/22_replication20_newhandpd_resume.ipynb",
+      "cells": 21,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/23_replication20_uci_sst_resume.ipynb",
+      "cells": 21,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    },
+    {
+      "path": "notebooks/24_replication20_joint_report_resume.ipynb",
+      "cells": 3,
+      "static_compile": true,
+      "notebook_schema": true,
+      "cells_executed": 0
+    }
+  ],
+  "research_computation_performed": false,
+  "gpu_numerical_recovery": "Pending user execution",
+  "original_files_modified": false
+}

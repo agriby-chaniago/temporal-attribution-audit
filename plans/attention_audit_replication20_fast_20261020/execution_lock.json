@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "parent_design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "scientific_design_unchanged": true,
+  "model_batch_size": 1,
+  "precision_unchanged": true,
+  "cuda_graph_enabled": false,
+  "backend_policy": "numerical gate then measured gain >= 1.05; otherwise reference",
+  "source_sha256": {
+    "scripts/build_nb_22_24_fast.py": "1f60b78fd3277771d4507f250fbe7d08d4362ff39e74560180b0c77341ea1f45",
+    "scripts/build_nb_21_24.py": "16035f7861541fd2896f18f57ceb38cfbd641ebc46d57d96c7039a919432d123",
+    "plans/attention_audit_replication20_fast_20261020/EXECUTION_AMENDMENT.md": "51fec45493d76e862fa73abd818ac3b00171be03f42baafab4201f1f768ddbc9"
+  },
+  "execution_id": "3a0aadbab7eb02a67eee39a54aef2181014c3c51b33abe4c77f6792d726e8340"
+}

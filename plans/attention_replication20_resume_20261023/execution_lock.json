@@ -1,0 +1,36 @@
+{
+  "format_version": 1,
+  "parent_design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "parent_fast_execution_id": "3a0aadbab7eb02a67eee39a54aef2181014c3c51b33abe4c77f6792d726e8340",
+  "execution_patch": "strict_alignment_resume_v1",
+  "scientific_design_unchanged": true,
+  "precision_unchanged": true,
+  "model_batch_size": 1,
+  "max_alignment_profiles": 128,
+  "alignment_repeats": 2,
+  "logit_atol": 0.0001,
+  "logit_rtol": 0.0001,
+  "exact_masks": true,
+  "known_runtime_profiles": [
+    {
+      "path": "results/e2_amplitude_backend_profiles/c994f20cfc2ce7b14f283f4c4da90562876e05aa9830c3758f0eb178561ad29a.json",
+      "sha256": "a12fe9b1f4660d2f03fd62b98349b24b54b4ef5667b513b306f2925ecd5a4b2b"
+    }
+  ],
+  "known_failure_probe": {
+    "architecture": "mamba2",
+    "seed": 7,
+    "fold": 4,
+    "idx": 191,
+    "record_id": "newhandpd:P28:task1:seg0",
+    "model_id": "5b23c95f0f6509c32f5912359abbf60eb548596d09dd3c1c28228ed7c6417c4e"
+  },
+  "source_sha256": {
+    "scripts/build_nb_22_24_resume.py": "7c7180a775f199643671bfe82d84c1bd5012235c12de4cb772393653925031ff",
+    "scripts/build_nb_22_24_fast.py": "1f60b78fd3277771d4507f250fbe7d08d4362ff39e74560180b0c77341ea1f45",
+    "scripts/build_nb_21_24.py": "16035f7861541fd2896f18f57ceb38cfbd641ebc46d57d96c7039a919432d123",
+    "plans/attention_audit_replication20_fast_20261020/execution_lock.json": "5d94423336c6c063f3bb82014d2df7b25b795edbca83404e434fb16867e1ccde",
+    "plans/attention_replication20_resume_20261023/EXECUTION_AMENDMENT.md": "5a05d6f3587f67e6f4ad254e06ca051625d8e41d7645b6e6bbcb45c7c35d75b5"
+  },
+  "execution_id": "0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726"
+}

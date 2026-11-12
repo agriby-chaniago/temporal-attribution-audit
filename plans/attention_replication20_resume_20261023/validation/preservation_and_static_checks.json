@@ -1,0 +1,33 @@
+{
+  "parent_files_checked": 19,
+  "parent_files_changed": [],
+  "execution_sources_changed": [],
+  "notebooks": [
+    {
+      "path": "notebooks/22_replication20_newhandpd_resume.ipynb",
+      "cells": 21,
+      "code_cells": 15,
+      "unexecuted": true,
+      "schema_valid": true,
+      "static_compile": true
+    },
+    {
+      "path": "notebooks/23_replication20_uci_sst_resume.ipynb",
+      "cells": 21,
+      "code_cells": 15,
+      "unexecuted": true,
+      "schema_valid": true,
+      "static_compile": true
+    },
+    {
+      "path": "notebooks/24_replication20_joint_report_resume.ipynb",
+      "cells": 3,
+      "code_cells": 2,
+      "unexecuted": true,
+      "schema_valid": true,
+      "static_compile": true
+    }
+  ],
+  "model_forward_performed": false,
+  "scientific_analysis_performed": false
+}

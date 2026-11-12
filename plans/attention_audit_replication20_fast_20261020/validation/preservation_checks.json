@@ -1,0 +1,100 @@
+{
+  "protected_parent_inputs_match": true,
+  "checks": [
+    {
+      "path": "scripts/build_nb_21_24.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_16.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_17.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_18.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_19.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_20.py",
+      "passed": true
+    },
+    {
+      "path": "src/audit_e0_e1.py",
+      "passed": true
+    },
+    {
+      "path": "src/audit_e2.py",
+      "passed": true
+    },
+    {
+      "path": "src/e2_checkpoints.py",
+      "passed": true
+    },
+    {
+      "path": "src/model.py",
+      "passed": true
+    },
+    {
+      "path": "src/training.py",
+      "passed": true
+    },
+    {
+      "path": "src/preprocessing.py",
+      "passed": true
+    },
+    {
+      "path": "src/newhandpd.py",
+      "passed": true
+    },
+    {
+      "path": "data/cache/newhandpd_spiral_fs100.npz",
+      "passed": true
+    },
+    {
+      "path": "data/cache/uci395_fs100.npz",
+      "passed": true
+    },
+    {
+      "path": "results/e2/20261012T050124548170Z/analysis_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "results/e2/20261012T050124548170Z/record_manifest.csv",
+      "passed": true
+    },
+    {
+      "path": "results/e2/20261012T050124548170Z/model_inventory.csv",
+      "passed": true
+    },
+    {
+      "path": "results/attention_ranking_swap/20261017T002514477657Z/swap_pair_curves.csv",
+      "passed": true
+    },
+    {
+      "path": "plans/attention_audit_replication20_20261019/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_22_24_fast.py",
+      "passed": true
+    },
+    {
+      "path": "scripts/build_nb_21_24.py",
+      "passed": true
+    },
+    {
+      "path": "plans/attention_audit_replication20_fast_20261020/EXECUTION_AMENDMENT.md",
+      "passed": true
+    }
+  ],
+  "execution_id": "3a0aadbab7eb02a67eee39a54aef2181014c3c51b33abe4c77f6792d726e8340",
+  "research_code_or_data_executed": false,
+  "fast_research_output_directory_created": false
+}
