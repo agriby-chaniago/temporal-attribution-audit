@@ -1,0 +1,37 @@
+check,bank,cohort,architecture,metric,passed
+per-seed mean replay,current_E1_E2,newhandpd,gru,brier,True
+per-seed mean replay,current_E1_E2,newhandpd,gru,ece_equal_width_10,True
+per-seed mean replay,current_E1_E2,newhandpd,gru,ece_equal_width_5,True
+per-seed mean replay,current_E1_E2,newhandpd,gru,ece_quantile_10,True
+per-seed mean replay,current_E1_E2,newhandpd,mamba2,brier,True
+per-seed mean replay,current_E1_E2,newhandpd,mamba2,ece_equal_width_10,True
+per-seed mean replay,current_E1_E2,newhandpd,mamba2,ece_equal_width_5,True
+per-seed mean replay,current_E1_E2,newhandpd,mamba2,ece_quantile_10,True
+per-seed mean replay,historical_E0,newhandpd,gru,brier,True
+per-seed mean replay,historical_E0,newhandpd,gru,ece_equal_width_10,True
+per-seed mean replay,historical_E0,newhandpd,gru,ece_equal_width_5,True
+per-seed mean replay,historical_E0,newhandpd,gru,ece_quantile_10,True
+per-seed mean replay,historical_E0,newhandpd,mamba2,brier,True
+per-seed mean replay,historical_E0,newhandpd,mamba2,ece_equal_width_10,True
+per-seed mean replay,historical_E0,newhandpd,mamba2,ece_equal_width_5,True
+per-seed mean replay,historical_E0,newhandpd,mamba2,ece_quantile_10,True
+per-seed mean replay,historical_E0,uci395,gru,brier,True
+per-seed mean replay,historical_E0,uci395,gru,ece_equal_width_10,True
+per-seed mean replay,historical_E0,uci395,gru,ece_equal_width_5,True
+per-seed mean replay,historical_E0,uci395,gru,ece_quantile_10,True
+per-seed mean replay,historical_E0,uci395,mamba2,brier,True
+per-seed mean replay,historical_E0,uci395,mamba2,ece_equal_width_10,True
+per-seed mean replay,historical_E0,uci395,mamba2,ece_equal_width_5,True
+per-seed mean replay,historical_E0,uci395,mamba2,ece_quantile_10,True
+paired architecture contrast replay,current_E1_E2,newhandpd,mamba2 minus gru,brier,True
+paired architecture contrast replay,current_E1_E2,newhandpd,mamba2 minus gru,ece_equal_width_10,True
+paired architecture contrast replay,current_E1_E2,newhandpd,mamba2 minus gru,ece_equal_width_5,True
+paired architecture contrast replay,current_E1_E2,newhandpd,mamba2 minus gru,ece_quantile_10,True
+paired architecture contrast replay,historical_E0,newhandpd,mamba2 minus gru,brier,True
+paired architecture contrast replay,historical_E0,newhandpd,mamba2 minus gru,ece_equal_width_10,True
+paired architecture contrast replay,historical_E0,newhandpd,mamba2 minus gru,ece_equal_width_5,True
+paired architecture contrast replay,historical_E0,newhandpd,mamba2 minus gru,ece_quantile_10,True
+paired architecture contrast replay,historical_E0,uci395,mamba2 minus gru,brier,True
+paired architecture contrast replay,historical_E0,uci395,mamba2 minus gru,ece_equal_width_10,True
+paired architecture contrast replay,historical_E0,uci395,mamba2 minus gru,ece_equal_width_5,True
+paired architecture contrast replay,historical_E0,uci395,mamba2 minus gru,ece_quantile_10,True

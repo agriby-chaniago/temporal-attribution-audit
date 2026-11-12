@@ -1,0 +1,122 @@
+{
+  "analysis_kind": "CALIBRATION_OOF_EXPLORATORY_V1",
+  "analysis_design_date": "2026-10-14",
+  "run_id": "20261014T135037828430Z",
+  "implementation_revision": "v4_path_alignment_and_handoff",
+  "manuscript_project": "Q1-amin/manuscript_array_latex_v4",
+  "analysis_status": "additional_exploratory_after_E0_E1_E2_RMS_known",
+  "completion_status": "complete",
+  "training_performed": false,
+  "model_inference_performed": false,
+  "new_interventions_performed": false,
+  "calibrator_fitted": false,
+  "old_preregistration_changed": false,
+  "notebook_execution_by": "user",
+  "bootstrap": {
+    "n": 5000,
+    "seed": 1914,
+    "confidence": 0.95,
+    "sampling_unit": "subject",
+    "stratification": "observed class counts retained",
+    "paired_architectures_and_seeds": true
+  },
+  "estimand": "record probability mean within subject; metric per seed; mean metrics across fixed seeds",
+  "probability_binned": "P(PD), positive-class event probability, not maximum-class confidence",
+  "schemes": {
+    "equal_width_10": [
+      "equal_width",
+      10
+    ],
+    "equal_width_5": [
+      "equal_width",
+      5
+    ],
+    "quantile_10": [
+      "quantile",
+      10
+    ]
+  },
+  "primary_scheme": "equal_width_10",
+  "include_ensemble": false,
+  "quantile_policy": "recompute edges per seed and bootstrap replicate; collapse duplicates",
+  "empty_bin_policy": "zero metric weight; undefined frequency/mean; count zero",
+  "multiplicity_adjustment": "none; exploratory",
+  "historical_model_provenance": "incomplete training-time identities",
+  "python": "3.11.8",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "document_sources": {
+    "build_ece_brier_notebook.py": "ec8f3638fbfc54eb1da88e972f000dd2a05f860a7667386f60463519b3f757e8",
+    "19_ece_brier_oof.ipynb": "d618c06887d9684c01f1899831f132ab78d9aa72c001b1652e5bdc6ea80eab26"
+  },
+  "notebook_source_sha256": "c5da21bb20e23ffbf4739efe9f7ed3b5aaccf17c6673ff96c819c37d2e5f3962",
+  "source_banks": {
+    "historical_E0": {
+      "run_id": "20261012T035813806939Z",
+      "cohorts": [
+        "uci395",
+        "newhandpd"
+      ],
+      "n_seeds": 10,
+      "training_time_identities": "incomplete historical provenance"
+    },
+    "current_E1_E2": {
+      "run_id": "20261012T050124548170Z",
+      "evaluation_id": "c4b1d743f22d6b9bbbc5b2a2a8fcd7d913ba2543108895f8e70de9b4c1b79823",
+      "cohorts": [
+        "newhandpd"
+      ],
+      "n_seeds": 3,
+      "n_checkpoints": 30
+    }
+  },
+  "subject_support": {
+    "historical_E0/uci395": {
+      "n_subjects": 77,
+      "n_pd": 62,
+      "n_hc": 15,
+      "n_seeds": 10
+    },
+    "historical_E0/newhandpd": {
+      "n_subjects": 66,
+      "n_pd": 31,
+      "n_hc": 35,
+      "n_seeds": 10
+    },
+    "current_E1_E2/newhandpd": {
+      "n_subjects": 66,
+      "n_pd": 31,
+      "n_hc": 35,
+      "n_seeds": 3
+    }
+  },
+  "completed_utc": "2026-10-14T13:53:24.006937+00:00",
+  "n_subject_probability_rows": 3256,
+  "n_current_record_probability_rows": 1584,
+  "n_checkpoints_verified": 30,
+  "n_alignment_checks": 3361,
+  "all_alignment_checks_passed": true,
+  "outputs": [
+    "alignment_checks.csv",
+    "analysis_manifest.json",
+    "bank_denominators.csv",
+    "bootstrap_scores.csv",
+    "current_E1_E2_newhandpd_subject_bootstrap.npz",
+    "current_model_inventory.csv",
+    "current_record_probability_identity.csv",
+    "current_subject_probability_replay.csv",
+    "ensemble_scores_ci.csv",
+    "historical_E0_newhandpd_subject_bootstrap.npz",
+    "historical_E0_uci395_subject_bootstrap.npz",
+    "input_inventory.csv",
+    "mean_per_seed_scores_ci.csv",
+    "output_inventory.csv",
+    "paired_architecture_contrasts_ci.csv",
+    "per_seed_scores.csv",
+    "reliability_bins_per_seed.csv",
+    "score_consistency_checks.csv",
+    "subject_probabilities_used.csv"
+  ],
+  "figures": "figures/calibration_oof/20261014T135037828430Z",
+  "ensemble_estimand_executed": false
+}
