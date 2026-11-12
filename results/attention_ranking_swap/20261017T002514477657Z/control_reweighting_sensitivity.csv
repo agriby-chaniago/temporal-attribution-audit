@@ -1,0 +1,5 @@
+architecture,masker,mean_D,n_pairs,n_subjects,n_reweightings,conditional_reweighting_sd,conditional_reweighting_q025,conditional_reweighting_q975,interpretation
+gru,train_donor,1.5930501527680323,1309,66,500,0.01670004478858824,1.560692586694071,1.624541514267072,finite accepted-pool sensitivity; not a population CI or fresh-search uncertainty
+gru,train_median,2.3874528752781106,1074,65,500,0.01504614037287105,2.358112078227438,2.415502723205774,finite accepted-pool sensitivity; not a population CI or fresh-search uncertainty
+mamba2,train_donor,1.242567884709632,1279,66,500,0.02038651301397859,1.2018289471645334,1.279548345888487,finite accepted-pool sensitivity; not a population CI or fresh-search uncertainty
+mamba2,train_median,1.8212931805084238,1074,66,500,0.014447428752293478,1.7921958656571597,1.8494631261382048,finite accepted-pool sensitivity; not a population CI or fresh-search uncertainty

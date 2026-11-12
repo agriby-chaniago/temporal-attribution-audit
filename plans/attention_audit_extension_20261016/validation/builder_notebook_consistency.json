@@ -1,0 +1,12 @@
+[
+  {
+    "notebook": "19_attention_audit_diagnostics.ipynb",
+    "matches_current_builder_source": true,
+    "unexecuted": true
+  },
+  {
+    "notebook": "20_fixed_model_ranking_swap.ipynb",
+    "matches_current_builder_source": true,
+    "unexecuted": true
+  }
+]

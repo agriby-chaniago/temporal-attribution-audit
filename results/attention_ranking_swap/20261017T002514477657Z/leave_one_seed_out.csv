@@ -1,0 +1,13 @@
+architecture,masker,omitted_seed,mean_D,n_pairs,n_records,n_subjects,status
+gru,train_donor,0,2.1552155599036165,415,212,62,leave_one_seed_out_influence_not_seed_CI
+gru,train_donor,1,1.5659667311042502,421,218,64,leave_one_seed_out_influence_not_seed_CI
+gru,train_donor,2,1.4735406614386697,473,239,66,leave_one_seed_out_influence_not_seed_CI
+gru,train_median,0,3.903133598013333,325,166,57,leave_one_seed_out_influence_not_seed_CI
+gru,train_median,1,2.322715742630295,324,164,58,leave_one_seed_out_influence_not_seed_CI
+gru,train_median,2,2.0988040842919027,425,214,65,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_donor,0,1.3285730844446506,414,212,63,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_donor,1,1.7414786221708367,406,208,65,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_donor,2,0.8719018987528755,459,231,64,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_median,0,2.2448132426738185,329,166,59,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_median,1,2.946398617977404,324,163,59,leave_one_seed_out_influence_not_seed_CI
+mamba2,train_median,2,1.1780794805425887,421,212,64,leave_one_seed_out_influence_not_seed_CI

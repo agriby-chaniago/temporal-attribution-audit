@@ -1,0 +1,13 @@
+architecture,scope,outcome,adjustment,rho_median,rho_donor,contrast,estimate,ci_low,ci_high,n_pairs,n_records,n_subjects,n_boot_valid,ci_status
+gru,raw_common,abs_delta_gain_abs_delta_logit,none,0.11643111274205942,-0.016253691659923932,rho_median_minus_rho_donor,0.13268480440198335,-0.05266401133422961,0.31596252515911055,528,226,65,5000,reported
+gru,raw_common,abs_delta_gain_abs_delta_logit,abs_delta_logit,0.11009522545736507,-0.030920932176362874,rho_median_minus_rho_donor,0.14101615763372793,-0.04485578949464204,0.32895592654148603,528,226,65,5000,reported
+gru,normalized_common,abs_delta_relative_gain,none,0.024029219649235992,0.07786384086154995,rho_median_minus_rho_donor,-0.05383462121231396,-0.230898004927407,0.13095093270833516,528,226,65,5000,reported
+gru,normalized_common,abs_delta_relative_gain,abs_delta_logit,0.007510169687426055,0.06612920386914273,rho_median_minus_rho_donor,-0.05861903418171667,-0.23807361273201996,0.1336289169406034,528,226,65,5000,reported
+gru,raw_on_normalized_common,abs_delta_gain_abs_delta_logit,none,0.11643111274205942,-0.016253691659923932,rho_median_minus_rho_donor,0.13268480440198335,-0.05266401133422961,0.31596252515911055,528,226,65,5000,reported
+gru,raw_on_normalized_common,abs_delta_gain_abs_delta_logit,abs_delta_logit,0.11009522545736507,-0.030920932176362874,rho_median_minus_rho_donor,0.14101615763372793,-0.04485578949464204,0.32895592654148603,528,226,65,5000,reported
+mamba2,raw_common,abs_delta_gain_abs_delta_logit,none,0.14385885139952306,0.030670704621241125,rho_median_minus_rho_donor,0.11318814677828194,0.029810361694400378,0.20212186447306482,526,224,66,5000,reported
+mamba2,raw_common,abs_delta_gain_abs_delta_logit,abs_delta_logit,0.14338082659608897,0.029066194279642125,rho_median_minus_rho_donor,0.11431463231644684,0.029910690949146213,0.20446604856548797,526,224,66,5000,reported
+mamba2,normalized_common,abs_delta_relative_gain,none,0.06032337135736363,0.0977926491756797,rho_median_minus_rho_donor,-0.03746927781831607,-0.12720155615888576,0.05248838584989109,526,224,66,5000,reported
+mamba2,normalized_common,abs_delta_relative_gain,abs_delta_logit,0.05962327974301824,0.09711759436302977,rho_median_minus_rho_donor,-0.037494314620011536,-0.1280697098835096,0.05310579533275097,526,224,66,5000,reported
+mamba2,raw_on_normalized_common,abs_delta_gain_abs_delta_logit,none,0.14385885139952306,0.030670704621241125,rho_median_minus_rho_donor,0.11318814677828194,0.029810361694400378,0.20212186447306482,526,224,66,5000,reported
+mamba2,raw_on_normalized_common,abs_delta_gain_abs_delta_logit,abs_delta_logit,0.14338082659608897,0.029066194279642125,rho_median_minus_rho_donor,0.11431463231644684,0.029910690949146213,0.20446604856548797,526,224,66,5000,reported

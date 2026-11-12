@@ -1,0 +1,5 @@
+architecture,masker,n_pairs_total,n_records_total,n_subjects_total,n_pairs_matched,n_records_matched,n_subjects_matched,n_pairs_stable_before_matching,n_records_stable_before_matching,n_subjects_stable_before_matching,n_pairs_stable_after_matching,n_records_stable_after_matching,n_subjects_stable_after_matching,n_pairs_normalized,n_records_normalized,n_subjects_normalized
+gru,train_donor,1584,264,66,1309,253,66,38,19,15,31,16,13,1309,253,66
+gru,train_median,1584,264,66,1074,228,65,38,19,15,24,12,10,1074,228,65
+mamba2,train_donor,1584,264,66,1279,250,66,104,45,32,92,41,28,1279,250,66
+mamba2,train_median,1584,264,66,1074,234,66,104,45,32,74,32,24,1074,234,66

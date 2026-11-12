@@ -1,0 +1,13 @@
+architecture,target_seed,source_seed
+gru,0,1
+gru,0,2
+gru,1,0
+gru,1,2
+gru,2,0
+gru,2,1
+mamba2,0,1
+mamba2,0,2
+mamba2,1,0
+mamba2,1,2
+mamba2,2,0
+mamba2,2,1

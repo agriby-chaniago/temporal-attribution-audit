@@ -1,0 +1,5 @@
+architecture,masker,scenario,endpoint,estimate,ci_low,ci_high,n_pairs,n_records,n_subjects,n_boot_valid,ci_status,approx_centered_bootstrap_p,holm_adjusted_p,multiplicity_family,ci_multiplicity
+gru,train_donor,all_pairs,D,1.5930501527680323,1.2701431337000888,1.9142350496209635,1309,253,66,5000,reported,0.0001999600079984003,0.0007998400319936012,four exploratory architecture-by-replacement mean-D tests,nominal 95%; not simultaneous
+gru,train_median,all_pairs,D,2.3874528752781106,1.7803408538684333,3.009391119789628,1074,228,65,5000,reported,0.0001999600079984003,0.0007998400319936012,four exploratory architecture-by-replacement mean-D tests,nominal 95%; not simultaneous
+mamba2,train_donor,all_pairs,D,1.242567884709632,1.0027666895830836,1.4779285881365005,1279,250,66,5000,reported,0.0001999600079984003,0.0007998400319936012,four exploratory architecture-by-replacement mean-D tests,nominal 95%; not simultaneous
+mamba2,train_median,all_pairs,D,1.8212931805084238,1.413744334396306,2.2539257907623793,1074,234,66,5000,reported,0.0001999600079984003,0.0007998400319936012,four exploratory architecture-by-replacement mean-D tests,nominal 95%; not simultaneous

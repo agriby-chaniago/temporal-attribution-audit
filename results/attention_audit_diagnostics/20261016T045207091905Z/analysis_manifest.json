@@ -1,0 +1,84 @@
+{
+  "run_id": "20261016T045207091905Z",
+  "analysis_kind": "ATTENTION_STORED_DIAGNOSTICS_V1",
+  "analysis_design_date": "2026-10-16",
+  "completion_status": "complete",
+  "analysis_status": "additional_exploratory",
+  "old_preregistration_changed": false,
+  "public_preregistration": false,
+  "training_performed": false,
+  "model_inference_performed": false,
+  "new_interventions_performed": false,
+  "baseline_run": "20261012T050124548170Z",
+  "amplitude_run": "20261014T024232464643Z",
+  "bridge_run": "20261014T041914953496Z",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 1902,
+    "unit": "subject",
+    "strata": "HC/PD",
+    "conditional": true
+  },
+  "diagnostics": {
+    "reference_draws": 199,
+    "reference_seed": 1900,
+    "primary_reference": "nonzero circular shift",
+    "sensitivity_reference": "permutation",
+    "partial_adjustment": "weighted midrank abs_delta_logit",
+    "alternative_adjustment": "weighted midrank abs_delta_prob",
+    "floor": 1e-08
+  },
+  "completed_utc": "2026-10-16T04:54:38.645831+00:00",
+  "scientific_source": "notebooks/19_attention_audit_diagnostics.ipynb",
+  "notebook_source_sha256": "a4fd170527b253fb8889b367485e5d4d7681668fb0fa893cf756c625b587adf6",
+  "source_pins_sha256": "4b3039dd291236de426bcd35a0096f668b9fd5e3f2b8dfe045765f1dfae2eb9c",
+  "protocol_sha256": "2bdf89ae2624f7a1e2a3245c9c656fb3a324a61a572faf41bfecbe336e596bfe",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.1"
+  },
+  "python": "3.11.8",
+  "tables": [
+    "alignment_checks.csv",
+    "input_inventory.csv",
+    "map_concentration.csv",
+    "map_reference_draws.csv",
+    "map_reference_pairs.csv",
+    "map_reference_subject_ci.csv",
+    "output_change_sensitivity.csv",
+    "replacement_common_pair_support.csv",
+    "replacement_contrast_ci.csv",
+    "replacement_coverage.csv",
+    "rms_background_support.csv"
+  ],
+  "figures": [
+    "attention_concentration.pdf",
+    "attention_concentration.png",
+    "observed_vs_reference_jsd.pdf",
+    "observed_vs_reference_jsd.png",
+    "output_change_sensitivity.pdf",
+    "output_change_sensitivity.png",
+    "replacement_contrast.pdf",
+    "replacement_contrast.png"
+  ],
+  "alignment_checks_total": 292496,
+  "alignment_checks_passed": 292496,
+  "n_input_files_tracked": 217,
+  "bank": {
+    "cohort": "newhandpd",
+    "architectures": [
+      "gru",
+      "mamba2"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_checkpoints": 30,
+    "n_records": 264,
+    "n_subjects": 66
+  }
+}

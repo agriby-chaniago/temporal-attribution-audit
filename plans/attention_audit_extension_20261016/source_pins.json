@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "design_date": "2026-10-16",
+  "status": "additional_exploratory_not_publicly_registered",
+  "input_sha256": {
+    "scripts/build_nb_17.py": "a1e2f7fd2ba6f6ac2ab3c5dc629ec8021a4486d7c5d503a437c724fbe636666b",
+    "scripts/build_nb_18.py": "9ce536b9cbc0eab47d7bdc0f7e32c80a03db9b9a72215a503497f3309fa0b0d3",
+    "results/e2/20261012T050124548170Z/analysis_manifest.json": "4fb7859113bc3ca0d699938b1bde7cf75bdf6d43a3c3579e275f8b43ffdfe74f",
+    "results/e2_amplitude/20261014T024232464643Z/analysis_manifest.json": "d038bbe4e419e1f4f9427dc094e423e3bf4c05eb952a72e3552418aab3731ae7",
+    "results/e1_e2_rms_bridge/20261014T041914953496Z/analysis_manifest.json": "82b271d89bd852603d0815b776213cdce95bfc3bfb10c7b6a2f6940efa2f9e41",
+    "results/e1_e2_rms_bridge/20261014T041914953496Z/bridge_pairs_aopc.csv": "cfe280e1a82530b1e3d4d788c6710b3667dd95380d85780627570ea8e078e09c",
+    "results/e1_e2_rms_bridge/20261014T041914953496Z/bridge_pairs_budget.csv": "cd3fe7d38b29fd93783fa00ca869ac529cd751126c05287c6f8d591389f40b3d",
+    "results/e2_amplitude_backend_profiles/c994f20cfc2ce7b14f283f4c4da90562876e05aa9830c3758f0eb178561ad29a.json": "a12fe9b1f4660d2f03fd62b98349b24b54b4ef5667b513b306f2925ecd5a4b2b"
+  },
+  "protocol_sha256": "2bdf89ae2624f7a1e2a3245c9c656fb3a324a61a572faf41bfecbe336e596bfe"
+}

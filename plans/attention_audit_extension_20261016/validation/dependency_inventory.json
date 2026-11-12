@@ -1,0 +1,378 @@
+{
+  "scope": "Read-only file/metadata/package checks only; checkpoints not deserialized and no model initialized",
+  "n_checkpoint_inventory_rows": 30,
+  "complete_expected_grid": true,
+  "all_checkpoint_metadata_cache_source_checks_pass": true,
+  "checkpoints": [
+    {
+      "model_id": "a21b89aaa6e4c9fc994ff5700a30d0344717847b4b1c35aa779caeac173d3f14",
+      "architecture": "gru",
+      "seed": 0,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "97d3e9e6c249f8a59062e502dd6b25246c97dc6ec3aa83d50a135428b2dad043",
+      "architecture": "gru",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "7ab08ab0627be0fee82f26a9e957e1aee5cff50cba546b2e511d1c405a6fcb97",
+      "architecture": "gru",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "e6d55b14d28fb03d65bb33b6dc6bdb4acdc40f1fb96e87ca9c050f101be30414",
+      "architecture": "gru",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "69f6b66cbdf190b77619175a484e72ca81914f935ec82bfa76800c0cc9356c50",
+      "architecture": "gru",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "2bf41be6cb9d3974001d2eb06e5332c3561357bc32bd88dfde40d76d4c9575aa",
+      "architecture": "gru",
+      "seed": 1,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "48930209227723b15c76d50d70c0780bc52aa381cc5537d8d358b09604f7f455",
+      "architecture": "gru",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "ec7a68eee4c0408a21ad87e3be7c997d43f87c375b7349b8327e40bb1e018a1e",
+      "architecture": "gru",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "f043fc17a6319cc85275f8202b320ad3954bb7a4e56beacad65bc2b3094df600",
+      "architecture": "gru",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "7e5e2424f24cf447e976ef65e97a9b4f14f6a12259c56dab15c1a0302db581fb",
+      "architecture": "gru",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "b11be04ebe80da21becd0f8befe4553cef0f2f6ea3071ceec93061b7b90edf28",
+      "architecture": "gru",
+      "seed": 2,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "e56ec5e1801d9cddd8813e74439f5c8a24d8192d170706d84721a21eb5bdb605",
+      "architecture": "gru",
+      "seed": 2,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "1b74d43754d21c1ed31071b913efa39f04b1781f07e296de2e85b4cc8acfc21a",
+      "architecture": "gru",
+      "seed": 2,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "640380cc93145cc6233b52f6ac8121210fa2db3e9cd29800023de5cbca51f5ce",
+      "architecture": "gru",
+      "seed": 2,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "08d01d95d7a09ea98c114b10c788427075b7c5cd379319d02558183ebbf0b3f0",
+      "architecture": "gru",
+      "seed": 2,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "f6bafc0440c6c48910e59e0c5e6232ce0a613e489b987bf66092033458033da8",
+      "architecture": "mamba2",
+      "seed": 0,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "4ebba2334a9a6fdd524c1b16a3912b00ab68e8fab47c3673c48e52f2470f2067",
+      "architecture": "mamba2",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "b5e126f1e00a1f35d5957340b7ce96f7b8b3b08b5df77355d6e64de80a4458e3",
+      "architecture": "mamba2",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "47d430017a745cf380486b6956606cc39df038f2bc8f54fbc3d0c548ea3ff538",
+      "architecture": "mamba2",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "755ca0d943e01fbe7751e01e62f4c4017e42fae255c5d6ebba5ad04d7f89f06a",
+      "architecture": "mamba2",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "495ab47c9f8a5f9a43b9bf0a517f472faf154b0bb5e528cfbbc0f13972775385",
+      "architecture": "mamba2",
+      "seed": 1,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "e2ac37efe50c792ee1b682b3710f388a03997949148f99e4ee24f9fa19092f18",
+      "architecture": "mamba2",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "576ac3c2c868c6ec96813bf3dab1eb28234d1ea182d0012ab50ad97b5d49dc7e",
+      "architecture": "mamba2",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "491f4fd7101f1e70b6813496a9ed3710aea02b4128dc037cec18dbd448877dca",
+      "architecture": "mamba2",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "26e74968789b8d6d2a796e91e5de6b09f3a8e717744bc91f60b8a8743dac2be2",
+      "architecture": "mamba2",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "525747cebc3bc3ec3d142ea9bdba2bc8d820f6e2bd15f39fdf65131a514de6c1",
+      "architecture": "mamba2",
+      "seed": 2,
+      "fold": 0,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "540ecbce1c3e7f96a3c7b345911356af925266e8a08a5c9c047b5231edcfdb3b",
+      "architecture": "mamba2",
+      "seed": 2,
+      "fold": 1,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "bd9e22aeb2c2e8346f0fd52c84c50c3e45c39503fe1f771b807b26c1eead962d",
+      "architecture": "mamba2",
+      "seed": 2,
+      "fold": 2,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "96e24d5827bbcd62d45f41a52d3e4be53873b539caf38ecb327fe8873d00d610",
+      "architecture": "mamba2",
+      "seed": 2,
+      "fold": 3,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    },
+    {
+      "model_id": "f270e0a1ecee2d828c3fc1d4f922efefa45cbb64358d5665166782b9d055183f",
+      "architecture": "mamba2",
+      "seed": 2,
+      "fold": 4,
+      "checkpoint_sha256_matches": true,
+      "metadata_spec_identity_matches": true,
+      "fold_cache_sha256_matches": true,
+      "fold_cache_identity_matches": true,
+      "sources_match": true
+    }
+  ],
+  "packages": {
+    "numpy": {
+      "expected": "2.4.6",
+      "installed": "2.4.6"
+    },
+    "pandas": {
+      "expected": "3.0.5",
+      "installed": "3.0.5"
+    },
+    "scipy": {
+      "expected": "1.17.1",
+      "installed": "1.17.1"
+    },
+    "scikit-learn": {
+      "expected": "1.9.0",
+      "installed": "1.9.0"
+    },
+    "torch": {
+      "expected": "2.11.0",
+      "installed": "2.11.0"
+    },
+    "mamba-ssm": {
+      "expected": "2.2.2",
+      "installed": "2.2.2"
+    },
+    "causal-conv1d": {
+      "expected": "1.4.0",
+      "installed": "1.4.0"
+    },
+    "triton": {
+      "expected": "3.6.0",
+      "installed": "3.6.0"
+    },
+    "einops": {
+      "expected": "0.8.2",
+      "installed": "0.8.2"
+    }
+  },
+  "installed_package_metadata_matches": true,
+  "cuda_runtime_and_device_not_executed_or_validated_by_agent": true
+}

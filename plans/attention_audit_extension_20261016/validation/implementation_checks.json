@@ -1,0 +1,39 @@
+{
+  "research_cells_executed": false,
+  "real_model_inference_performed": false,
+  "training_performed": false,
+  "scientific_analysis_performed": false,
+  "notebooks": [
+    {
+      "path": "notebooks/19_attention_audit_diagnostics.ipynb",
+      "cells": 22,
+      "code_cells": 16,
+      "syntax_valid": true,
+      "nbformat_valid": true,
+      "all_cells_unexecuted": true,
+      "checkpoint_load_calls_training_disabled": 0,
+      "pyflakes_exit_code": 0,
+      "pyflakes_output": "",
+      "sha256": "b09477ad523003c130fab1a4937a8591795900f542b6d7fa593b8803f5366b63"
+    },
+    {
+      "path": "notebooks/20_fixed_model_ranking_swap.ipynb",
+      "cells": 25,
+      "code_cells": 19,
+      "syntax_valid": true,
+      "nbformat_valid": true,
+      "all_cells_unexecuted": true,
+      "checkpoint_load_calls_training_disabled": 2,
+      "pyflakes_exit_code": 0,
+      "pyflakes_output": "",
+      "sha256": "758ec19e6ee246ad906949613c59f13668f04fdb193f76cb960646536fd87924"
+    }
+  ],
+  "synthetic_test_exit_code": 0,
+  "synthetic_test_scope": "Nine synthetic software tests; no research signals, no real model, no subject-bootstrap execution.",
+  "no_new_scientific_result_directories_created": true,
+  "protocol_sha256": "2bdf89ae2624f7a1e2a3245c9c656fb3a324a61a572faf41bfecbe336e596bfe",
+  "source_pins_sha256": "4b3039dd291236de426bcd35a0096f668b9fd5e3f2b8dfe045765f1dfae2eb9c",
+  "protected_existing_files": 2203,
+  "all_protected_files_unchanged": true
+}

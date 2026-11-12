@@ -1,0 +1,9 @@
+architecture,masker,reference,n_pairs_total,n_real_pairs_matched,n_jsd_matched,n_reference_pairs_matched,n_records_real,n_subjects_real,n_records_reference,n_subjects_reference
+gru,train_donor,circular_shift,1584,1309,1277,1041,253,66,241,64
+gru,train_donor,permutation,1584,1309,1240,1053,253,66,234,64
+gru,train_median,circular_shift,1584,1074,1277,851,228,65,222,63
+gru,train_median,permutation,1584,1074,1240,884,228,65,218,63
+mamba2,train_donor,circular_shift,1584,1279,1078,825,250,66,224,66
+mamba2,train_donor,permutation,1584,1279,1040,857,250,66,225,66
+mamba2,train_median,circular_shift,1584,1074,1078,689,234,66,200,65
+mamba2,train_median,permutation,1584,1074,1040,719,234,66,200,66

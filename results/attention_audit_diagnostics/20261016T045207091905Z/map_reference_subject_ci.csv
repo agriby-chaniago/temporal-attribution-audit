@@ -1,0 +1,5 @@
+architecture,reference,endpoint,estimate,ci_low,ci_high,n_pairs,n_records,n_subjects,n_boot_valid,ci_status
+gru,circular_shift,actual_minus_reference_mean,-0.07547091787735528,-0.10029766415772194,-0.053692543305617346,792,264,66,5000,reported
+gru,permutation,actual_minus_reference_mean,-0.07538464414291178,-0.1001694273459703,-0.053735695383773506,792,264,66,5000,reported
+mamba2,circular_shift,actual_minus_reference_mean,-0.11096096638918751,-0.13273401377480723,-0.09115489215720429,792,264,66,5000,reported
+mamba2,permutation,actual_minus_reference_mean,-0.11024767992126953,-0.13180141248579869,-0.09061376685231869,792,264,66,5000,reported

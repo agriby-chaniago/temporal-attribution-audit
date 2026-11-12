@@ -1,0 +1,341 @@
+{
+  "run_id": "20261017T002514477657Z",
+  "analysis_kind": "FIXED_MODEL_RANKING_SWAP_RMS_V1",
+  "analysis_design_date": "2026-10-16",
+  "completion_status": "complete",
+  "analysis_status": "additional_exploratory",
+  "old_preregistration_changed": false,
+  "public_preregistration": false,
+  "training_performed": false,
+  "model_inference_performed": true,
+  "new_interventions_performed": true,
+  "baseline_run": "20261012T050124548170Z",
+  "amplitude_run": "20261014T024232464643Z",
+  "bridge_run": "20261014T041914953496Z",
+  "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "backend_profile_id": "c994f20cfc2ce7b14f283f4c4da90562876e05aa9830c3758f0eb178561ad29a",
+  "backend_environment": {
+    "versions": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.5",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.0",
+      "torch": "2.11.0",
+      "mamba-ssm": "2.2.2",
+      "causal-conv1d": "1.4.0",
+      "triton": "3.6.0",
+      "einops": "0.8.2",
+      "cuda_runtime": "13.0"
+    },
+    "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "capability": [
+      8,
+      6
+    ],
+    "torch_context": {
+      "default_dtype": "torch.float32",
+      "float32_matmul_precision": "highest",
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": true,
+      "cudnn_benchmark": false,
+      "deterministic_algorithms": false
+    },
+    "sources": {
+      ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_state.py": "e691baf72e300de670a41299474be1762ab0c6c2692ad6de407fac7519bfe5be",
+      ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_state_passing.py": "615dc8c5a781db2b0fa34aa1fb848cc7c4355bbeed32fc39ec3361490e11e975",
+      ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_bmm.py": "2db3c55dd50ac8be8945c5ae3a283e6d1234eb239caa4d96d1dff3fbca86a367",
+      ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_scan.py": "89024564abed0c852b57befccb9c1a75041419cce3ef714c0b9c3f0bce39bdc5",
+      ".venv/lib/python3.11/site-packages/triton/runtime/autotuner.py": "40f5e142806219942585a16742e9f3721d5bfef88145b571cf389f9aec6460bb"
+    }
+  },
+  "analysis_id": "ffb6cffd67047345e18cbef2d70e65f8fa8132536595a48f56c3bd9e0f714523",
+  "analysis_spec": {
+    "format_version": 1,
+    "analysis_kind": "FIXED_MODEL_RANKING_SWAP_RMS_V1",
+    "source_sha256": "f63510aa7a3835be3800b4fe9eae7d49eb22007352b6803a393af79cd98e6d92",
+    "protocol_sha256": "2bdf89ae2624f7a1e2a3245c9c656fb3a324a61a572faf41bfecbe336e596bfe",
+    "source_pins_sha256": "4b3039dd291236de426bcd35a0096f668b9fd5e3f2b8dfe045765f1dfae2eb9c",
+    "shared_builder_sha256": "508a1e6ac00f81e22748c0e38736f7035cdb2cf3bd7884285932b04661b2f456",
+    "baseline_evaluation_id": "c4b1d743f22d6b9bbbc5b2a2a8fcd7d913ba2543108895f8e70de9b4c1b79823",
+    "amplitude_control_id": "1d839c2be1e4cc601eeaffc85acc7e380265bf076940f2a62b76648bee9a8ac7",
+    "runtime_profile_id": "c994f20cfc2ce7b14f283f4c4da90562876e05aa9830c3758f0eb178561ad29a",
+    "environment": {
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.5",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.9.0",
+        "torch": "2.11.0",
+        "mamba-ssm": "2.2.2",
+        "causal-conv1d": "1.4.0",
+        "triton": "3.6.0",
+        "einops": "0.8.2",
+        "cuda_runtime": "13.0"
+      },
+      "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+      "capability": [
+        8,
+        6
+      ],
+      "torch_context": {
+        "default_dtype": "torch.float32",
+        "float32_matmul_precision": "highest",
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_benchmark": false,
+        "deterministic_algorithms": false
+      },
+      "sources": {
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_state.py": "e691baf72e300de670a41299474be1762ab0c6c2692ad6de407fac7519bfe5be",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_state_passing.py": "615dc8c5a781db2b0fa34aa1fb848cc7c4355bbeed32fc39ec3361490e11e975",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_bmm.py": "2db3c55dd50ac8be8945c5ae3a283e6d1234eb239caa4d96d1dff3fbca86a367",
+        ".venv/lib/python3.11/site-packages/mamba_ssm/ops/triton/ssd_chunk_scan.py": "89024564abed0c852b57befccb9c1a75041419cce3ef714c0b9c3f0bce39bdc5",
+        ".venv/lib/python3.11/site-packages/triton/runtime/autotuner.py": "40f5e142806219942585a16742e9f3721d5bfef88145b571cf389f9aec6460bb"
+      }
+    },
+    "recipe": {
+      "evaluation_protocol_version": 2,
+      "cohort": "newhandpd",
+      "patch": 7,
+      "fs": 100.0,
+      "arms": [
+        "gru",
+        "mamba2"
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "model_config": {
+        "in_channels": 6,
+        "d_model": 128,
+        "patch_size": 7,
+        "n_layers": 3,
+        "dropout": 0.3,
+        "d_dir": 64,
+        "pooling": "attention"
+      },
+      "training_config": {
+        "epochs": 35,
+        "batch_size": 8,
+        "lr": 0.0003
+      },
+      "fractions": [
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "random_repeats": 20,
+      "donor_repeats": 5,
+      "donor_block_patches": 32,
+      "forward_batch_size": 1,
+      "unmasked_check": {
+        "phases": [
+          "before",
+          "after"
+        ],
+        "atol": 0.0001,
+        "rtol": 0.0001
+      },
+      "intervention_seed": 1600,
+      "cache_sha256": "d69fc2c049ce7bb8ffab12dc6f17aed4452c3bf6bdc64f7f3a63cac751282c2e",
+      "analysis_sources": {
+        "src/audit_e2.py": "00faa8b844e23b8e407f5c1ded5c8df14d7a0ee446c9f8b95f8eb0d61c525872",
+        "src/audit_e0_e1.py": "f737d1ddaf57be8b9d33301b5f1b190df747eb33ea4207c1ecf6be4a71bdfe13"
+      },
+      "jsd": {
+        "kind": "divergence",
+        "log_base": 2,
+        "input": "nonnegative alpha normalized to sum 1",
+        "range": [
+          0,
+          1
+        ]
+      },
+      "primary": "normalized deletion AOPC abs_delta_logit: alpha_top - random",
+      "secondary": "signed_margin_drop and predicted_class_prob_drop"
+    },
+    "matching": {
+      "seed": 2000,
+      "relative_tol": 0.05,
+      "absolute_tol": 1e-08,
+      "max_candidates": 4096,
+      "batch": 128,
+      "legacy_own_flags_preserved": true
+    },
+    "placebo": {
+      "seed": 2001,
+      "max_candidates": 199,
+      "jsd_caliper": 0.025,
+      "selected_per_type": 1,
+      "types": [
+        "circular_shift",
+        "permutation"
+      ]
+    },
+    "primary": "subject-balanced mean D=G_own-G_swap",
+    "schedule": [
+      {
+        "architecture": "gru",
+        "target_seed": 0,
+        "source_seed": 1
+      },
+      {
+        "architecture": "gru",
+        "target_seed": 0,
+        "source_seed": 2
+      },
+      {
+        "architecture": "gru",
+        "target_seed": 1,
+        "source_seed": 0
+      },
+      {
+        "architecture": "gru",
+        "target_seed": 1,
+        "source_seed": 2
+      },
+      {
+        "architecture": "gru",
+        "target_seed": 2,
+        "source_seed": 0
+      },
+      {
+        "architecture": "gru",
+        "target_seed": 2,
+        "source_seed": 1
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 0,
+        "source_seed": 1
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 0,
+        "source_seed": 2
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 1,
+        "source_seed": 0
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 1,
+        "source_seed": 2
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 2,
+        "source_seed": 0
+      },
+      {
+        "architecture": "mamba2",
+        "target_seed": 2,
+        "source_seed": 1
+      }
+    ],
+    "bootstrap": {
+      "n_boot": 5000,
+      "seed": 2002
+    },
+    "control_sensitivity": {
+      "draws": 500,
+      "seed": 2003
+    }
+  },
+  "intervention_replays_performed": true,
+  "n_target_checkpoints": 30,
+  "n_checkpoint_record_evaluations": 1584,
+  "n_distinct_recordings": 264,
+  "n_subjects": 66,
+  "n_unique_directed_record_pairs": 3168,
+  "n_directed_pair_replacement_rows": 6336,
+  "pair_row_unit": "architecture x target seed x source seed x recording x replacement",
+  "inference": "subject conditional on fixed bank; seed influence diagnostic separate",
+  "control_reweighting": "finite accepted-pool diagnostic, not population confidence intervals",
+  "completed_utc": "2026-10-17T03:38:26.893005+00:00",
+  "scientific_source": "notebooks/20_fixed_model_ranking_swap.ipynb",
+  "notebook_source_sha256": "f63510aa7a3835be3800b4fe9eae7d49eb22007352b6803a393af79cd98e6d92",
+  "source_pins_sha256": "4b3039dd291236de426bcd35a0096f668b9fd5e3f2b8dfe045765f1dfae2eb9c",
+  "protocol_sha256": "2bdf89ae2624f7a1e2a3245c9c656fb3a324a61a572faf41bfecbe336e596bfe",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.1"
+  },
+  "python": "3.11.8",
+  "tables": [
+    "alignment_checks.csv",
+    "computation_timings.csv",
+    "control_components.csv",
+    "control_responses.csv",
+    "control_reweighting_sensitivity.csv",
+    "directed_seed_schedule.csv",
+    "input_inventory.csv",
+    "leave_one_seed_out.csv",
+    "pair_control_reweighting_sensitivity.csv",
+    "paired_background_dose.csv",
+    "placebo_candidates.csv",
+    "placebo_matching.csv",
+    "rank_component_links.csv",
+    "rank_points.csv",
+    "rank_scores.csv",
+    "record_cache_inventory.csv",
+    "rms_background_support.csv",
+    "runtime_profile_check.csv",
+    "runtime_sentinel_points.csv",
+    "self_swap_checks.csv",
+    "swap_association_ci.csv",
+    "swap_budget_ci.csv",
+    "swap_coverage.csv",
+    "swap_normalization_ci.csv",
+    "swap_pair_budgets.csv",
+    "swap_pair_curves.csv",
+    "swap_placebo_ci.csv",
+    "swap_placebo_coverage.csv",
+    "swap_placebo_pairs.csv",
+    "swap_primary_ci.csv",
+    "swap_replacement_common_support.csv",
+    "swap_replacement_contrast_ci.csv",
+    "swap_secondary_ci.csv",
+    "swap_seed_pair_coverage.csv",
+    "swap_subject_coverage.csv",
+    "target_validation.csv",
+    "timing_summary.csv"
+  ],
+  "figures": [
+    "fixed_model_swap_primary.pdf",
+    "fixed_model_swap_primary.png",
+    "jsd_vs_absolute_swap_effect.pdf",
+    "jsd_vs_absolute_swap_effect.png",
+    "jsd_vs_signed_swap_effect.pdf",
+    "jsd_vs_signed_swap_effect.png",
+    "swap_matching_and_stable_coverage.pdf",
+    "swap_matching_and_stable_coverage.png",
+    "swap_vs_jsd_matched_references.pdf",
+    "swap_vs_jsd_matched_references.png"
+  ],
+  "alignment_checks_total": 292649,
+  "alignment_checks_passed": 292649,
+  "n_input_files_tracked": 218,
+  "bank": {
+    "cohort": "newhandpd",
+    "architectures": [
+      "gru",
+      "mamba2"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_checkpoints": 30,
+    "n_records": 264,
+    "n_subjects": 66
+  }
+}

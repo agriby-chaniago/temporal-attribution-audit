@@ -1,0 +1,7 @@
+architecture,scope,n_pairs_total,n_pairs_common,n_records_total,n_records_common,n_subjects_total,n_subjects_common
+gru,raw_common,792,528,264,226,66,65
+gru,normalized_common,792,528,264,226,66,65
+gru,raw_on_normalized_common,792,528,264,226,66,65
+mamba2,raw_common,792,526,264,224,66,66
+mamba2,normalized_common,792,526,264,224,66,66
+mamba2,raw_on_normalized_common,792,526,264,224,66,66
