@@ -1,0 +1,46 @@
+{
+  "reviewed_utc": "2026-11-12T05:17:18.808779+00:00",
+  "pptx_sha256": "87b8d8677c08666206bb35c84b8f5f550ccae18a8ce8f4ac3aff6e36c1c0f986",
+  "pdf_sha256": "78d8d2c2404bb339f33ec8e989b1cb265d0e02630dec80d40c8c57ea3d8e0ef7",
+  "overview_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "full_resolution_slides": [
+    4,
+    20
+  ],
+  "scope": "All slides rendered and inspected in five contact sheets. Full attention example and revised scope slide inspected at full resolution.",
+  "findings": [
+    "No clipping or overlapping content identified.",
+    "Original attention curves remain visible; numeric axis labels are hidden.",
+    "No numeric results appear in the PDF. Event date and official model name are the only numeral exceptions."
+  ],
+  "rendering_backend": "LibreOffice",
+  "manual_Microsoft_PowerPoint_review": false,
+  "new_research_computation": false
+}

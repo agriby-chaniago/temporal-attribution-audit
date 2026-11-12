@@ -1,0 +1,168 @@
+{
+  "checked_utc": "2026-11-12T05:16:40.047072+00:00",
+  "scope": "Document generation and saved-result checks only",
+  "research_computations": false,
+  "slides": 26,
+  "main_slides": 21,
+  "n_checks": 30,
+  "n_failed": 0,
+  "checks": [
+    {
+      "passed": true,
+      "check": "Own-minus-transferred primary contrasts support the stated direction",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Transferred ranking exceeds matched controls on saved support",
+      "detail": "newhandpd"
+    },
+    {
+      "passed": true,
+      "check": "Saved JSD-absolute-transfer association supports its qualitative statement",
+      "detail": "newhandpd"
+    },
+    {
+      "passed": true,
+      "check": "Placebo comparisons genuinely vary by condition",
+      "detail": "newhandpd"
+    },
+    {
+      "passed": true,
+      "check": "Completion and exploratory history retained",
+      "detail": "newhandpd"
+    },
+    {
+      "passed": true,
+      "check": "Transferred ranking exceeds matched controls on saved support",
+      "detail": "uci395"
+    },
+    {
+      "passed": true,
+      "check": "Saved JSD-absolute-transfer association supports its qualitative statement",
+      "detail": "uci395"
+    },
+    {
+      "passed": true,
+      "check": "Placebo comparisons genuinely vary by condition",
+      "detail": "uci395"
+    },
+    {
+      "passed": true,
+      "check": "Completion and exploratory history retained",
+      "detail": "uci395"
+    },
+    {
+      "passed": true,
+      "check": "UCI donor dose-sensitivity intervals span zero on both architectures",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "BiGRU magnitude comparison retains positive attention contrast on both supports",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Unfavourable BiMamba donor magnitude comparison retained on both supports",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "BiMamba median magnitude interval interpretation depends on support",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Discovery Brier evidence is retained, not described as wholly inconclusive",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Primary discovery ECE uncertainty retained",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Historical retention is descriptive with zero-spanning interval",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "PPTX ZIP integrity",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Slide count",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Every slide has speaker notes",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "No displayed study numbers; only official model name and event date allowed",
+      "detail": []
+    },
+    {
+      "passed": true,
+      "check": "No unfinished placeholders",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Current author names",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Only the real attention example is a data chart",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Original empirical attention values retained",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "check": "Original empirical attention values retained",
+      "detail": 1
+    },
+    {
+      "passed": true,
+      "check": "Chart numerical axes are hidden",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "Recorded shapes lie within slide canvas",
+      "detail": []
+    },
+    {
+      "passed": true,
+      "check": "PDF page count matches PPTX",
+      "detail": ""
+    },
+    {
+      "passed": true,
+      "check": "No text spans outside PDF pages",
+      "detail": []
+    },
+    {
+      "passed": true,
+      "check": "No numerical study results in rendered PDF",
+      "detail": []
+    }
+  ],
+  "pdf_sha256": "78d8d2c2404bb339f33ec8e989b1cb265d0e02630dec80d40c8c57ea3d8e0ef7",
+  "pptx_sha256": "87b8d8677c08666206bb35c84b8f5f550ccae18a8ce8f4ac3aff6e36c1c0f986",
+  "numeral_exceptions": [
+    "BiMamba-2",
+    "16 November 2026"
+  ],
+  "manual_visual_review": "Recorded separately after rendered-page inspection"
+}

@@ -1,0 +1,88 @@
+{
+  "prepared_utc": "2026-11-12T05:18:13.722431+00:00",
+  "title": "Beda Peta, Masih Relevan?",
+  "variant": "Without numerical study results",
+  "main_slides": 21,
+  "backup_slides": 5,
+  "total_slides": 26,
+  "numeral_exceptions": [
+    "BiMamba-2",
+    "16 November 2026"
+  ],
+  "quantitative_companion": "../README.md",
+  "scientific_source": "Stored results already pinned by parent presentation; V10 changes paper title only",
+  "new_research_computations": false,
+  "shared_snapshot_sha256": "e7839b0120caa6bca21a6439406821ee59efe7ca9579423cae0e382ba5443c7e",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "7c43cec0ca6e5ecd566056940149223109f0f9c1656b0222afc066afdb6af5e2"
+    },
+    {
+      "path": "CATATAN_PEMBICARA.md",
+      "bytes": 12473,
+      "sha256": "93a949d7e11f39705cb77376ede5ed0e1a0b6bd2518e4a93d24365189b5cd57b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2970,
+      "sha256": "243d06c47ac59e6eba4e46cffc5e071d44a31f2cbf29c2b91426a3d4e46809f3"
+    },
+    {
+      "path": "SLIDE_PLAN.json",
+      "bytes": 15935,
+      "sha256": "e81ae1dacaf049ff2ae65a558f79d3434744e8881b62305c004a0d522e173f69"
+    },
+    {
+      "path": "build_presentation.cjs",
+      "bytes": 30763,
+      "sha256": "a976b80b407fe6816fc834c29043bacb3b3455e98f19dbed5b082e78dc794417"
+    },
+    {
+      "path": "presentasi_attention_16nov2026_tanpa_angka.pdf",
+      "bytes": 326223,
+      "sha256": "78d8d2c2404bb339f33ec8e989b1cb265d0e02630dec80d40c8c57ea3d8e0ef7"
+    },
+    {
+      "path": "presentasi_attention_16nov2026_tanpa_angka.pptx",
+      "bytes": 520731,
+      "sha256": "87b8d8677c08666206bb35c84b8f5f550ccae18a8ce8f4ac3aff6e36c1c0f986"
+    },
+    {
+      "path": "review/CHART_BINDINGS.json",
+      "bytes": 14125,
+      "sha256": "ca9603358fb517d610c1ea83cf260ac38a94dd8faced605578caa03037c70bd3"
+    },
+    {
+      "path": "review/DOCUMENT_CHECKS.json",
+      "bytes": 4279,
+      "sha256": "fe7b0f3e4b9c685087506557efcf990f81dccf1bf4f3576e18c9c26a8a4b42c2"
+    },
+    {
+      "path": "review/OOXML_VALIDATION.txt",
+      "bytes": 24,
+      "sha256": "bc7d617e77eb04a8facd47d98ca7fb47966bc800853f67a6c2f85ff82bbcba34"
+    },
+    {
+      "path": "review/SHAPE_LAYOUT.json",
+      "bytes": 58189,
+      "sha256": "ae324773a57e68ba6c3168a96e8a4cda91876a91b8d66054b505f6ec8e20437d"
+    },
+    {
+      "path": "review/VALIDATION_REPORT.md",
+      "bytes": 1425,
+      "sha256": "dbe5fcbce48ff02195c27586606e0f37609591811452cb4c0fc86dd0f9354425"
+    },
+    {
+      "path": "review/VISUAL_REVIEW.json",
+      "bytes": 1040,
+      "sha256": "31603b9e775460e056d1f17d75b854b380e88a5f82e1838a41343c0d7dc88e14"
+    },
+    {
+      "path": "tools/build_and_check.py",
+      "bytes": 10103,
+      "sha256": "cd7aa8660653838543c5619f461311fbfe0f61a548e0786dfe7e8ea5ef6cb930"
+    }
+  ]
+}

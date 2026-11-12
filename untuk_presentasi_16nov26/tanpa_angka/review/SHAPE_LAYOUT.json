@@ -1,0 +1,3490 @@
+[
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Beda Peta,\nMasih Relevan?",
+    "x": 0.72,
+    "y": 0.8,
+    "w": 8.1,
+    "h": 1.92,
+    "size": 50
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Audit transfer ranking attention\npada tulisan tangan Parkinsonian",
+    "x": 0.76,
+    "y": 3.04,
+    "w": 8.3,
+    "h": 1.07,
+    "size": 26
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Agriby Diandra Chaniago",
+    "x": 0.76,
+    "y": 4.64,
+    "w": 9,
+    "h": 0.45,
+    "size": 24
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Purwono · Annastasya Nabila Elsa Wulandari · Alfian Ma’arif",
+    "x": 0.76,
+    "y": 5.19,
+    "w": 11.9,
+    "h": 0.44,
+    "size": 16
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Universitas Harapan Bangsa · Universitas Ahmad Dahlan",
+    "x": 0.76,
+    "y": 5.82,
+    "w": 11.9,
+    "h": 0.4,
+    "size": 16
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "16 November 2026",
+    "x": 0.76,
+    "y": 6.5,
+    "w": 5.1,
+    "h": 0.39,
+    "size": 19
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 1.12,
+    "w": 3,
+    "h": 1
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Peta berbeda",
+    "x": 9.8,
+    "y": 1.27,
+    "w": 2.6,
+    "h": 0.67,
+    "size": 24
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 2.52,
+    "w": 3,
+    "h": 1
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Target tetap",
+    "x": 9.8,
+    "y": 2.67,
+    "w": 2.6,
+    "h": 0.67,
+    "size": 24
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 3.92,
+    "w": 3,
+    "h": 1
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Relevansi diuji",
+    "x": 9.8,
+    "y": 4.07,
+    "w": 2.6,
+    "h": 0.67,
+    "size": 24
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "PERTANYAAN PENELITIAN",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "AUROC tinggi belum memvalidasi attention",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.56
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Keluaran",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah model membedakan PD dan kontrol?",
+    "x": 0.88,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.3800000000000001,
+    "size": 22
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.56
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Peta",
+    "x": 4.98,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah training ulang menyorot waktu yang sama?",
+    "x": 4.98,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.3800000000000001,
+    "size": 22
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.56
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Ranking",
+    "x": 9.08,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah bagian terpilih memengaruhi keluaran?",
+    "x": 9.08,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.3800000000000001,
+    "size": 22
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.06,
+    "w": 12.05,
+    "h": 0.94
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Kalibrasi dan validitas fisiologis memerlukan pemeriksaan tersendiri.",
+    "x": 0.94,
+    "y": 5.24,
+    "w": 11.45,
+    "h": 0.56,
+    "size": 25
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Skor prediksi yang tinggi menjawab pertanyaan yang berbeda dari kualitas penjelasan.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "PERUBAHAN KELUARAN",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Keluaran antar-seed tidak selalu serupa",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 5.74,
+    "h": 2.78
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Seluruh pasangan",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 5.28,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Probabilitas dan logit berubah ketika seed training berganti.",
+    "x": 0.88,
+    "y": 3,
+    "w": 5.28,
+    "h": 1.5999999999999999,
+    "size": 22
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 6.77,
+    "y": 2,
+    "w": 5.9,
+    "h": 2.78
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Subset keluaran serupa",
+    "x": 7,
+    "y": 2.18,
+    "w": 5.44,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Sebagian kecil pasangan memenuhi kriteria yang lebih ketat.",
+    "x": 7,
+    "y": 3,
+    "w": 5.44,
+    "h": 1.5999999999999999,
+    "size": 22
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.15,
+    "w": 12.02,
+    "h": 0.91
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Contoh berikut menunjukkan keberadaan fenomena, bukan gambaran seluruh bank.",
+    "x": 0.93,
+    "y": 5.31,
+    "w": 11.45,
+    "h": 0.59,
+    "size": 24
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Ringkasan dan batas subset tetap tersedia di versi presentasi dengan angka.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "CONTOH ATTENTION NYATA",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Keluaran serupa dapat disertai peta berbeda",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Awal rekaman",
+    "x": 0.95,
+    "y": 5.83,
+    "w": 2.6,
+    "h": 0.4,
+    "size": 16
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Akhir rekaman",
+    "x": 6.58,
+    "y": 5.83,
+    "w": 2.55,
+    "h": 0.4,
+    "size": 16
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Bobot attention",
+    "x": 0.9,
+    "y": 1.77,
+    "w": 7,
+    "h": 0.29,
+    "size": 16
+  },
+  {
+    "slide": 4,
+    "kind": "shape",
+    "x": 9.46,
+    "y": 2.1,
+    "w": 3.16,
+    "h": 3.8
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Keluaran serupa",
+    "x": 9.690000000000001,
+    "y": 2.2800000000000002,
+    "w": 2.7,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Sorotan waktu\ntetap berbeda.",
+    "x": 9.690000000000001,
+    "y": 3.1,
+    "w": 2.7,
+    "h": 2.62,
+    "size": 25
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Contoh BiGRU dari bank discovery. Skala angka disembunyikan; kurva berasal dari artefak nyata.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "KESENJANGAN BUKTI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Apakah peta lain masih memilih bukti yang berguna?",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 5.465,
+    "h": 0.72
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Bukti yang tersedia",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 5.2,
+    "h": 0.58,
+    "size": 21
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 6.15,
+    "y": 2.08,
+    "w": 6.515,
+    "h": 0.72
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Tambahan evaluasi studi ini",
+    "x": 6.28,
+    "y": 2.15,
+    "w": 6.25,
+    "h": 0.58,
+    "size": 21
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 5.465,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Mutu penjelasan mempunyai beberapa dimensi",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 5.2,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 6.15,
+    "y": 2.84,
+    "w": 6.515,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Peta dan relevansi ranking dinilai terpisah",
+    "x": 6.28,
+    "y": 2.9,
+    "w": 6.25,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.78,
+    "w": 5.465,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Respons bergantung pada cara input diganti",
+    "x": 0.78,
+    "y": 3.84,
+    "w": 5.2,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 6.15,
+    "y": 3.78,
+    "w": 6.515,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Besar dan bentuk intervensi dikontrol",
+    "x": 6.28,
+    "y": 3.84,
+    "w": 6.25,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.72,
+    "w": 5.465,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Penjelasan dapat berubah antar-training",
+    "x": 0.78,
+    "y": 4.779999999999999,
+    "w": 5.2,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 6.15,
+    "y": 4.72,
+    "w": 6.515,
+    "h": 0.9049999999999999
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Ranking diuji pada model target yang tetap",
+    "x": 6.28,
+    "y": 4.779999999999999,
+    "w": 6.25,
+    "h": 0.7799999999999999,
+    "size": 22
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Nilai tambahnya adalah memeriksa kegunaan ranking yang berbeda pada rekaman dan target yang sama.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "DATA DAN CAKUPAN",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Prosedur audit diuji pada akuisisi spiral berbeda",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 6,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.03,
+    "w": 5.8,
+    "h": 2.76
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.88,
+    "y": 2.21,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Spiral dengan smart pen.\nKanal tekanan dan dinamika pena.",
+    "x": 0.88,
+    "y": 3.03,
+    "w": 5.34,
+    "h": 1.5799999999999998,
+    "size": 22
+  },
+  {
+    "slide": 6,
+    "kind": "shape",
+    "x": 6.83,
+    "y": 2.03,
+    "w": 5.8,
+    "h": 2.76
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 7.0600000000000005,
+    "y": 2.21,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Spiral statis dengan tablet.\nKoordinat dan kanal turunannya.",
+    "x": 7.0600000000000005,
+    "y": 3.03,
+    "w": 5.34,
+    "h": 1.5799999999999998,
+    "size": 22
+  },
+  {
+    "slide": 6,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.17,
+    "w": 11.98,
+    "h": 0.88
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Training dilakukan kembali pada setiap dataset.",
+    "x": 0.94,
+    "y": 5.35,
+    "w": 11.38,
+    "h": 0.52,
+    "size": 28
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Replikasi prosedur lintas akuisisi berbeda dari transfer satu model beku ke kohort baru.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "RIWAYAT DAN DESAIN",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Bank baru memperluas bukti discovery",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.12,
+    "w": 3.85,
+    "h": 2.62
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Bank historis",
+    "x": 0.88,
+    "y": 2.3000000000000003,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Konteks AUROC dan analisis pendamping.",
+    "x": 0.88,
+    "y": 3.12,
+    "w": 3.39,
+    "h": 1.4400000000000002,
+    "size": 22
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.12,
+    "w": 3.85,
+    "h": 2.62
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Bank discovery",
+    "x": 4.98,
+    "y": 2.3000000000000003,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Audit awal dan rancangan pengujian lanjutan.",
+    "x": 4.98,
+    "y": 3.12,
+    "w": 3.39,
+    "h": 1.4400000000000002,
+    "size": 22
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2.12,
+    "w": 3.85,
+    "h": 2.62
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Bank perluasan",
+    "x": 9.08,
+    "y": 2.3000000000000003,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Evaluasi transfer dengan resep yang dikunci.",
+    "x": 9.08,
+    "y": 3.12,
+    "w": 3.39,
+    "h": 1.4400000000000002,
+    "size": 22
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Status eksploratori dan riwayat rencana tetap dilaporkan. Tidak ada klaim preregistrasi publik.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "ALUR MODEL",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Probabilitas dan attention berasal dari classifier",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.2,
+    "w": 2.52,
+    "h": 2.65
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Sinyal",
+    "x": 0.88,
+    "y": 2.3800000000000003,
+    "w": 2.06,
+    "h": 0.7,
+    "size": 23
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Preprocessing\nberdasarkan train fold",
+    "x": 0.88,
+    "y": 3.2,
+    "w": 2.06,
+    "h": 1.47,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 3.82,
+    "y": 2.2,
+    "w": 2.52,
+    "h": 2.65
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Patch temporal",
+    "x": 4.05,
+    "y": 2.3800000000000003,
+    "w": 2.06,
+    "h": 0.7,
+    "size": 23
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "BiGRU atau\nBiMamba-2",
+    "x": 4.05,
+    "y": 3.2,
+    "w": 2.06,
+    "h": 1.47,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 6.99,
+    "y": 2.2,
+    "w": 2.52,
+    "h": 2.65
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Attention",
+    "x": 7.220000000000001,
+    "y": 2.3800000000000003,
+    "w": 2.06,
+    "h": 0.7,
+    "size": 23
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Bobot untuk\nrepresentasi waktu",
+    "x": 7.220000000000001,
+    "y": 3.2,
+    "w": 2.06,
+    "h": 1.47,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 10.16,
+    "y": 2.2,
+    "w": 2.52,
+    "h": 2.65
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Prediksi",
+    "x": 10.39,
+    "y": 2.3800000000000003,
+    "w": 2.06,
+    "h": 0.7,
+    "size": 23
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Probabilitas\nkelompok PD",
+    "x": 10.39,
+    "y": 3.2,
+    "w": 2.06,
+    "h": 1.47,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.25,
+    "w": 12.03,
+    "h": 0.84
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Bobot besar mengarahkan pengujian. Respons intervensi menentukan relevansi operasional.",
+    "x": 0.93,
+    "y": 5.37,
+    "w": 11.47,
+    "h": 0.6,
+    "size": 23
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Model ini dilatih untuk klasifikasi, bukan untuk melokalisasi gejala fisiologis.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "EKSPERIMEN TRANSFER RANKING",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Target tetap ketika ranking sumber berubah",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 4.6,
+    "h": 1.9
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Ranking target",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 4.14,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Urutan patch dari attention milik model target.",
+    "x": 0.88,
+    "y": 3,
+    "w": 4.14,
+    "h": 0.72,
+    "size": 20
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.2,
+    "w": 4.6,
+    "h": 1.9
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Ranking seed lain",
+    "x": 0.88,
+    "y": 4.38,
+    "w": 4.14,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Urutan patch dari model searsitektur pada rekaman yang sama.",
+    "x": 0.88,
+    "y": 5.2,
+    "w": 4.14,
+    "h": 0.72,
+    "size": 20
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 6.9,
+    "y": 2.77,
+    "w": 5.73,
+    "h": 2.77
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Model target dibekukan",
+    "x": 7.130000000000001,
+    "y": 2.95,
+    "w": 5.2700000000000005,
+    "h": 0.7,
+    "size": 28
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Checkpoint dan normalizer yang sama.\nRespons dibandingkan secara berpasangan.",
+    "x": 7.130000000000001,
+    "y": 3.77,
+    "w": 5.2700000000000005,
+    "h": 1.59,
+    "size": 23
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Yang dipindahkan adalah urutan pemilihan input, bukan bobot model atau attention internal.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "KONTROL AMPLITUDO DAN GEOMETRI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Intervensi kuat membutuhkan kontrol yang sepadan",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.06,
+    "w": 3.85,
+    "h": 2.47
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Budget",
+    "x": 0.88,
+    "y": 2.24,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Jumlah patch yang diganti dibuat sama.",
+    "x": 0.88,
+    "y": 3.06,
+    "w": 3.39,
+    "h": 1.2900000000000003,
+    "size": 22
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.06,
+    "w": 3.85,
+    "h": 2.47
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Geometri",
+    "x": 4.98,
+    "y": 2.24,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Panjang rangkaian patch dipertahankan.",
+    "x": 4.98,
+    "y": 3.06,
+    "w": 3.39,
+    "h": 1.2900000000000003,
+    "size": 22
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2.06,
+    "w": 3.85,
+    "h": 2.47
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "RMS",
+    "x": 9.08,
+    "y": 2.24,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Besar perubahan input dicocokkan.",
+    "x": 9.08,
+    "y": 3.06,
+    "w": 3.39,
+    "h": 1.2900000000000003,
+    "size": 22
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.02,
+    "w": 12.05,
+    "h": 1.02
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Median dan donor diuji terpisah. Kasus tanpa kontrol lengkap dilaporkan sebagai pengecualian.",
+    "x": 0.94,
+    "y": 5.2,
+    "w": 11.46,
+    "h": 0.66,
+    "size": 24
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "RMS merangkum besar perubahan input. Kontrol cocok untuk setiap mask, bukan otomatis antarmask.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "CARA MEMBACA HASIL",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Keuntungan ranking dinilai terhadap kontrolnya",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.01,
+    "w": 5.75,
+    "h": 2.37
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Respons intervensi",
+    "x": 0.88,
+    "y": 2.19,
+    "w": 5.29,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Seberapa besar keluaran berubah setelah patch terpilih diganti?",
+    "x": 0.88,
+    "y": 3.01,
+    "w": 5.29,
+    "h": 1.1900000000000002,
+    "size": 22
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 6.83,
+    "y": 2.01,
+    "w": 5.8,
+    "h": 2.37
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Keuntungan ranking",
+    "x": 7.0600000000000005,
+    "y": 2.19,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Bagian respons yang melampaui kontrol sepadan.",
+    "x": 7.0600000000000005,
+    "y": 3.01,
+    "w": 5.34,
+    "h": 1.1900000000000002,
+    "size": 22
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.87,
+    "w": 11.98,
+    "h": 1.18
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Bandingkan keuntungan ranking target dengan keuntungan ranking transfer.",
+    "x": 0.97,
+    "y": 5.05,
+    "w": 11.35,
+    "h": 0.8,
+    "size": 28
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Logit adalah skor sebelum sigmoid. AOPC merangkum respons pada beberapa tingkat intervensi.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "HASIL TRANSFER",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Relevansi ranking berpindah sebagian pada NewHandPD",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 2.565,
+    "h": 0.72
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Model",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 2.3000000000000003,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 2.08,
+    "w": 4.615,
+    "h": 0.72
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Ranking transfer",
+    "x": 3.38,
+    "y": 2.15,
+    "w": 4.3500000000000005,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 2.08,
+    "w": 4.765,
+    "h": 0.72
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Ranking target",
+    "x": 8.030000000000001,
+    "y": 2.15,
+    "w": 4.5,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 2.565,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 2.3000000000000003,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 2.84,
+    "w": 4.615,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Melampaui kontrol",
+    "x": 3.38,
+    "y": 2.9,
+    "w": 4.3500000000000005,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 2.84,
+    "w": 4.765,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Lebih unggul rata-rata",
+    "x": 8.030000000000001,
+    "y": 2.9,
+    "w": 4.5,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.8899999999999997,
+    "w": 2.565,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.78,
+    "y": 3.95,
+    "w": 2.3000000000000003,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 3.8899999999999997,
+    "w": 4.615,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Melampaui kontrol",
+    "x": 3.38,
+    "y": 3.95,
+    "w": 4.3500000000000005,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 3.8899999999999997,
+    "w": 4.765,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Lebih unggul rata-rata",
+    "x": 8.030000000000001,
+    "y": 3.95,
+    "w": 4.5,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.4,
+    "w": 12.05,
+    "h": 0.8
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Pola rata-rata berlaku pada median dan donor dalam support yang lengkap.",
+    "x": 0.94,
+    "y": 5.52,
+    "w": 11.46,
+    "h": 0.56,
+    "size": 24
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Keuntungan parsial berarti berguna pada intervensi ini, tanpa menyamakan transfer dengan kesetaraan.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "HASIL TRANSFER",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Relevansi ranking berpindah sebagian pada UCI-SST",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 2.565,
+    "h": 0.72
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Model",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 2.3000000000000003,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 2.08,
+    "w": 4.615,
+    "h": 0.72
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Ranking transfer",
+    "x": 3.38,
+    "y": 2.15,
+    "w": 4.3500000000000005,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 2.08,
+    "w": 4.765,
+    "h": 0.72
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Ranking target",
+    "x": 8.030000000000001,
+    "y": 2.15,
+    "w": 4.5,
+    "h": 0.58,
+    "size": 23
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 2.565,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 2.3000000000000003,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 2.84,
+    "w": 4.615,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Melampaui kontrol",
+    "x": 3.38,
+    "y": 2.9,
+    "w": 4.3500000000000005,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 2.84,
+    "w": 4.765,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Lebih unggul rata-rata",
+    "x": 8.030000000000001,
+    "y": 2.9,
+    "w": 4.5,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.8899999999999997,
+    "w": 2.565,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.78,
+    "y": 3.95,
+    "w": 2.3000000000000003,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 3.25,
+    "y": 3.8899999999999997,
+    "w": 4.615,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Melampaui kontrol",
+    "x": 3.38,
+    "y": 3.95,
+    "w": 4.3500000000000005,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 7.9,
+    "y": 3.8899999999999997,
+    "w": 4.765,
+    "h": 1.0150000000000001
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Lebih unggul rata-rata",
+    "x": 8.030000000000001,
+    "y": 3.95,
+    "w": 4.5,
+    "h": 0.89,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.4,
+    "w": 12.05,
+    "h": 0.8
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Pola rata-rata berlaku pada median dan donor dalam support yang lengkap.",
+    "x": 0.94,
+    "y": 5.52,
+    "w": 11.46,
+    "h": 0.56,
+    "size": 24
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Keuntungan parsial berarti berguna pada intervensi ini, tanpa menyamakan transfer dengan kesetaraan.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "CAKUPAN HASIL",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Matching menentukan cakupan kesimpulan",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 14,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.13,
+    "w": 3.85,
+    "h": 2.5
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Pasangan direncanakan",
+    "x": 0.88,
+    "y": 2.31,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Semua identitas yang masuk jadwal",
+    "x": 0.88,
+    "y": 3.13,
+    "w": 3.39,
+    "h": 1.32,
+    "size": 21
+  },
+  {
+    "slide": 14,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.13,
+    "w": 3.85,
+    "h": 2.5
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Kontrol lengkap",
+    "x": 4.98,
+    "y": 2.31,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Kasus yang berhasil dicocokkan",
+    "x": 4.98,
+    "y": 3.13,
+    "w": 3.39,
+    "h": 1.32,
+    "size": 21
+  },
+  {
+    "slide": 14,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2.13,
+    "w": 3.85,
+    "h": 2.5
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Analisis berpasangan",
+    "x": 9.08,
+    "y": 2.31,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Irisan yang memenuhi syarat perbandingan",
+    "x": 9.08,
+    "y": 3.13,
+    "w": 3.39,
+    "h": 1.32,
+    "size": 21
+  },
+  {
+    "slide": 14,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.1,
+    "w": 12.05,
+    "h": 0.94
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Kegagalan matching mempersempit cakupan. Itu bukan bukti bahwa matching mustahil.",
+    "x": 0.95,
+    "y": 5.26,
+    "w": 11.45,
+    "h": 0.65,
+    "size": 25
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Subset keluaran serupa mempunyai cakupan tersendiri dan tetap menjadi sensitivitas.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "HUBUNGAN PETA DAN RELEVANSI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Peta lebih berbeda berkaitan dengan efek transfer",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 15,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.18,
+    "w": 5.2,
+    "h": 2.36
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Perbedaan peta",
+    "x": 0.88,
+    "y": 2.3600000000000003,
+    "w": 4.74,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "JSD merangkum perbedaan distribusi attention.",
+    "x": 0.88,
+    "y": 3.18,
+    "w": 4.74,
+    "h": 1.18,
+    "size": 22
+  },
+  {
+    "slide": 15,
+    "kind": "shape",
+    "x": 7.4,
+    "y": 2.18,
+    "w": 5.2,
+    "h": 2.36
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Besar efek transfer",
+    "x": 7.630000000000001,
+    "y": 2.3600000000000003,
+    "w": 4.74,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Seberapa jauh keuntungan ranking target dan transfer berbeda.",
+    "x": 7.630000000000001,
+    "y": 3.18,
+    "w": 4.74,
+    "h": 1.18,
+    "size": 22
+  },
+  {
+    "slide": 15,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.02,
+    "w": 11.95,
+    "h": 1.04
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Hubungan positif tidak otomatis berarti penjelasan memburuk.",
+    "x": 0.95,
+    "y": 5.23,
+    "w": 11.35,
+    "h": 0.61,
+    "size": 29
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Analisis ini menjaga target tetap. Bridge discovery sebelumnya mengganti fungsi model sekaligus.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "PEMBANDING YANG LEBIH MENUNTUT",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Ranking nyata tidak selalu melampaui plasebo",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.05,
+    "w": 5.8,
+    "h": 2.48
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Peta dari seed lain",
+    "x": 0.88,
+    "y": 2.23,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Ranking yang benar-benar dihasilkan oleh training lain.",
+    "x": 0.88,
+    "y": 3.05,
+    "w": 5.34,
+    "h": 1.3,
+    "size": 22
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 6.85,
+    "y": 2.05,
+    "w": 5.8,
+    "h": 2.48
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Peta plasebo",
+    "x": 7.08,
+    "y": 2.23,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Bobot digeser atau diacak pada perbedaan peta yang serupa.",
+    "x": 7.08,
+    "y": 3.05,
+    "w": 5.34,
+    "h": 1.3,
+    "size": 22
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.04,
+    "w": 12,
+    "h": 1.03
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Perbandingan plasebo bergantung pada kondisi pengujian.",
+    "x": 0.94,
+    "y": 5.23,
+    "w": 11.42,
+    "h": 0.66,
+    "size": 28
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Interval yang mencakup nol tidak membuktikan kesetaraan antara ranking nyata dan plasebo.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "SENSITIVITAS INTERVENSI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Dosis langsung masih perlu diperhatikan",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.01,
+    "w": 5.8,
+    "h": 2.68
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Kontrol setiap mask",
+    "x": 0.88,
+    "y": 2.19,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Ranking target dan transfer masing-masing mempunyai kontrol RMS.",
+    "x": 0.88,
+    "y": 3.01,
+    "w": 5.34,
+    "h": 1.5000000000000002,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 6.85,
+    "y": 2.01,
+    "w": 5.8,
+    "h": 2.68
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Dosis antarranking",
+    "x": 7.08,
+    "y": 2.19,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Dosis keduanya masih dapat berbeda secara langsung.",
+    "x": 7.08,
+    "y": 3.01,
+    "w": 5.34,
+    "h": 1.5000000000000002,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.16,
+    "w": 12,
+    "h": 0.94
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Pembatasan dosis memperkecil support dan mengubah ketelitian beberapa kontras.",
+    "x": 0.95,
+    "y": 5.32,
+    "w": 11.4,
+    "h": 0.63,
+    "size": 25
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Interpretasi mengikuti hasil per kondisi. Kontras utama tidak mengisolasi pengaruh ranking secara kausal.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "TRAINING DAN INFERENSI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Rerata yang bertahan tetap menyisakan variasi",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 18,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.12,
+    "w": 5.8,
+    "h": 2.65
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Ringkasan bank",
+    "x": 0.88,
+    "y": 2.3000000000000003,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Arah rerata bertahan ketika satu seed dikeluarkan.",
+    "x": 0.88,
+    "y": 3.12,
+    "w": 5.34,
+    "h": 1.47,
+    "size": 22
+  },
+  {
+    "slide": 18,
+    "kind": "shape",
+    "x": 6.85,
+    "y": 2.12,
+    "w": 5.8,
+    "h": 2.65
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Target individual",
+    "x": 7.08,
+    "y": 2.3000000000000003,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Sebagian target memberikan arah hasil yang berbeda.",
+    "x": 7.08,
+    "y": 3.12,
+    "w": 5.34,
+    "h": 1.47,
+    "size": 22
+  },
+  {
+    "slide": 18,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.2,
+    "w": 12,
+    "h": 0.88
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Tambahan seed memperluas variasi training. Jumlah subjek tetap membatasi inferensi.",
+    "x": 0.94,
+    "y": 5.36,
+    "w": 11.42,
+    "h": 0.56,
+    "size": 24
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Leave-one-seed-out merupakan diagnostik pengaruh seed, bukan interval populasi seed.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "MANFAAT PRAKTIS",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Audit membantu menilai penjelasan secara bertahap",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.85
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Evaluasi",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Pisahkan mutu prediksi, peta, dan ranking.",
+    "x": 0.88,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.6700000000000002,
+    "size": 22
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.85
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Debugging",
+    "x": 4.98,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Uji ranking alternatif pada target yang sama.",
+    "x": 4.98,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.6700000000000002,
+    "size": 22
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2,
+    "w": 3.85,
+    "h": 2.85
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Perbandingan model",
+    "x": 9.08,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Periksa kontrol dan cakupan sebelum menilai penjelasan.",
+    "x": 9.08,
+    "y": 3,
+    "w": 3.39,
+    "h": 1.6700000000000002,
+    "size": 22
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Manfaatnya adalah prosedur audit yang dapat diperiksa, bukan cap universal bahwa attention baik atau buruk.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "BATAS DAN TINDAK LANJUT",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Bukti mempunyai cakupan yang terdefinisi",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 5.965,
+    "h": 0.72
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Sudah diperiksa",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 5.7,
+    "h": 0.58,
+    "size": 20
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.65,
+    "y": 2.08,
+    "w": 6.015,
+    "h": 0.72
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Pertanyaan berikutnya",
+    "x": 6.78,
+    "y": 2.15,
+    "w": 5.75,
+    "h": 0.58,
+    "size": 20
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 5.965,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Transfer ranking pada target tetap",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 5.7,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.65,
+    "y": 2.84,
+    "w": 6.015,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Kohort dan pembagian subjek lain",
+    "x": 6.78,
+    "y": 2.9,
+    "w": 5.75,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.57,
+    "w": 5.965,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Kontrol RMS serta geometri temporal",
+    "x": 0.78,
+    "y": 3.63,
+    "w": 5.7,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.65,
+    "y": 3.57,
+    "w": 6.015,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Replacement dan attribution lain",
+    "x": 6.78,
+    "y": 3.63,
+    "w": 5.75,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.3,
+    "w": 5.965,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Pengaruh seed dalam bank yang tersedia",
+    "x": 0.78,
+    "y": 4.359999999999999,
+    "w": 5.7,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.65,
+    "y": 4.3,
+    "w": 6.015,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Ketelitian lintas-training yang lebih luas",
+    "x": 6.78,
+    "y": 4.359999999999999,
+    "w": 5.75,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.029999999999999,
+    "w": 5.965,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Respons model terhadap intervensi",
+    "x": 0.78,
+    "y": 5.09,
+    "w": 5.7,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.65,
+    "y": 5.029999999999999,
+    "w": 6.015,
+    "h": 0.695
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Validitas terhadap gejala fisiologis",
+    "x": 6.78,
+    "y": 5.09,
+    "w": 5.75,
+    "h": 0.57,
+    "size": 21
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Temuan mengikuti dataset, training, intervensi, dan pasangan eligible yang benar-benar diuji.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Peta berbeda.\nRelevansi berpindah sebagian.",
+    "x": 0.75,
+    "y": 0.94,
+    "w": 11.8,
+    "h": 1.61,
+    "size": 43
+  },
+  {
+    "slide": 21,
+    "kind": "shape",
+    "x": 0.77,
+    "y": 3,
+    "w": 11.8,
+    "h": 0.89
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Ranking transfer",
+    "x": 1,
+    "y": 3.15,
+    "w": 3.04,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Tetap melampaui kontrol rata-rata.",
+    "x": 4.16,
+    "y": 3.15,
+    "w": 8.1,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "shape",
+    "x": 0.77,
+    "y": 4.07,
+    "w": 11.8,
+    "h": 0.89
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Ranking target",
+    "x": 1,
+    "y": 4.22,
+    "w": 3.04,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Memiliki keuntungan rata-rata yang lebih besar.",
+    "x": 4.16,
+    "y": 4.22,
+    "w": 8.1,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "shape",
+    "x": 0.77,
+    "y": 5.140000000000001,
+    "w": 11.8,
+    "h": 0.89
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Perbedaan peta",
+    "x": 1,
+    "y": 5.29,
+    "w": 3.04,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Berkaitan dengan besar efek, dengan batas kondisi.",
+    "x": 4.16,
+    "y": 5.29,
+    "w": 8.1,
+    "h": 0.57,
+    "size": 23
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "AUROC, kemiripan peta, dan relevansi ranking menjawab pertanyaan yang berbeda.",
+    "x": 0.8,
+    "y": 6.55,
+    "w": 11.74,
+    "h": 0.52,
+    "size": 23
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "CADANGAN · PEMBANDING RANKING",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Magnitude juga dapat melampaui attention",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 5.165,
+    "h": 0.72
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Kondisi discovery",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 4.9,
+    "h": 0.58,
+    "size": 21
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.8500000000000005,
+    "y": 2.08,
+    "w": 6.8149999999999995,
+    "h": 0.72
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Temuan kualitatif",
+    "x": 5.98,
+    "y": 2.15,
+    "w": 6.55,
+    "h": 0.58,
+    "size": 21
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 5.165,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiGRU · donor dan median",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 4.9,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.8500000000000005,
+    "y": 2.84,
+    "w": 6.8149999999999995,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Attention unggul terhadap magnitude",
+    "x": 5.98,
+    "y": 2.9,
+    "w": 6.55,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.84,
+    "w": 5.165,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 · donor",
+    "x": 0.78,
+    "y": 3.9,
+    "w": 4.9,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.8500000000000005,
+    "y": 3.84,
+    "w": 6.8149999999999995,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Magnitude unggul terhadap attention",
+    "x": 5.98,
+    "y": 3.9,
+    "w": 6.55,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.84,
+    "w": 5.165,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 · median",
+    "x": 0.78,
+    "y": 4.9,
+    "w": 4.9,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.8500000000000005,
+    "y": 4.84,
+    "w": 6.8149999999999995,
+    "h": 0.965
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Dukungan interval berubah menurut support",
+    "x": 5.98,
+    "y": 4.9,
+    "w": 6.55,
+    "h": 0.84,
+    "size": 22
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Pembanding magnitude belum menyamakan dosis dan geometri. Kedua support dilaporkan pada versi lengkap.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "CADANGAN · PERFORMA DAN PROBABILITAS",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Hasil pendamping memberi konteks yang berbeda",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.02,
+    "w": 3.85,
+    "h": 2.81
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "AUROC historis",
+    "x": 0.88,
+    "y": 2.2,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Konsistensi BiMamba-2 bersifat deskriptif setelah retraining.",
+    "x": 0.88,
+    "y": 3.02,
+    "w": 3.39,
+    "h": 1.6300000000000001,
+    "size": 22
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.02,
+    "w": 3.85,
+    "h": 2.81
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Brier discovery",
+    "x": 4.98,
+    "y": 2.2,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Mendukung kualitas probabilitas yang lebih baik untuk BiMamba-2.",
+    "x": 4.98,
+    "y": 3.02,
+    "w": 3.39,
+    "h": 1.6300000000000001,
+    "size": 22
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2.02,
+    "w": 3.85,
+    "h": 2.81
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Interpretasi",
+    "x": 9.08,
+    "y": 2.2,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Performa, kalibrasi, dan fisiologi dinilai terpisah.",
+    "x": 9.08,
+    "y": 3.02,
+    "w": 3.39,
+    "h": 1.6300000000000001,
+    "size": 22
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Hasil ini bukan evaluasi kalibrasi bank perluasan dan bukan keberhasilan transfer satu model antar-kohort.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "CADANGAN · PANDUAN INTERPRETASI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Istilah yang perlu dibedakan",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.08,
+    "w": 4.0649999999999995,
+    "h": 0.72
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Istilah",
+    "x": 0.78,
+    "y": 2.15,
+    "w": 3.8,
+    "h": 0.58,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.08,
+    "w": 7.915,
+    "h": 0.72
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Makna pada penelitian ini",
+    "x": 4.88,
+    "y": 2.15,
+    "w": 7.65,
+    "h": 0.58,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.84,
+    "w": 4.0649999999999995,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Seed",
+    "x": 0.78,
+    "y": 2.9,
+    "w": 3.8,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.84,
+    "w": 7.915,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Kondisi acak untuk mengulang training",
+    "x": 4.88,
+    "y": 2.9,
+    "w": 7.65,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.48,
+    "w": 4.0649999999999995,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Ranking attention",
+    "x": 0.78,
+    "y": 3.54,
+    "w": 3.8,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 3.48,
+    "w": 7.915,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Urutan patch dari bobot attention",
+    "x": 4.88,
+    "y": 3.54,
+    "w": 7.65,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.12,
+    "w": 4.0649999999999995,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Relevansi intervensi",
+    "x": 0.78,
+    "y": 4.18,
+    "w": 3.8,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 4.12,
+    "w": 7.915,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Respons yang melampaui kontrol sepadan",
+    "x": 4.88,
+    "y": 4.18,
+    "w": 7.65,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.76,
+    "w": 4.0649999999999995,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "JSD",
+    "x": 0.78,
+    "y": 4.82,
+    "w": 3.8,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 4.76,
+    "w": 7.915,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Perbedaan distribusi bobot attention",
+    "x": 4.88,
+    "y": 4.82,
+    "w": 7.65,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.4,
+    "w": 4.0649999999999995,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Kalibrasi",
+    "x": 0.78,
+    "y": 5.46,
+    "w": 3.8,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 5.4,
+    "w": 7.915,
+    "h": 0.605
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Kecocokan probabilitas dengan frekuensi kejadian",
+    "x": 4.88,
+    "y": 5.46,
+    "w": 7.65,
+    "h": 0.48,
+    "size": 21
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Peta yang berbeda belum tentu peta yang buruk. Interpretasi mengikuti pengujian yang benar-benar dilakukan.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "CADANGAN · LITERATUR INTI",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Penelitian terdekat memberi pembanding protokol",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 3.85,
+    "h": 3.35
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Bragança dan Souto",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "UTS-XAI\nEvaluasi beberapa dimensi penjelasan temporal.\nScientific Reports",
+    "x": 0.88,
+    "y": 3,
+    "w": 3.39,
+    "h": 2.17,
+    "size": 21
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2,
+    "w": 3.85,
+    "h": 3.35
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Šimić dan kolega",
+    "x": 4.98,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Operator perturbasi dan ukuran region.\nScientific Reports",
+    "x": 4.98,
+    "y": 3,
+    "w": 3.39,
+    "h": 2.17,
+    "size": 21
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2,
+    "w": 3.85,
+    "h": 3.35
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Navakauskas dan Dumpis",
+    "x": 9.08,
+    "y": 2.18,
+    "w": 3.39,
+    "h": 0.7,
+    "size": 24
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Regularisasi penjelasan temporal.\nElectronics",
+    "x": 9.08,
+    "y": 3,
+    "w": 3.39,
+    "h": 2.17,
+    "size": 21
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Kekhususan studi terletak pada pengujian transfer berpasangan, target tetap, dan kontrol intervensinya.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "CADANGAN · SUMBER DAN PENGGUNAAN",
+    "x": 0.6,
+    "y": 0.3,
+    "w": 12.1,
+    "h": 0.26,
+    "size": 12
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Rujukan dan angka lengkap tetap dapat diperiksa",
+    "x": 0.6,
+    "y": 0.83,
+    "w": 12.1,
+    "h": 0.9,
+    "size": 32
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 5.8,
+    "h": 2.67
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Presentasi lengkap",
+    "x": 0.88,
+    "y": 2.18,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Gunakan untuk memeriksa estimasi, interval, dan cakupan.",
+    "x": 0.88,
+    "y": 3,
+    "w": 5.34,
+    "h": 1.49,
+    "size": 22
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 6.85,
+    "y": 2,
+    "w": 5.8,
+    "h": 2.67
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Manuskrip terbaru",
+    "x": 7.08,
+    "y": 2.18,
+    "w": 5.34,
+    "h": 0.7,
+    "size": 25
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Judul diselaraskan. Angka dan batas ilmiah dipertahankan.",
+    "x": 7.08,
+    "y": 3,
+    "w": 5.34,
+    "h": 1.49,
+    "size": 22
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.15,
+    "w": 12,
+    "h": 0.88
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Versi tanpa angka hasil memudahkan penyampaian cerita; ia tidak menggantikan bukti kuantitatif.",
+    "x": 0.94,
+    "y": 5.31,
+    "w": 11.43,
+    "h": 0.57,
+    "size": 24
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Nama resmi model dan tanggal acara tetap ditampilkan. Tidak ada statistik hasil pada slide.",
+    "x": 0.66,
+    "y": 6.48,
+    "w": 12,
+    "h": 0.58,
+    "size": 16
+  }
+]

@@ -1,0 +1,6 @@
+review/rendered/
+review/contact_sheets/
+review_build.log
+__pycache__/
+*.tmp
+~$*
