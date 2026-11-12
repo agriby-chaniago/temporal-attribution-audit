@@ -1,5 +1,19 @@
 # Perubahan dari presentasi September ke 16 November 2026
 
+## Tambahan 12 November — versi tanpa angka dan judul paper
+
+- Tambah `tanpa_angka/` sebagai deck kualitatif terpisah. Deck kuantitatif
+  tidak ditimpa. Versi tambahan memakai 21 slide utama dan 5 cadangan.
+- Sembunyikan statistik hasil dan sumbu numerik. Tanggal acara serta nama resmi
+  BiMamba-2 tetap ada. Kurva contoh menggunakan bobot empiris yang sama.
+- Pertahankan hasil magnitude yang menguntungkan pembanding, ketidakpastian
+  plasebo, sensitivitas dosis, dan batas cakupan matching.
+- Selaraskan judul paper melalui salinan lokal V10. Judul, running title dan
+  metadata berubah. Abstrak, isi ilmiah, hasil dan referensi tidak berubah.
+- Catat riwayat serta batas istilah relevansi pada `notes/PAPER_TITLE_V10.md`.
+
+## Paket awal
+
 Paket dibuat sebagai folder baru. Deck September, manuskrip V9 dan hasil asli
 dipertahankan. Judul manuskrip tidak diubah.
 

@@ -20,13 +20,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2343,
-      "sha256": "f0c38f300ef3f4afc3a9b03c1a95ebfce7f5fd68ac9f80997e43157d6af90839"
+      "bytes": 3088,
+      "sha256": "c7db3a77c77bdd136cbd7b595723fbfa752b21dc74b5a516251cba8b99358af3"
     },
     {
       "path": "README.md",
-      "bytes": 5885,
-      "sha256": "2144c1802c2e423525b95fd4e1cdd5f90f3d2eeafdc0239f5c19f847936b51ce"
+      "bytes": 6233,
+      "sha256": "aa9e815b3e9d4e0d376d774b4aa0a897787efc216ed2fd97ee649e3c82b968ce"
     },
     {
       "path": "SLIDE_PLAN.json",
@@ -67,6 +67,11 @@
       "path": "notes/LITERATURE_COMPARISON.md",
       "bytes": 3536,
       "sha256": "5a820db61acd731e22e618d10e2028dfd73049f51137564e8e9ba3705d185bdd"
+    },
+    {
+      "path": "notes/PAPER_TITLE_V10.md",
+      "bytes": 1174,
+      "sha256": "e6ab69021d1f5ce3dfc29715427fc74addc3109af359375e2b052018c5c1984a"
     },
     {
       "path": "notes/PETA_PRESENTASI_LAMA_KE_BARU.md",
@@ -384,6 +389,81 @@
       "sha256": "bc2218513336643759fa61277028856972ca11504a5bb382c38b4252bbdff650"
     },
     {
+      "path": "tanpa_angka/.gitignore",
+      "bytes": 80,
+      "sha256": "7c43cec0ca6e5ecd566056940149223109f0f9c1656b0222afc066afdb6af5e2"
+    },
+    {
+      "path": "tanpa_angka/CATATAN_PEMBICARA.md",
+      "bytes": 12473,
+      "sha256": "93a949d7e11f39705cb77376ede5ed0e1a0b6bd2518e4a93d24365189b5cd57b"
+    },
+    {
+      "path": "tanpa_angka/PACKAGE_MANIFEST.json",
+      "bytes": 2830,
+      "sha256": "d7027356c3a16b90b904ca4cdcbc87b0f9d889e66f2aac3e9d98bc657812aec0"
+    },
+    {
+      "path": "tanpa_angka/README.md",
+      "bytes": 2970,
+      "sha256": "243d06c47ac59e6eba4e46cffc5e071d44a31f2cbf29c2b91426a3d4e46809f3"
+    },
+    {
+      "path": "tanpa_angka/SLIDE_PLAN.json",
+      "bytes": 15935,
+      "sha256": "e81ae1dacaf049ff2ae65a558f79d3434744e8881b62305c004a0d522e173f69"
+    },
+    {
+      "path": "tanpa_angka/build_presentation.cjs",
+      "bytes": 30763,
+      "sha256": "a976b80b407fe6816fc834c29043bacb3b3455e98f19dbed5b082e78dc794417"
+    },
+    {
+      "path": "tanpa_angka/presentasi_attention_16nov2026_tanpa_angka.pdf",
+      "bytes": 326223,
+      "sha256": "78d8d2c2404bb339f33ec8e989b1cb265d0e02630dec80d40c8c57ea3d8e0ef7"
+    },
+    {
+      "path": "tanpa_angka/presentasi_attention_16nov2026_tanpa_angka.pptx",
+      "bytes": 520731,
+      "sha256": "87b8d8677c08666206bb35c84b8f5f550ccae18a8ce8f4ac3aff6e36c1c0f986"
+    },
+    {
+      "path": "tanpa_angka/review/CHART_BINDINGS.json",
+      "bytes": 14125,
+      "sha256": "ca9603358fb517d610c1ea83cf260ac38a94dd8faced605578caa03037c70bd3"
+    },
+    {
+      "path": "tanpa_angka/review/DOCUMENT_CHECKS.json",
+      "bytes": 4279,
+      "sha256": "fe7b0f3e4b9c685087506557efcf990f81dccf1bf4f3576e18c9c26a8a4b42c2"
+    },
+    {
+      "path": "tanpa_angka/review/OOXML_VALIDATION.txt",
+      "bytes": 24,
+      "sha256": "bc7d617e77eb04a8facd47d98ca7fb47966bc800853f67a6c2f85ff82bbcba34"
+    },
+    {
+      "path": "tanpa_angka/review/SHAPE_LAYOUT.json",
+      "bytes": 58189,
+      "sha256": "ae324773a57e68ba6c3168a96e8a4cda91876a91b8d66054b505f6ec8e20437d"
+    },
+    {
+      "path": "tanpa_angka/review/VALIDATION_REPORT.md",
+      "bytes": 1425,
+      "sha256": "dbe5fcbce48ff02195c27586606e0f37609591811452cb4c0fc86dd0f9354425"
+    },
+    {
+      "path": "tanpa_angka/review/VISUAL_REVIEW.json",
+      "bytes": 1040,
+      "sha256": "31603b9e775460e056d1f17d75b854b380e88a5f82e1838a41343c0d7dc88e14"
+    },
+    {
+      "path": "tanpa_angka/tools/build_and_check.py",
+      "bytes": 10103,
+      "sha256": "cd7aa8660653838543c5619f461311fbfe0f61a548e0786dfe7e8ea5ef6cb930"
+    },
+    {
       "path": "tools/build_all.py",
       "bytes": 1194,
       "sha256": "b1fd74a49545ab11580b1295e96e2cbcdc1b02d686a10449988062855c2efe3d"
@@ -408,5 +488,14 @@
       "bytes": 9409,
       "sha256": "32117b4e5781a8b1b59dd8a259c91978057d9bd3bc63c39d10b4c32765103be9"
     }
-  ]
+  ],
+  "updated_utc": "2026-11-12T05:18:13.726411+00:00",
+  "qualitative_companion": {
+    "folder": "tanpa_angka",
+    "main_slides": 21,
+    "backup_slides": 5,
+    "total_slides": 26,
+    "visible_study_statistics": false
+  },
+  "paper_title_alignment": "V10 title/running title/PDF metadata updated locally; scientific content matches V9; manuscript not uploaded to GitHub"
 }

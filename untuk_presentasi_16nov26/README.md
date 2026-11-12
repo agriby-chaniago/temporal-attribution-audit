@@ -12,6 +12,8 @@ pembicara, dan glosarium.
 - [PDF dengan isi yang sama](presentasi_attention_16nov2026.pdf).
 - [Catatan pembicara per slide](CATATAN_PEMBICARA.md).
 - [Jawaban untuk diskusi](notes/TANYA_JAWAB.md).
+- [Versi tambahan tanpa angka hasil](tanpa_angka/README.md), beserta PPTX, PDF
+  dan catatan pembicara sendiri.
 
 Slide **1–21** membentuk cerita utama. Slide **22–35** adalah cadangan angka,
 metode, sensitivitas, dan sumber. Untuk versi singkat, gunakan urutan
@@ -47,7 +49,10 @@ training, inference, intervensi, bootstrap, atau analisis penelitian baru.
 Nilai khusus studi dibangun dari pertanyaan, pasangan rekaman/checkpoint,
 fixed target, dan kontrol RMS/geometri. Presentasi tidak mengklaim peta rusak,
 attention selalu paling baik, atau validitas fisiologis yang sudah teruji.
-Judul baru hanya diterapkan ke presentasi. Manuskrip V9 tetap utuh.
+Pada paket awal, judul baru hanya diterapkan ke presentasi. Salinan manuskrip
+V10 kini menyelaraskan judul paper, running title dan metadata PDF. Isi ilmiah
+V9 tetap dipertahankan. [Catatan judul V10](notes/PAPER_TITLE_V10.md) menjelaskan
+hubungan keduanya. Manuskrip V9 dan deck kuantitatif tetap utuh.
 
 ## Struktur dan sumber yang dapat diedit
 
