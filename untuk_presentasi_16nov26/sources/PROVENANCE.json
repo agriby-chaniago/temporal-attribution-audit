@@ -1,0 +1,293 @@
+{
+  "prepared_utc": "2026-11-12T04:33:06.628776+00:00",
+  "event_date": "2026-11-16",
+  "source_cutoff": "completed stored runs through 2026-10-25",
+  "training": false,
+  "inference": false,
+  "new_interventions": false,
+  "new_statistical_estimates": false,
+  "sources": [
+    {
+      "source_path": "plans/attention_audit_replication20_20261019/design_lock.json",
+      "public_copy": "sources/design_lock.json",
+      "sha256": "5849110882d07f28b964ee29e30d8f0d3838431a240f63e3d0615791d1b6db20",
+      "bytes": 4158
+    },
+    {
+      "source_path": "results/attention_replication20_resume/combined/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/20261025T073118047187Z/primary_eight_strata_holm.csv",
+      "public_copy": "sources/primary_eight_strata.csv",
+      "sha256": "c451c265e444b9efcee891afe84e7643c996e14eda4d0641525175a07cd6a192",
+      "bytes": 2179
+    },
+    {
+      "source_path": "results/attention_replication20_resume/combined/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/20261025T073118047187Z/analysis_manifest.json",
+      "public_copy": "sources/joint_manifest.json",
+      "sha256": "10b049f1db1a9cc5d70fefba072a793c4e94aa217ee22cffa4df433b93e86ba9",
+      "bytes": 2149
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/analysis_manifest.json",
+      "public_copy": "sources/newhandpd_manifest.json",
+      "sha256": "fe0a591d65322d2937bea554f515ac0b15358520656d9885b45e064c6398a5a3",
+      "bytes": 7197
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/secondary_mean_contrasts.csv",
+      "public_copy": "sources/newhandpd_secondary_mean_contrasts.csv",
+      "sha256": "39c16a559f71f20c93cbff0f3135cf9ab33c229efd7c4d1473a84272337ec7f7",
+      "bytes": 17259
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/matching_coverage.csv",
+      "public_copy": "sources/newhandpd_matching_coverage.csv",
+      "sha256": "51c51bf97775d23332f5fd440ba0da49cfd2b7205c82ecb75107b660f3cf56a3",
+      "bytes": 684
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/jsd_associations.csv",
+      "public_copy": "sources/newhandpd_jsd_associations.csv",
+      "sha256": "f05c871364f09f262700843d98ac69a9c4d64e12999cfe770275657ad4d0b6d7",
+      "bytes": 3540
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/placebo_contrasts.csv",
+      "public_copy": "sources/newhandpd_placebo_contrasts.csv",
+      "sha256": "8155824e7148c9f01fee4a1f1cfffec07eca119711ca9f4ecc85cbd25775f19a",
+      "bytes": 1953
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/target_seed_effects.csv",
+      "public_copy": "sources/newhandpd_target_seed_effects.csv",
+      "sha256": "fc2ca63389203057c940288eec62fb1f2f9904b51cc5a13602826f1d9fa45baf",
+      "bytes": 16887
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/leave_one_seed_out.csv",
+      "public_copy": "sources/newhandpd_leave_one_seed_out.csv",
+      "sha256": "ef359813801c9fae5b1307fc5233cc3d7e7ca25e44fb425e4b6c903de4432377",
+      "bytes": 7863
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/eligible_excluded_characteristics.csv",
+      "public_copy": "sources/newhandpd_eligible_excluded_characteristics.csv",
+      "sha256": "3b2d8809b058da98da7492205f15027c5644a3440779ac8cfe66576d32b5c359",
+      "bytes": 5135
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/new_minus_discovery_subject_contrast.csv",
+      "public_copy": "sources/newhandpd_new_minus_discovery_subject_contrast.csv",
+      "sha256": "db5e77931404f8a19d24ac508340f3b58ebe5664a15fcbdb5c4130ae7d2f1115",
+      "bytes": 756
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/replacement_common_support_contrasts.csv",
+      "public_copy": "sources/newhandpd_replacement_common_support_contrasts.csv",
+      "sha256": "7af10049bf02fb1000138e1dec5945ef4c13b440136515c033e5a3e816a17502",
+      "bytes": 836
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_auroc_per_seed.csv",
+      "public_copy": "sources/newhandpd_subject_auroc_per_seed.csv",
+      "sha256": "7931392d41c7d7544cb65a97f277ca01c3cf4b30bad28a8f6bf8709522c044ec",
+      "bytes": 1231
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/record_manifest.csv",
+      "public_copy": "sources/newhandpd_record_manifest.csv",
+      "sha256": "2ff764ec6a9adeda8924b57c59f758afff17682f62964042ac9c776cda7d5e49",
+      "bytes": 37745
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/model_inventory.csv",
+      "public_copy": "sources/newhandpd_model_inventory.csv",
+      "sha256": "44f8327e522122d7c0c2f36b7ac31240c9a7d6b7f14816f48cea935854ebc122",
+      "bytes": 64403
+    },
+    {
+      "source_path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/directed_seed_schedule.csv",
+      "public_copy": "sources/newhandpd_directed_seed_schedule.csv",
+      "sha256": "08e7459fa3ec600c887790376d5e2a88ac65b1325487a18779c4efaea01962b1",
+      "bytes": 10467
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/analysis_manifest.json",
+      "public_copy": "sources/uci395_manifest.json",
+      "sha256": "199e69e3f20ff2b5a1071db5923ef5c24110acc22abf0f36991beb6027e605c3",
+      "bytes": 7201
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/secondary_mean_contrasts.csv",
+      "public_copy": "sources/uci395_secondary_mean_contrasts.csv",
+      "sha256": "e85d585ec6edf1677f4317f1ca4432aae321147abb6cb34c13b40367e330c27e",
+      "bytes": 17033
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/matching_coverage.csv",
+      "public_copy": "sources/uci395_matching_coverage.csv",
+      "sha256": "6eb451506243c3abcf7bef4322f70d528e030c703b19f872cabb37d71b86a11e",
+      "bytes": 656
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/jsd_associations.csv",
+      "public_copy": "sources/uci395_jsd_associations.csv",
+      "sha256": "a34b570ce3708cdb4ccf9652901443eed0bb4e0a7079d4161781066045e8ae88",
+      "bytes": 3458
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/placebo_contrasts.csv",
+      "public_copy": "sources/uci395_placebo_contrasts.csv",
+      "sha256": "bcecab8ab395cc78077cdbb4cff44758d2f8c22ff113c9e3a3a23419542b052e",
+      "bytes": 1896
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/target_seed_effects.csv",
+      "public_copy": "sources/uci395_target_seed_effects.csv",
+      "sha256": "bc2218513336643759fa61277028856972ca11504a5bb382c38b4252bbdff650",
+      "bytes": 19169
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/leave_one_seed_out.csv",
+      "public_copy": "sources/uci395_leave_one_seed_out.csv",
+      "sha256": "49b6b017aa680f4f9b07d9705afd2def54f982cef43a873c76911fb7fafb8c9b",
+      "bytes": 8997
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/eligible_excluded_characteristics.csv",
+      "public_copy": "sources/uci395_eligible_excluded_characteristics.csv",
+      "sha256": "bbc0df52874cd5973fe218cd80b311e4e4a4208e4d8444865c20149d9a3b1dcb",
+      "bytes": 5003
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/new_minus_discovery_subject_contrast.csv",
+      "public_copy": "sources/uci395_new_minus_discovery_subject_contrast.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/replacement_common_support_contrasts.csv",
+      "public_copy": "sources/uci395_replacement_common_support_contrasts.csv",
+      "sha256": "9f394de65480679c410dad21b4ed259241daddb7d7712df97ef6afc7df81fd28",
+      "bytes": 819
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/subject_auroc_per_seed.csv",
+      "public_copy": "sources/uci395_subject_auroc_per_seed.csv",
+      "sha256": "72274588f6b9f66fafeee433aae7369b70cc7900b6f8fa10f87d9101be6ecae4",
+      "bytes": 1228
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/record_manifest.csv",
+      "public_copy": "sources/uci395_record_manifest.csv",
+      "sha256": "454ce942245a422a46ed7ad381756c9fb91b2efe48912600206ac55ffbc746aa",
+      "bytes": 11656
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/model_inventory.csv",
+      "public_copy": "sources/uci395_model_inventory.csv",
+      "sha256": "5620b770cf5a283bc37a7cad9298bd2ad8886458830c6b0edff72925bde642b0",
+      "bytes": 65273
+    },
+    {
+      "source_path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726/directed_seed_schedule.csv",
+      "public_copy": "sources/uci395_directed_seed_schedule.csv",
+      "sha256": "6861a39f88244378e3dde802944d5139bf66c33e895e9078752f2dd05abc3850",
+      "bytes": 9813
+    },
+    {
+      "source_path": "results/e2/20261012T050124548170Z/e1_ci_new.csv",
+      "public_copy": "sources/discovery_e1_ci.csv",
+      "sha256": "244b6f7cd0d03221ee7f5c45af4bdb4c63cb3b506f40a4850fd1d0cdecf44425",
+      "bytes": 4556
+    },
+    {
+      "source_path": "results/e2/20261012T050124548170Z/e1_sensitivity_new.csv",
+      "public_copy": "sources/discovery_e1_sensitivity.csv",
+      "sha256": "30bd22914b3e30081c3d4f511ce7e517230b0299f24b1402c4080a2b3babd340",
+      "bytes": 102062
+    },
+    {
+      "source_path": "results/e2/20261012T050124548170Z/new_auroc_per_seed.csv",
+      "public_copy": "sources/discovery_auroc_per_seed.csv",
+      "sha256": "94075177f2946de7174ba6cd8a5b300f825f8ff5b30e09e6c158b9fdce59770e",
+      "bytes": 279
+    },
+    {
+      "source_path": "results/e2_amplitude/20261014T024232464643Z/paired_ci.csv",
+      "public_copy": "sources/discovery_amplitude_ci.csv",
+      "sha256": "ab925c23862605b40f3ea58b084f15876f06334e19367932db295af3b6ff2e81",
+      "bytes": 21980
+    },
+    {
+      "source_path": "results/e1_e2_rms_bridge/20261014T041914953496Z/association_ci.csv",
+      "public_copy": "sources/discovery_bridge_associations.csv",
+      "sha256": "7f41178946681f298ef64eb98d725958343d03a19b2a0cafb5451da994a30fd1",
+      "bytes": 77894
+    },
+    {
+      "source_path": "results/e0_e1/20261012T035813806939Z/e0_cohort.csv",
+      "public_copy": "sources/historical_auroc.csv",
+      "sha256": "ceecf6c3bc6717ae25c523146b8f03cfed48584e97d39cf6daa614058975cdf5",
+      "bytes": 534
+    },
+    {
+      "source_path": "results/e0_e1/20261012T035813806939Z/e0_contrast.csv",
+      "public_copy": "sources/historical_auroc_contrast.csv",
+      "sha256": "ec58538f93055359217e8c2648cfc2a1dcb1a80befdd26f8f90ad3ee863243a5",
+      "bytes": 443
+    },
+    {
+      "source_path": "results/p5_perancu_usia.csv",
+      "public_copy": "sources/historical_age.csv",
+      "sha256": "48c78a0cd4677e79b1cbe0f11b7eac6e5caf5727f053697558363e4e64d46583",
+      "bytes": 2527
+    },
+    {
+      "source_path": "results/a_baseline_lintas_kohort.csv",
+      "public_copy": "sources/historical_classic.csv",
+      "sha256": "f90bfc1f981e256467719376e926c42ab1d491f04c99dbf11ac51c9bf15e7ef9",
+      "bytes": 644
+    },
+    {
+      "source_path": "results/calibration_oof/20261014T135037828430Z/mean_per_seed_scores_ci.csv",
+      "public_copy": "sources/calibration_scores.csv",
+      "sha256": "49416ad3b48f063bb44ad1c00d219f8373d9a7f8f0962947ab05b05d9c5a91c2",
+      "bytes": 3631
+    },
+    {
+      "source_path": "results/calibration_oof/20261014T135037828430Z/paired_architecture_contrasts_ci.csv",
+      "public_copy": "sources/calibration_contrasts.csv",
+      "sha256": "4ef593945c3d749be32edb5597ea4730cc7f0039a4ef3b81551bcd6d8c5f5b4f",
+      "bytes": 2339
+    },
+    {
+      "source_path": "Q1-amin/manuscript_array_latex_v9/english/figures/source_data/attention_examples_v5.json",
+      "public_copy": "sources/attention_examples.json",
+      "sha256": "ea8f2512fbb1f1186980a9b7bf133008bab2974fb2cf1217743eb9a372f9b4da",
+      "bytes": 23988
+    },
+    {
+      "source_path": "Q1-amin/manuscript_array_latex_v9/english/figures/jsd_newhandpd_v7.png",
+      "public_copy": "assets/jsd_newhandpd_v7.png",
+      "sha256": "56aba3c599576838047f8dcb45a5b943b1ef6e369f19ab08e5f862edf1912ca6",
+      "bytes": 1400358
+    },
+    {
+      "source_path": "Q1-amin/manuscript_array_latex_v9/english/figures/jsd_uci_v7.png",
+      "public_copy": "assets/jsd_uci_v7.png",
+      "sha256": "142a4a6ac2e1c86e67bdda8605989c01e5f74bc319d08dee60c7cd0a25a21d01",
+      "bytes": 928807
+    },
+    {
+      "source_path": "Q1-amin/manuscript_array_latex_v9/english/build/main/main.pdf",
+      "public_copy": "not copied",
+      "sha256": "995c9ec4bbcb8cc716bb85861642b20e3ff6936dc843f27053dfaf5f7c219c8e",
+      "bytes": 2947427
+    },
+    {
+      "source_path": "untuk_presentasi_25sep2026/sempro-agriby-presentasi-Q1.pptx",
+      "public_copy": "not copied",
+      "sha256": "cce92dbf82f4f0c6bff5b1427afc097eea282b40b01777ac9cb132072fffdb31",
+      "bytes": 510995
+    }
+  ]
+}

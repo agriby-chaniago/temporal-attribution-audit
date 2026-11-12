@@ -1,0 +1,13 @@
+bank,cohort,contrast,metric,prediction_kind,estimate,ci_low,ci_high,n_subjects,n_seeds,n_boot_valid,ci_status
+current_E1_E2,newhandpd,BiMamba-2 minus BiGRU,brier,paired_difference_of_mean_per_seed_metrics,-0.05698104730819896,-0.1025676050018869,-0.014929330893378544,66,3,5000,reported
+current_E1_E2,newhandpd,BiMamba-2 minus BiGRU,ece_equal_width_10,paired_difference_of_mean_per_seed_metrics,-0.04961251076844117,-0.10897292525554933,0.0010214832913462309,66,3,5000,reported
+current_E1_E2,newhandpd,BiMamba-2 minus BiGRU,ece_equal_width_5,paired_difference_of_mean_per_seed_metrics,-0.04594048059843488,-0.10283865865690153,0.008140359266097873,66,3,5000,reported
+current_E1_E2,newhandpd,BiMamba-2 minus BiGRU,ece_quantile_10,paired_difference_of_mean_per_seed_metrics,-0.0425916659201102,-0.110617045601857,0.0020341287203140736,66,3,5000,reported
+historical_E0,newhandpd,BiMamba-2 minus BiGRU,brier,paired_difference_of_mean_per_seed_metrics,-0.031110763440138647,-0.07005920544755016,0.01118406538524346,66,10,5000,reported
+historical_E0,newhandpd,BiMamba-2 minus BiGRU,ece_equal_width_10,paired_difference_of_mean_per_seed_metrics,-0.0314509576503353,-0.08356486308856582,0.011700076624359203,66,10,5000,reported
+historical_E0,newhandpd,BiMamba-2 minus BiGRU,ece_equal_width_5,paired_difference_of_mean_per_seed_metrics,-0.029179229141073793,-0.07659444662047503,0.02699391381828124,66,10,5000,reported
+historical_E0,newhandpd,BiMamba-2 minus BiGRU,ece_quantile_10,paired_difference_of_mean_per_seed_metrics,-0.0212584823286963,-0.07672925674525123,0.012369878478291891,66,10,5000,reported
+historical_E0,uci395,BiMamba-2 minus BiGRU,brier,paired_difference_of_mean_per_seed_metrics,0.0071935270854833755,-0.006383580605632425,0.020579536332796605,77,10,5000,reported
+historical_E0,uci395,BiMamba-2 minus BiGRU,ece_equal_width_10,paired_difference_of_mean_per_seed_metrics,-0.0045256212649866095,-0.03090278988471309,0.018179721449613977,77,10,5000,reported
+historical_E0,uci395,BiMamba-2 minus BiGRU,ece_equal_width_5,paired_difference_of_mean_per_seed_metrics,-0.0005732108055906057,-0.028042825478849866,0.028349164688600718,77,10,5000,reported
+historical_E0,uci395,BiMamba-2 minus BiGRU,ece_quantile_10,paired_difference_of_mean_per_seed_metrics,0.004688932589252376,-0.03158992240183898,0.018275834686789193,77,10,5000,reported

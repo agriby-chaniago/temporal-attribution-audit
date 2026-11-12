@@ -1,0 +1,32 @@
+claim,decision,evidence,boundary
+Seluruh prediksi stabil antar-seed,Tidak digunakan. Ringkasan seluruh pasangan discovery muncul pada slide 3.,`discovery_e1_ci.csv`,"Rerata perubahan probabilitas 0,202 dan 0,168 tidak dipresentasikan sebagai stabilitas seluruh bank."
+Keluaran serupa dapat disertai peta berbeda,Dipertahankan sebagai contoh dan subset.,"`attention_examples.json`, sensitivity E1",Contoh H10 dipilih leksikografis tanpa pengurutan menurut JSD atau gain. Bukan prevalensi seluruh populasi.
+E1 hanya tiga seed,Benar untuk discovery yang ditandai. Audit utama diperluas menjadi bank 20 seed.,Kedua cohort manifests,NewHandPD primer memakai 17 seed baru; bank 20 total mencakup seed discovery.
+Banyak pasangan adalah replikasi independen,Ditolak. Bobot dan inferensi berbasis subjek.,Design lock; tabel target/LOSO,"Pasangan berbagi model, rekaman dan subjek."
+Protokol didaftarkan publik,Ditolak. Spesifikasi lokal dinyatakan.,"`design_lock.json`, manifests",Upload Git sekarang tidak mengubah status historis.
+20 seed × 5 fold × 2 model × 2 dataset,Dipertahankan sebagai 400 identitas checkpoint.,Manifests; inventories pada repo,30 reuse dan 370 training baru. Bukan 400 peserta.
+UCI-SST mempunyai 77 subjek,Dikoreksi menjadi 77 rekaman / 76 subjek.,Cohort manifest; record manifest pada repo,77 subjek adalah resource UCI keseluruhan.
+UCI dan NewHandPD memakai input identik,Ditolak. Kanal dan provenance grid waktu dibedakan.,V9 Methods; preprocessing pinned,Kesamaan nominal grid tidak menyamakan sensor.
+Pelatihan menjadi lokalisasi gejala terawasi,Ditolak. Model tetap classifier dengan attention pooling.,V9 Methods; model source,Tidak ada label lokasi gejala untuk melatih peta.
+Ranking-swap mengganti bobot internal attention,Ditolak. Ranking hanya memilih patch input.,Fixed-target methods; executed notebook 20/22/23,Forward baru tetap menghitung attention target.
+Ranking seed lain tetap relevan,Dipertahankan sebagai keuntungan rata-rata G transfer positif pada support lengkap.,`*_secondary_mean_contrasts.csv`,Relevansi untuk intervensi yang diuji; bukan validitas klinis.
+Ranking sendiri lebih kuat,Dipertahankan sebagai mean D positif pada delapan strata.,`primary_eight_strata.csv`,"Kontras dalam kondisi, bukan leaderboard raw logit-AOPC antarencoder."
+CI semua hasil sudah dikoreksi,Ditolak. Delapan p primer memakai Holm; CI tetap nominal.,Primary CSV; design lock,Sekunder dan sensitivitas mempunyai multiplicity yang dinyatakan.
+CI subjek mencakup seluruh variasi training,Ditolak. CI bersyarat pada model/split/jadwal/matching.,Manifests; inference definition,Target-seed dan LOSO bersifat diagnostik terpisah.
+JSD adalah distance atau akar divergence,"Dikoreksi menjadi divergence basis 2 dalam [0,1].",V9 definition; Nielsen 2021,Besar JSD tidak langsung berarti kualitas peta buruk.
+JSD tinggi menyebabkan penurunan kualitas,Ditolak. Disajikan sebagai asosiasi sekunder dengan besar |D|.,`*_jsd_associations.csv`,Konstruksi test dapat menyumbang asosiasi; placebo tetap diperlukan.
+Hubungan discovery bridge sama dengan ranking-swap,Ditolak. Keduanya diberi bank dan estimand berbeda.,`discovery_bridge_associations.csv`,Bridge mengubah fungsi dan peta; swap mempertahankan target.
+Hanya median berhubungan,Tidak digunakan sebagai kesimpulan umum.,Bridge Spearman dan centered Pearson,Perbedaan signifikansi bukan kontras replacement; centered Pearson menjawab estimand berbeda.
+Ranking nyata selalu lebih baik daripada placebo,Ditolak. Sel yang CI-nya melintasi nol ditampilkan.,`*_placebo_contrasts.csv`,Matching JSD dan kontrol dapat mengurangi support.
+Matching gagal berarti tidak mungkin dicocokkan,Ditolak. Kegagalan terjadi dalam cap search dan kuota yang dikunci.,Matching protocol,Tidak ada klaim kemustahilan matematis.
+Semua subjek tercakup berarti seluruh pasangan tercakup,Ditolak. Denominator pasangan dan subjek dipisahkan.,`*_matching_coverage.csv`,Misalnya 66/66 subjek dapat mempunyai hanya 8791/20064 pasangan.
+Own dan transfer sudah mempunyai dosis langsung identik,Ditolak. Masing-masing memiliki kontrol sendiri.,Methods; dose sensitivity CSV,"Dua kondisi donor UCI span nol pada subset gap ≤5%, dengan support sangat kecil."
+Magnitude tidak mengungguli attention,Ditolak. Kedua support ditampilkan pada cadangan E.,`discovery_amplitude_ci.csv`,BiMamba-2 donor negatif pada kedua support; median negatif di full baseline tetapi span nol pada irisan lengkap E2.
+Ketahanan BiMamba-2 dihilangkan,Tidak. AUROC historis dipertahankan sebagai konsistensi deskriptif setelah retraining.,"`historical_auroc.csv`, contrast","Kontras CI [-0,10678; 0,00074] mencakup nol; bukan transfer model beku atau superiority retention."
+Brier dan ECE semua tidak konklusif,Ditolak. Kontras Brier discovery negatif dengan CI tidak memuat nol.,`calibration_contrasts.csv`,Brier adalah skor probabilitas keseluruhan. ECE utama span nol.
+Kalibrasi sudah dihitung untuk bank 20 seed,Ditolak. Slide G menyebut discovery 3 seed / 66 subjek.,Calibration manifest,Tidak ada angka kalibrasi replikasi baru.
+Usia sudah dikontrol sempurna,Ditolak. Hasil usia hanya konteks historis.,`historical_age.csv`,Restriksi overlap bukan balanced matching.
+"RF 1,000 membuktikan diagnosis sempurna",Ditolak. Nilai historis diberi konteks representasi dan imputasi.,`historical_classic.csv`; V9 audit preprocessing,Bukan protokol leaderboard setara atau validasi klinis.
+Shapley dan marker adalah dua ground truth independen,Ditolak. Referensi atribusi dan proksi marker dibedakan.,Historical attribution implementation; V9,Kanal tertahan dapat tetap berkorelasi dengan input model.
+4–95× / fidelity ceiling / ensemble memulihkan fidelity,Tidak digunakan sebagai klaim hasil sekarang.,V9 reinterpretation; audit histories,Arsip lama dipertahankan dan tidak dipromosikan sebagai bukti baru.
+Penelitian pertama atau langka secara global,Tidak diklaim. Kekhususan ditunjukkan lewat pembandingan protokol.,Tiga artikel inti; `LITERATURE_COMPARISON.md`,Cakupan pencarian tidak membenarkan klaim prioritas global.

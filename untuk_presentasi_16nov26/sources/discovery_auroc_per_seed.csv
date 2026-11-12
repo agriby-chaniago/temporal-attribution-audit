@@ -1,0 +1,7 @@
+cohort,architecture,seed,auroc,n_subjects
+newhandpd,gru,0,0.8700460829493087,66
+newhandpd,gru,1,0.9069124423963135,66
+newhandpd,gru,2,0.8423963133640553,66
+newhandpd,mamba2,0,0.9271889400921659,66
+newhandpd,mamba2,1,0.9705069124423964,66
+newhandpd,mamba2,2,0.9299539170506913,66

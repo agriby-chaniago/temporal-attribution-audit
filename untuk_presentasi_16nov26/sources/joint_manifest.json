@@ -1,0 +1,72 @@
+{
+  "completion_status": "complete",
+  "design_id": "9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5",
+  "execution_id": "0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726",
+  "inputs": [
+    {
+      "cohort": "newhandpd",
+      "path": "results/attention_replication20_resume/newhandpd/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726",
+      "primary_sha256": "e9a4ec1d5f53f0b431b47f6a2978f458eb9bae263a7d7abce0439d13d450352c",
+      "runtime_id": "5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b",
+      "n_subjects": 66,
+      "n_records": 264,
+      "primary_training_seeds": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "cohort": "uci395",
+      "path": "results/attention_replication20_resume/uci395/9f048349d216342f9280825fa3e12dea0fbcb8eeeac3387efccead22f3b540f5/5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b/0082ecd5671e689ea2325bb0d45ed2ecfdffd7622ebc487e2edbbc2b0def0726",
+      "primary_sha256": "7cfecd750a200dc506b01f8b78eb214796c4e6b97700c3f80cca85c5dad046e6",
+      "runtime_id": "5b4141580bb4d3e8c061bd977968b4c2b8b02576195373a7e75db771f89ab53b",
+      "n_subjects": 76,
+      "n_records": 77,
+      "primary_training_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "family_size": 8,
+  "endpoint": "subject-balanced own minus transferred RMS-control advantage",
+  "uncertainty": "conditional subject intervals; no seed-population interval",
+  "public_preregistration": false,
+  "old_preregistration_changed": false,
+  "training_performed": false,
+  "model_inference_performed": false,
+  "new_interventions_performed": false
+}

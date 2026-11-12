@@ -1,0 +1,322 @@
+{
+  "title": "Beda Peta, Masih Relevan?",
+  "main_slides": 21,
+  "total_slides": 35,
+  "slides": [
+    {
+      "number": 1,
+      "title": "Beda Peta, Masih Relevan?",
+      "section": "Pembuka",
+      "notes": "Presentasi ini bertanya apakah ranking attention dari seed pelatihan lain masih menunjuk bagian input yang berpengaruh pada model target. Kata relevan mempunyai arti operasional. Kami mengukurnya melalui respons terhadap intervensi yang terkontrol. Kami tidak menyamakan peta attention dengan lokasi gejala. Temuan utamanya adalah transfer parsial. Ranking sumber tetap mengungguli kontrol rata-rata, tetapi ranking milik target memberi keuntungan lebih besar. Semua perbandingan transfer berlangsung dalam arsitektur dan dataset yang sama.",
+      "source": "V9 Introduction, Methods, Results; sources/primary_eight_strata.csv",
+      "backup": false,
+      "dark": true
+    },
+    {
+      "number": 2,
+      "title": "AUROC tinggi menjawab pertanyaan yang berbeda",
+      "section": "Masalah penelitian",
+      "notes": "AUROC mengukur kemampuan prediksi membedakan kelompok. Reproduktibilitas peta menilai kesamaan distribusi attention antar pelatihan. Relevansi ranking menilai respons model ketika bagian input terpilih diganti. Kalibrasi menguji kecocokan probabilitas dengan frekuensi kejadian. Validitas fisiologis memerlukan rujukan yang sesuai. Skor klasifikasi tinggi tidak dengan sendirinya menjawab empat pertanyaan lain. Studi ini mengaudit ranking, bukan menguji korelasi universal antara AUROC dan kualitas penjelasan.",
+      "source": "Theissler et al. (2022); Turbé et al. (2023); Silva Filho et al. (2023); V9 Methods",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 3,
+      "title": "Keluaran antar-seed tidak selalu serupa",
+      "section": "Discovery · tiga seed",
+      "notes": "Tabel ini memakai bank discovery NewHandPD yang sama dengan E2. Setiap arsitektur mempunyai 792 pasangan tak terarah dari 264 rekaman dan tiga seed. Rerata perubahan probabilitas sekitar 0,20 untuk BiGRU dan 0,17 untuk BiMamba-2. Karena itu, seluruh keluaran tidak dapat disebut stabil. Selang berasal dari bootstrap subjek yang tersimpan. JSD adalah divergence basis dua. Besarnya JSD bukan ukuran penurunan kualitas. Contoh keluaran serupa baru ditampilkan sesudah gambaran seluruh pasangan ini.",
+      "source": "sources/discovery_e1_ci.csv; V9 Table e1_continuous",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 4,
+      "title": "Keluaran serupa dapat disertai peta berbeda",
+      "section": "Contoh nyata · bank discovery",
+      "notes": "Contoh ini berasal dari kontrol sehat H10, tugas spiral 1, segmen 0, fold 1. Dua checkpoint BiGRU memakai seed 0 dan 1. Identitas lengkap dan hash ada pada sources/attention_examples.json. Kasus dipilih berdasarkan urutan leksikografis di antara pasangan yang memenuhi gate ketat dan matching kedua replacement. Pemilihan tidak diurutkan menurut JSD atau keuntungan ranking. Contoh ini memperlihatkan keberadaan fenomena. Ia bukan gambaran seluruh bank. Gate ketat hanya memilih 19 dari 792 pasangan BiGRU dan 52 dari 792 pasangan BiMamba-2. Kedua peta tetap memerlukan pengujian relevansi.",
+      "source": "sources/attention_examples.json; sources/discovery_e1_sensitivity.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 5,
+      "title": "Bagaimana menilai peta berbeda pada model yang sama?",
+      "section": "Kesenjangan bukti",
+      "notes": "Literatur terdekat sudah mengevaluasi beberapa dimensi penjelasan temporal. Bragança dan Souto menyediakan kerangka UTS-XAI. Šimić dan kolega menunjukkan pentingnya replacement dan ukuran region. Navakauskas dan Dumpis menguji regularisasi penjelasan temporal. Studi kita memusatkan satu perbandingan yang khusus. Ranking sumber diuji pada rekaman yang sama di model target yang parameternya tetap. Setiap mask mempunyai kontrol RMS dan geometri sendiri. Perbedaan ini menjelaskan nilai tambah desain tanpa klaim pertama di dunia. Ketiga studi adalah pembanding protokol, bukan leaderboard pada dataset handwriting yang sama.",
+      "source": "Bragança & Souto (2026), doi:10.1038/s41598-026-49467-2; Šimić et al. (2025), doi:10.1038/s41598-025-09538-2; Navakauskas & Dumpis (2026), doi:10.3390/electronics15102200",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 6,
+      "title": "Audit direplikasi pada dua akuisisi spiral",
+      "section": "Data penelitian",
+      "notes": "NewHandPD menyumbang empat rekaman spiral per subjek. Terdapat 264 rekaman dari 66 subjek, dengan 31 PD dan 35 kontrol. Audit UCI hanya memakai static spiral test. SST memuat 77 rekaman dari 76 subjek, dengan 61 PD dan 15 kontrol. Satu subjek dapat memiliki lebih dari satu rekaman. Angka 77 subjek milik keseluruhan resource UCI tidak dipakai sebagai denominator SST. Dua akuisisi mempunyai kanal dan komposisi kelas berbeda. Model dilatih ulang terpisah. Ini bukan transfer bobot model UCI ke NewHandPD. HandPD, NewHandPD dan PaHaW tidak disamakan.",
+      "source": "Completed cohort manifests; UCI dataset doi:10.24432/C5Q01S; NewHandPD original dataset source; konteks analisis spiral: Toffoli et al. (2023)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 7,
+      "title": "Bank 20 seed memperluas discovery",
+      "section": "Desain dan provenance",
+      "notes": "Bank replikasi mempunyai dua arsitektur, dua dataset, dua puluh seed, dan lima fold per dataset. Jumlah identitas checkpoint adalah 400. Tiga puluh checkpoint NewHandPD discovery digunakan kembali. Sebanyak 370 checkpoint dilatih baru. Analisis primer NewHandPD membatasi target dan sumber pada seed 3 sampai 19. Analisis primer UCI menggunakan dua puluh seed baru. Bank sepuluh seed historis untuk AUROC terpisah dari keduanya. Protokol perluasan dikunci lokal pada 19 Oktober setelah hasil discovery diketahui. Ia tidak didaftarkan publik. Semua hasil tambahan tetap dilaporkan eksploratori.",
+      "source": "sources/newhandpd_manifest.json; sources/uci395_manifest.json; plans/attention_audit_replication20_20261019/design_lock.json",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 8,
+      "title": "Classifier menghasilkan probabilitas dan attention",
+      "section": "Arsitektur dan praproses",
+      "notes": "Model tetap dilatih untuk klasifikasi PD versus kontrol. Peta attention adalah bobot pooling yang diperoleh dari classifier tersebut. Model tidak dilatih dengan anotasi lokasi gejala. Input dipecah menjadi patch tujuh sampel. Encoder BiGRU atau BiMamba-2 membangun representasi kontekstual. Attention mengagregasi representasi menjadi vektor prediksi. Median, IQR dan batas clipping dihitung dari training fold. Semua rekaman satu subjek berada pada fold yang sama. Bobot attention yang besar belum menjamin kausalitas patch input karena representasi kontekstual dapat memuat informasi dari waktu lain.",
+      "source": "V9 Methods; Diaz et al. (2021); Qu et al. (2026); Kapoor & Narayanan (2023)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 9,
+      "title": "Target tetap ketika sumber ranking berubah",
+      "section": "Ranking-swap pada target tetap",
+      "notes": "Seed a adalah target. Seed b menyediakan ranking attention untuk rekaman held-out yang sama. Keduanya berasal dari arsitektur, dataset dan fold yang sama. Ranking a dan b menentukan patch input yang diganti. Semua input hasil intervensi dijalankan pada checkpoint target a yang sama. Normalizer target juga tetap. Kami tidak menyalin bobot attention ke kepala model target. Forward baru menghitung ulang representasi dan attention secara biasa. Jadwal lima sumber per target dipilih sebelum respons perluasan diperiksa. Pasangan terarah berbagi model dan subjek, sehingga bukan observasi independen.",
+      "source": "V9 fixed-target Methods; locked directed schedule; complete execution manifests",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 10,
+      "title": "Respons besar membutuhkan kontrol yang sepadan",
+      "section": "Kontrol RMS dan geometri",
+      "notes": "Ranking attention dapat memilih bagian sinyal yang menghasilkan perubahan input besar. Kontrol acak kami mencocokkan RMS perubahan tersebut. Kontrol juga mempertahankan jumlah patch dan multiset panjang run kontigu. Setiap mask memiliki kontrol sendiri. Kontrol milik ranking sendiri dan milik ranking transfer tidak berarti kedua ranking mempunyai dosis langsung yang sama. Median memakai nilai nol dalam ruang normalisasi. Donor berasal dari training subject dengan tugas sama. Kuota dan search cap dikunci. Kegagalan mencari match dalam batas itu dicatat, tanpa memperlebar toleransi atau memilih kandidat berdasarkan respons target.",
+      "source": "V9 intervention Methods; Šimić et al. (2025); locked matching configuration",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 11,
+      "title": "Keuntungan ranking dihitung terhadap kontrol",
+      "section": "Definisi ukuran",
+      "notes": "Logit adalah skor classifier sebelum sigmoid. Pada setiap budget, respons adalah besar perubahan logit dari kondisi tanpa masker. AOPC merangkum kurva itu pada budget aktual, lalu dinormalisasi dengan budget terakhir. T adalah AOPC ranking. R adalah AOPC kontrol terpadan. G sama dengan T dikurangi R. Nilai positif berarti respons ranking lebih besar daripada kontrolnya. D adalah G milik target dikurangi G dari ranking sumber pada target yang sama. D positif menguntungkan ranking sendiri. Karena respons absolut, gerak ke salah satu kelas dapat memperbesar skor. Ukuran ini mengukur pengaruh intervensi yang didefinisikan, bukan kebenaran fisiologis.",
+      "source": "V9 Equations for AOPC, G and D; Turbé et al. (2023); Šimić et al. (2025)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 12,
+      "title": "Relevansi berpindah sebagian pada NewHandPD",
+      "section": "Hasil utama · NewHandPD",
+      "notes": "NewHandPD menggunakan pasangan target dan sumber dari 17 seed baru. Pada setiap baris, kedua ranking diuji pada support eligible yang sama. G sendiri dan G transfer mempunyai selang nominal positif. Selisih D juga positif di semua empat kondisi dataset ini. CI D dihitung dari kontras berpasangan, bukan dengan mengurangkan batas dua CI. Delapan uji D lintas kedua dataset menerima koreksi Holm. Semua p terkoreksi sekitar 0,001600 pada resolusi bootstrap yang tersedia. Bandingkan dua ranking dalam baris yang sama. Besar logit-AOPC bukan leaderboard arsitektur atau perbandingan universal antardataset.",
+      "source": "sources/newhandpd_secondary_mean_contrasts.csv; sources/primary_eight_strata.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 13,
+      "title": "UCI-SST mengulang pola rata-rata yang sama",
+      "section": "Hasil utama · UCI-SST",
+      "notes": "UCI-SST menggunakan seluruh 20 seed baru. Pada setiap baris, kedua ranking diuji pada support eligible yang sama. G sendiri dan G transfer mempunyai selang nominal positif. Selisih D juga positif di semua empat kondisi dataset ini. CI D dihitung dari kontras berpasangan, bukan dengan mengurangkan batas dua CI. Delapan uji D lintas kedua dataset menerima koreksi Holm. Semua p terkoreksi sekitar 0,001600 pada resolusi bootstrap yang tersedia. Bandingkan dua ranking dalam baris yang sama. Besar logit-AOPC bukan leaderboard arsitektur atau perbandingan universal antardataset.",
+      "source": "sources/uci395_secondary_mean_contrasts.csv; sources/primary_eight_strata.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 14,
+      "title": "Matching menentukan cakupan hasil",
+      "section": "Cakupan hasil",
+      "notes": "Cakupan tidak sama di setiap kondisi. NewHandPD BiMamba-2 median mempertahankan 8791 dari 20064 pasangan terencana, walaupun semua 66 subjek masih terwakili. UCI BiGRU median mempertahankan 5102 dari 7700 pasangan dan 67 dari 76 subjek. Panel ini memakai seluruh pasangan terencana sebagai denominator. Subset keluaran stabil berada pada panel terpisah karena jauh lebih kecil. Gate bukan analisis utama. Kegagalan search tidak membuktikan bahwa pencocokan matematis mustahil. Matching bisa mengubah populasi pasangan yang direpresentasikan; seluruh subjek yang hadir tidak menjamin seluruh pasangan tiap subjek tercakup.",
+      "source": "sources/newhandpd_matching_coverage.csv; sources/uci395_matching_coverage.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 15,
+      "title": "JSD berkaitan dengan besar efek transfer",
+      "section": "Hubungan kontinu · target tetap",
+      "notes": "Analisis sekunder menghubungkan JSD dengan besar efek transfer absolut. Weighted Spearman positif pada delapan kondisi. Rentang koefisien NewHandPD sekitar 0,146 sampai 0,217. UCI sekitar 0,192 sampai 0,384. Ini asosiasi peringkat pada target yang tetap, bukan persamaan sebab-akibat. JSD menggunakan logaritma basis dua dan berada antara nol dan satu. Ia bukan akar divergence. Ranking yang identik memilih mask identik dan memberi D nol ketika kontrol bersama sama. Konstruksi ini dapat menyumbang hubungan. Oleh sebab itu, kami juga membandingkan ranking nyata dengan plasebo pada JSD serupa. Scatter bersumbu JSD penuh disimpan di cadangan.",
+      "source": "sources/newhandpd_jsd_associations.csv; sources/uci395_jsd_associations.csv; Nielsen (2021)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 16,
+      "title": "Ranking nyata tidak selalu melampaui plasebo",
+      "section": "Kontrol pada JSD serupa",
+      "notes": "Plasebo berasal dari circular shift atau permutasi peta target. Pemilihan kandidat memakai kedekatan JSD, bukan respons model. Setiap kandidat menerima kontrol sendiri. Matriks ini merangkum apakah CI nominal kontras ranking nyata minus plasebo berada di atas nol atau melintasi nol. Hasil berbeda antar arsitektur, replacement dan konstruksi plasebo. Selang yang melintasi nol bukan bukti kesetaraan. Cakupan juga dapat mengecil tajam. Contohnya, permutasi UCI BiGRU memenuhi pencocokan JSD pada 640 dari 7700 pasangan. Setelah kontrol lengkap, tersisa 406 pasangan donor dan 403 median. Angka dan CI penuh ada pada sumber serta cadangan.",
+      "source": "sources/newhandpd_placebo_contrasts.csv; sources/uci395_placebo_contrasts.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 17,
+      "title": "Dosis langsung kedua ranking masih dapat berbeda",
+      "section": "Sensitivitas dosis",
+      "notes": "Setiap mask sudah mempunyai kontrol yang terpadan. Namun, RMS mask ranking sendiri dapat berbeda dari RMS mask transfer. Sensitivitas tambahan membatasi gap langsung menjadi paling besar lima persen pada semua budget dan background. Kedua kondisi donor UCI mempunyai CI D yang melintasi nol pada support itu. BiGRU tinggal 139 pasangan dari dua puluh subjek. BiMamba-2 tinggal 71 pasangan dari sebelas subjek. Enam kondisi lain mempunyai CI nominal positif. Perubahan support harus dibaca bersama perubahan interval. Pembatasan dosis ini tetap diagnostik dan tidak mengidentifikasi efek kausal.",
+      "source": "sources/uci395_secondary_mean_contrasts.csv; sources/newhandpd_secondary_mean_contrasts.csv",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 18,
+      "title": "Pola rata-rata menyisakan variasi target",
+      "section": "Variasi training dan inferensi",
+      "notes": "Leave-one-seed-out mengeluarkan seed dari peran target maupun sumber. Semua rerata D dari pemeriksaan tersimpan tetap positif. Beberapa rerata target BiGRU negatif. Karena itu, urutan rata-rata tidak berlaku untuk setiap checkpoint. Bootstrap mengulang subjek beserta rekaman dan pasangan di dalamnya. Ia bersyarat pada bank, split dan jadwal. Banyak pasangan yang berbagi model tidak dianggap sebagai banyak pelatihan independen. Dua puluh seed membantu memeriksa variasi training, tetapi tidak menambah peserta. Besar efek discovery juga tidak dianggap identik dengan hasil seed baru.",
+      "source": "sources/*_target_seed_effects.csv; sources/*_leave_one_seed_out.csv; sources/newhandpd_new_minus_discovery_subject_contrast.csv; Loy & Korobova (2022); Lakens (2022)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 19,
+      "title": "Tiga pemeriksaan untuk membandingkan penjelasan",
+      "section": "Kontribusi dan manfaat",
+      "notes": "Kontribusi pertama adalah pengujian ranking pada target yang parameternya tetap. Ia membantu membedakan perubahan fungsi model dari perubahan lokasi input yang dipilih. Kontribusi kedua adalah kontrol terhadap besar dan geometri intervensi. Ia membantu menilai apakah keuntungan attention hanya mengikuti perubahan input yang lebih kuat. Kontribusi ketiga adalah replikasi seed dan akuisisi dengan pelaporan coverage. Ia menunjukkan pola yang bertahan dan kondisi yang lebih terbatas. Manfaat praktisnya adalah debugging dan evaluasi penjelasan. Hasil tersebut bukan validasi untuk diagnosis klinis otomatis.",
+      "source": "V9 Results and Discussion; paired transfer, RMS controls, two-dataset replication",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 20,
+      "title": "Cakupan bukti mengikuti akuisisi dan matching",
+      "section": "Cakupan dan tindak lanjut",
+      "notes": "Studi ini memeriksa dua akuisisi spiral dan dua keluarga encoder setelah retraining terpisah. Tiap dataset masih mempunyai jumlah subjek terbatas. Split sama dipertahankan antar seed. Hasil primer mencakup pasangan dengan kontrol lengkap. Placebo dan dosis menunjukkan kondisi yang memerlukan pembacaan lebih khusus. Replikasi dengan split baru atau kohort lebih besar dapat memperluas cakupan. Baseline atribusi lain dapat menguji apakah pola juga muncul di luar attention. Anotasi temporal independen diperlukan untuk klaim fisiologis. E3 robustness input menjawab pertanyaan lain dan tidak dijalankan untuk presentasi ini.",
+      "source": "V9 Discussion; matching/eligibility diagnostics; Kapoor & Narayanan (2023); Lakens (2022)",
+      "backup": false,
+      "dark": false
+    },
+    {
+      "number": 21,
+      "title": "Relevansinya berpindah sebagian",
+      "section": "Kesimpulan",
+      "notes": "Jawaban ringkasnya adalah transfer parsial. Pada pasangan dengan kontrol lengkap, ranking dari seed lain tetap mempunyai keuntungan rata-rata terhadap kontrol. Ranking milik target memberikan keuntungan lebih besar. Besar perbedaan peta berasosiasi dengan besar perbedaan keuntungan ranking. Placebo memperlihatkan variasi antar kondisi. Karena itu, penjelasan yang berbeda tidak langsung dinilai buruk hanya dari kemiripan peta. Relevansinya perlu diuji pada model dan intervensi yang jelas. AUROC tetap penting untuk klasifikasi, tetapi tidak menggantikan pengujian penjelasan.",
+      "source": "V9 primary and secondary results; conclusion",
+      "backup": false,
+      "dark": true
+    },
+    {
+      "number": 22,
+      "title": "A · Delapan kontras primer pada support lengkap",
+      "section": "Cadangan · angka utama",
+      "notes": "Tabel ini memberikan angka per kondisi. CI adalah interval percentile nominal. Nilai p Holm memakai satu keluarga delapan uji primer. Semua D positif pada estimasi tersimpan. Itu bukan uji superioritas satu encoder atas encoder lain. Skala respons berbeda antar model dan dataset. Denominator subjek mengikuti matching masing-masing kondisi.",
+      "source": "sources/primary_eight_strata.csv; konteks koreksi multiplicity pada data berkelompok: Watson et al. (2023)",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 23,
+      "title": "B · Cakupan matching dan subset keluaran stabil",
+      "section": "Cadangan · denominator",
+      "notes": "Gate stabil mensyaratkan kelas sama, selisih probabilitas paling besar 0,02 dan selisih logit paling besar 0,1. Kolom gate memakai pasangan terencana sebagai denominator. Kolom setelah matching menunjukkan irisan dua kriteria. Angka ini berasal dari bank replikasi dan tidak ditukar dengan persentase discovery tiga seed. NewHandPD BiMamba-2 median mempertahankan semua subjek, tetapi tidak semua pasangan di dalam subjek. UCI BiGRU median kehilangan beberapa subjek.",
+      "source": "sources/newhandpd_matching_coverage.csv; sources/uci395_matching_coverage.csv",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 24,
+      "title": "C · Resep training dan pasangan yang dikunci",
+      "section": "Cadangan · reproduktibilitas",
+      "notes": "Semua konfigurasi berasal dari design lock dan implementasi training yang dipatok. Checkpoint dipilih pada epoch terakhir. Tidak ada early stopping atau tuning baru pada replikasi ini. Lima fold subjek dengan split seed 42 dipertahankan antar seed. Jadwal sumber memakai ring yang dikunci. Setiap target mempunyai lima sumber pada bank dua puluh seed. Subgraph primer NewHandPD hanya memakai seed baru di kedua peran. Sumber yang tersedia dirata-rata di dalam target sebelum target dirata-rata.",
+      "source": "plans/attention_audit_replication20_20261019/design_lock.json; V9 configuration table",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 25,
+      "title": "D · Bridge discovery mengganti fungsi model",
+      "section": "Cadangan · fungsi model berubah",
+      "notes": "Bridge discovery membandingkan perubahan peta dengan perubahan keuntungan saat fungsi model juga berganti seed. Weighted Spearman mentah adalah analisis primer bridge. Normalisasi menjadi sensitivitas. Pearson tersentrik mengestimasi asosiasi linear di dalam subjek. Seluruh CI Spearman normalized mencakup nol. Pearson normalized BiGRU positif pada kedua replacement. Karena estimator dan objek evaluasi berbeda, hasil tersebut tidak bertentangan dengan asosiasi JSD versus efek transfer pada target tetap. Signifikan di satu kondisi dan tidak di kondisi lain bukan uji perbedaan antar replacement.",
+      "source": "sources/discovery_bridge_associations.csv; V9 bridge tables",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 26,
+      "title": "E · Magnitude dapat mengungguli attention",
+      "section": "Cadangan · pembanding discovery",
+      "notes": "Tabel ini berasal dari kontrol amplitude-aware pada discovery tiga seed. Nilai adalah respons attention dikurangi magnitude ranking untuk AOPC perubahan absolut logit. Negatif berarti magnitude lebih besar. Pada support baseline lengkap, magnitude mengungguli attention untuk kedua replacement BiMamba-2. Pada irisan yang memenuhi kontrol RMS lengkap E2, donor tetap negatif dan CI median melintasi nol. Setiap support menggunakan hasil bootstrap yang sudah tersimpan. Irisan tidak berarti magnitude menerima pencocokan dosis dan geometri. Pembanding magnitude belum menyamakan keduanya langsung dengan attention. Hasil ini bukan peringkat universal mutu penjelasan.",
+      "source": "sources/discovery_amplitude_ci.csv; V9 E2 controls",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 27,
+      "title": "F · Konsistensi AUROC setelah retraining terpisah",
+      "section": "Cadangan · AUROC historis",
+      "notes": "Ini bank historis sepuluh seed, bukan checkpoint audit dua puluh seed. Probabilitas rekaman dirata-rata dalam subjek. AUROC dihitung per seed lalu dirata-rata antar seed. BiMamba-2 lebih rendah pada UCI dan lebih tinggi pada NewHandPD. Kontras penurunan Mamba minus GRU adalah sekitar minus 0,0514, dengan interval minus 0,10678 sampai 0,00074. Interval ini masih mencakup nol. Temuan mendukung konsistensi arsitektur secara deskriptif setelah retraining terpisah. Ia tidak menetapkan superioritas retensi, equivalence atau keberhasilan model beku pada kohort baru.",
+      "source": "sources/historical_auroc.csv; sources/historical_auroc_contrast.csv",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 28,
+      "title": "G · Brier dan ECE pada bank discovery",
+      "section": "Cadangan · probabilitas OOF",
+      "notes": "Analisis ini memakai bank discovery tiga seed dengan 66 subjek. Ia tidak mengevaluasi kalibrasi bank replikasi dua puluh seed. Brier menghitung kualitas probabilitas secara keseluruhan. ECE utama memakai sepuluh bin sama lebar dari probabilitas PD, bukan confidence kelas maksimum. Metrik dihitung per seed setelah agregasi probabilitas dalam subjek. Kontras Brier berpasangan menguntungkan BiMamba-2 dan CI tidak melintasi nol. Kontras ECE utama masih melintasi nol. Sensitivitas lima bin dan sepuluh quantile dipertahankan. Tidak ada fitting calibrator pada data evaluasi. Ensemble tidak dijalankan.",
+      "source": "sources/calibration_scores.csv; sources/calibration_contrasts.csv; Silva Filho et al. (2023); Dimitriadis et al. (2021)",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 29,
+      "title": "H · Usia dan baseline historis memberi konteks",
+      "section": "Cadangan · usia, fitur dan marker",
+      "notes": "Analisis historis NewHandPD menunjukkan selisih usia sekitar 14,7 tahun dan age-only AUROC 0,8097. Restriksi rentang usia bukan matching pasangan yang seimbang. Baseline random forest historis menghasilkan UCI AUROC sempurna pada kohort kecil, tetapi memakai fitur agregat dan lima seed. Imputasi median global mendahului fold. Dampak aktual imputasi tersebut belum diisolasi. Marker sensor bukan ground truth fisiologis independen. Agreement Shapley custom dan ensemble juga bukan pemulihan fidelity yang tervalidasi. Konteks ini tidak disajikan seolah berasal dari checkpoint replikasi terbaru. Klaim utama presentasi tetap perilaku model terhadap intervensi.",
+      "source": "V9 Appendix Historical controls; results/p5_*; results/a_baseline_*; prior stored analyses",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 30,
+      "title": "I · Sebaran JSD dan |D| pada NewHandPD",
+      "section": "Cadangan · visual empiris lengkap",
+      "notes": "Gambar ini adalah visual hasil tersimpan dari V9. Tidak ada fit atau agregasi baru untuk presentasi. Sumbu divergence ditampilkan penuh dari nol sampai satu. Banyak titik terkonsentrasi pada JSD tinggi. Titik berbagi subjek dan model, sehingga jumlah titik bukan ukuran sampel independen. Warna menandai perubahan probabilitas source versus target sebelum intervensi. Asosiasi memakai weighted Spearman dan bootstrap subjek yang tersimpan.",
+      "source": "V9 figures/jsd_newhandpd_v7.png; stored paired results",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 31,
+      "title": "J · Sebaran JSD dan |D| pada UCI-SST",
+      "section": "Cadangan · visual empiris lengkap",
+      "notes": "Gambar ini adalah visual hasil tersimpan dari V9. Tidak ada fit atau agregasi baru untuk presentasi. Sumbu divergence ditampilkan penuh dari nol sampai satu. Banyak titik terkonsentrasi pada JSD tinggi. Titik berbagi subjek dan model, sehingga jumlah titik bukan ukuran sampel independen. Warna menandai perubahan probabilitas source versus target sebelum intervensi. Asosiasi memakai weighted Spearman dan bootstrap subjek yang tersimpan.",
+      "source": "V9 figures/jsd_uci_v7.png; stored paired results",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 32,
+      "title": "K · Apa yang berubah dari presentasi September?",
+      "section": "Cadangan · ketepatan klaim",
+      "notes": "Materi September masih berupa rencana dan mencantumkan tiga encoder. Presentasi sekarang menyampaikan hasil selesai dengan dua arsitektur utama. Skema lama yang tampak seperti UCI train ke NewHandPD test diperbaiki menjadi retraining terpisah. Judul map breaks, rasio 4 sampai 95 kali, fidelity ceiling dan independensi marker tidak dibawa sebagai klaim sekarang. Status publik preregistration tetap false. Shapley tidak dipakai sebagai ground truth fisiologis. Bukti ketahanan BiMamba-2 tetap dipertahankan sebagai konsistensi deskriptif pada bank historis. Pemetaan lengkap tersedia dalam notes/PETA_PRESENTASI_LAMA_KE_BARU.md.",
+      "source": "Old presentation; V9; complete manifests; notes/CLAIM_AUDIT.md",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 33,
+      "title": "L · Rujukan jurnal yang digunakan",
+      "section": "Cadangan · sumber ilmiah",
+      "notes": "Daftar ini berisi artikel jurnal dari tahun 2021 ke atas yang dipakai untuk konteks dan metode presentasi. Ketiga pembanding audit adalah pembanding protokol. Mereka bukan tiga studi dengan dataset, input dan subject split identik. Originalitas metode tidak dialihkan kepada penulis tinjauan. Atribusi akuisisi dataset dicatat terpisah di README dan sumber data karena jenis publikasinya berbeda.",
+      "source": "sources/references.json; V9 verified bibliography",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 34,
+      "title": "M · Rujukan jurnal yang digunakan",
+      "section": "Cadangan · sumber ilmiah",
+      "notes": "Daftar ini berisi artikel jurnal dari tahun 2021 ke atas yang dipakai untuk konteks dan metode presentasi. Ketiga pembanding audit adalah pembanding protokol. Mereka bukan tiga studi dengan dataset, input dan subject split identik. Originalitas metode tidak dialihkan kepada penulis tinjauan. Atribusi akuisisi dataset dicatat terpisah di README dan sumber data karena jenis publikasinya berbeda.",
+      "source": "sources/references.json; V9 verified bibliography",
+      "backup": true,
+      "dark": false
+    },
+    {
+      "number": 35,
+      "title": "N · Gate keluaran stabil memakai skala tersendiri",
+      "section": "Cadangan · subset sensitivitas",
+      "notes": "Kedua panel menggunakan maksimum dua puluh persen. Grafik matching utama memakai seratus persen. Denominator kedua seri di sini tetap seluruh pasangan terencana. Karena itu, seri setelah matching menunjukkan berapa banyak pasangan yang memenuhi gate sekaligus kontrol lengkap. Gate mensyaratkan kelas sama, perubahan probabilitas paling besar 0,02, dan perubahan logit paling besar 0,1. Subset ini adalah sensitivitas, bukan penjelasan bahwa semua keluaran stabil. Angka discovery 19 atau 52 dari 792 tidak digunakan sebagai persentase bank replikasi.",
+      "source": "sources/newhandpd_matching_coverage.csv; sources/uci395_matching_coverage.csv",
+      "backup": true,
+      "dark": false
+    }
+  ]
+}

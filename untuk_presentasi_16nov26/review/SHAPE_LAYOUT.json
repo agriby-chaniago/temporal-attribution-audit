@@ -1,0 +1,7794 @@
+[
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Beda Peta,\nMasih Relevan?",
+    "x": 0.68,
+    "y": 0.82,
+    "w": 8.1,
+    "h": 1.85,
+    "size": 50
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Audit transfer ranking attention\npada tulisan tangan Parkinsonian",
+    "x": 0.72,
+    "y": 3,
+    "w": 7.5,
+    "h": 1.05,
+    "size": 26
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Agriby Diandra Chaniago",
+    "x": 0.72,
+    "y": 4.57,
+    "w": 7.9,
+    "h": 0.46,
+    "size": 24
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Purwono · Annastasya Nabila Elsa Wulandari · Alfian Ma’arif",
+    "x": 0.72,
+    "y": 5.16,
+    "w": 10.9,
+    "h": 0.5,
+    "size": 16
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Universitas Harapan Bangsa · Universitas Ahmad Dahlan",
+    "x": 0.72,
+    "y": 5.8,
+    "w": 11.2,
+    "h": 0.37,
+    "size": 16
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "16 November 2026",
+    "x": 0.72,
+    "y": 6.48,
+    "w": 7,
+    "h": 0.4,
+    "size": 19
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.1,
+    "y": 1.12,
+    "w": 3.5,
+    "h": 0.97
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Peta dari seed lain",
+    "x": 9.3,
+    "y": 1.25,
+    "w": 3.1,
+    "h": 0.68,
+    "size": 23
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.1,
+    "y": 2.6,
+    "w": 3.5,
+    "h": 0.97
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Model target tetap",
+    "x": 9.3,
+    "y": 2.73,
+    "w": 3.1,
+    "h": 0.68,
+    "size": 23
+  },
+  {
+    "slide": 1,
+    "kind": "shape",
+    "x": 9.1,
+    "y": 4.08,
+    "w": 3.5,
+    "h": 0.97
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "Relevansi diuji",
+    "x": 9.3,
+    "y": 4.21,
+    "w": 3.1,
+    "h": 0.68,
+    "size": 23
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "MASALAH PENELITIAN",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "AUROC tinggi menjawab pertanyaan yang berbeda",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.2
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Keluaran",
+    "x": 0.88,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah model membedakan PD dan kontrol?",
+    "x": 0.88,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.1,
+    "size": 20
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.2
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Peta",
+    "x": 4.98,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah seed lain menyorot waktu yang sama?",
+    "x": 4.98,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.1,
+    "size": 20
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.2
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Ranking",
+    "x": 9.08,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Apakah bagian terpilih memengaruhi model?",
+    "x": 9.08,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.1,
+    "size": 20
+  },
+  {
+    "slide": 2,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.55,
+    "w": 12.05,
+    "h": 1.23
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Kalibrasi dan validitas fisiologis adalah pertanyaan terpisah.",
+    "x": 0.94,
+    "y": 4.77,
+    "w": 11.45,
+    "h": 0.8,
+    "size": 25
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Fokus utama studi ini adalah relevansi ranking terhadap intervensi.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "DISCOVERY · TIGA SEED",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Keluaran antar-seed tidak selalu serupa",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.07,
+    "w": 2,
+    "h": 0.67
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Model",
+    "x": 0.75,
+    "y": 2.11,
+    "w": 1.8,
+    "h": 0.5900000000000001,
+    "size": 20
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 2.65,
+    "y": 2.07,
+    "w": 3.2,
+    "h": 0.67
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Rerata |Δp| [CI]",
+    "x": 2.75,
+    "y": 2.11,
+    "w": 3,
+    "h": 0.5900000000000001,
+    "size": 20
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 5.85,
+    "y": 2.07,
+    "w": 3.3,
+    "h": 0.67
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Rerata |Δz| [CI]",
+    "x": 5.949999999999999,
+    "y": 2.11,
+    "w": 3.0999999999999996,
+    "h": 0.5900000000000001,
+    "size": 20
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 9.149999999999999,
+    "y": 2.07,
+    "w": 3.55,
+    "h": 0.67
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Rerata JSD [CI]",
+    "x": 9.249999999999998,
+    "y": 2.11,
+    "w": 3.3499999999999996,
+    "h": 0.5900000000000001,
+    "size": 20
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.7399999999999998,
+    "w": 2,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.75,
+    "y": 2.78,
+    "w": 1.8,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 2.65,
+    "y": 2.7399999999999998,
+    "w": 3.2,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "0.202 [0.162; 0.243]",
+    "x": 2.75,
+    "y": 2.78,
+    "w": 3,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 5.85,
+    "y": 2.7399999999999998,
+    "w": 3.3,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "3.882 [3.395; 4.395]",
+    "x": 5.949999999999999,
+    "y": 2.78,
+    "w": 3.0999999999999996,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 9.149999999999999,
+    "y": 2.7399999999999998,
+    "w": 3.55,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "0.802 [0.773; 0.828]",
+    "x": 9.249999999999998,
+    "y": 2.78,
+    "w": 3.3499999999999996,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.76,
+    "w": 2,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.75,
+    "y": 3.8,
+    "w": 1.8,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 2.65,
+    "y": 3.76,
+    "w": 3.2,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "0.168 [0.128; 0.210]",
+    "x": 2.75,
+    "y": 3.8,
+    "w": 3,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 5.85,
+    "y": 3.76,
+    "w": 3.3,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "3.110 [2.593; 3.646]",
+    "x": 5.949999999999999,
+    "y": 3.8,
+    "w": 3.0999999999999996,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 9.149999999999999,
+    "y": 3.76,
+    "w": 3.55,
+    "h": 1.02
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "0.790 [0.765; 0.812]",
+    "x": 9.249999999999998,
+    "y": 3.8,
+    "w": 3.3499999999999996,
+    "h": 0.9400000000000001,
+    "size": 21
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "p = probabilitas PD · z = skor sebelum sigmoid · JSD = perbedaan distribusi attention",
+    "x": 0.71,
+    "y": 1.62,
+    "w": 11.95,
+    "h": 0.29,
+    "size": 17
+  },
+  {
+    "slide": 3,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.05,
+    "w": 12.05,
+    "h": 1
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "792 pasangan · 264 rekaman · 66 subjek per arsitektur",
+    "x": 0.93,
+    "y": 5.22,
+    "w": 11.6,
+    "h": 0.63,
+    "size": 27
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "Rerata berbobot subjek. CI adalah selang kepercayaan nominal 95% pada bank discovery.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "CONTOH NYATA · BANK DISCOVERY",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Keluaran serupa dapat disertai peta berbeda",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "P(PD)\n0.000309\n0.000319",
+    "x": 9.5,
+    "y": 2.07,
+    "w": 2.95,
+    "h": 1.55,
+    "size": 25
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "|Δlogit| = 0.034\nJSD = 0.888",
+    "x": 9.5,
+    "y": 3.96,
+    "w": 2.95,
+    "h": 1,
+    "size": 21
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Gate ketat discovery: BiGRU 19/792; BiMamba-2 52/792. Contoh bukan validasi fisiologis.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "KESENJANGAN BUKTI",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Bagaimana menilai peta berbeda pada model yang sama?",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.7
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "UTS-XAI",
+    "x": 0.88,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Stabilitas dan mutu\npenjelasan temporal\n\nBragança & Souto, 2026",
+    "x": 0.88,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.6,
+    "size": 20
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.7
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Operator intervensi",
+    "x": 4.98,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Replacement dan\nukuran region\n\nŠimić et al., 2025",
+    "x": 4.98,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.6,
+    "size": 20
+  },
+  {
+    "slide": 5,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 1.87,
+    "w": 3.85,
+    "h": 2.7
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Regularisasi peta",
+    "x": 9.08,
+    "y": 2.0700000000000003,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Penjelasan temporal\ndalam pelatihan\n\nNavakauskas & Dumpis, 2026",
+    "x": 9.08,
+    "y": 2.83,
+    "w": 3.39,
+    "h": 1.6,
+    "size": 20
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Tambahan studi ini",
+    "x": 0.75,
+    "y": 5,
+    "w": 3.4,
+    "h": 0.5,
+    "size": 24
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Ranking berbeda → rekaman yang sama → target tetap → kontrol terpadan",
+    "x": 0.75,
+    "y": 5.64,
+    "w": 11.9,
+    "h": 0.8,
+    "size": 25
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "DATA PENELITIAN",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Audit direplikasi pada dua akuisisi spiral",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 6,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.45
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.88,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "264 rekaman · 66 subjek\n31 PD / 35 kontrol\n\nSmart pen · empat tugas spiral\nTurunan enam kanal sensor",
+    "x": 0.88,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.35,
+    "size": 20
+  },
+  {
+    "slide": 6,
+    "kind": "shape",
+    "x": 6.8,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.45
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "UCI 395 · SST",
+    "x": 7.03,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "77 rekaman · 76 subjek\n61 PD / 15 kontrol\n\nTablet · template spiral statis\nDinamika koordinat dan tekanan",
+    "x": 7.03,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.35,
+    "size": 20
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "Resampling berbeda. Waktu UCI bersifat nominal; kedua dataset tidak dipool.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "DESAIN DAN PROVENANCE",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Bank 20 seed memperluas discovery",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.75,
+    "w": 3.85,
+    "h": 2.6
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Historis",
+    "x": 0.88,
+    "y": 2.95,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "AUROC dan probabilitas\nBank pendamping",
+    "x": 0.88,
+    "y": 3.71,
+    "w": 3.39,
+    "h": 1.5,
+    "size": 20
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "10 seed",
+    "x": 0.88,
+    "y": 1.9,
+    "w": 3.35,
+    "h": 0.65,
+    "size": 36
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 2.75,
+    "w": 3.85,
+    "h": 2.6
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Discovery",
+    "x": 4.98,
+    "y": 2.95,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "30 checkpoint NewHandPD\nSumber temuan awal",
+    "x": 4.98,
+    "y": 3.71,
+    "w": 3.39,
+    "h": 1.5,
+    "size": 20
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "3 seed",
+    "x": 4.9799999999999995,
+    "y": 1.9,
+    "w": 3.35,
+    "h": 0.65,
+    "size": 36
+  },
+  {
+    "slide": 7,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 2.75,
+    "w": 3.85,
+    "h": 2.6
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Audit diperluas",
+    "x": 9.08,
+    "y": 2.95,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "400 identitas checkpoint\nDua dataset × dua model",
+    "x": 9.08,
+    "y": 3.71,
+    "w": 3.39,
+    "h": 1.5,
+    "size": 20
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "20 seed",
+    "x": 9.08,
+    "y": 1.9,
+    "w": 3.35,
+    "h": 0.65,
+    "size": 36
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Primer NewHandPD: seed 3–19. Primer UCI-SST: seed 0–19. Partisi subjek tetap.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "ARSITEKTUR DAN PRAPROSES",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Classifier menghasilkan probabilitas dan attention",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.1,
+    "w": 2.8,
+    "h": 2.1
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Enam kanal",
+    "x": 0.88,
+    "y": 2.3000000000000003,
+    "w": 2.34,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Praproses khusus dataset",
+    "x": 0.88,
+    "y": 3.06,
+    "w": 2.34,
+    "h": 1,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 3.75,
+    "y": 2.1,
+    "w": 2.8,
+    "h": 2.1
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Patch 7 sampel",
+    "x": 3.98,
+    "y": 2.3000000000000003,
+    "w": 2.34,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Normalisasi train fold",
+    "x": 3.98,
+    "y": 3.06,
+    "w": 2.34,
+    "h": 1,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 6.8500000000000005,
+    "y": 2.1,
+    "w": 2.8,
+    "h": 2.1
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "BiGRU / BiMamba-2",
+    "x": 7.080000000000001,
+    "y": 2.3000000000000003,
+    "w": 2.34,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Encoder kontekstual",
+    "x": 7.080000000000001,
+    "y": 3.06,
+    "w": 2.34,
+    "h": 1,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 9.950000000000001,
+    "y": 2.1,
+    "w": 2.8,
+    "h": 2.1
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Attention pooling",
+    "x": 10.180000000000001,
+    "y": 2.3000000000000003,
+    "w": 2.34,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Peta α dan vektor v",
+    "x": 10.180000000000001,
+    "y": 3.06,
+    "w": 2.34,
+    "h": 1,
+    "size": 20
+  },
+  {
+    "slide": 8,
+    "kind": "shape",
+    "x": 3.5,
+    "y": 4.72,
+    "w": 6.4,
+    "h": 1.07
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Logit z → probabilitas P(PD)",
+    "x": 3.75,
+    "y": 4.93,
+    "w": 5.9,
+    "h": 0.67,
+    "size": 29
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Parameter pelatihan: AdamW · lr 0,0003 · batch 8 · 35 epoch · checkpoint epoch terakhir.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "RANKING-SWAP PADA TARGET TETAP",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Target tetap ketika sumber ranking berubah",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2,
+    "w": 4.15,
+    "h": 1.65
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Ranking target a",
+    "x": 0.88,
+    "y": 2.2,
+    "w": 3.6900000000000004,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Peringkat dari checkpoint a",
+    "x": 0.88,
+    "y": 2.96,
+    "w": 3.6900000000000004,
+    "h": 0.5499999999999998,
+    "size": 20
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.2,
+    "w": 4.15,
+    "h": 1.65
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Ranking sumber b",
+    "x": 0.88,
+    "y": 4.4,
+    "w": 3.6900000000000004,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Arsitektur sama · seed berbeda",
+    "x": 0.88,
+    "y": 5.16,
+    "w": 3.6900000000000004,
+    "h": 0.5499999999999998,
+    "size": 20
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 5.42,
+    "y": 2.48,
+    "w": 2.35,
+    "h": 2.55
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Pilih patch\nGanti input",
+    "x": 5.63,
+    "y": 2.94,
+    "w": 1.95,
+    "h": 1.32,
+    "size": 25
+  },
+  {
+    "slide": 9,
+    "kind": "shape",
+    "x": 8.48,
+    "y": 2.48,
+    "w": 4.12,
+    "h": 2.55
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Checkpoint target a\nTETAP",
+    "x": 8.75,
+    "y": 2.93,
+    "w": 3.57,
+    "h": 1.35,
+    "size": 29
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "Yang dipertukarkan adalah urutan pemilihan patch input, bukan parameter model.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "KONTROL RMS DAN GEOMETRI",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Respons besar membutuhkan kontrol yang sepadan",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.9,
+    "w": 3.85,
+    "h": 3.62
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Budget tetap",
+    "x": 0.88,
+    "y": 2.1,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "5% · 10% · 20% · 30%\n\nSemua enam kanal diganti\nTail tidak diganti",
+    "x": 0.88,
+    "y": 2.86,
+    "w": 3.39,
+    "h": 2.52,
+    "size": 20
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 1.9,
+    "w": 3.85,
+    "h": 3.62
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Geometri tetap",
+    "x": 4.98,
+    "y": 2.1,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Jumlah patch sama\nPanjang blok kontigu sama\n\nLokasi kontrol boleh berbeda",
+    "x": 4.98,
+    "y": 2.86,
+    "w": 3.39,
+    "h": 2.52,
+    "size": 20
+  },
+  {
+    "slide": 10,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 1.9,
+    "w": 3.85,
+    "h": 3.62
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Besar perubahan",
+    "x": 9.08,
+    "y": 2.1,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "RMS = root mean square\nBesar perubahan dicocokkan\n\nToleransi relatif 5%\nMaksimum 4096 kandidat",
+    "x": 9.08,
+    "y": 2.86,
+    "w": 3.39,
+    "h": 2.52,
+    "size": 20
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Median: 20 kontrol. Donor: 4 kontrol × 5 background. Pemilihan tidak memakai respons target.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "DEFINISI UKURAN",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Keuntungan ranking dihitung terhadap kontrol",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.9,
+    "w": 12.05,
+    "h": 1.13
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "T",
+    "x": 0.9,
+    "y": 2.02,
+    "w": 4.25,
+    "h": 0.77,
+    "size": 32
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "AOPC perubahan absolut logit",
+    "x": 5.35,
+    "y": 1.99,
+    "w": 7.05,
+    "h": 0.48,
+    "size": 23
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Respons terhadap input yang diganti",
+    "x": 5.35,
+    "y": 2.52,
+    "w": 7.05,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.3,
+    "w": 12.05,
+    "h": 1.13
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "G = T − R",
+    "x": 0.9,
+    "y": 3.42,
+    "w": 4.25,
+    "h": 0.77,
+    "size": 32
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Keuntungan terhadap kontrol RMS",
+    "x": 5.35,
+    "y": 3.3899999999999997,
+    "w": 7.05,
+    "h": 0.48,
+    "size": 23
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "R adalah AOPC kontrol terpadan",
+    "x": 5.35,
+    "y": 3.92,
+    "w": 7.05,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 11,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.699999999999999,
+    "w": 12.05,
+    "h": 1.13
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "D = G sendiri − G transfer",
+    "x": 0.9,
+    "y": 4.82,
+    "w": 4.25,
+    "h": 0.77,
+    "size": 27
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Keuntungan yang berubah saat ranking ditransfer",
+    "x": 5.35,
+    "y": 4.79,
+    "w": 7.05,
+    "h": 0.48,
+    "size": 23
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "D positif menguntungkan ranking sendiri",
+    "x": 5.35,
+    "y": 5.32,
+    "w": 7.05,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "G dan D memakai satuan logit-AOPC. Skala ini bukan ukuran universal antarmodel.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "HASIL UTAMA · NEWHANDPD",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Relevansi berpindah sebagian pada NewHandPD",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Keuntungan terhadap kontrol terpadan",
+    "x": 0.7,
+    "y": 1.66,
+    "w": 8,
+    "h": 0.33,
+    "size": 19
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Selisih berpasangan D [CI]",
+    "x": 9.25,
+    "y": 1.95,
+    "w": 3.42,
+    "h": 0.6,
+    "size": 21
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 9.25,
+    "y": 2.75,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "1.213 [0.983; 1.449]",
+    "x": 9.25,
+    "y": 3.1,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 9.25,
+    "y": 3.54,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "1.266 [0.898; 1.661]",
+    "x": 9.25,
+    "y": 3.89,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 9.25,
+    "y": 4.33,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "1.407 [1.244; 1.579]",
+    "x": 9.25,
+    "y": 4.68,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 9.25,
+    "y": 5.12,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "2.190 [1.907; 2.493]",
+    "x": 9.25,
+    "y": 5.470000000000001,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "CI nominal 95% bootstrap subjek. Bandingkan ranking pada baris yang sama; skala dataset terpisah.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "HASIL UTAMA · UCI-SST",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "UCI-SST mengulang pola rata-rata yang sama",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Keuntungan terhadap kontrol terpadan",
+    "x": 0.7,
+    "y": 1.66,
+    "w": 8,
+    "h": 0.33,
+    "size": 19
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Selisih berpasangan D [CI]",
+    "x": 9.25,
+    "y": 1.95,
+    "w": 3.42,
+    "h": 0.6,
+    "size": 21
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 9.25,
+    "y": 2.75,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "0.048 [0.035; 0.061]",
+    "x": 9.25,
+    "y": 3.1,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 9.25,
+    "y": 3.54,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "0.101 [0.064; 0.143]",
+    "x": 9.25,
+    "y": 3.89,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 9.25,
+    "y": 4.33,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "0.224 [0.190; 0.260]",
+    "x": 9.25,
+    "y": 4.68,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 9.25,
+    "y": 5.12,
+    "w": 3.42,
+    "h": 0.27,
+    "size": 17
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "0.568 [0.415; 0.713]",
+    "x": 9.25,
+    "y": 5.470000000000001,
+    "w": 3.42,
+    "h": 0.38,
+    "size": 19
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "CI nominal 95% bootstrap subjek. Bandingkan ranking pada baris yang sama; skala dataset terpisah.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "CAKUPAN HASIL",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Matching menentukan cakupan hasil",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 1.82,
+    "w": 5.7,
+    "h": 0.35,
+    "size": 24
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 6.95,
+    "y": 1.82,
+    "w": 5.7,
+    "h": 0.35,
+    "size": 24
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "Denominator lengkap tersedia pada cadangan B. Grafik gate stabil memakai skala terpisah pada cadangan N.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "HUBUNGAN KONTINU · TARGET TETAP",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "JSD berkaitan dengan besar efek transfer",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 15,
+    "kind": "shape",
+    "x": 9,
+    "y": 2.06,
+    "w": 3.65,
+    "h": 3.85
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Apa artinya?",
+    "x": 9.23,
+    "y": 2.2600000000000002,
+    "w": 3.19,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Peta yang lebih berbeda\ncenderung disertai |D|\nyang lebih besar.\n\nIni asosiasi sekunder.",
+    "x": 9.23,
+    "y": 3.02,
+    "w": 3.19,
+    "h": 2.75,
+    "size": 20
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "CI nominal. Target dan subjek digunakan berulang; placebos memeriksa penjelasan alternatif.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "KONTROL PADA JSD SERUPA",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Ranking nyata tidak selalu melampaui plasebo",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.98,
+    "w": 2.81,
+    "h": 0.85
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Dataset / model",
+    "x": 0.75,
+    "y": 2.07,
+    "w": 2.61,
+    "h": 0.66,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 3.46,
+    "y": 1.98,
+    "w": 2.26,
+    "h": 0.85
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Donor\nShift",
+    "x": 3.56,
+    "y": 2.07,
+    "w": 2.0599999999999996,
+    "h": 0.66,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 5.72,
+    "y": 1.98,
+    "w": 2.26,
+    "h": 0.85
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Donor\nPermutasi",
+    "x": 5.819999999999999,
+    "y": 2.07,
+    "w": 2.0599999999999996,
+    "h": 0.66,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 7.98,
+    "y": 1.98,
+    "w": 2.26,
+    "h": 0.85
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Median\nShift",
+    "x": 8.08,
+    "y": 2.07,
+    "w": 2.0599999999999996,
+    "h": 0.66,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 10.24,
+    "y": 1.98,
+    "w": 2.46,
+    "h": 0.85
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "Median\nPermutasi",
+    "x": 10.34,
+    "y": 2.07,
+    "w": 2.26,
+    "h": 0.66,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.83,
+    "w": 2.81,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "NewHandPD\nBiGRU",
+    "x": 0.75,
+    "y": 2.91,
+    "w": 2.61,
+    "h": 0.54,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 3.46,
+    "y": 2.83,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 3.54,
+    "y": 2.93,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 5.72,
+    "y": 2.83,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 5.8,
+    "y": 2.93,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 7.98,
+    "y": 2.83,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 8.06,
+    "y": 2.93,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 10.24,
+    "y": 2.83,
+    "w": 2.46,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 10.32,
+    "y": 2.93,
+    "w": 2.3,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.5300000000000002,
+    "w": 2.81,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "NewHandPD\nBiMamba-2",
+    "x": 0.75,
+    "y": 3.6100000000000003,
+    "w": 2.61,
+    "h": 0.54,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 3.46,
+    "y": 3.5300000000000002,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI melintasi 0",
+    "x": 3.54,
+    "y": 3.6300000000000003,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 5.72,
+    "y": 3.5300000000000002,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 5.8,
+    "y": 3.6300000000000003,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 7.98,
+    "y": 3.5300000000000002,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI melintasi 0",
+    "x": 8.06,
+    "y": 3.6300000000000003,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 10.24,
+    "y": 3.5300000000000002,
+    "w": 2.46,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI melintasi 0",
+    "x": 10.32,
+    "y": 3.6300000000000003,
+    "w": 2.3,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.23,
+    "w": 2.81,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "UCI-SST\nBiGRU",
+    "x": 0.75,
+    "y": 4.3100000000000005,
+    "w": 2.61,
+    "h": 0.54,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 3.46,
+    "y": 4.23,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 3.54,
+    "y": 4.33,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 5.72,
+    "y": 4.23,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 5.8,
+    "y": 4.33,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 7.98,
+    "y": 4.23,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI melintasi 0",
+    "x": 8.06,
+    "y": 4.33,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 10.24,
+    "y": 4.23,
+    "w": 2.46,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 10.32,
+    "y": 4.33,
+    "w": 2.3,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.93,
+    "w": 2.81,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "UCI-SST\nBiMamba-2",
+    "x": 0.75,
+    "y": 5.01,
+    "w": 2.61,
+    "h": 0.54,
+    "size": 18
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 3.46,
+    "y": 4.93,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 3.54,
+    "y": 5.029999999999999,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 5.72,
+    "y": 4.93,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI melintasi 0",
+    "x": 5.8,
+    "y": 5.029999999999999,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 7.98,
+    "y": 4.93,
+    "w": 2.26,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 8.06,
+    "y": 5.029999999999999,
+    "w": 2.0999999999999996,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "shape",
+    "x": 10.24,
+    "y": 4.93,
+    "w": 2.46,
+    "h": 0.7
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "CI di atas 0",
+    "x": 10.32,
+    "y": 5.029999999999999,
+    "w": 2.3,
+    "h": 0.48,
+    "size": 17
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "UCI BiGRU/permutasi: 406 donor dan 403 median complete; 44 dan 37 subjek. CI tanpa koreksi sekunder.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "SENSITIVITAS DOSIS",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Dosis langsung kedua ranking masih dapat berbeda",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.1,
+    "w": 3.2,
+    "h": 0.66
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "UCI-SST · donor",
+    "x": 0.75,
+    "y": 2.14,
+    "w": 3,
+    "h": 0.5800000000000001,
+    "size": 21
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 3.85,
+    "y": 2.1,
+    "w": 4.65,
+    "h": 0.66
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "D setelah gap dosis ≤5% [CI]",
+    "x": 3.95,
+    "y": 2.14,
+    "w": 4.45,
+    "h": 0.5800000000000001,
+    "size": 21
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 8.5,
+    "y": 2.1,
+    "w": 2.1,
+    "h": 0.66
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Pasangan",
+    "x": 8.6,
+    "y": 2.14,
+    "w": 1.9000000000000001,
+    "h": 0.5800000000000001,
+    "size": 21
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 10.6,
+    "y": 2.1,
+    "w": 2.1,
+    "h": 0.66
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Subjek",
+    "x": 10.7,
+    "y": 2.14,
+    "w": 1.9000000000000001,
+    "h": 0.5800000000000001,
+    "size": 21
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.7600000000000002,
+    "w": 3.2,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.75,
+    "y": 2.8000000000000003,
+    "w": 3,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 3.85,
+    "y": 2.7600000000000002,
+    "w": 4.65,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "0.043 [−0.006; 0.092]",
+    "x": 3.95,
+    "y": 2.8000000000000003,
+    "w": 4.45,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 8.5,
+    "y": 2.7600000000000002,
+    "w": 2.1,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "139",
+    "x": 8.6,
+    "y": 2.8000000000000003,
+    "w": 1.9000000000000001,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 10.6,
+    "y": 2.7600000000000002,
+    "w": 2.1,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "20",
+    "x": 10.7,
+    "y": 2.8000000000000003,
+    "w": 1.9000000000000001,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.8100000000000005,
+    "w": 3.2,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.75,
+    "y": 3.8500000000000005,
+    "w": 3,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 3.85,
+    "y": 3.8100000000000005,
+    "w": 4.65,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "0.084 [−0.023; 0.192]",
+    "x": 3.95,
+    "y": 3.8500000000000005,
+    "w": 4.45,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 8.5,
+    "y": 3.8100000000000005,
+    "w": 2.1,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "71",
+    "x": 8.6,
+    "y": 3.8500000000000005,
+    "w": 1.9000000000000001,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 10.6,
+    "y": 3.8100000000000005,
+    "w": 2.1,
+    "h": 1.05
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "11",
+    "x": 10.7,
+    "y": 3.8500000000000005,
+    "w": 1.9000000000000001,
+    "h": 0.9700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 17,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5,
+    "w": 12.05,
+    "h": 1.15
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Enam kondisi lain mempertahankan CI nominal positif.",
+    "x": 0.94,
+    "y": 5.19,
+    "w": 11.45,
+    "h": 0.72,
+    "size": 26
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "Support yang lebih kecil membatasi perbandingan langsung dengan estimasi utama.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "VARIASI TRAINING DAN INFERENSI",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Pola rata-rata menyisakan variasi target",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 18,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.6
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Pengaruh seed",
+    "x": 0.88,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Semua mean D tetap positif\nsaat satu seed dikeluarkan.\n\nSebagian target BiGRU\nmempunyai mean D negatif.",
+    "x": 0.88,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.5,
+    "size": 20
+  },
+  {
+    "slide": 18,
+    "kind": "shape",
+    "x": 6.8,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.6
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Unit ketidakpastian",
+    "x": 7.03,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Bootstrap berdasarkan subjek.\nPasangan nested dipertahankan.\n\nCI bersyarat pada model,\nsplit, jadwal dan matching.",
+    "x": 7.03,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.5,
+    "size": 20
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "400 checkpoint tidak berarti 400 kohort atau ratusan subjek baru.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "KONTRIBUSI DAN MANFAAT",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Tiga pemeriksaan untuk membandingkan penjelasan",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.95,
+    "w": 0.82,
+    "h": 0.82
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "1",
+    "x": 0.8,
+    "y": 2.08,
+    "w": 0.53,
+    "h": 0.52,
+    "size": 28
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Uji pada target tetap",
+    "x": 1.83,
+    "y": 1.96,
+    "w": 10.55,
+    "h": 0.48,
+    "size": 27
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Bandingkan relevansi ranking yang berbeda.",
+    "x": 1.83,
+    "y": 2.59,
+    "w": 10.55,
+    "h": 0.52,
+    "size": 23
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.3499999999999996,
+    "w": 0.82,
+    "h": 0.82
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "2",
+    "x": 0.8,
+    "y": 3.48,
+    "w": 0.53,
+    "h": 0.52,
+    "size": 28
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Kontrol intervensinya",
+    "x": 1.83,
+    "y": 3.36,
+    "w": 10.55,
+    "h": 0.48,
+    "size": 27
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Pisahkan pengaruh ranking dari besar perubahan input.",
+    "x": 1.83,
+    "y": 3.9899999999999998,
+    "w": 10.55,
+    "h": 0.52,
+    "size": 23
+  },
+  {
+    "slide": 19,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.75,
+    "w": 0.82,
+    "h": 0.82
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "3",
+    "x": 0.8,
+    "y": 4.88,
+    "w": 0.53,
+    "h": 0.52,
+    "size": 28
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Baca efek bersama coverage",
+    "x": 1.83,
+    "y": 4.76,
+    "w": 10.55,
+    "h": 0.48,
+    "size": 27
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "Kenali kasus yang diwakili oleh hasil.",
+    "x": 1.83,
+    "y": 5.39,
+    "w": 10.55,
+    "h": 0.52,
+    "size": 23
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "CAKUPAN DAN TINDAK LANJUT",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Cakupan bukti mengikuti akuisisi dan matching",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.65
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Bukti tersedia",
+    "x": 0.88,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Dua dataset spiral\nDua arsitektur\nBank 20 seed\nTarget tetap dan kontrol RMS",
+    "x": 0.88,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.55,
+    "size": 20
+  },
+  {
+    "slide": 20,
+    "kind": "shape",
+    "x": 6.8,
+    "y": 1.93,
+    "w": 5.85,
+    "h": 3.65
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Perluasan berikutnya",
+    "x": 7.03,
+    "y": 2.13,
+    "w": 5.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Partisi dan peserta baru\nMetode atribusi lain\nAnotasi temporal independen\nRobustness terhadap input",
+    "x": 7.03,
+    "y": 2.8899999999999997,
+    "w": 5.39,
+    "h": 2.55,
+    "size": 20
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Analisis tambahan eksploratori. Holm mencakup 8 uji primer; sensitivitas memakai CI nominal.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Relevansinya\nberpindah sebagian.",
+    "x": 0.72,
+    "y": 0.9,
+    "w": 11.9,
+    "h": 1.55,
+    "size": 44
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "1",
+    "x": 0.79,
+    "y": 3,
+    "w": 0.55,
+    "h": 0.55,
+    "size": 27
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Ranking dari seed lain tetap memiliki keuntungan rata-rata.",
+    "x": 1.62,
+    "y": 3,
+    "w": 10.8,
+    "h": 0.6,
+    "size": 26
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "2",
+    "x": 0.79,
+    "y": 3.9,
+    "w": 0.55,
+    "h": 0.55,
+    "size": 27
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Ranking milik target memberi keuntungan lebih besar.",
+    "x": 1.62,
+    "y": 3.9,
+    "w": 10.8,
+    "h": 0.6,
+    "size": 26
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "3",
+    "x": 0.79,
+    "y": 4.8,
+    "w": 0.55,
+    "h": 0.55,
+    "size": 27
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Perbedaan peta perlu dinilai melalui pengaruhnya pada model.",
+    "x": 1.62,
+    "y": 4.8,
+    "w": 10.8,
+    "h": 0.6,
+    "size": 26
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "Temuan bersyarat pada support matching dan intervensi yang diuji.",
+    "x": 0.79,
+    "y": 6.36,
+    "w": 11.7,
+    "h": 0.5,
+    "size": 18
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "CADANGAN · ANGKA UTAMA",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "A · Delapan kontras primer pada support lengkap",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.83,
+    "w": 1.75,
+    "h": 0.57
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Dataset",
+    "x": 0.75,
+    "y": 1.87,
+    "w": 1.55,
+    "h": 0.48999999999999994,
+    "size": 16
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 1.83,
+    "w": 3.05,
+    "h": 0.57
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Model / masker",
+    "x": 2.5,
+    "y": 1.87,
+    "w": 2.8499999999999996,
+    "h": 0.48999999999999994,
+    "size": 16
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 1.83,
+    "w": 4.15,
+    "h": 0.57
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Mean D [CI]",
+    "x": 5.549999999999999,
+    "y": 1.87,
+    "w": 3.95,
+    "h": 0.48999999999999994,
+    "size": 16
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 1.83,
+    "w": 1.7,
+    "h": 0.57
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Pasangan",
+    "x": 9.7,
+    "y": 1.87,
+    "w": 1.5,
+    "h": 0.48999999999999994,
+    "size": 16
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 1.83,
+    "w": 1.4,
+    "h": 0.57
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Subjek",
+    "x": 11.399999999999999,
+    "y": 1.87,
+    "w": 1.2,
+    "h": 0.48999999999999994,
+    "size": 16
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.4,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 2.44,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 2.4,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 2.5,
+    "y": 2.44,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 2.4,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "1.213 [0.983; 1.449]",
+    "x": 5.549999999999999,
+    "y": 2.44,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 2.4,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "17733",
+    "x": 9.7,
+    "y": 2.44,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 2.4,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "66",
+    "x": 11.399999999999999,
+    "y": 2.44,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.9,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 2.94,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 2.9,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 2.5,
+    "y": 2.94,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 2.9,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "1.266 [0.898; 1.661]",
+    "x": 5.549999999999999,
+    "y": 2.94,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 2.9,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "16271",
+    "x": 9.7,
+    "y": 2.94,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 2.9,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "66",
+    "x": 11.399999999999999,
+    "y": 2.94,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.4,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 3.44,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 3.4,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 2.5,
+    "y": 3.44,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 3.4,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "1.407 [1.244; 1.579]",
+    "x": 5.549999999999999,
+    "y": 3.44,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 3.4,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "12654",
+    "x": 9.7,
+    "y": 3.44,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 3.4,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "66",
+    "x": 11.399999999999999,
+    "y": 3.44,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.9,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 3.94,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 3.9,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 2.5,
+    "y": 3.94,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 3.9,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "2.190 [1.907; 2.493]",
+    "x": 5.549999999999999,
+    "y": 3.94,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 3.9,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "8791",
+    "x": 9.7,
+    "y": 3.94,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 3.9,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "66",
+    "x": 11.399999999999999,
+    "y": 3.94,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.4,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 0.75,
+    "y": 4.44,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 4.4,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 2.5,
+    "y": 4.44,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 4.4,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "0.048 [0.035; 0.061]",
+    "x": 5.549999999999999,
+    "y": 4.44,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 4.4,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "5479",
+    "x": 9.7,
+    "y": 4.44,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 4.4,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "74",
+    "x": 11.399999999999999,
+    "y": 4.44,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.9,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 0.75,
+    "y": 4.94,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 4.9,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 2.5,
+    "y": 4.94,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 4.9,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "0.101 [0.064; 0.143]",
+    "x": 5.549999999999999,
+    "y": 4.94,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 4.9,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "5102",
+    "x": 9.7,
+    "y": 4.94,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 4.9,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "67",
+    "x": 11.399999999999999,
+    "y": 4.94,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.4,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 0.75,
+    "y": 5.44,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 5.4,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 2.5,
+    "y": 5.44,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 5.4,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "0.224 [0.190; 0.260]",
+    "x": 5.549999999999999,
+    "y": 5.44,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 5.4,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "6000",
+    "x": 9.7,
+    "y": 5.44,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 5.4,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "76",
+    "x": 11.399999999999999,
+    "y": 5.44,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.9,
+    "w": 1.75,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 0.75,
+    "y": 5.94,
+    "w": 1.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 2.4,
+    "y": 5.9,
+    "w": 3.05,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 2.5,
+    "y": 5.94,
+    "w": 2.8499999999999996,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 5.449999999999999,
+    "y": 5.9,
+    "w": 4.15,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "0.568 [0.415; 0.713]",
+    "x": 5.549999999999999,
+    "y": 5.94,
+    "w": 3.95,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 9.6,
+    "y": 5.9,
+    "w": 1.7,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "5280",
+    "x": 9.7,
+    "y": 5.94,
+    "w": 1.5,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "shape",
+    "x": 11.299999999999999,
+    "y": 5.9,
+    "w": 1.4,
+    "h": 0.5
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "75",
+    "x": 11.399999999999999,
+    "y": 5.94,
+    "w": 1.2,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "p Holm = 0,001600 pada delapan kontras. CI tetap nominal 95%, bukan interval simultan.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "CADANGAN · DENOMINATOR",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "B · Cakupan matching dan subset keluaran stabil",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.83,
+    "w": 3.52,
+    "h": 0.62
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Kondisi",
+    "x": 0.75,
+    "y": 1.87,
+    "w": 3.32,
+    "h": 0.54,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 1.83,
+    "w": 2.42,
+    "h": 0.62
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Match lengkap",
+    "x": 4.27,
+    "y": 1.87,
+    "w": 2.2199999999999998,
+    "h": 0.54,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 1.83,
+    "w": 1.22,
+    "h": 0.62
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Subjek",
+    "x": 6.6899999999999995,
+    "y": 1.87,
+    "w": 1.02,
+    "h": 0.54,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 1.83,
+    "w": 2.75,
+    "h": 0.62
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Gate sebelum match",
+    "x": 7.909999999999999,
+    "y": 1.87,
+    "w": 2.55,
+    "h": 0.54,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 1.83,
+    "w": 2.14,
+    "h": 0.62
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Gate + match",
+    "x": 10.659999999999998,
+    "y": 1.87,
+    "w": 1.9400000000000002,
+    "h": 0.54,
+    "size": 16
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.45,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "NHPD · BiGRU / Donor",
+    "x": 0.75,
+    "y": 2.49,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 2.45,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "17733/18480",
+    "x": 4.27,
+    "y": 2.49,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 2.45,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "66/66",
+    "x": 6.6899999999999995,
+    "y": 2.49,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 2.45,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "528/18480",
+    "x": 7.909999999999999,
+    "y": 2.49,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 2.45,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "504",
+    "x": 10.659999999999998,
+    "y": 2.49,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.95,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "NHPD · BiGRU / Median",
+    "x": 0.75,
+    "y": 2.99,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 2.95,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "16271/18480",
+    "x": 4.27,
+    "y": 2.99,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 2.95,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "66/66",
+    "x": 6.6899999999999995,
+    "y": 2.99,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 2.95,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "528/18480",
+    "x": 7.909999999999999,
+    "y": 2.99,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 2.95,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "447",
+    "x": 10.659999999999998,
+    "y": 2.99,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.45,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "NHPD · BiMamba-2 / Donor",
+    "x": 0.75,
+    "y": 3.49,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 3.45,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "12654/20064",
+    "x": 4.27,
+    "y": 3.49,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 3.45,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "66/66",
+    "x": 6.6899999999999995,
+    "y": 3.49,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 3.45,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1046/20064",
+    "x": 7.909999999999999,
+    "y": 3.49,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 3.45,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "591",
+    "x": 10.659999999999998,
+    "y": 3.49,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.95,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "NHPD · BiMamba-2 / Median",
+    "x": 0.75,
+    "y": 3.99,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 3.95,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "8791/20064",
+    "x": 4.27,
+    "y": 3.99,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 3.95,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "66/66",
+    "x": 6.6899999999999995,
+    "y": 3.99,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 3.95,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1046/20064",
+    "x": 7.909999999999999,
+    "y": 3.99,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 3.95,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "404",
+    "x": 10.659999999999998,
+    "y": 3.99,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.45,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "UCI · BiGRU / Donor",
+    "x": 0.75,
+    "y": 4.49,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 4.45,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "5479/7700",
+    "x": 4.27,
+    "y": 4.49,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 4.45,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "74/76",
+    "x": 6.6899999999999995,
+    "y": 4.49,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 4.45,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1404/7700",
+    "x": 7.909999999999999,
+    "y": 4.49,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 4.45,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1054",
+    "x": 10.659999999999998,
+    "y": 4.49,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.95,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "UCI · BiGRU / Median",
+    "x": 0.75,
+    "y": 4.99,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 4.95,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "5102/7700",
+    "x": 4.27,
+    "y": 4.99,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 4.95,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "67/76",
+    "x": 6.6899999999999995,
+    "y": 4.99,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 4.95,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1404/7700",
+    "x": 7.909999999999999,
+    "y": 4.99,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 4.95,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "1043",
+    "x": 10.659999999999998,
+    "y": 4.99,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.45,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "UCI · BiMamba-2 / Donor",
+    "x": 0.75,
+    "y": 5.49,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 5.45,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "6000/7700",
+    "x": 4.27,
+    "y": 5.49,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 5.45,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "76/76",
+    "x": 6.6899999999999995,
+    "y": 5.49,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 5.45,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "542/7700",
+    "x": 7.909999999999999,
+    "y": 5.49,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 5.45,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "437",
+    "x": 10.659999999999998,
+    "y": 5.49,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.95,
+    "w": 3.52,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "UCI · BiMamba-2 / Median",
+    "x": 0.75,
+    "y": 5.99,
+    "w": 3.32,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 4.17,
+    "y": 5.95,
+    "w": 2.42,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "5280/7700",
+    "x": 4.27,
+    "y": 5.99,
+    "w": 2.2199999999999998,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 6.59,
+    "y": 5.95,
+    "w": 1.22,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "75/76",
+    "x": 6.6899999999999995,
+    "y": 5.99,
+    "w": 1.02,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 7.81,
+    "y": 5.95,
+    "w": 2.75,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "542/7700",
+    "x": 7.909999999999999,
+    "y": 5.99,
+    "w": 2.55,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "shape",
+    "x": 10.559999999999999,
+    "y": 5.95,
+    "w": 2.14,
+    "h": 0.5
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "382",
+    "x": 10.659999999999998,
+    "y": 5.99,
+    "w": 1.9400000000000002,
+    "h": 0.42,
+    "size": 17
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "Analisis kontinu menggunakan seluruh pasangan eligible. Gate hanya sensitivitas.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "CADANGAN · REPRODUKTIBILITAS",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "C · Resep training dan pasangan yang dikunci",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.85,
+    "w": 3.3,
+    "h": 0.58
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Komponen",
+    "x": 0.75,
+    "y": 1.8900000000000001,
+    "w": 3.0999999999999996,
+    "h": 0.49999999999999994,
+    "size": 19
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 1.85,
+    "w": 8.75,
+    "h": 0.58
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Konfigurasi",
+    "x": 4.05,
+    "y": 1.8900000000000001,
+    "w": 8.55,
+    "h": 0.49999999999999994,
+    "size": 19
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.43,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Encoder",
+    "x": 0.75,
+    "y": 2.47,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 2.43,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "BiGRU / BiMamba-2",
+    "x": 4.05,
+    "y": 2.47,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.93,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Representasi",
+    "x": 0.75,
+    "y": 2.97,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 2.93,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "d_model 128 · 3 layer · dropout 0,30",
+    "x": 4.05,
+    "y": 2.97,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.43,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Input",
+    "x": 0.75,
+    "y": 3.47,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 3.43,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "6 kanal · patch 7 sampel",
+    "x": 4.05,
+    "y": 3.47,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.93,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Training",
+    "x": 0.75,
+    "y": 3.97,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 3.93,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "AdamW · lr 0,0003 · batch 8 · 35 epoch",
+    "x": 4.05,
+    "y": 3.97,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.43,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Pemilihan model",
+    "x": 0.75,
+    "y": 4.47,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 4.43,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Epoch terakhir · normalizer hanya training fold",
+    "x": 4.05,
+    "y": 4.47,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.93,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Validasi",
+    "x": 0.75,
+    "y": 4.97,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 4.93,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "5 fold subjek · split seed 42",
+    "x": 4.05,
+    "y": 4.97,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.43,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Jadwal transfer",
+    "x": 0.75,
+    "y": 5.47,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 5.43,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "5 sumber/target · scheduling seed 2101",
+    "x": 4.05,
+    "y": 5.47,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.93,
+    "w": 3.3,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "Inferensi",
+    "x": 0.75,
+    "y": 5.97,
+    "w": 3.0999999999999996,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 24,
+    "kind": "shape",
+    "x": 3.9499999999999997,
+    "y": 5.93,
+    "w": 8.75,
+    "h": 0.5
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "5000 draw subjek · seed 2102 · Holm 8 kontras",
+    "x": 4.05,
+    "y": 5.97,
+    "w": 8.55,
+    "h": 0.42,
+    "size": 20
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "CADANGAN · FUNGSI MODEL BERUBAH",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "D · Bridge discovery mengganti fungsi model",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.97,
+    "w": 2.55,
+    "h": 0.86
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Model / masker",
+    "x": 0.75,
+    "y": 2.01,
+    "w": 2.3499999999999996,
+    "h": 0.78,
+    "size": 16
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 3.1999999999999997,
+    "y": 1.97,
+    "w": 3,
+    "h": 0.86
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Spearman raw",
+    "x": 3.3,
+    "y": 2.01,
+    "w": 2.8,
+    "h": 0.78,
+    "size": 16
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 6.199999999999999,
+    "y": 1.97,
+    "w": 3.05,
+    "h": 0.86
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Spearman normalized",
+    "x": 6.299999999999999,
+    "y": 2.01,
+    "w": 2.8499999999999996,
+    "h": 0.78,
+    "size": 16
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 9.25,
+    "y": 1.97,
+    "w": 3.45,
+    "h": 0.86
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Pearson centered normalized",
+    "x": 9.35,
+    "y": 2.01,
+    "w": 3.25,
+    "h": 0.78,
+    "size": 16
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.83,
+    "w": 2.55,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 0.75,
+    "y": 2.87,
+    "w": 2.3499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 3.1999999999999997,
+    "y": 2.83,
+    "w": 3,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "−0.0027 [−0.0988; 0.0873]",
+    "x": 3.3,
+    "y": 2.87,
+    "w": 2.8,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 6.199999999999999,
+    "y": 2.83,
+    "w": 3.05,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0408 [−0.0540; 0.1321]",
+    "x": 6.299999999999999,
+    "y": 2.87,
+    "w": 2.8499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 9.25,
+    "y": 2.83,
+    "w": 3.45,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.1407 [0.0592; 0.2173]",
+    "x": 9.35,
+    "y": 2.87,
+    "w": 3.25,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.72,
+    "w": 2.55,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 0.75,
+    "y": 3.7600000000000002,
+    "w": 2.3499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 3.1999999999999997,
+    "y": 3.72,
+    "w": 3,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.1248 [0.0004; 0.2356]",
+    "x": 3.3,
+    "y": 3.7600000000000002,
+    "w": 2.8,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 6.199999999999999,
+    "y": 3.72,
+    "w": 3.05,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0468 [−0.0838; 0.1790]",
+    "x": 6.299999999999999,
+    "y": 3.7600000000000002,
+    "w": 2.8499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 9.25,
+    "y": 3.72,
+    "w": 3.45,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.2539 [0.1115; 0.3901]",
+    "x": 9.35,
+    "y": 3.7600000000000002,
+    "w": 3.25,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.61,
+    "w": 2.55,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 0.75,
+    "y": 4.65,
+    "w": 2.3499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 3.1999999999999997,
+    "y": 4.61,
+    "w": 3,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "−0.0059 [−0.1016; 0.0939]",
+    "x": 3.3,
+    "y": 4.65,
+    "w": 2.8,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 6.199999999999999,
+    "y": 4.61,
+    "w": 3.05,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0249 [−0.0690; 0.1228]",
+    "x": 6.299999999999999,
+    "y": 4.65,
+    "w": 2.8499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 9.25,
+    "y": 4.61,
+    "w": 3.45,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0425 [−0.0440; 0.1299]",
+    "x": 9.35,
+    "y": 4.65,
+    "w": 3.25,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.5,
+    "w": 2.55,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 0.75,
+    "y": 5.54,
+    "w": 2.3499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 3.1999999999999997,
+    "y": 5.5,
+    "w": 3,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.1306 [0.0205; 0.2458]",
+    "x": 3.3,
+    "y": 5.54,
+    "w": 2.8,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 6.199999999999999,
+    "y": 5.5,
+    "w": 3.05,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0698 [−0.0297; 0.1684]",
+    "x": 6.299999999999999,
+    "y": 5.54,
+    "w": 2.8499999999999996,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "shape",
+    "x": 9.25,
+    "y": 5.5,
+    "w": 3.45,
+    "h": 0.89
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "0.0748 [−0.0190; 0.1737]",
+    "x": 9.35,
+    "y": 5.54,
+    "w": 3.25,
+    "h": 0.81,
+    "size": 17
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "Bank discovery · tiga seed. Pearson centered bukan pengganti estimand Spearman primer.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "CADANGAN · PEMBANDING DISCOVERY",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "E · Magnitude dapat mengungguli attention",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.95,
+    "w": 3.15,
+    "h": 0.78
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Model / masker",
+    "x": 0.75,
+    "y": 1.99,
+    "w": 2.9499999999999997,
+    "h": 0.7000000000000001,
+    "size": 17
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 3.8,
+    "y": 1.95,
+    "w": 4.45,
+    "h": 0.78
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Baseline lengkap\nAttention − magnitude [CI]",
+    "x": 3.9,
+    "y": 1.99,
+    "w": 4.25,
+    "h": 0.7000000000000001,
+    "size": 17
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 8.25,
+    "y": 1.95,
+    "w": 4.45,
+    "h": 0.78
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Irisan lengkap E2\nAttention − magnitude [CI]",
+    "x": 8.35,
+    "y": 1.99,
+    "w": 4.25,
+    "h": 0.7000000000000001,
+    "size": 17
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.73,
+    "w": 3.15,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "BiGRU / Donor",
+    "x": 0.75,
+    "y": 2.77,
+    "w": 2.9499999999999997,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 3.8,
+    "y": 2.73,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "1.142 [0.735; 1.554]\n66 subjek",
+    "x": 3.9,
+    "y": 2.77,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 8.25,
+    "y": 2.73,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "1.453 [1.018; 1.895]\n62 subjek",
+    "x": 8.35,
+    "y": 2.77,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.57,
+    "w": 3.15,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "BiGRU / Median",
+    "x": 0.75,
+    "y": 3.61,
+    "w": 2.9499999999999997,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 3.8,
+    "y": 3.57,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "1.533 [0.720; 2.348]\n66 subjek",
+    "x": 3.9,
+    "y": 3.61,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 8.25,
+    "y": 3.57,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "1.834 [0.961; 2.675]\n56 subjek",
+    "x": 8.35,
+    "y": 3.61,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.41,
+    "w": 3.15,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "BiMamba-2 / Donor",
+    "x": 0.75,
+    "y": 4.45,
+    "w": 2.9499999999999997,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 3.8,
+    "y": 4.41,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "−1.392 [−1.968; −0.826]\n66 subjek",
+    "x": 3.9,
+    "y": 4.45,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 8.25,
+    "y": 4.41,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "−1.179 [−1.919; −0.457]\n61 subjek",
+    "x": 8.35,
+    "y": 4.45,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.25,
+    "w": 3.15,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "BiMamba-2 / Median",
+    "x": 0.75,
+    "y": 5.29,
+    "w": 2.9499999999999997,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 3.8,
+    "y": 5.25,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "−1.242 [−2.134; −0.377]\n66 subjek",
+    "x": 3.9,
+    "y": 5.29,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "shape",
+    "x": 8.25,
+    "y": 5.25,
+    "w": 4.45,
+    "h": 0.84
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "−0.351 [−1.530; 0.850]\n55 subjek",
+    "x": 8.35,
+    "y": 5.29,
+    "w": 4.25,
+    "h": 0.76,
+    "size": 18
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "Selisih respons memakai logit-AOPC. Magnitude belum menerima matching dosis/geometri pada kedua kolom.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "CADANGAN · AUROC HISTORIS",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "F · Konsistensi AUROC setelah retraining terpisah",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.96,
+    "w": 3.4,
+    "h": 0.65
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "Dataset",
+    "x": 0.75,
+    "y": 2,
+    "w": 3.1999999999999997,
+    "h": 0.5700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 4.05,
+    "y": 1.96,
+    "w": 3.05,
+    "h": 0.65
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "Model",
+    "x": 4.1499999999999995,
+    "y": 2,
+    "w": 2.8499999999999996,
+    "h": 0.5700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 7.1,
+    "y": 1.96,
+    "w": 5.6,
+    "h": 0.65
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "AUROC [CI]",
+    "x": 7.199999999999999,
+    "y": 2,
+    "w": 5.3999999999999995,
+    "h": 0.5700000000000001,
+    "size": 22
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.61,
+    "w": 3.4,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "UCI 395 historis",
+    "x": 0.75,
+    "y": 2.65,
+    "w": 3.1999999999999997,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 4.05,
+    "y": 2.61,
+    "w": 3.05,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 4.1499999999999995,
+    "y": 2.65,
+    "w": 2.8499999999999996,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 7.1,
+    "y": 2.61,
+    "w": 5.6,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "0.9503 [0.8951; 0.9875]",
+    "x": 7.199999999999999,
+    "y": 2.65,
+    "w": 5.3999999999999995,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.34,
+    "w": 3.4,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "UCI 395 historis",
+    "x": 0.75,
+    "y": 3.38,
+    "w": 3.1999999999999997,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 4.05,
+    "y": 3.34,
+    "w": 3.05,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 4.1499999999999995,
+    "y": 3.38,
+    "w": 2.8499999999999996,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 7.1,
+    "y": 3.34,
+    "w": 5.6,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "0.9338 [0.8637; 0.9806]",
+    "x": 7.199999999999999,
+    "y": 3.38,
+    "w": 5.3999999999999995,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.07,
+    "w": 3.4,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 4.11,
+    "w": 3.1999999999999997,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 4.05,
+    "y": 4.07,
+    "w": 3.05,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 4.1499999999999995,
+    "y": 4.11,
+    "w": 2.8499999999999996,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 7.1,
+    "y": 4.07,
+    "w": 5.6,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "0.8959 [0.8206; 0.9542]",
+    "x": 7.199999999999999,
+    "y": 4.11,
+    "w": 5.3999999999999995,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.8,
+    "w": 3.4,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 4.84,
+    "w": 3.1999999999999997,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 4.05,
+    "y": 4.8,
+    "w": 3.05,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 4.1499999999999995,
+    "y": 4.84,
+    "w": 2.8499999999999996,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "shape",
+    "x": 7.1,
+    "y": 4.8,
+    "w": 5.6,
+    "h": 0.73
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "0.9307 [0.8724; 0.9738]",
+    "x": 7.199999999999999,
+    "y": 4.84,
+    "w": 5.3999999999999995,
+    "h": 0.65,
+    "size": 23
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "Kontras penurunan = −0.0514 [−0.10678; 0.00074]",
+    "x": 0.77,
+    "y": 5.83,
+    "w": 11.8,
+    "h": 0.64,
+    "size": 25
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "CADANGAN · PROBABILITAS OOF",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "G · Brier dan ECE pada bank discovery",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.91,
+    "w": 3,
+    "h": 0.62
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Model",
+    "x": 0.75,
+    "y": 1.95,
+    "w": 2.8,
+    "h": 0.54,
+    "size": 21
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 3.65,
+    "y": 1.91,
+    "w": 3.5,
+    "h": 0.62
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Ukuran",
+    "x": 3.75,
+    "y": 1.95,
+    "w": 3.3,
+    "h": 0.54,
+    "size": 21
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 7.15,
+    "y": 1.91,
+    "w": 5.55,
+    "h": 0.62
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Estimasi [CI]",
+    "x": 7.25,
+    "y": 1.95,
+    "w": 5.35,
+    "h": 0.54,
+    "size": 21
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.53,
+    "w": 3,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.75,
+    "y": 2.57,
+    "w": 2.8,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 3.65,
+    "y": 2.53,
+    "w": 3.5,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Brier",
+    "x": 3.75,
+    "y": 2.57,
+    "w": 3.3,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 7.15,
+    "y": 2.53,
+    "w": 5.55,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "0.1478 [0.1010; 0.2009]",
+    "x": 7.25,
+    "y": 2.57,
+    "w": 5.35,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.2199999999999998,
+    "w": 3,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "BiGRU",
+    "x": 0.75,
+    "y": 3.26,
+    "w": 2.8,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 3.65,
+    "y": 3.2199999999999998,
+    "w": 3.5,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "ECE · 10 bin",
+    "x": 3.75,
+    "y": 3.26,
+    "w": 3.3,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 7.15,
+    "y": 3.2199999999999998,
+    "w": 5.55,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "0.1410 [0.1151; 0.2195]",
+    "x": 7.25,
+    "y": 3.26,
+    "w": 5.35,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.9099999999999997,
+    "w": 3,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.75,
+    "y": 3.9499999999999997,
+    "w": 2.8,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 3.65,
+    "y": 3.9099999999999997,
+    "w": 3.5,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Brier",
+    "x": 3.75,
+    "y": 3.9499999999999997,
+    "w": 3.3,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 7.15,
+    "y": 3.9099999999999997,
+    "w": 5.55,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "0.0909 [0.0562; 0.1310]",
+    "x": 7.25,
+    "y": 3.9499999999999997,
+    "w": 5.35,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.6,
+    "w": 3,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "BiMamba-2",
+    "x": 0.75,
+    "y": 4.64,
+    "w": 2.8,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 3.65,
+    "y": 4.6,
+    "w": 3.5,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "ECE · 10 bin",
+    "x": 3.75,
+    "y": 4.64,
+    "w": 3.3,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "shape",
+    "x": 7.15,
+    "y": 4.6,
+    "w": 5.55,
+    "h": 0.69
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "0.0914 [0.0772; 0.1518]",
+    "x": 7.25,
+    "y": 4.64,
+    "w": 5.35,
+    "h": 0.61,
+    "size": 22
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Brier BiMamba-2 − BiGRU = −0.0570 [−0.1026; −0.0149]",
+    "x": 0.77,
+    "y": 5.6,
+    "w": 11.8,
+    "h": 0.75,
+    "size": 25
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Brier bukan ukuran kalibrasi murni. Perhitungan ensemble tetap terpisah dan tidak dijalankan.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "CADANGAN · USIA, FITUR DAN MARKER",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "H · Usia dan baseline historis memberi konteks",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 29,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.94,
+    "w": 3.85,
+    "h": 3.97
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Usia",
+    "x": 0.88,
+    "y": 2.14,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Selisih historis ≈14,7 tahun\nAge-only AUROC 0,8097\n\nInterpretasi penyakit-spesifik\nmemerlukan kontrol tambahan.",
+    "x": 0.88,
+    "y": 2.9,
+    "w": 3.39,
+    "h": 2.87,
+    "size": 20
+  },
+  {
+    "slide": 29,
+    "kind": "shape",
+    "x": 4.75,
+    "y": 1.94,
+    "w": 3.85,
+    "h": 3.97
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Baseline klasik",
+    "x": 4.98,
+    "y": 2.14,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Random forest UCI 1,0000\nBank fitur agregat · 5 seed\n\nImputasi global mendahului fold.\nBukan leaderboard setara.",
+    "x": 4.98,
+    "y": 2.9,
+    "w": 3.39,
+    "h": 2.87,
+    "size": 20
+  },
+  {
+    "slide": 29,
+    "kind": "shape",
+    "x": 8.85,
+    "y": 1.94,
+    "w": 3.85,
+    "h": 3.97
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Marker dan ensemble",
+    "x": 9.08,
+    "y": 2.14,
+    "w": 3.39,
+    "h": 0.6,
+    "size": 24
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "Marker sensor adalah proksi.\nShapley custom adalah referensi.\n\nAgreement terhadap referensi ≠\nvalidasi fisiologis.",
+    "x": 9.08,
+    "y": 2.9,
+    "w": 3.39,
+    "h": 2.87,
+    "size": 20
+  },
+  {
+    "slide": 30,
+    "kind": "text",
+    "text": "CADANGAN · VISUAL EMPIRIS LENGKAP",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 30,
+    "kind": "text",
+    "text": "I · Sebaran JSD dan |D| pada NewHandPD",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 31,
+    "kind": "text",
+    "text": "CADANGAN · VISUAL EMPIRIS LENGKAP",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 31,
+    "kind": "text",
+    "text": "J · Sebaran JSD dan |D| pada UCI-SST",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "CADANGAN · KETEPATAN KLAIM",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "K · Apa yang berubah dari presentasi September?",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 1.95,
+    "w": 5.7,
+    "h": 0.62
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Materi September",
+    "x": 0.75,
+    "y": 1.99,
+    "w": 5.5,
+    "h": 0.54,
+    "size": 19
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 1.95,
+    "w": 6.35,
+    "h": 0.62
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Presentasi terbaru",
+    "x": 6.45,
+    "y": 1.99,
+    "w": 6.1499999999999995,
+    "h": 0.54,
+    "size": 19
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 2.57,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Rencana eksperimen dan tabel kosong",
+    "x": 0.75,
+    "y": 2.61,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 2.57,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Hasil selesai dengan sumber angka",
+    "x": 6.45,
+    "y": 2.61,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.21,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Tiga encoder sebagai pusat cerita",
+    "x": 0.75,
+    "y": 3.25,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 3.21,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "BiGRU dan BiMamba-2 · 20 seed",
+    "x": 6.45,
+    "y": 3.25,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 3.8499999999999996,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Kesan transfer antarkohort",
+    "x": 0.75,
+    "y": 3.8899999999999997,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 3.8499999999999996,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Retraining terpisah per dataset",
+    "x": 6.45,
+    "y": 3.8899999999999997,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 4.49,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Shapley/marker sebagai ground truth",
+    "x": 0.75,
+    "y": 4.53,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 4.49,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Referensi atribusi dan proksi sensor",
+    "x": 6.45,
+    "y": 4.53,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.13,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Map breaks / fidelity ceiling",
+    "x": 0.75,
+    "y": 5.17,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 5.13,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Transfer ranking dan kontrol RMS",
+    "x": 6.45,
+    "y": 5.17,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 0.65,
+    "y": 5.77,
+    "w": 5.7,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Praregistrasi publik tersirat",
+    "x": 0.75,
+    "y": 5.81,
+    "w": 5.5,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 32,
+    "kind": "shape",
+    "x": 6.3500000000000005,
+    "y": 5.77,
+    "w": 6.35,
+    "h": 0.64
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "Spesifikasi lokal; eksploratori",
+    "x": 6.45,
+    "y": 5.81,
+    "w": 6.1499999999999995,
+    "h": 0.56,
+    "size": 20
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "CADANGAN · SUMBER ILMIAH",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "L · Rujukan jurnal yang digunakan",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Theissler et al. (2022) · IEEE Access",
+    "x": 0.74,
+    "y": 1.87,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Explainable AI for Time Series Classification: A Review, Taxonomy and Research Directions",
+    "x": 0.74,
+    "y": 2.16,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Diaz et al. (2021) · Expert Syst. Appl.",
+    "x": 0.74,
+    "y": 2.54,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Sequence-based dynamic handwriting analysis for Parkinson's disease detection with one-dimensional convolutions and BiGRUs",
+    "x": 0.74,
+    "y": 2.83,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Toffoli et al. (2023) · Front. Neurol.",
+    "x": 0.74,
+    "y": 3.21,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Spiral drawing analysis with a smart ink pen to identify Parkinson's disease fine motor deficits",
+    "x": 0.74,
+    "y": 3.5,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Bragança et al. (2026) · Sci. Rep.",
+    "x": 0.74,
+    "y": 3.8800000000000003,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Unified time series classification framework for explainable artificial intelligence",
+    "x": 0.74,
+    "y": 4.17,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Šimić et al. (2025) · Sci. Rep.",
+    "x": 0.74,
+    "y": 4.550000000000001,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "A comprehensive analysis of perturbation methods in explainable AI feature attribution validation for neural time series classifiers",
+    "x": 0.74,
+    "y": 4.84,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Navakauskas et al. (2026) · Electronics",
+    "x": 0.74,
+    "y": 5.220000000000001,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Regularizing Temporal Explanations in Dynamic Neural Networks",
+    "x": 0.74,
+    "y": 5.51,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "Qu et al. (2026) · ACM Trans. Intell. Syst. Technol.",
+    "x": 0.74,
+    "y": 5.890000000000001,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "A Survey of Mamba",
+    "x": 0.74,
+    "y": 6.180000000000001,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "CADANGAN · SUMBER ILMIAH",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "M · Rujukan jurnal yang digunakan",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Turbé et al. (2023) · Nat. Mach. Intell.",
+    "x": 0.74,
+    "y": 1.87,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Evaluation of post-hoc interpretability methods in time-series classification",
+    "x": 0.74,
+    "y": 2.16,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Nielsen (2021) · Entropy",
+    "x": 0.74,
+    "y": 2.45,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "On a Variational Definition for the Jensen-Shannon Symmetrization of Distances Based on the Information Radius",
+    "x": 0.74,
+    "y": 2.74,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Kapoor et al. (2023) · Patterns",
+    "x": 0.74,
+    "y": 3.0300000000000002,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Leakage and the reproducibility crisis in machine-learning-based science",
+    "x": 0.74,
+    "y": 3.3200000000000003,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Silva Filho et al. (2023) · Mach. Learn.",
+    "x": 0.74,
+    "y": 3.61,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Classifier calibration: a survey on how to assess and improve predicted class probabilities",
+    "x": 0.74,
+    "y": 3.9,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Dimitriadis et al. (2021) · Proc. Natl. Acad. Sci. USA",
+    "x": 0.74,
+    "y": 4.1899999999999995,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Stable reliability diagrams for probabilistic classifiers",
+    "x": 0.74,
+    "y": 4.48,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Loy et al. (2022) · The R Journal",
+    "x": 0.74,
+    "y": 4.77,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Bootstrapping Clustered Data in R using lmeresampler",
+    "x": 0.74,
+    "y": 5.0600000000000005,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Watson et al. (2023) · Statistics in Medicine",
+    "x": 0.74,
+    "y": 5.35,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Permutation-based multiple testing corrections for P-values and confidence intervals for cluster randomized trials",
+    "x": 0.74,
+    "y": 5.64,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Lakens (2022) · Collabra: Psychology",
+    "x": 0.74,
+    "y": 5.93,
+    "w": 11.9,
+    "h": 0.28,
+    "size": 16
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "Sample Size Justification",
+    "x": 0.74,
+    "y": 6.22,
+    "w": 11.9,
+    "h": 0.26,
+    "size": 13
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "CADANGAN · SUBSET SENSITIVITAS",
+    "x": 0.58,
+    "y": 0.32,
+    "w": 11.7,
+    "h": 0.25,
+    "size": 12
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "N · Gate keluaran stabil memakai skala tersendiri",
+    "x": 0.58,
+    "y": 0.82,
+    "w": 12.15,
+    "h": 0.75,
+    "size": 32
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "NewHandPD",
+    "x": 0.75,
+    "y": 1.8,
+    "w": 5.7,
+    "h": 0.35,
+    "size": 24
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "UCI-SST",
+    "x": 6.95,
+    "y": 1.8,
+    "w": 5.7,
+    "h": 0.35,
+    "size": 24
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "Skala 0–20% menampilkan subset kecil; grafik matching utama memakai skala 0–100%.",
+    "x": 0.65,
+    "y": 6.3,
+    "w": 12.05,
+    "h": 0.48,
+    "size": 16
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 1,
+    "kind": "text",
+    "text": "1 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "Theissler et al., 2022 · Turbé et al., 2023 · Silva Filho et al., 2023",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 2,
+    "kind": "text",
+    "text": "2 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "NewHandPD discovery · 3 seed · 66 subjek · CI nominal 95%",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 3,
+    "kind": "text",
+    "text": "3 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "Contoh H10 · fold 1 · seed 0/1 · pemilihan leksikografis tanpa pengurutan berdasarkan JSD",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 4,
+    "kind": "text",
+    "text": "4 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "Bragança & Souto, 2026 · Šimić et al., 2025 · Navakauskas & Dumpis, 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 5,
+    "kind": "text",
+    "text": "5 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "UCI doi:10.24432/C5Q01S · NewHandPD: sumber resmi UNESP · konteks spiral: Toffoli et al., 2023",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 6,
+    "kind": "text",
+    "text": "6 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "Spesifikasi lokal 19 Oktober 2026 · tidak didaftarkan publik",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 7,
+    "kind": "text",
+    "text": "7 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "Diaz et al., 2021 · Qu et al., 2026 · Kapoor & Narayanan, 2023",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 8,
+    "kind": "text",
+    "text": "8 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 9,
+    "kind": "text",
+    "text": "9 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "Šimić et al., 2025 · konfigurasi kontrol yang dikunci sebelum perluasan",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 10,
+    "kind": "text",
+    "text": "10 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "Definisi operasional studi ini · konteks evaluasi: Turbé et al., 2023; Šimić et al., 2025",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 11,
+    "kind": "text",
+    "text": "11 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "Run NewHandPD selesai 23 Oktober 2026 UTC · primer seed 3–19",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 12,
+    "kind": "text",
+    "text": "12 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "Run UCI-SST selesai 25 Oktober 2026 UTC · primer seed 0–19",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 13,
+    "kind": "text",
+    "text": "13 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 14,
+    "kind": "text",
+    "text": "14 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "Weighted Spearman sekunder · JSD basis 2 · Nielsen, 2021",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 15,
+    "kind": "text",
+    "text": "15 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 16,
+    "kind": "text",
+    "text": "16 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 17,
+    "kind": "text",
+    "text": "17 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "Loy & Korobova, 2022 · Lakens, 2022 · diagnostik seed dipisahkan dari CI subjek",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 18,
+    "kind": "text",
+    "text": "18 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 19,
+    "kind": "text",
+    "text": "19 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "Kapoor & Narayanan, 2023 · Lakens, 2022",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 20,
+    "kind": "text",
+    "text": "20 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "AUDIT ATTENTION TEMPORAL · 16 NOV 2026",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 21,
+    "kind": "text",
+    "text": "21 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "Kontras primer tersimpan · konteks multiplicity: Watson et al., 2023",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 22,
+    "kind": "text",
+    "text": "22 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 23,
+    "kind": "text",
+    "text": "23 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 24,
+    "kind": "text",
+    "text": "24 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 25,
+    "kind": "text",
+    "text": "25 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 26,
+    "kind": "text",
+    "text": "26 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 27,
+    "kind": "text",
+    "text": "27 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "Bank discovery · 3 seed · Silva Filho et al., 2023; Dimitriadis et al., 2021",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 28,
+    "kind": "text",
+    "text": "28 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 29,
+    "kind": "text",
+    "text": "29 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 30,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 30,
+    "kind": "text",
+    "text": "30 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 31,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 31,
+    "kind": "text",
+    "text": "31 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 32,
+    "kind": "text",
+    "text": "32 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 33,
+    "kind": "text",
+    "text": "33 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 34,
+    "kind": "text",
+    "text": "34 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "CADANGAN · sumber lengkap di catatan pembicara",
+    "x": 0.62,
+    "y": 7.02,
+    "w": 10.95,
+    "h": 0.22,
+    "size": 10
+  },
+  {
+    "slide": 35,
+    "kind": "text",
+    "text": "35 / 35",
+    "x": 11.9,
+    "y": 6.99,
+    "w": 0.8,
+    "h": 0.29,
+    "size": 12
+  }
+]

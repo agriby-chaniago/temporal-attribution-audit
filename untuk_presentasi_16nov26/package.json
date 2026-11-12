@@ -1,0 +1,13 @@
+{
+  "name": "temporal-attention-presentation-16nov2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable presentation built from stored temporal-attention audit results",
+  "scripts": {
+    "build": ".tools-venv/bin/python tools/build_all.py",
+    "build:pdf": ".tools-venv/bin/python tools/build_all.py --pdf"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

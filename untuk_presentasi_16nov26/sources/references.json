@@ -1,0 +1,137 @@
+[
+  {
+    "key": "theissler2022",
+    "author": "Theissler, Andreas and Spinnato, Francesco and Schlegel, Udo and Guidotti, Riccardo",
+    "title": "Explainable AI for Time Series Classification: A Review, Taxonomy and Research Directions",
+    "journal": "IEEE Access",
+    "year": 2022,
+    "doi": "10.1109/access.2022.3207765",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "diaz2021",
+    "author": "Diaz, Moises and Moetesum, Momina and Siddiqi, Imran and Vessio, Gennaro",
+    "title": "Sequence-based dynamic handwriting analysis for Parkinson's disease detection with one-dimensional convolutions and BiGRUs",
+    "journal": "Expert Syst. Appl.",
+    "year": 2021,
+    "doi": "10.1016/j.eswa.2020.114405",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "toffoli2023",
+    "author": "Toffoli, Simone and Lunardini, Francesca and Parati, Monica and Gallotta, Matteo and De Maria, Beatrice and Longoni, Luca and Dell'Anna, Maria Elisabetta and Ferrante, Simona",
+    "title": "Spiral drawing analysis with a smart ink pen to identify Parkinson's disease fine motor deficits",
+    "journal": "Front. Neurol.",
+    "year": 2023,
+    "doi": "10.3389/fneur.2023.1093690",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "turbe2023",
+    "author": "Turbé, Hugues and Bjelogrlic, Mina and Lovis, Christian and Mengaldo, Gianmarco",
+    "title": "Evaluation of post-hoc interpretability methods in time-series classification",
+    "journal": "Nat. Mach. Intell.",
+    "year": 2023,
+    "doi": "10.1038/s42256-023-00620-w",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "braganca2026",
+    "author": "Bragança, Hendrio and Souto, Eduardo",
+    "title": "Unified time series classification framework for explainable artificial intelligence",
+    "journal": "Sci. Rep.",
+    "year": 2026,
+    "doi": "10.1038/s41598-026-49467-2",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "simic2025",
+    "author": "Šimić, Ilija and Veas, Eduardo and Sabol, Vedran",
+    "title": "A comprehensive analysis of perturbation methods in explainable AI feature attribution validation for neural time series classifiers",
+    "journal": "Sci. Rep.",
+    "year": 2025,
+    "doi": "10.1038/s41598-025-09538-2",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "navakauskas2026",
+    "author": "Navakauskas, Dalius and Dumpis, Martynas",
+    "title": "Regularizing Temporal Explanations in Dynamic Neural Networks",
+    "journal": "Electronics",
+    "year": 2026,
+    "doi": "10.3390/electronics15102200",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "nielsen2021",
+    "author": "Nielsen, Frank",
+    "title": "On a Variational Definition for the Jensen-Shannon Symmetrization of Distances Based on the Information Radius",
+    "journal": "Entropy",
+    "year": 2021,
+    "doi": "10.3390/e23040464",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "kapoor2023",
+    "author": "Kapoor, Sayash and Narayanan, Arvind",
+    "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+    "journal": "Patterns",
+    "year": 2023,
+    "doi": "10.1016/j.patter.2023.100804",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "silva2023",
+    "author": "Silva Filho, Telmo and Song, Hao and Perello-Nieto, Miquel and Santos-Rodriguez, Raul and Kull, Meelis and Flach, Peter",
+    "title": "Classifier calibration: a survey on how to assess and improve predicted class probabilities",
+    "journal": "Mach. Learn.",
+    "year": 2023,
+    "doi": "10.1007/s10994-023-06336-7",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "dimitriadis2021",
+    "author": "Dimitriadis, Timo and Gneiting, Tilmann and Jordan, Alexander I.",
+    "title": "Stable reliability diagrams for probabilistic classifiers",
+    "journal": "Proc. Natl. Acad. Sci. USA",
+    "year": 2021,
+    "doi": "10.1073/pnas.2016191118",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "loy2022",
+    "author": "Loy, Adam and Korobova, Jenna",
+    "title": "Bootstrapping Clustered Data in R using lmeresampler",
+    "journal": "The R Journal",
+    "year": 2022,
+    "doi": "10.32614/rj-2023-015",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "watson2023",
+    "author": "Watson, Samuel I. and Akinyemi, Joshua O. and Hemming, Karla",
+    "title": "Permutation-based multiple testing corrections for P-values and confidence intervals for cluster randomized trials",
+    "journal": "Statistics in Medicine",
+    "year": 2023,
+    "doi": "10.1002/sim.9831",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "lakens2022",
+    "author": "Lakens, Daniël",
+    "title": "Sample Size Justification",
+    "journal": "Collabra: Psychology",
+    "year": 2022,
+    "doi": "10.1525/collabra.33267",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  },
+  {
+    "key": "mambasurvey2026",
+    "author": "Qu, Haohao and Ning, Liangbo and An, Rui and Fan, Wenqi and Derr, Tyler and Liu, Hui and Xu, Xin and Li, Qing",
+    "title": "A Survey of Mamba",
+    "journal": "ACM Trans. Intell. Syst. Technol.",
+    "year": 2026,
+    "doi": "10.1145/3819582",
+    "source": "V9 verified journal bibliography; selected presentation use"
+  }
+]

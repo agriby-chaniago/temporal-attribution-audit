@@ -1,0 +1,17 @@
+cohort,architecture,masker,analysis_set,endpoint,estimator,estimate,ci_low,ci_high,p_value,n_pairs,n_records,n_subjects,n_target_seeds,n_boot_valid,ci_status
+uci395,gru,train_donor,new_seed_replication,D,weighted_spearman,0.170395265026482,0.11682340521379356,0.2241064006608877,0.0001999600079984003,5479,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_donor,new_seed_replication,abs_D,weighted_spearman,0.1922632324144688,0.11796796652198804,0.2680063636748615,0.0001999600079984003,5479,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_donor,new_seed_replication,D_H,weighted_spearman,0.19577693310206654,0.1395613212588503,0.2516423364590019,0.0001999600079984003,5479,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_donor,new_seed_replication,abs_D_H,weighted_spearman,0.2941245364356906,0.24099273154651962,0.34878208002592215,0.0001999600079984003,5479,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,D,weighted_spearman,0.14466628005565815,0.08256571086270227,0.20790649000922257,0.0001999600079984003,5102,68,67,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,abs_D,weighted_spearman,0.2751668988245093,0.19029883498983644,0.3562646601954707,0.0001999600079984003,5102,68,67,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,D_H,weighted_spearman,0.11678963384646443,0.056485766230526264,0.17871999717567244,0.0003999200159968006,5102,68,67,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,abs_D_H,weighted_spearman,0.26580350646705597,0.19154043194657025,0.33539261459952385,0.0001999600079984003,5102,68,67,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,D,weighted_spearman,0.32418364586288867,0.2795995078712881,0.3680202544790005,0.0001999600079984003,6000,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,abs_D,weighted_spearman,0.255003178359274,0.1918237972934372,0.3134963873365137,0.0001999600079984003,6000,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,D_H,weighted_spearman,0.4112356334782703,0.3558822456618967,0.4631684714973446,0.0001999600079984003,6000,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,abs_D_H,weighted_spearman,0.4406081098766049,0.3736475767848517,0.5016786205632703,0.0001999600079984003,6000,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,D,weighted_spearman,0.408588390372677,0.3438494810187286,0.4680194270565396,0.0001999600079984003,5280,76,75,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,abs_D,weighted_spearman,0.38447219703880064,0.2846670302812163,0.47021545439054124,0.0001999600079984003,5280,76,75,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,D_H,weighted_spearman,0.3901453310838838,0.32777407743589687,0.44957295667382174,0.0001999600079984003,5280,76,75,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,abs_D_H,weighted_spearman,0.3297708168860396,0.24442272434040005,0.40841745936811913,0.0001999600079984003,5280,76,75,20,5000,reported_conditional_subject_interval

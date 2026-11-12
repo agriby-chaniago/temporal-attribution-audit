@@ -1,0 +1,11 @@
+node_modules/
+.tools-venv/
+review/rendered/
+review/contact_sheets/
+review/old_deck_text.json
+review/source_manuscript_text.txt
+review/old_deck_render/
+review/presentasi_raw.pptx
+review/ci_probe.png
+*.tmp
+~$*

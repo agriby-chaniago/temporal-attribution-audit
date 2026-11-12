@@ -1,0 +1,5 @@
+cohort,architecture,masker,estimate,ci_low,ci_high,n_subjects_common,n_subjects_new,n_subjects_discovery,interpretation
+newhandpd,gru,train_donor,-0.3801223099859954,-0.6394274067930016,-0.13253319866009142,66,66,66,conditional bank/schedule comparison; not an equivalence test
+newhandpd,gru,train_median,-1.0828918365258606,-1.5047783449028516,-0.6792695852621615,65,66,65,conditional bank/schedule comparison; not an equivalence test
+newhandpd,mamba2,train_donor,0.16430316006380105,-0.032241262499763036,0.3690563276438891,66,66,66,conditional bank/schedule comparison; not an equivalence test
+newhandpd,mamba2,train_median,0.3687435234515337,0.07561784573455559,0.6666602873307421,66,66,66,conditional bank/schedule comparison; not an equivalence test

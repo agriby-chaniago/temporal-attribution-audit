@@ -1,0 +1,9 @@
+cohort,architecture,masker,analysis_set,reference,n_pairs_planned,n_jsd_matched,n_real_complete,estimate,ci_low,ci_high,p_value,n_pairs,n_records,n_subjects,n_target_seeds,n_boot_valid,ci_status
+uci395,gru,train_donor,new_seed_replication,circular_shift,7700,6206,5479,0.029660382111912336,0.005257209253258095,0.05892603820369616,0.03179364127174565,4236,75,74,20,5000,reported_conditional_subject_interval
+uci395,gru,train_donor,new_seed_replication,permutation,7700,640,5479,0.06425426589443949,0.0194047153472137,0.11081837339398637,0.00599880023995201,406,44,44,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,circular_shift,7700,6206,5102,0.02289428970993298,-0.01065359300297837,0.05291120122184845,0.16076784643071385,4093,66,65,20,5000,reported_conditional_subject_interval
+uci395,gru,train_median,new_seed_replication,permutation,7700,640,5102,0.13488297611991928,0.0811611065936357,0.19396855658557852,0.0001999600079984003,403,37,37,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,circular_shift,7700,5081,6000,0.04250578662076799,0.022982520138275824,0.06302146514148109,0.0001999600079984003,3629,77,76,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_donor,new_seed_replication,permutation,7700,1658,6000,0.029853811296069045,-0.006928586448701558,0.06693583287326785,0.11577684463107378,1270,76,75,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,circular_shift,7700,5081,5280,0.12068066628557304,0.07067618417384502,0.17660281650072937,0.0001999600079984003,3396,75,74,20,5000,reported_conditional_subject_interval
+uci395,mamba2,train_median,new_seed_replication,permutation,7700,1658,5280,0.16164341832422327,0.08116811041211718,0.24760623941400614,0.0001999600079984003,1058,72,71,20,5000,reported_conditional_subject_interval

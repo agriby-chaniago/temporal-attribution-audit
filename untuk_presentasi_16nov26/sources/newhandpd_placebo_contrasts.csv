@@ -1,0 +1,9 @@
+cohort,architecture,masker,analysis_set,reference,n_pairs_planned,n_jsd_matched,n_real_complete,estimate,ci_low,ci_high,p_value,n_pairs,n_records,n_subjects,n_target_seeds,n_boot_valid,ci_status
+newhandpd,gru,train_donor,new_seed_replication,circular_shift,18480,12778,17733,0.0923564511465241,0.017527685626705973,0.16795129756966012,0.016396720655868825,11979,264,66,17,5000,reported_conditional_subject_interval
+newhandpd,gru,train_donor,new_seed_replication,permutation,18480,13231,17733,0.19977053059477204,0.12452637789057935,0.27557785659063233,0.0001999600079984003,12684,264,66,17,5000,reported_conditional_subject_interval
+newhandpd,gru,train_median,new_seed_replication,circular_shift,18480,12778,16271,0.12853680312471158,0.020750582827896616,0.24021044063364444,0.020395920815836834,10842,264,66,17,5000,reported_conditional_subject_interval
+newhandpd,gru,train_median,new_seed_replication,permutation,18480,13231,16271,0.21050897885960987,0.1025418041921673,0.318405844129899,0.0003999200159968006,11614,264,66,17,5000,reported_conditional_subject_interval
+newhandpd,mamba2,train_donor,new_seed_replication,circular_shift,20064,14893,12654,0.08792188213281996,-0.009834052214206647,0.1799151840104142,0.06678664267146571,9277,261,66,17,5000,reported_conditional_subject_interval
+newhandpd,mamba2,train_donor,new_seed_replication,permutation,20064,13823,12654,0.10672813498213722,0.015880091343271893,0.19805211395943897,0.020195960807838434,9418,262,66,17,5000,reported_conditional_subject_interval
+newhandpd,mamba2,train_median,new_seed_replication,circular_shift,20064,14893,8791,0.003938544191261093,-0.11723887324328296,0.12233519511452423,0.9488102379524095,6376,254,66,17,5000,reported_conditional_subject_interval
+newhandpd,mamba2,train_median,new_seed_replication,permutation,20064,13823,8791,0.025717571031042625,-0.08123325677267997,0.1265792740119897,0.6344731053789242,6657,253,66,17,5000,reported_conditional_subject_interval
