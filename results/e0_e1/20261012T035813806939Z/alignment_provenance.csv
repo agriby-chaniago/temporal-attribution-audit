@@ -1,0 +1,441 @@
+cohort,architecture,seed,field,status,detail
+uci395,mamba2,0,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,0,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,0,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,0,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,0,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,0,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,0,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,0,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,0,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,0,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,1,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,1,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,1,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,1,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,1,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,1,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,1,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,1,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,1,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,1,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,2,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,2,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,2,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,2,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,2,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,2,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,2,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,2,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,2,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,2,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,0,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,0,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,0,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,0,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,0,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,0,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,0,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,0,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,0,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,0,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,1,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,1,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,1,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,1,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,1,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,1,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,1,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,1,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,1,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,1,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,2,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,2,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,2,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,2,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,2,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,2,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,2,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,2,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,2,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,2,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,3,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,3,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,3,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,3,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,3,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,3,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,3,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,3,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,3,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,3,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,4,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,4,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,4,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,4,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,4,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,4,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,4,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,4,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,4,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,4,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,3,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,3,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,3,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,3,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,3,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,3,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,3,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,3,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,3,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,3,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,4,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,4,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,4,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,4,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,4,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,4,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,4,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,4,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,4,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,4,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,5,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,5,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,5,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,5,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,5,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,5,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,5,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,5,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,5,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,5,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,6,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,6,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,6,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,6,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,6,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,6,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,6,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,6,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,6,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,6,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,7,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,7,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,7,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,7,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,7,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,7,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,7,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,7,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,7,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,7,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,8,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,8,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,8,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,8,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,8,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,8,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,8,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,8,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,8,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,8,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,mamba2,9,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,mamba2,9,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,mamba2,9,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,mamba2,9,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,mamba2,9,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,mamba2,9,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,mamba2,9,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,mamba2,9,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,mamba2,9,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,mamba2,9,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,5,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,5,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,5,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,5,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,5,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,5,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,5,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,5,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,5,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,5,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,6,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,6,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,6,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,6,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,6,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,6,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,6,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,6,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,6,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,6,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,7,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,7,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,7,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,7,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,7,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,7,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,7,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,7,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,7,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,7,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,8,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,8,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,8,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,8,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,8,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,8,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,8,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,8,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,8,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,8,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+uci395,gru,9,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+uci395,gru,9,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+uci395,gru,9,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+uci395,gru,9,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+uci395,gru,9,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+uci395,gru,9,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+uci395,gru,9,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+uci395,gru,9,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+uci395,gru,9,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+uci395,gru,9,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,0,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,0,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,0,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,0,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,0,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,0,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,0,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,0,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,0,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,0,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,0,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,0,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,0,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,0,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,0,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,0,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,0,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,0,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,0,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,0,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,0,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,0,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,0,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,0,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,1,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,1,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,1,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,1,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,1,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,1,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,1,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,1,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,1,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,1,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,1,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,1,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,2,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,2,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,2,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,2,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,2,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,2,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,2,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,2,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,2,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,2,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,2,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,2,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,1,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,1,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,1,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,1,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,1,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,1,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,1,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,1,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,1,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,1,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,1,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,1,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,2,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,2,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,2,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,2,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,2,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,2,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,2,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,2,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,2,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,2,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,2,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,2,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,3,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,3,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,3,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,3,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,3,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,3,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,3,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,3,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,3,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,3,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,3,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,3,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,4,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,4,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,4,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,4,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,4,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,4,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,4,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,4,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,4,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,4,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,4,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,4,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,3,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,3,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,3,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,3,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,3,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,3,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,3,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,3,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,3,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,3,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,3,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,3,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,4,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,4,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,4,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,4,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,4,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,4,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,4,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,4,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,4,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,4,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,4,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,4,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,5,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,5,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,5,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,5,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,5,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,5,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,5,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,5,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,5,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,5,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,5,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,5,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,6,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,6,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,6,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,6,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,6,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,6,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,6,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,6,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,6,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,6,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,6,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,6,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,7,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,7,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,7,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,7,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,7,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,7,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,7,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,7,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,7,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,7,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,7,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,7,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,8,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,8,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,8,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,8,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,8,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,8,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,8,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,8,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,8,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,8,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,8,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,8,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,mamba2,9,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,mamba2,9,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,mamba2,9,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,mamba2,9,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,mamba2,9,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,mamba2,9,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,mamba2,9,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,mamba2,9,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,mamba2,9,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,mamba2,9,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,mamba2,9,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,mamba2,9,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,5,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,5,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,5,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,5,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,5,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,5,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,5,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,5,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,5,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,5,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,5,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,5,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,6,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,6,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,6,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,6,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,6,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,6,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,6,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,6,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,6,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,6,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,6,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,6,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,7,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,7,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,7,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,7,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,7,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,7,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,7,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,7,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,7,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,7,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,7,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,7,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,8,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,8,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,8,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,8,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,8,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,8,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,8,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,8,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,8,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,8,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,8,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,8,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"
+newhandpd,gru,9,idx_subjek_label_grid,terverifikasi,"cakupan penuh; grid floor(T/P); alpha finite, nonnegatif dan massa 1"
+newhandpd,gru,9,prediksi_peta_satu_run,tersimpan_bersama,logit_oof dan peta berada dalam satu entri; bobot/model_id historis tidak tersedia
+newhandpd,gru,9,fold,rekonstruksi_bukan_bukti_historis,SGKF5 shuffle=True random_state=42; tergantung urutan cache dan versi sklearn saat audit
+newhandpd,gru,9,config.patch_size,tidak_tersimpan,ekspektasi dari kode saat audit: 7; bukan verifikasi training lama
+newhandpd,gru,9,config.epochs,tidak_tersimpan,ekspektasi dari kode saat audit: 35; bukan verifikasi training lama
+newhandpd,gru,9,config.in_channels,tidak_tersimpan,ekspektasi dari kode saat audit: 6; bukan verifikasi training lama
+newhandpd,gru,9,config.d_model,tidak_tersimpan,ekspektasi dari kode saat audit: 128; bukan verifikasi training lama
+newhandpd,gru,9,config.n_layers,tidak_tersimpan,ekspektasi dari kode saat audit: 3; bukan verifikasi training lama
+newhandpd,gru,9,config.dropout,tidak_tersimpan,ekspektasi dari kode saat audit: 0.3; bukan verifikasi training lama
+newhandpd,gru,9,config.pooling,tidak_tersimpan,ekspektasi dari kode saat audit: 'attention'; bukan verifikasi training lama
+newhandpd,gru,9,seed_logit,terverifikasi,seed eksplisit; logit OOF finite dan cakupan penuh
+newhandpd,gru,9,model_id_cache_training,tidak_tersimpan,"checkpoint/model_id, hash cache saat training dan hash kode saat training tidak dipulihkan"

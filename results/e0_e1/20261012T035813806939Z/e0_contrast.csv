@@ -1,0 +1,2 @@
+arm_a,arm_b,contrast,ci_low,ci_high,contains_zero,n_boot_valid,direction,status,unit,inference
+mamba2,gru,-0.051397849462366474,-0.10677534562211995,0.0007384792626728503,True,5000,nilai negatif: penurunan AUROC arm_a lebih kecil,tambahan_eksploratori_setelah_hasil_S3_S5_diketahui,subjek,"Bersyarat pada artefak model OOF, split, konfigurasi dan seed yang tersedia; tidak mencakup training ulang, split baru, kohort baru, atau faithfulness."

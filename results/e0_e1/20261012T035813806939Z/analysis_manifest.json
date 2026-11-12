@@ -1,0 +1,99 @@
+{
+  "run_id": "20261012T035813806939Z",
+  "status": "tambahan_eksploratori_setelah_hasil_S3_S5_diketahui",
+  "analysis_design_record": "2026-10-12; tambahan setelah hasil lama diketahui",
+  "old_preregistration_changed": false,
+  "training_performed": false,
+  "e0_estimator": "sigmoid per rekaman -> mean probabilitas per subjek -> AUROC per seed -> mean AUROC seed",
+  "e0_contrast": "(AUROC_UCI_mamba2-AUROC_New_mamba2)-(AUROC_UCI_gru-AUROC_New_gru)",
+  "bootstrap": "subjek berstrata kelas; multiplicity sama semua model/seed; kohort independen; seed tetap",
+  "e1_aggregation": "mean pasangan seed eligible per rekaman -> mean rekaman eligible per subjek -> mean subjek",
+  "e1_relation": "Spearman perubahan output vs JSD per rekaman -> mean rekaman per subjek -> mean subjek",
+  "e1_ci": "pool subjek penuh, termasuk subjek tanpa pasangan eligible; mean conditional mengabaikan NaN",
+  "inference_limit": "Bersyarat pada artefak model OOF, split, konfigurasi dan seed yang tersedia; tidak mencakup training ulang, split baru, kohort baru, atau faithfulness.",
+  "historical_provenance_limit": "fold/config/hash cache training/model_id tidak tersimpan; sumber saat ini dan rekonstruksi dicatat",
+  "arms": [
+    "gru",
+    "mamba2"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "expected_config_not_historical_metadata": {
+    "patch_size": 7,
+    "epochs": 35,
+    "in_channels": 6,
+    "d_model": 128,
+    "n_layers": 3,
+    "dropout": 0.3,
+    "pooling": "attention"
+  },
+  "fs": 100.0,
+  "top_fraction": 0.1,
+  "n_boot": 5000,
+  "confidence": 0.95,
+  "bootstrap_seeds": {
+    "e0": 1500,
+    "e1": 1501
+  },
+  "sensitivity_eps_prob": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "sensitivity_eps_logit": [
+    null,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  },
+  "python": "3.11.8",
+  "completion_status": "complete",
+  "completed_utc": "2026-10-12T03:58:24.024186+00:00",
+  "tables": [
+    "alignment_provenance.csv",
+    "e0_auroc_per_seed.csv",
+    "e0_cohort.csv",
+    "e0_contrast.csv",
+    "e0_delta.csv",
+    "e0_draws.csv",
+    "e0_probability_subject_seed.csv",
+    "e0_reference_check.csv",
+    "e1_continuous_ci.csv",
+    "e1_pairs.csv",
+    "e1_record_continuous.csv",
+    "e1_relation_ci.csv",
+    "e1_sensitivity_ci.csv",
+    "e1_sensitivity_subject.csv",
+    "e1_subject_continuous.csv",
+    "e1_subject_relations.csv",
+    "input_inventory.csv",
+    "record_manifest.csv"
+  ],
+  "figures": [
+    "e0_auroc_cohort.pdf",
+    "e0_auroc_cohort.png",
+    "e0_delta_contrast.pdf",
+    "e0_delta_contrast.png",
+    "e1_continuous_output_map.pdf",
+    "e1_continuous_output_map.png",
+    "e1_sensitivity_coverage.pdf",
+    "e1_sensitivity_coverage.png"
+  ]
+}
